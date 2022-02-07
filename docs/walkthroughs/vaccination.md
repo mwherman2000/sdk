@@ -44,8 +44,7 @@ We've set up some environments to use on Repl.it. If your language of choice isn
 
     Once the CLI is installed, clone our CLI example repository on Github to download the credential data for this walkthrough.
     
-    ```
-    git clone https://github.com/trinsic-id/cli-example && cd cli-example
+    ```    git clone https://github.com/trinsic-id/cli-example && cd cli-example
     ```
 
     If you don't want to install locally, we also have a replit environment for you to use. In a new tab, you can open our <!--[demo environment](./demo.md)--> to use the CLI. This demo environment works best when run side-by-side the following walkthrough using two tabs in your browser.
@@ -83,6 +82,8 @@ We've set up some environments to use on Repl.it. If your language of choice isn
 === "Go"
     - [Install Instructions](../go/index.md)
    
+=== "Swift"
+    - [Install Instructions](../ios/index.md)
 
 ---
 
@@ -139,6 +140,13 @@ When a new Trinsic account is created, a cloud wallet is created on our platform
     <!--codeinclude-->
     ```go
     [Setup Wallets](../../go/services/services_test.go) inside_block:setupActors
+    ```
+    <!--/codeinclude-->
+
+=== "Swift"
+    <!--codeinclude-->
+    ```swift
+    [Setup Wallets](https://raw.githubusercontent.com/trinsic-id/sdk-swift/main/Tests/TrinsicTests/CredentialTests.swift) inside_block:setupActors
     ```
     <!--/codeinclude-->
 
@@ -294,6 +302,12 @@ To issue this credential we'll specify links to the json files, set the active p
     ```
     <!--/codeinclude-->
 
+=== "Swift"
+    <!--codeinclude-->
+    ```swift
+    [Setup Wallets](https://raw.githubusercontent.com/trinsic-id/sdk-swift/main/Tests/TrinsicTests/CredentialTests.swift) inside_block:issueCredential
+    ```
+    <!--/codeinclude-->
 
 
 !!! info
@@ -362,6 +376,13 @@ Once Allison receives the credential, she or her wallet application can store it
     <!--codeinclude-->
     ```go
     [Store Credential](../../go/services/services_test.go) inside_block:storeCredential
+    ```
+    <!--/codeinclude-->
+
+=== "Swift"
+    <!--codeinclude-->
+    ```swift
+    [Setup Wallets](https://raw.githubusercontent.com/trinsic-id/sdk-swift/main/Tests/TrinsicTests/CredentialTests.swift) inside_block:storeCredential
     ```
     <!--/codeinclude-->
 
@@ -437,6 +458,13 @@ Now let's create a proof for Allison. She may choose to generate this proof befo
     ```
     <!--/codeinclude-->
 
+=== "Swift"
+    <!--codeinclude-->
+    ```swift
+    [Setup Wallets](https://raw.githubusercontent.com/trinsic-id/sdk-swift/main/Tests/TrinsicTests/CredentialTests.swift) inside_block:shareCredential
+    ```
+    <!--/codeinclude-->
+
 Take a look at the proof. Notice how only the attributes included in the `frame` are included with the proof.
 
 Allison sends this proof to the airline for them to verify.
@@ -488,6 +516,13 @@ Once the airline receives the proof, they can now verify it to ensure its authen
     <!--codeinclude-->
     ```go
     [Verify Credential](../../go/services/services_test.go) inside_block:verifyCredential
+    ```
+    <!--/codeinclude-->
+
+=== "Swift"
+    <!--codeinclude-->
+    ```swift
+    [Setup Wallets](https://raw.githubusercontent.com/trinsic-id/sdk-swift/main/Tests/TrinsicTests/CredentialTests.swift) inside_block:verifyCredential
     ```
     <!--/codeinclude-->
 
