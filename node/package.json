@@ -9,7 +9,7 @@
     "build:proto": "pwsh Generate-Proto.ps1",
     "build:typescript": "tsc",
     "build:copy": "npx copyfiles -u 1 ./src/proto/**/*_pb.* ./lib/",
-    "test": "ava --verbose",
+    "test": "jest --coverage",
     "build-and-test": "npm run build:typescript && npm run build:copy && npm run test"
   },
   "author": "Trinsic",
@@ -28,31 +28,22 @@
     "@grpc/grpc-js": "^1.5.7",
     "@trinsic/okapi": "^1.4.0",
     "base64url": "^3.0.1",
-    "google-protobuf": "^3.19.4"
+    "google-protobuf": "^3.19.4",
+    "jest-config": "^27.5.1"
   },
   "devDependencies": {
     "@types/google-protobuf": "^3.15.5",
+    "@types/jest": "^27.4.1",
+    "@types/node": "^17.0.23",
     "@types/uuid": "^8.3.4",
-    "ava": "^4.0.1",
     "copyfiles": "^2.4.1",
     "dotenv": "^14.2.0",
     "grpc_tools_node_protoc_ts": "^5.3.2",
     "grpc-tools": "^1.11.1",
     "jest": "^27.4.7",
+    "ts-jest": "^27.1.4",
     "ts-node": "^10.4.0",
     "typescript": "^4.5.5",
     "uuid": "^8.3.2"
-  },
-  "ava": {
-    "extensions": [
-      "ts"
-    ],
-    "files": [
-      "./test/**/*",
-      "!./test/TestData.ts"
-    ],
-    "require": [
-      "ts-node/register"
-    ]
   }
 }
