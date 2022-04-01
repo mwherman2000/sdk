@@ -1,0 +1,2634 @@
+
+<!doctype html>
+<html lang="en" class="no-js">
+  <head>
+    
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width,initial-scale=1">
+      
+      
+      
+        <link rel="canonical" href="https://docs-v2.trinsic.id/reference/dotnet/Trinsic_Services_VerifiableCredentials_Templates_V1/">
+      
+      
+        
+      
+      <link rel="icon" href="../../../_static/logo.png">
+      <meta name="generator" content="mkdocs-1.3.0, mkdocs-material-8.2.8+insiders-4.12.0">
+    
+    
+      
+        <title>Trinsic Services VerifiableCredentials Templates V1 - Documentation</title>
+      
+    
+    
+      <link rel="stylesheet" href="../../../assets/stylesheets/main.7d01766c.min.css">
+      
+        
+        <link rel="stylesheet" href="../../../assets/stylesheets/palette.e6a45f82.min.css">
+        
+      
+      
+    
+    
+    
+      
+        
+        
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Inter:300,300i,400,400i,700,700i%7CJetBrains+Mono:400,400i,700,700i&display=fallback">
+        <style>:root{--md-text-font:"Inter";--md-code-font:"JetBrains Mono"}</style>
+      
+    
+    
+      <link rel="stylesheet" href="../../../assets/_mkdocstrings.css">
+    
+      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/10.7.2/styles/vs.min.css">
+    
+      <link rel="stylesheet" href="../../../_static/extra.css">
+    
+    <script>__md_scope=new URL("../../..",location),__md_hash=e=>[...e].reduce((e,_)=>(e<<5)-e+_.charCodeAt(0),0),__md_get=(e,_=localStorage,t=__md_scope)=>JSON.parse(_.getItem(t.pathname+"."+e)),__md_set=(e,_,t=localStorage,a=__md_scope)=>{try{t.setItem(a.pathname+"."+e,JSON.stringify(_))}catch(e){}}</script>
+    
+      
+
+    
+    
+    
+  </head>
+  
+  
+    
+    
+      
+    
+    
+    
+    
+    <body dir="ltr" data-md-color-scheme="default" data-md-color-primary="" data-md-color-accent="">
+  
+    
+    
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+    
+      <script>var palette=__md_get("__palette");if(palette&&"object"==typeof palette.color)for(var key of Object.keys(palette.color))document.body.setAttribute("data-md-color-"+key,palette.color[key])</script>
+    
+    <input class="md-toggle" data-md-toggle="drawer" type="checkbox" id="__drawer" autocomplete="off">
+    <input class="md-toggle" data-md-toggle="search" type="checkbox" id="__search" autocomplete="off">
+    <label class="md-overlay" for="__drawer"></label>
+    <div data-md-component="skip">
+      
+        
+        <a href="#trinsicservicesverifiablecredentialstemplatesv1-namespace" class="md-skip">
+          Skip to content
+        </a>
+      
+    </div>
+    <div data-md-component="announce">
+      
+        <aside class="md-banner">
+          <div class="md-banner__inner md-grid md-typeset">
+            
+            
+<p>Join <a href="https://trinsic.typeform.com/to/EIO26xym">Trinsic Ecosystems Beta!</a></p>
+
+          </div>
+          
+        </aside>
+      
+    </div>
+    
+    
+      
+
+<header class="md-header" data-md-component="header">
+  <nav class="md-header__inner md-grid" aria-label="Header">
+    <a href="../../.." title="Documentation" class="md-header__button md-logo" aria-label="Documentation" data-md-component="logo">
+      
+  <img src="../../../_static/logo-title.svg" alt="logo">
+
+    </a>
+    <label class="md-header__button md-icon" for="__drawer">
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M3 6h18v2H3V6m0 5h18v2H3v-2m0 5h18v2H3v-2z"/></svg>
+    </label>
+    <div class="md-header__title" data-md-component="header-title">
+      <div class="md-header__ellipsis">
+        <div class="md-header__topic">
+          <span class="md-ellipsis">
+            Documentation
+          </span>
+        </div>
+        <div class="md-header__topic" data-md-component="header-topic">
+          <span class="md-ellipsis">
+            
+              Trinsic Services VerifiableCredentials Templates V1
+            
+          </span>
+        </div>
+      </div>
+    </div>
+    
+      <form class="md-header__option" data-md-component="palette">
+        
+          
+          
+          <input class="md-option" data-md-color-media="(prefers-color-scheme: light)" data-md-color-scheme="default" data-md-color-primary="" data-md-color-accent=""  aria-label="Switch to dark mode"  type="radio" name="__palette" id="__palette_1">
+          
+            <label class="md-header__button md-icon" title="Switch to dark mode" for="__palette_2" hidden>
+              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 576 512"><!--! Font Awesome Free 6.1.1 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2022 Fonticons, Inc.--><path d="M342.7 352.7c5.75-9.625 9.25-20.75 9.25-32.75 0-35.25-28.75-64-63.1-64-17.25 0-32.75 6.875-44.25 17.87-17.2-29.62-48.4-50.72-85.5-50.72-53 0-96 43.06-96 96.06 0 2 .503 3.687.628 5.687-37.5 13-64.62 48.38-64.62 90.25C-.005 468.1 42.99 512 95.99 512h239.1c44.25 0 79.1-35.75 79.1-80 .91-41.9-30.49-75.8-71.49-79.3zm222.5-54.3c-93 17.75-178.5-53.62-178.5-147.6 0-54.25 28.1-104 76.12-130.9 7.375-4.125 5.375-15.12-2.75-16.63C448.4 1.125 436.7 0 424.1 0 318.2 0 232.2 85.88 232.2 192c0 8.5.625 16.75 1.75 25 5.875 4.25 11.62 8.875 16.75 14.25 11.4-4.75 24.5-7.25 36.4-7.25 52.88 0 95.1 43.13 95.1 96 0 3.625-.25 7.25-.625 10.75 23.62 10.75 42.37 29.5 53.5 52.5 54.38-3.375 103.7-29.25 137.1-70.37 7.025-6.48 1.325-16.08-6.975-14.48z"/></svg>
+            </label>
+          
+        
+          
+          
+          <input class="md-option" data-md-color-media="(prefers-color-scheme: dark)" data-md-color-scheme="slate" data-md-color-primary="" data-md-color-accent=""  aria-label="Switch to light mode"  type="radio" name="__palette" id="__palette_2">
+          
+            <label class="md-header__button md-icon" title="Switch to light mode" for="__palette_1" hidden>
+              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><!--! Font Awesome Free 6.1.1 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2022 Fonticons, Inc.--><path d="M256 159.1c-53.02 0-95.1 42.98-95.1 95.1s41.2 96.9 95.1 96.9 95.1-42.98 95.1-95.1-42.1-96.9-95.1-96.9zM509.3 347l-63.2-91.9 63.15-91.01c6.332-9.125 1.104-21.74-9.826-23.72l-109-19.7-19.7-109c-1.975-10.93-14.59-16.16-23.72-9.824L256 65.89 164.1 2.736c-9.125-6.332-21.74-1.107-23.72 9.824L121.6 121.6 12.56 141.3c-10.927 1.9-16.156 14.6-9.824 22.8L65.89 256 2.74 347.01c-6.332 9.125-1.105 21.74 9.824 23.72l109 19.7 19.7 109c1.975 10.93 14.59 16.16 23.72 9.824L256 446.1l91.01 63.15c9.127 6.334 21.75 1.107 23.72-9.822l19.7-109 109-19.7C510.4 368.8 515.6 356.1 509.3 347zM256 383.1c-70.69 0-127.1-57.31-127.1-127.1 0-70.69 57.31-127.1 127.1-127.1S383.1 186.2 383.1 256c0 70.7-56.4 127.1-127.1 127.1z"/></svg>
+            </label>
+          
+        
+      </form>
+    
+    
+    
+      <label class="md-header__button md-icon" for="__search">
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.516 6.516 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5z"/></svg>
+      </label>
+      <div class="md-search" data-md-component="search" role="dialog">
+  <label class="md-search__overlay" for="__search"></label>
+  <div class="md-search__inner" role="search">
+    <form class="md-search__form" name="search">
+      <input type="text" class="md-search__input" name="query" aria-label="Search" placeholder="Search" autocapitalize="off" autocorrect="off" autocomplete="off" spellcheck="false" data-md-component="search-query" required>
+      <label class="md-search__icon md-icon" for="__search">
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.516 6.516 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5z"/></svg>
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11h12z"/></svg>
+      </label>
+      <nav class="md-search__options" aria-label="Search">
+        
+        <button type="reset" class="md-search__icon md-icon" aria-label="Clear" tabindex="-1">
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M19 6.41 17.59 5 12 10.59 6.41 5 5 6.41 10.59 12 5 17.59 6.41 19 12 13.41 17.59 19 19 17.59 13.41 12 19 6.41z"/></svg>
+        </button>
+      </nav>
+      
+    </form>
+    <div class="md-search__output">
+      <div class="md-search__scrollwrap" data-md-scrollfix>
+        <div class="md-search-result" data-md-component="search-result">
+          <div class="md-search-result__meta">
+            Initializing search
+          </div>
+          <ol class="md-search-result__list"></ol>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+    
+    
+      <div class="md-header__source">
+        <a href="https://github.com/trinsic-id/sdk" title="Go to repository" class="md-source" data-md-component="source">
+  <div class="md-source__icon md-icon">
+    
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 480 512"><!--! Font Awesome Free 6.1.1 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2022 Fonticons, Inc.--><path d="M186.1 328.7c0 20.9-10.9 55.1-36.7 55.1s-36.7-34.2-36.7-55.1 10.9-55.1 36.7-55.1 36.7 34.2 36.7 55.1zM480 278.2c0 31.9-3.2 65.7-17.5 95-37.9 76.6-142.1 74.8-216.7 74.8-75.8 0-186.2 2.7-225.6-74.8-14.6-29-20.2-63.1-20.2-95 0-41.9 13.9-81.5 41.5-113.6-5.2-15.8-7.7-32.4-7.7-48.8 0-21.5 4.9-32.3 14.6-51.8 45.3 0 74.3 9 108.8 36 29-6.9 58.8-10 88.7-10 27 0 54.2 2.9 80.4 9.2 34-26.7 63-35.2 107.8-35.2 9.8 19.5 14.6 30.3 14.6 51.8 0 16.4-2.6 32.7-7.7 48.2 27.5 32.4 39 72.3 39 114.2zm-64.3 50.5c0-43.9-26.7-82.6-73.5-82.6-18.9 0-37 3.4-56 6-14.9 2.3-29.8 3.2-45.1 3.2-15.2 0-30.1-.9-45.1-3.2-18.7-2.6-37-6-56-6-46.8 0-73.5 38.7-73.5 82.6 0 87.8 80.4 101.3 150.4 101.3h48.2c70.3 0 150.6-13.4 150.6-101.3zm-82.6-55.1c-25.8 0-36.7 34.2-36.7 55.1s10.9 55.1 36.7 55.1 36.7-34.2 36.7-55.1-10.9-55.1-36.7-55.1z"/></svg>
+  </div>
+  <div class="md-source__repository">
+    trinsic-id/sdk
+  </div>
+</a>
+      </div>
+    
+  </nav>
+  
+</header>
+    
+    <div class="md-container" data-md-component="container">
+      
+      
+        
+          
+        
+      
+      <main class="md-main" data-md-component="main">
+        <div class="md-main__inner md-grid">
+          
+            
+              
+              <div class="md-sidebar md-sidebar--primary" data-md-component="sidebar" data-md-type="navigation" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+
+<nav class="md-nav md-nav--primary" aria-label="Navigation" data-md-level="0">
+  <label class="md-nav__title" for="__drawer">
+    <a href="../../.." title="Documentation" class="md-nav__button md-logo" aria-label="Documentation" data-md-component="logo">
+      
+  <img src="../../../_static/logo-title.svg" alt="logo">
+
+    </a>
+    Documentation
+  </label>
+  
+    <div class="md-nav__source">
+      <a href="https://github.com/trinsic-id/sdk" title="Go to repository" class="md-source" data-md-component="source">
+  <div class="md-source__icon md-icon">
+    
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 480 512"><!--! Font Awesome Free 6.1.1 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2022 Fonticons, Inc.--><path d="M186.1 328.7c0 20.9-10.9 55.1-36.7 55.1s-36.7-34.2-36.7-55.1 10.9-55.1 36.7-55.1 36.7 34.2 36.7 55.1zM480 278.2c0 31.9-3.2 65.7-17.5 95-37.9 76.6-142.1 74.8-216.7 74.8-75.8 0-186.2 2.7-225.6-74.8-14.6-29-20.2-63.1-20.2-95 0-41.9 13.9-81.5 41.5-113.6-5.2-15.8-7.7-32.4-7.7-48.8 0-21.5 4.9-32.3 14.6-51.8 45.3 0 74.3 9 108.8 36 29-6.9 58.8-10 88.7-10 27 0 54.2 2.9 80.4 9.2 34-26.7 63-35.2 107.8-35.2 9.8 19.5 14.6 30.3 14.6 51.8 0 16.4-2.6 32.7-7.7 48.2 27.5 32.4 39 72.3 39 114.2zm-64.3 50.5c0-43.9-26.7-82.6-73.5-82.6-18.9 0-37 3.4-56 6-14.9 2.3-29.8 3.2-45.1 3.2-15.2 0-30.1-.9-45.1-3.2-18.7-2.6-37-6-56-6-46.8 0-73.5 38.7-73.5 82.6 0 87.8 80.4 101.3 150.4 101.3h48.2c70.3 0 150.6-13.4 150.6-101.3zm-82.6-55.1c-25.8 0-36.7 34.2-36.7 55.1s10.9 55.1 36.7 55.1 36.7-34.2 36.7-55.1-10.9-55.1-36.7-55.1z"/></svg>
+  </div>
+  <div class="md-source__repository">
+    trinsic-id/sdk
+  </div>
+</a>
+    </div>
+  
+  <ul class="md-nav__list" data-md-scrollfix>
+    
+      
+      
+      
+
+
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../.." class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Home
+  </span>
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+      
+
+
+  
+  
+  
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+      
+        <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_2" type="checkbox" id="__nav_2" >
+      
+      
+      
+      
+        <label class="md-nav__link" for="__nav_2">
+          
+  
+  <span class="md-ellipsis">
+    Getting Started
+  </span>
+
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <nav class="md-nav" aria-label="Getting Started" data-md-level="1">
+        <label class="md-nav__title" for="__nav_2">
+          <span class="md-nav__icon md-icon"></span>
+          Getting Started
+        </label>
+        <ul class="md-nav__list" data-md-scrollfix>
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../learn/intro/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    What is Trinsic?
+  </span>
+
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../early-adopter/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Before You Start
+  </span>
+
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../walkthroughs/vaccination/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Try the Walkthrough
+  </span>
+
+      </a>
+    </li>
+  
+
+            
+          
+        </ul>
+      </nav>
+    </li>
+  
+
+    
+      
+      
+      
+
+
+  
+  
+  
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+      
+        <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_3" type="checkbox" id="__nav_3" >
+      
+      
+      
+      
+        <label class="md-nav__link" for="__nav_3">
+          
+  
+  <span class="md-ellipsis">
+    Key Concepts
+  </span>
+
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <nav class="md-nav" aria-label="Key Concepts" data-md-level="1">
+        <label class="md-nav__title" for="__nav_3">
+          <span class="md-nav__icon md-icon"></span>
+          Key Concepts
+        </label>
+        <ul class="md-nav__list" data-md-scrollfix>
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../learn/security/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Security Overview
+  </span>
+
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../learn/ecosystems/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Identity Ecosystems
+  </span>
+
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../learn/wallets/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Wallets
+  </span>
+
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../learn/templates/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Templates
+  </span>
+
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../learn/credentials/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Credentials
+  </span>
+
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../learn/standards/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Standards
+  </span>
+
+      </a>
+    </li>
+  
+
+            
+          
+        </ul>
+      </nav>
+    </li>
+  
+
+    
+      
+      
+      
+
+
+  
+  
+  
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+      
+        <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_4" type="checkbox" id="__nav_4" >
+      
+      
+      
+      
+        <label class="md-nav__link" for="__nav_4">
+          
+  
+  <span class="md-ellipsis">
+    Developer Tools
+  </span>
+
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <nav class="md-nav" aria-label="Developer Tools" data-md-level="1">
+        <label class="md-nav__title" for="__nav_4">
+          <span class="md-nav__icon md-icon"></span>
+          Developer Tools
+        </label>
+        <ul class="md-nav__list" data-md-scrollfix>
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../cli/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Trinsic CLI
+  </span>
+
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+      
+        <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_4_2" type="checkbox" id="__nav_4_2" >
+      
+      
+      
+      
+        <label class="md-nav__link" for="__nav_4_2">
+          
+  
+  <span class="md-ellipsis">
+    Client-Side SDKs
+  </span>
+
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <nav class="md-nav" aria-label="Client-Side SDKs" data-md-level="2">
+        <label class="md-nav__title" for="__nav_4_2">
+          <span class="md-nav__icon md-icon"></span>
+          Client-Side SDKs
+        </label>
+        <ul class="md-nav__list" data-md-scrollfix>
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../web/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Browser
+  </span>
+
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../ios/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    iOS
+  </span>
+
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../android/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Android
+  </span>
+
+      </a>
+    </li>
+  
+
+            
+          
+        </ul>
+      </nav>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+      
+        <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_4_3" type="checkbox" id="__nav_4_3" >
+      
+      
+      
+      
+        <label class="md-nav__link" for="__nav_4_3">
+          
+  
+  <span class="md-ellipsis">
+    Server-Side SDKs
+  </span>
+
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <nav class="md-nav" aria-label="Server-Side SDKs" data-md-level="2">
+        <label class="md-nav__title" for="__nav_4_3">
+          <span class="md-nav__icon md-icon"></span>
+          Server-Side SDKs
+        </label>
+        <ul class="md-nav__list" data-md-scrollfix>
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../node/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Node
+  </span>
+
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../dotnet/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    C#
+  </span>
+
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../python/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Python
+  </span>
+
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../ruby/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Ruby
+  </span>
+
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../go/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Go
+  </span>
+
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../java/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Java
+  </span>
+
+      </a>
+    </li>
+  
+
+            
+          
+        </ul>
+      </nav>
+    </li>
+  
+
+            
+          
+        </ul>
+      </nav>
+    </li>
+  
+
+    
+      
+      
+      
+
+
+  
+  
+  
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+      
+        <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_5" type="checkbox" id="__nav_5" >
+      
+      
+      
+      
+        <label class="md-nav__link" for="__nav_5">
+          
+  
+  <span class="md-ellipsis">
+    SDK Reference
+  </span>
+
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <nav class="md-nav" aria-label="SDK Reference" data-md-level="1">
+        <label class="md-nav__title" for="__nav_5">
+          <span class="md-nav__icon md-icon"></span>
+          SDK Reference
+        </label>
+        <ul class="md-nav__list" data-md-scrollfix>
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Overview
+  </span>
+
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../services/account-service/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Account Service
+  </span>
+
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../services/wallet-service/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Wallet Service
+  </span>
+
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../services/credential-service/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Credential Service
+  </span>
+
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../services/provider-service/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Provider Service
+  </span>
+
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../services/trust-registry-service/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Trust Registry Service
+  </span>
+
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../proto/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Protocol Buffers
+  </span>
+
+      </a>
+    </li>
+  
+
+            
+          
+        </ul>
+      </nav>
+    </li>
+  
+
+    
+      
+      
+      
+
+
+  
+  
+  
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+      
+        <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_6" type="checkbox" id="__nav_6" >
+      
+      
+      
+      
+        <label class="md-nav__link" for="__nav_6">
+          
+  
+  <span class="md-ellipsis">
+    Resources
+  </span>
+
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <nav class="md-nav" aria-label="Resources" data-md-level="1">
+        <label class="md-nav__title" for="__nav_6">
+          <span class="md-nav__icon md-icon"></span>
+          Resources
+        </label>
+        <ul class="md-nav__list" data-md-scrollfix>
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../roadmap/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Roadmap
+  </span>
+
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../support/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Ask a Question
+  </span>
+
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="https://join.slack.com/t/trinsiccommunity/shared_invite/zt-pcsdy7kn-h4vtdPEpqQUlmirU8FFzSQ" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Join the Community
+  </span>
+
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="https://github.com/trinsic-id" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Contribute on GitHub
+  </span>
+
+      </a>
+    </li>
+  
+
+            
+          
+        </ul>
+      </nav>
+    </li>
+  
+
+    
+  </ul>
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+            
+              
+              <div class="md-sidebar md-sidebar--secondary" data-md-component="sidebar" data-md-type="toc" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
+  
+  
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#trinsicservicesverifiablecredentialstemplatesv1-namespace" class="md-nav__link">
+    Trinsic.Services.VerifiableCredentials.Templates.V1 Namespace
+  </a>
+  
+    <nav class="md-nav" aria-label="Trinsic.Services.VerifiableCredentials.Templates.V1 Namespace">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#classes" class="md-nav__link">
+    Classes
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#createcredentialtemplaterequest-class" class="md-nav__link">
+    CreateCredentialTemplateRequest Class
+  </a>
+  
+    <nav class="md-nav" aria-label="CreateCredentialTemplateRequest Class">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#fields" class="md-nav__link">
+    Fields
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#createcredentialtemplaterequestallowadditionalfieldsfieldnumber-field" class="md-nav__link">
+    CreateCredentialTemplateRequest.AllowAdditionalFieldsFieldNumber Field
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#createcredentialtemplaterequestfieldsfieldnumber-field" class="md-nav__link">
+    CreateCredentialTemplateRequest.FieldsFieldNumber Field
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#createcredentialtemplaterequestnamefieldnumber-field" class="md-nav__link">
+    CreateCredentialTemplateRequest.NameFieldNumber Field
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#createcredentialtemplateresponse-class" class="md-nav__link">
+    CreateCredentialTemplateResponse Class
+  </a>
+  
+    <nav class="md-nav" aria-label="CreateCredentialTemplateResponse Class">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#fields_1" class="md-nav__link">
+    Fields
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#createcredentialtemplateresponsedatafieldnumber-field" class="md-nav__link">
+    CreateCredentialTemplateResponse.DataFieldNumber Field
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#credentialtemplates-class" class="md-nav__link">
+    CredentialTemplates Class
+  </a>
+  
+    <nav class="md-nav" aria-label="CredentialTemplates Class">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#properties" class="md-nav__link">
+    Properties
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#credentialtemplatesdescriptor-property" class="md-nav__link">
+    CredentialTemplates.Descriptor Property
+  </a>
+  
+    <nav class="md-nav" aria-label="CredentialTemplates.Descriptor Property">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#methods" class="md-nav__link">
+    Methods
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#credentialtemplatesbindserviceservicebinderbase-credentialtemplatesbase-method" class="md-nav__link">
+    CredentialTemplates.BindService(ServiceBinderBase, CredentialTemplatesBase) Method
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#credentialtemplatesbindservicecredentialtemplatesbase-method" class="md-nav__link">
+    CredentialTemplates.BindService(CredentialTemplatesBase) Method
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#credentialtemplatescredentialtemplatesbase-class" class="md-nav__link">
+    CredentialTemplates.CredentialTemplatesBase Class
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#credentialtemplatescredentialtemplatesclient-class" class="md-nav__link">
+    CredentialTemplates.CredentialTemplatesClient Class
+  </a>
+  
+    <nav class="md-nav" aria-label="CredentialTemplates.CredentialTemplatesClient Class">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#constructors" class="md-nav__link">
+    Constructors
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#credentialtemplatescredentialtemplatesclientcredentialtemplatesclient-constructor" class="md-nav__link">
+    CredentialTemplates.CredentialTemplatesClient.CredentialTemplatesClient() Constructor
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#credentialtemplatescredentialtemplatesclientcredentialtemplatesclientcallinvoker-constructor" class="md-nav__link">
+    CredentialTemplates.CredentialTemplatesClient.CredentialTemplatesClient(CallInvoker) Constructor
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#credentialtemplatescredentialtemplatesclientcredentialtemplatesclientchannelbase-constructor" class="md-nav__link">
+    CredentialTemplates.CredentialTemplatesClient.CredentialTemplatesClient(ChannelBase) Constructor
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#credentialtemplatescredentialtemplatesclientcredentialtemplatesclientclientbaseconfiguration-constructor" class="md-nav__link">
+    CredentialTemplates.CredentialTemplatesClient.CredentialTemplatesClient(ClientBaseConfiguration) Constructor
+  </a>
+  
+    <nav class="md-nav" aria-label="CredentialTemplates.CredentialTemplatesClient.CredentialTemplatesClient(ClientBaseConfiguration) Constructor">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#methods_1" class="md-nav__link">
+    Methods
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#credentialtemplatescredentialtemplatesclientnewinstanceclientbaseconfiguration-method" class="md-nav__link">
+    CredentialTemplates.CredentialTemplatesClient.NewInstance(ClientBaseConfiguration) Method
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#deletecredentialtemplaterequest-class" class="md-nav__link">
+    DeleteCredentialTemplateRequest Class
+  </a>
+  
+    <nav class="md-nav" aria-label="DeleteCredentialTemplateRequest Class">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#fields_2" class="md-nav__link">
+    Fields
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#deletecredentialtemplaterequestidfieldnumber-field" class="md-nav__link">
+    DeleteCredentialTemplateRequest.IdFieldNumber Field
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#getcredentialtemplaterequest-class" class="md-nav__link">
+    GetCredentialTemplateRequest Class
+  </a>
+  
+    <nav class="md-nav" aria-label="GetCredentialTemplateRequest Class">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#fields_3" class="md-nav__link">
+    Fields
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#getcredentialtemplaterequestidfieldnumber-field" class="md-nav__link">
+    GetCredentialTemplateRequest.IdFieldNumber Field
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#getcredentialtemplateresponse-class" class="md-nav__link">
+    GetCredentialTemplateResponse Class
+  </a>
+  
+    <nav class="md-nav" aria-label="GetCredentialTemplateResponse Class">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#fields_4" class="md-nav__link">
+    Fields
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#getcredentialtemplateresponsetemplatefieldnumber-field" class="md-nav__link">
+    GetCredentialTemplateResponse.TemplateFieldNumber Field
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#gettemplaterequest-class" class="md-nav__link">
+    GetTemplateRequest Class
+  </a>
+  
+    <nav class="md-nav" aria-label="GetTemplateRequest Class">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#fields_5" class="md-nav__link">
+    Fields
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#gettemplaterequestidfieldnumber-field" class="md-nav__link">
+    GetTemplateRequest.IdFieldNumber Field
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#gettemplateresponse-class" class="md-nav__link">
+    GetTemplateResponse Class
+  </a>
+  
+    <nav class="md-nav" aria-label="GetTemplateResponse Class">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#fields_6" class="md-nav__link">
+    Fields
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#gettemplateresponsedatafieldnumber-field" class="md-nav__link">
+    GetTemplateResponse.DataFieldNumber Field
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#listcredentialtemplatesrequest-class" class="md-nav__link">
+    ListCredentialTemplatesRequest Class
+  </a>
+  
+    <nav class="md-nav" aria-label="ListCredentialTemplatesRequest Class">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#fields_7" class="md-nav__link">
+    Fields
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#listcredentialtemplatesrequestcontinuationtokenfieldnumber-field" class="md-nav__link">
+    ListCredentialTemplatesRequest.ContinuationTokenFieldNumber Field
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#listcredentialtemplatesrequestqueryfieldnumber-field" class="md-nav__link">
+    ListCredentialTemplatesRequest.QueryFieldNumber Field
+  </a>
+  
+    <nav class="md-nav" aria-label="ListCredentialTemplatesRequest.QueryFieldNumber Field">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#properties_1" class="md-nav__link">
+    Properties
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#listcredentialtemplatesrequestquery-property" class="md-nav__link">
+    ListCredentialTemplatesRequest.Query Property
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#listcredentialtemplatesresponse-class" class="md-nav__link">
+    ListCredentialTemplatesResponse Class
+  </a>
+  
+    <nav class="md-nav" aria-label="ListCredentialTemplatesResponse Class">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#fields_8" class="md-nav__link">
+    Fields
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#listcredentialtemplatesresponsecontinuationtokenfieldnumber-field" class="md-nav__link">
+    ListCredentialTemplatesResponse.ContinuationTokenFieldNumber Field
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#listcredentialtemplatesresponsehasmoreresultsfieldnumber-field" class="md-nav__link">
+    ListCredentialTemplatesResponse.HasMoreResultsFieldNumber Field
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#listcredentialtemplatesresponsetemplatesfieldnumber-field" class="md-nav__link">
+    ListCredentialTemplatesResponse.TemplatesFieldNumber Field
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#listtemplatesresponse-class" class="md-nav__link">
+    ListTemplatesResponse Class
+  </a>
+  
+    <nav class="md-nav" aria-label="ListTemplatesResponse Class">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#fields_9" class="md-nav__link">
+    Fields
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#listtemplatesresponsetemplatesfieldnumber-field" class="md-nav__link">
+    ListTemplatesResponse.TemplatesFieldNumber Field
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#searchcredentialtemplatesrequest-class" class="md-nav__link">
+    SearchCredentialTemplatesRequest Class
+  </a>
+  
+    <nav class="md-nav" aria-label="SearchCredentialTemplatesRequest Class">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#fields_10" class="md-nav__link">
+    Fields
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#searchcredentialtemplatesrequestcontinuationtokenfieldnumber-field" class="md-nav__link">
+    SearchCredentialTemplatesRequest.ContinuationTokenFieldNumber Field
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#searchcredentialtemplatesrequestqueryfieldnumber-field" class="md-nav__link">
+    SearchCredentialTemplatesRequest.QueryFieldNumber Field
+  </a>
+  
+    <nav class="md-nav" aria-label="SearchCredentialTemplatesRequest.QueryFieldNumber Field">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#properties_2" class="md-nav__link">
+    Properties
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#searchcredentialtemplatesrequestquery-property" class="md-nav__link">
+    SearchCredentialTemplatesRequest.Query Property
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#searchcredentialtemplatesresponse-class" class="md-nav__link">
+    SearchCredentialTemplatesResponse Class
+  </a>
+  
+    <nav class="md-nav" aria-label="SearchCredentialTemplatesResponse Class">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#fields_11" class="md-nav__link">
+    Fields
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#searchcredentialtemplatesresponsecontinuationtokenfieldnumber-field" class="md-nav__link">
+    SearchCredentialTemplatesResponse.ContinuationTokenFieldNumber Field
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#searchcredentialtemplatesresponsecountfieldnumber-field" class="md-nav__link">
+    SearchCredentialTemplatesResponse.CountFieldNumber Field
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#searchcredentialtemplatesresponsehasmorefieldnumber-field" class="md-nav__link">
+    SearchCredentialTemplatesResponse.HasMoreFieldNumber Field
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#searchcredentialtemplatesresponseitemsjsonfieldnumber-field" class="md-nav__link">
+    SearchCredentialTemplatesResponse.ItemsJsonFieldNumber Field
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#templatedata-class" class="md-nav__link">
+    TemplateData Class
+  </a>
+  
+    <nav class="md-nav" aria-label="TemplateData Class">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#fields_12" class="md-nav__link">
+    Fields
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#templatedataallowadditionalfieldsfieldnumber-field" class="md-nav__link">
+    TemplateData.AllowAdditionalFieldsFieldNumber Field
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#templatedatacontexturifieldnumber-field" class="md-nav__link">
+    TemplateData.ContextUriFieldNumber Field
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#templatedataecosystemidfieldnumber-field" class="md-nav__link">
+    TemplateData.EcosystemIdFieldNumber Field
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#templatedatafieldsfieldnumber-field" class="md-nav__link">
+    TemplateData.FieldsFieldNumber Field
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#templatedataidfieldnumber-field" class="md-nav__link">
+    TemplateData.IdFieldNumber Field
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#templatedatanamefieldnumber-field" class="md-nav__link">
+    TemplateData.NameFieldNumber Field
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#templatedataschemaurifieldnumber-field" class="md-nav__link">
+    TemplateData.SchemaUriFieldNumber Field
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#templatedatatypefieldnumber-field" class="md-nav__link">
+    TemplateData.TypeFieldNumber Field
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#templatedataversionfieldnumber-field" class="md-nav__link">
+    TemplateData.VersionFieldNumber Field
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#templatefield-class" class="md-nav__link">
+    TemplateField Class
+  </a>
+  
+    <nav class="md-nav" aria-label="TemplateField Class">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#fields_13" class="md-nav__link">
+    Fields
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#templatefielddescriptionfieldnumber-field" class="md-nav__link">
+    TemplateField.DescriptionFieldNumber Field
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#templatefieldoptionalfieldnumber-field" class="md-nav__link">
+    TemplateField.OptionalFieldNumber Field
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#templatefieldtypefieldnumber-field" class="md-nav__link">
+    TemplateField.TypeFieldNumber Field
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#templatesreflection-class" class="md-nav__link">
+    TemplatesReflection Class
+  </a>
+  
+    <nav class="md-nav" aria-label="TemplatesReflection Class">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#properties_3" class="md-nav__link">
+    Properties
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#templatesreflectiondescriptor-property" class="md-nav__link">
+    TemplatesReflection.Descriptor Property
+  </a>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+          
+          <div class="md-content" data-md-component="content">
+            <article class="md-content__inner md-typeset">
+              
+                
+<a href="https://github.com/trinsic-id/sdk/edit/main/docs/reference/dotnet/Trinsic_Services_VerifiableCredentials_Templates_V1.md" title="Edit this page" class="md-content__button md-icon">
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20.71 7.04c.39-.39.39-1.04 0-1.41l-2.34-2.34c-.37-.39-1.02-.39-1.41 0l-1.84 1.83 3.75 3.75M3 17.25V21h3.75L17.81 9.93l-3.75-3.75L3 17.25z"/></svg>
+</a>
+
+
+
+  <h1>Trinsic Services VerifiableCredentials Templates V1</h1>
+
+<h4 id="trinsic"><a href="../" title="index">Trinsic</a><a class="headerlink" href="#trinsic" title="Permanent link">&para;</a></h4>
+<h2 id="trinsicservicesverifiablecredentialstemplatesv1-namespace">Trinsic.Services.VerifiableCredentials.Templates.V1 Namespace<a class="headerlink" href="#trinsicservicesverifiablecredentialstemplatesv1-namespace" title="Permanent link">&para;</a></h2>
+<h3 id="classes">Classes<a class="headerlink" href="#classes" title="Permanent link">&para;</a></h3>
+<p><a name='Trinsic_Services_VerifiableCredentials_Templates_V1_CreateCredentialTemplateRequest'></a></p>
+<h2 id="createcredentialtemplaterequest-class">CreateCredentialTemplateRequest Class<a class="headerlink" href="#createcredentialtemplaterequest-class" title="Permanent link">&para;</a></h2>
+<p>Request to create new template<br />
+<div class="highlight"><pre><span></span><code><span class="k">public</span><span class="w"> </span><span class="k">sealed</span><span class="w"> </span><span class="k">class</span><span class="w"> </span><span class="nc">CreateCredentialTemplateRequest</span><span class="w"> </span><span class="p">:</span><span class="w"></span>
+<span class="n">Google</span><span class="p">.</span><span class="n">Protobuf</span><span class="p">.</span><span class="n">IMessage</span><span class="p">&lt;</span><span class="n">Trinsic</span><span class="p">.</span><span class="n">Services</span><span class="p">.</span><span class="n">VerifiableCredentials</span><span class="p">.</span><span class="n">Templates</span><span class="p">.</span><span class="n">V1</span><span class="p">.</span><span class="n">CreateCredentialTemplateRequest</span><span class="p">&gt;,</span><span class="w"></span>
+<span class="n">Google</span><span class="p">.</span><span class="n">Protobuf</span><span class="p">.</span><span class="n">IMessage</span><span class="p">,</span><span class="w"></span>
+<span class="n">System</span><span class="p">.</span><span class="n">IEquatable</span><span class="p">&lt;</span><span class="n">Trinsic</span><span class="p">.</span><span class="n">Services</span><span class="p">.</span><span class="n">VerifiableCredentials</span><span class="p">.</span><span class="n">Templates</span><span class="p">.</span><span class="n">V1</span><span class="p">.</span><span class="n">CreateCredentialTemplateRequest</span><span class="p">&gt;,</span><span class="w"></span>
+<span class="n">Google</span><span class="p">.</span><span class="n">Protobuf</span><span class="p">.</span><span class="n">IDeepCloneable</span><span class="p">&lt;</span><span class="n">Trinsic</span><span class="p">.</span><span class="n">Services</span><span class="p">.</span><span class="n">VerifiableCredentials</span><span class="p">.</span><span class="n">Templates</span><span class="p">.</span><span class="n">V1</span><span class="p">.</span><span class="n">CreateCredentialTemplateRequest</span><span class="p">&gt;,</span><span class="w"></span>
+<span class="n">Google</span><span class="p">.</span><span class="n">Protobuf</span><span class="p">.</span><span class="n">IBufferMessage</span><span class="w"></span>
+</code></pre></div></p>
+<p>Inheritance <a href="https://docs.microsoft.com/en-us/dotnet/api/System.Object" title="System.Object">System.Object</a> &#129106; CreateCredentialTemplateRequest  </p>
+<p>Implements <a href="https://docs.microsoft.com/en-us/dotnet/api/Google.Protobuf.IMessage-1" title="Google.Protobuf.IMessage1')[CreateCredentialTemplateRequest](Trinsic_Services_VerifiableCredentials_Templates_V1.md#Trinsic_Services_VerifiableCredentials_Templates_V1_CreateCredentialTemplateRequest 'Trinsic.Services.VerifiableCredentials.Templates.V1.CreateCredentialTemplateRequest')[&amp;gt;](https://docs.microsoft.com/en-us/dotnet/api/Google.Protobuf.IMessage-1 'Google.Protobuf.IMessage1">Google.Protobuf.IMessage&lt;</a>, <a href="https://docs.microsoft.com/en-us/dotnet/api/Google.Protobuf.IMessage" title="Google.Protobuf.IMessage">Google.Protobuf.IMessage</a>, <a href="https://docs.microsoft.com/en-us/dotnet/api/System.IEquatable-1" title="System.IEquatable1')[CreateCredentialTemplateRequest](Trinsic_Services_VerifiableCredentials_Templates_V1.md#Trinsic_Services_VerifiableCredentials_Templates_V1_CreateCredentialTemplateRequest 'Trinsic.Services.VerifiableCredentials.Templates.V1.CreateCredentialTemplateRequest')[&amp;gt;](https://docs.microsoft.com/en-us/dotnet/api/System.IEquatable-1 'System.IEquatable1">System.IEquatable&lt;</a>, <a href="https://docs.microsoft.com/en-us/dotnet/api/Google.Protobuf.IDeepCloneable-1" title="Google.Protobuf.IDeepCloneable1')[CreateCredentialTemplateRequest](Trinsic_Services_VerifiableCredentials_Templates_V1.md#Trinsic_Services_VerifiableCredentials_Templates_V1_CreateCredentialTemplateRequest 'Trinsic.Services.VerifiableCredentials.Templates.V1.CreateCredentialTemplateRequest')[&amp;gt;](https://docs.microsoft.com/en-us/dotnet/api/Google.Protobuf.IDeepCloneable-1 'Google.Protobuf.IDeepCloneable1">Google.Protobuf.IDeepCloneable&lt;</a>, <a href="https://docs.microsoft.com/en-us/dotnet/api/Google.Protobuf.IBufferMessage" title="Google.Protobuf.IBufferMessage">Google.Protobuf.IBufferMessage</a>  </p>
+<h3 id="fields">Fields<a class="headerlink" href="#fields" title="Permanent link">&para;</a></h3>
+<p><a name='Trinsic_Services_VerifiableCredentials_Templates_V1_CreateCredentialTemplateRequest_AllowAdditionalFieldsFieldNumber'></a></p>
+<h2 id="createcredentialtemplaterequestallowadditionalfieldsfieldnumber-field">CreateCredentialTemplateRequest.AllowAdditionalFieldsFieldNumber Field<a class="headerlink" href="#createcredentialtemplaterequestallowadditionalfieldsfieldnumber-field" title="Permanent link">&para;</a></h2>
+<p>Field number for the "allow_additional_fields" field.
+<div class="highlight"><pre><span></span><code><span class="k">public</span><span class="w"> </span><span class="k">const</span><span class="w"> </span><span class="kt">int</span><span class="w"> </span><span class="n">AllowAdditionalFieldsFieldNumber</span><span class="w"> </span><span class="p">=</span><span class="w"> </span><span class="m">3</span><span class="p">;</span><span class="w"></span>
+</code></pre></div></p>
+<h4 id="field-value">Field Value<a class="headerlink" href="#field-value" title="Permanent link">&para;</a></h4>
+<p><a href="https://docs.microsoft.com/en-us/dotnet/api/System.Int32" title="System.Int32">System.Int32</a></p>
+<p><a name='Trinsic_Services_VerifiableCredentials_Templates_V1_CreateCredentialTemplateRequest_FieldsFieldNumber'></a></p>
+<h2 id="createcredentialtemplaterequestfieldsfieldnumber-field">CreateCredentialTemplateRequest.FieldsFieldNumber Field<a class="headerlink" href="#createcredentialtemplaterequestfieldsfieldnumber-field" title="Permanent link">&para;</a></h2>
+<p>Field number for the "fields" field.
+<div class="highlight"><pre><span></span><code><span class="k">public</span><span class="w"> </span><span class="k">const</span><span class="w"> </span><span class="kt">int</span><span class="w"> </span><span class="n">FieldsFieldNumber</span><span class="w"> </span><span class="p">=</span><span class="w"> </span><span class="m">2</span><span class="p">;</span><span class="w"></span>
+</code></pre></div></p>
+<h4 id="field-value_1">Field Value<a class="headerlink" href="#field-value_1" title="Permanent link">&para;</a></h4>
+<p><a href="https://docs.microsoft.com/en-us/dotnet/api/System.Int32" title="System.Int32">System.Int32</a></p>
+<p><a name='Trinsic_Services_VerifiableCredentials_Templates_V1_CreateCredentialTemplateRequest_NameFieldNumber'></a></p>
+<h2 id="createcredentialtemplaterequestnamefieldnumber-field">CreateCredentialTemplateRequest.NameFieldNumber Field<a class="headerlink" href="#createcredentialtemplaterequestnamefieldnumber-field" title="Permanent link">&para;</a></h2>
+<p>Field number for the "name" field.
+<div class="highlight"><pre><span></span><code><span class="k">public</span><span class="w"> </span><span class="k">const</span><span class="w"> </span><span class="kt">int</span><span class="w"> </span><span class="n">NameFieldNumber</span><span class="w"> </span><span class="p">=</span><span class="w"> </span><span class="m">1</span><span class="p">;</span><span class="w"></span>
+</code></pre></div></p>
+<h4 id="field-value_2">Field Value<a class="headerlink" href="#field-value_2" title="Permanent link">&para;</a></h4>
+<p><a href="https://docs.microsoft.com/en-us/dotnet/api/System.Int32" title="System.Int32">System.Int32</a></p>
+<p><a name='Trinsic_Services_VerifiableCredentials_Templates_V1_CreateCredentialTemplateResponse'></a></p>
+<h2 id="createcredentialtemplateresponse-class">CreateCredentialTemplateResponse Class<a class="headerlink" href="#createcredentialtemplateresponse-class" title="Permanent link">&para;</a></h2>
+<div class="highlight"><pre><span></span><code><span class="k">public</span><span class="w"> </span><span class="k">sealed</span><span class="w"> </span><span class="k">class</span><span class="w"> </span><span class="nc">CreateCredentialTemplateResponse</span><span class="w"> </span><span class="p">:</span><span class="w"></span>
+<span class="n">Google</span><span class="p">.</span><span class="n">Protobuf</span><span class="p">.</span><span class="n">IMessage</span><span class="p">&lt;</span><span class="n">Trinsic</span><span class="p">.</span><span class="n">Services</span><span class="p">.</span><span class="n">VerifiableCredentials</span><span class="p">.</span><span class="n">Templates</span><span class="p">.</span><span class="n">V1</span><span class="p">.</span><span class="n">CreateCredentialTemplateResponse</span><span class="p">&gt;,</span><span class="w"></span>
+<span class="n">Google</span><span class="p">.</span><span class="n">Protobuf</span><span class="p">.</span><span class="n">IMessage</span><span class="p">,</span><span class="w"></span>
+<span class="n">System</span><span class="p">.</span><span class="n">IEquatable</span><span class="p">&lt;</span><span class="n">Trinsic</span><span class="p">.</span><span class="n">Services</span><span class="p">.</span><span class="n">VerifiableCredentials</span><span class="p">.</span><span class="n">Templates</span><span class="p">.</span><span class="n">V1</span><span class="p">.</span><span class="n">CreateCredentialTemplateResponse</span><span class="p">&gt;,</span><span class="w"></span>
+<span class="n">Google</span><span class="p">.</span><span class="n">Protobuf</span><span class="p">.</span><span class="n">IDeepCloneable</span><span class="p">&lt;</span><span class="n">Trinsic</span><span class="p">.</span><span class="n">Services</span><span class="p">.</span><span class="n">VerifiableCredentials</span><span class="p">.</span><span class="n">Templates</span><span class="p">.</span><span class="n">V1</span><span class="p">.</span><span class="n">CreateCredentialTemplateResponse</span><span class="p">&gt;,</span><span class="w"></span>
+<span class="n">Google</span><span class="p">.</span><span class="n">Protobuf</span><span class="p">.</span><span class="n">IBufferMessage</span><span class="w"></span>
+</code></pre></div>
+<p>Inheritance <a href="https://docs.microsoft.com/en-us/dotnet/api/System.Object" title="System.Object">System.Object</a> &#129106; CreateCredentialTemplateResponse  </p>
+<p>Implements <a href="https://docs.microsoft.com/en-us/dotnet/api/Google.Protobuf.IMessage-1" title="Google.Protobuf.IMessage1')[CreateCredentialTemplateResponse](Trinsic_Services_VerifiableCredentials_Templates_V1.md#Trinsic_Services_VerifiableCredentials_Templates_V1_CreateCredentialTemplateResponse 'Trinsic.Services.VerifiableCredentials.Templates.V1.CreateCredentialTemplateResponse')[&amp;gt;](https://docs.microsoft.com/en-us/dotnet/api/Google.Protobuf.IMessage-1 'Google.Protobuf.IMessage1">Google.Protobuf.IMessage&lt;</a>, <a href="https://docs.microsoft.com/en-us/dotnet/api/Google.Protobuf.IMessage" title="Google.Protobuf.IMessage">Google.Protobuf.IMessage</a>, <a href="https://docs.microsoft.com/en-us/dotnet/api/System.IEquatable-1" title="System.IEquatable1')[CreateCredentialTemplateResponse](Trinsic_Services_VerifiableCredentials_Templates_V1.md#Trinsic_Services_VerifiableCredentials_Templates_V1_CreateCredentialTemplateResponse 'Trinsic.Services.VerifiableCredentials.Templates.V1.CreateCredentialTemplateResponse')[&amp;gt;](https://docs.microsoft.com/en-us/dotnet/api/System.IEquatable-1 'System.IEquatable1">System.IEquatable&lt;</a>, <a href="https://docs.microsoft.com/en-us/dotnet/api/Google.Protobuf.IDeepCloneable-1" title="Google.Protobuf.IDeepCloneable1')[CreateCredentialTemplateResponse](Trinsic_Services_VerifiableCredentials_Templates_V1.md#Trinsic_Services_VerifiableCredentials_Templates_V1_CreateCredentialTemplateResponse 'Trinsic.Services.VerifiableCredentials.Templates.V1.CreateCredentialTemplateResponse')[&amp;gt;](https://docs.microsoft.com/en-us/dotnet/api/Google.Protobuf.IDeepCloneable-1 'Google.Protobuf.IDeepCloneable1">Google.Protobuf.IDeepCloneable&lt;</a>, <a href="https://docs.microsoft.com/en-us/dotnet/api/Google.Protobuf.IBufferMessage" title="Google.Protobuf.IBufferMessage">Google.Protobuf.IBufferMessage</a>  </p>
+<h3 id="fields_1">Fields<a class="headerlink" href="#fields_1" title="Permanent link">&para;</a></h3>
+<p><a name='Trinsic_Services_VerifiableCredentials_Templates_V1_CreateCredentialTemplateResponse_DataFieldNumber'></a></p>
+<h2 id="createcredentialtemplateresponsedatafieldnumber-field">CreateCredentialTemplateResponse.DataFieldNumber Field<a class="headerlink" href="#createcredentialtemplateresponsedatafieldnumber-field" title="Permanent link">&para;</a></h2>
+<p>Field number for the "data" field.
+<div class="highlight"><pre><span></span><code><span class="k">public</span><span class="w"> </span><span class="k">const</span><span class="w"> </span><span class="kt">int</span><span class="w"> </span><span class="n">DataFieldNumber</span><span class="w"> </span><span class="p">=</span><span class="w"> </span><span class="m">1</span><span class="p">;</span><span class="w"></span>
+</code></pre></div></p>
+<h4 id="field-value_3">Field Value<a class="headerlink" href="#field-value_3" title="Permanent link">&para;</a></h4>
+<p><a href="https://docs.microsoft.com/en-us/dotnet/api/System.Int32" title="System.Int32">System.Int32</a></p>
+<p><a name='Trinsic_Services_VerifiableCredentials_Templates_V1_CredentialTemplates'></a></p>
+<h2 id="credentialtemplates-class">CredentialTemplates Class<a class="headerlink" href="#credentialtemplates-class" title="Permanent link">&para;</a></h2>
+<div class="highlight"><pre><span></span><code><span class="k">public</span><span class="w"> </span><span class="k">static</span><span class="w"> </span><span class="k">class</span><span class="w"> </span><span class="nc">CredentialTemplates</span><span class="w"></span>
+</code></pre></div>
+<p>Inheritance <a href="https://docs.microsoft.com/en-us/dotnet/api/System.Object" title="System.Object">System.Object</a> &#129106; CredentialTemplates  </p>
+<h3 id="properties">Properties<a class="headerlink" href="#properties" title="Permanent link">&para;</a></h3>
+<p><a name='Trinsic_Services_VerifiableCredentials_Templates_V1_CredentialTemplates_Descriptor'></a></p>
+<h2 id="credentialtemplatesdescriptor-property">CredentialTemplates.Descriptor Property<a class="headerlink" href="#credentialtemplatesdescriptor-property" title="Permanent link">&para;</a></h2>
+<p>Service descriptor
+<div class="highlight"><pre><span></span><code><span class="k">public</span><span class="w"> </span><span class="k">static</span><span class="w"> </span><span class="n">Google</span><span class="p">.</span><span class="n">Protobuf</span><span class="p">.</span><span class="n">Reflection</span><span class="p">.</span><span class="n">ServiceDescriptor</span><span class="w"> </span><span class="n">Descriptor</span><span class="w"> </span><span class="p">{</span><span class="w"> </span><span class="k">get</span><span class="p">;</span><span class="w"> </span><span class="p">}</span><span class="w"></span>
+</code></pre></div></p>
+<h4 id="property-value">Property Value<a class="headerlink" href="#property-value" title="Permanent link">&para;</a></h4>
+<p><a href="https://docs.microsoft.com/en-us/dotnet/api/Google.Protobuf.Reflection.ServiceDescriptor" title="Google.Protobuf.Reflection.ServiceDescriptor">Google.Protobuf.Reflection.ServiceDescriptor</a></p>
+<h3 id="methods">Methods<a class="headerlink" href="#methods" title="Permanent link">&para;</a></h3>
+<p><a name='Trinsic_Services_VerifiableCredentials_Templates_V1_CredentialTemplates_BindService(Grpc_Core_ServiceBinderBase_Trinsic_Services_VerifiableCredentials_Templates_V1_CredentialTemplates_CredentialTemplatesBase)'></a></p>
+<h2 id="credentialtemplatesbindserviceservicebinderbase-credentialtemplatesbase-method">CredentialTemplates.BindService(ServiceBinderBase, CredentialTemplatesBase) Method<a class="headerlink" href="#credentialtemplatesbindserviceservicebinderbase-credentialtemplatesbase-method" title="Permanent link">&para;</a></h2>
+<p>Register service method with a service binder with or without implementation. Useful when customizing the  service binding logic.<br />
+            Note: this method is part of an experimental API that can change or be removed without any prior notice.
+<div class="highlight"><pre><span></span><code><span class="k">public</span><span class="w"> </span><span class="k">static</span><span class="w"> </span><span class="k">void</span><span class="w"> </span><span class="nf">BindService</span><span class="p">(</span><span class="n">Grpc</span><span class="p">.</span><span class="n">Core</span><span class="p">.</span><span class="n">ServiceBinderBase</span><span class="w"> </span><span class="n">serviceBinder</span><span class="p">,</span><span class="w"> </span><span class="n">Trinsic</span><span class="p">.</span><span class="n">Services</span><span class="p">.</span><span class="n">VerifiableCredentials</span><span class="p">.</span><span class="n">Templates</span><span class="p">.</span><span class="n">V1</span><span class="p">.</span><span class="n">CredentialTemplates</span><span class="p">.</span><span class="n">CredentialTemplatesBase</span><span class="w"> </span><span class="n">serviceImpl</span><span class="p">);</span><span class="w"></span>
+</code></pre></div></p>
+<h4 id="parameters">Parameters<a class="headerlink" href="#parameters" title="Permanent link">&para;</a></h4>
+<p><a name='Trinsic_Services_VerifiableCredentials_Templates_V1_CredentialTemplates_BindService(Grpc_Core_ServiceBinderBase_Trinsic_Services_VerifiableCredentials_Templates_V1_CredentialTemplates_CredentialTemplatesBase)_serviceBinder'></a>
+<code>serviceBinder</code> <a href="https://docs.microsoft.com/en-us/dotnet/api/Grpc.Core.ServiceBinderBase" title="Grpc.Core.ServiceBinderBase">Grpc.Core.ServiceBinderBase</a><br />
+Service methods will be bound by calling <code>AddMethod</code> on this object.</p>
+<p><a name='Trinsic_Services_VerifiableCredentials_Templates_V1_CredentialTemplates_BindService(Grpc_Core_ServiceBinderBase_Trinsic_Services_VerifiableCredentials_Templates_V1_CredentialTemplates_CredentialTemplatesBase)_serviceImpl'></a>
+<code>serviceImpl</code> <a href="./#Trinsic_Services_VerifiableCredentials_Templates_V1_CredentialTemplates_CredentialTemplatesBase" title="Trinsic.Services.VerifiableCredentials.Templates.V1.CredentialTemplates.CredentialTemplatesBase">CredentialTemplatesBase</a><br />
+An object implementing the server-side handling logic.</p>
+<p><a name='Trinsic_Services_VerifiableCredentials_Templates_V1_CredentialTemplates_BindService(Trinsic_Services_VerifiableCredentials_Templates_V1_CredentialTemplates_CredentialTemplatesBase)'></a></p>
+<h2 id="credentialtemplatesbindservicecredentialtemplatesbase-method">CredentialTemplates.BindService(CredentialTemplatesBase) Method<a class="headerlink" href="#credentialtemplatesbindservicecredentialtemplatesbase-method" title="Permanent link">&para;</a></h2>
+<p>Creates service definition that can be registered with a server
+<div class="highlight"><pre><span></span><code><span class="k">public</span><span class="w"> </span><span class="k">static</span><span class="w"> </span><span class="n">Grpc</span><span class="p">.</span><span class="n">Core</span><span class="p">.</span><span class="n">ServerServiceDefinition</span><span class="w"> </span><span class="n">BindService</span><span class="p">(</span><span class="n">Trinsic</span><span class="p">.</span><span class="n">Services</span><span class="p">.</span><span class="n">VerifiableCredentials</span><span class="p">.</span><span class="n">Templates</span><span class="p">.</span><span class="n">V1</span><span class="p">.</span><span class="n">CredentialTemplates</span><span class="p">.</span><span class="n">CredentialTemplatesBase</span><span class="w"> </span><span class="n">serviceImpl</span><span class="p">);</span><span class="w"></span>
+</code></pre></div></p>
+<h4 id="parameters_1">Parameters<a class="headerlink" href="#parameters_1" title="Permanent link">&para;</a></h4>
+<p><a name='Trinsic_Services_VerifiableCredentials_Templates_V1_CredentialTemplates_BindService(Trinsic_Services_VerifiableCredentials_Templates_V1_CredentialTemplates_CredentialTemplatesBase)_serviceImpl'></a>
+<code>serviceImpl</code> <a href="./#Trinsic_Services_VerifiableCredentials_Templates_V1_CredentialTemplates_CredentialTemplatesBase" title="Trinsic.Services.VerifiableCredentials.Templates.V1.CredentialTemplates.CredentialTemplatesBase">CredentialTemplatesBase</a><br />
+An object implementing the server-side handling logic.</p>
+<h4 id="returns">Returns<a class="headerlink" href="#returns" title="Permanent link">&para;</a></h4>
+<p><a href="https://docs.microsoft.com/en-us/dotnet/api/Grpc.Core.ServerServiceDefinition" title="Grpc.Core.ServerServiceDefinition">Grpc.Core.ServerServiceDefinition</a>  </p>
+<p><a name='Trinsic_Services_VerifiableCredentials_Templates_V1_CredentialTemplates_CredentialTemplatesBase'></a></p>
+<h2 id="credentialtemplatescredentialtemplatesbase-class">CredentialTemplates.CredentialTemplatesBase Class<a class="headerlink" href="#credentialtemplatescredentialtemplatesbase-class" title="Permanent link">&para;</a></h2>
+<p>Base class for server-side implementations of CredentialTemplates
+<div class="highlight"><pre><span></span><code><span class="k">public</span><span class="w"> </span><span class="k">abstract</span><span class="w"> </span><span class="k">class</span><span class="w"> </span><span class="nc">CredentialTemplates</span><span class="p">.</span><span class="n">CredentialTemplatesBase</span><span class="w"></span>
+</code></pre></div></p>
+<p>Inheritance <a href="https://docs.microsoft.com/en-us/dotnet/api/System.Object" title="System.Object">System.Object</a> &#129106; CredentialTemplatesBase  </p>
+<p><a name='Trinsic_Services_VerifiableCredentials_Templates_V1_CredentialTemplates_CredentialTemplatesClient'></a></p>
+<h2 id="credentialtemplatescredentialtemplatesclient-class">CredentialTemplates.CredentialTemplatesClient Class<a class="headerlink" href="#credentialtemplatescredentialtemplatesclient-class" title="Permanent link">&para;</a></h2>
+<p>Client for CredentialTemplates
+<div class="highlight"><pre><span></span><code><span class="k">public</span><span class="w"> </span><span class="k">class</span><span class="w"> </span><span class="nc">CredentialTemplates</span><span class="p">.</span><span class="n">CredentialTemplatesClient</span><span class="w"> </span><span class="p">:</span><span class="w"> </span><span class="n">Grpc</span><span class="p">.</span><span class="n">Core</span><span class="p">.</span><span class="n">ClientBase</span><span class="p">&lt;</span><span class="n">Trinsic</span><span class="p">.</span><span class="n">Services</span><span class="p">.</span><span class="n">VerifiableCredentials</span><span class="p">.</span><span class="n">Templates</span><span class="p">.</span><span class="n">V1</span><span class="p">.</span><span class="n">CredentialTemplates</span><span class="p">.</span><span class="n">CredentialTemplatesClient</span><span class="p">&gt;</span><span class="w"></span>
+</code></pre></div></p>
+<p>Inheritance <a href="https://docs.microsoft.com/en-us/dotnet/api/System.Object" title="System.Object">System.Object</a> &#129106; <a href="https://docs.microsoft.com/en-us/dotnet/api/Grpc.Core.ClientBase" title="Grpc.Core.ClientBase">Grpc.Core.ClientBase</a> &#129106; <a href="https://docs.microsoft.com/en-us/dotnet/api/Grpc.Core.ClientBase-1" title="Grpc.Core.ClientBase1')[CredentialTemplatesClient](Trinsic_Services_VerifiableCredentials_Templates_V1.md#Trinsic_Services_VerifiableCredentials_Templates_V1_CredentialTemplates_CredentialTemplatesClient 'Trinsic.Services.VerifiableCredentials.Templates.V1.CredentialTemplates.CredentialTemplatesClient')[&amp;gt;](https://docs.microsoft.com/en-us/dotnet/api/Grpc.Core.ClientBase-1 'Grpc.Core.ClientBase1">Grpc.Core.ClientBase&lt;</a> &#129106; CredentialTemplatesClient  </p>
+<h3 id="constructors">Constructors<a class="headerlink" href="#constructors" title="Permanent link">&para;</a></h3>
+<p><a name='Trinsic_Services_VerifiableCredentials_Templates_V1_CredentialTemplates_CredentialTemplatesClient_CredentialTemplatesClient()'></a></p>
+<h2 id="credentialtemplatescredentialtemplatesclientcredentialtemplatesclient-constructor">CredentialTemplates.CredentialTemplatesClient.CredentialTemplatesClient() Constructor<a class="headerlink" href="#credentialtemplatescredentialtemplatesclientcredentialtemplatesclient-constructor" title="Permanent link">&para;</a></h2>
+<p>Protected parameterless constructor to allow creation of test doubles.
+<div class="highlight"><pre><span></span><code><span class="k">protected</span><span class="w"> </span><span class="nf">CredentialTemplatesClient</span><span class="p">();</span><span class="w"></span>
+</code></pre></div></p>
+<p><a name='Trinsic_Services_VerifiableCredentials_Templates_V1_CredentialTemplates_CredentialTemplatesClient_CredentialTemplatesClient(Grpc_Core_CallInvoker)'></a></p>
+<h2 id="credentialtemplatescredentialtemplatesclientcredentialtemplatesclientcallinvoker-constructor">CredentialTemplates.CredentialTemplatesClient.CredentialTemplatesClient(CallInvoker) Constructor<a class="headerlink" href="#credentialtemplatescredentialtemplatesclientcredentialtemplatesclientcallinvoker-constructor" title="Permanent link">&para;</a></h2>
+<p>Creates a new client for CredentialTemplates that uses a custom <code>CallInvoker</code>.
+<div class="highlight"><pre><span></span><code><span class="k">public</span><span class="w"> </span><span class="nf">CredentialTemplatesClient</span><span class="p">(</span><span class="n">Grpc</span><span class="p">.</span><span class="n">Core</span><span class="p">.</span><span class="n">CallInvoker</span><span class="w"> </span><span class="n">callInvoker</span><span class="p">);</span><span class="w"></span>
+</code></pre></div></p>
+<h4 id="parameters_2">Parameters<a class="headerlink" href="#parameters_2" title="Permanent link">&para;</a></h4>
+<p><a name='Trinsic_Services_VerifiableCredentials_Templates_V1_CredentialTemplates_CredentialTemplatesClient_CredentialTemplatesClient(Grpc_Core_CallInvoker)_callInvoker'></a>
+<code>callInvoker</code> <a href="https://docs.microsoft.com/en-us/dotnet/api/Grpc.Core.CallInvoker" title="Grpc.Core.CallInvoker">Grpc.Core.CallInvoker</a><br />
+The callInvoker to use to make remote calls.</p>
+<p><a name='Trinsic_Services_VerifiableCredentials_Templates_V1_CredentialTemplates_CredentialTemplatesClient_CredentialTemplatesClient(Grpc_Core_ChannelBase)'></a></p>
+<h2 id="credentialtemplatescredentialtemplatesclientcredentialtemplatesclientchannelbase-constructor">CredentialTemplates.CredentialTemplatesClient.CredentialTemplatesClient(ChannelBase) Constructor<a class="headerlink" href="#credentialtemplatescredentialtemplatesclientcredentialtemplatesclientchannelbase-constructor" title="Permanent link">&para;</a></h2>
+<p>Creates a new client for CredentialTemplates
+<div class="highlight"><pre><span></span><code><span class="k">public</span><span class="w"> </span><span class="nf">CredentialTemplatesClient</span><span class="p">(</span><span class="n">Grpc</span><span class="p">.</span><span class="n">Core</span><span class="p">.</span><span class="n">ChannelBase</span><span class="w"> </span><span class="n">channel</span><span class="p">);</span><span class="w"></span>
+</code></pre></div></p>
+<h4 id="parameters_3">Parameters<a class="headerlink" href="#parameters_3" title="Permanent link">&para;</a></h4>
+<p><a name='Trinsic_Services_VerifiableCredentials_Templates_V1_CredentialTemplates_CredentialTemplatesClient_CredentialTemplatesClient(Grpc_Core_ChannelBase)_channel'></a>
+<code>channel</code> <a href="https://docs.microsoft.com/en-us/dotnet/api/Grpc.Core.ChannelBase" title="Grpc.Core.ChannelBase">Grpc.Core.ChannelBase</a><br />
+The channel to use to make remote calls.</p>
+<p><a name='Trinsic_Services_VerifiableCredentials_Templates_V1_CredentialTemplates_CredentialTemplatesClient_CredentialTemplatesClient(Grpc_Core_ClientBase_ClientBaseConfiguration)'></a></p>
+<h2 id="credentialtemplatescredentialtemplatesclientcredentialtemplatesclientclientbaseconfiguration-constructor">CredentialTemplates.CredentialTemplatesClient.CredentialTemplatesClient(ClientBaseConfiguration) Constructor<a class="headerlink" href="#credentialtemplatescredentialtemplatesclientcredentialtemplatesclientclientbaseconfiguration-constructor" title="Permanent link">&para;</a></h2>
+<p>Protected constructor to allow creation of configured clients.
+<div class="highlight"><pre><span></span><code><span class="k">protected</span><span class="w"> </span><span class="nf">CredentialTemplatesClient</span><span class="p">(</span><span class="n">Grpc</span><span class="p">.</span><span class="n">Core</span><span class="p">.</span><span class="n">ClientBase</span><span class="p">.</span><span class="n">ClientBaseConfiguration</span><span class="w"> </span><span class="n">configuration</span><span class="p">);</span><span class="w"></span>
+</code></pre></div></p>
+<h4 id="parameters_4">Parameters<a class="headerlink" href="#parameters_4" title="Permanent link">&para;</a></h4>
+<p><a name='Trinsic_Services_VerifiableCredentials_Templates_V1_CredentialTemplates_CredentialTemplatesClient_CredentialTemplatesClient(Grpc_Core_ClientBase_ClientBaseConfiguration)_configuration'></a>
+<code>configuration</code> <a href="https://docs.microsoft.com/en-us/dotnet/api/Grpc.Core.ClientBase.ClientBaseConfiguration" title="Grpc.Core.ClientBase.ClientBaseConfiguration">Grpc.Core.ClientBase.ClientBaseConfiguration</a><br />
+The client configuration.</p>
+<h3 id="methods_1">Methods<a class="headerlink" href="#methods_1" title="Permanent link">&para;</a></h3>
+<p><a name='Trinsic_Services_VerifiableCredentials_Templates_V1_CredentialTemplates_CredentialTemplatesClient_NewInstance(Grpc_Core_ClientBase_ClientBaseConfiguration)'></a></p>
+<h2 id="credentialtemplatescredentialtemplatesclientnewinstanceclientbaseconfiguration-method">CredentialTemplates.CredentialTemplatesClient.NewInstance(ClientBaseConfiguration) Method<a class="headerlink" href="#credentialtemplatescredentialtemplatesclientnewinstanceclientbaseconfiguration-method" title="Permanent link">&para;</a></h2>
+<p>Creates a new instance of client from given <code>ClientBaseConfiguration</code>.
+<div class="highlight"><pre><span></span><code><span class="k">protected</span><span class="w"> </span><span class="k">override</span><span class="w"> </span><span class="n">Trinsic</span><span class="p">.</span><span class="n">Services</span><span class="p">.</span><span class="n">VerifiableCredentials</span><span class="p">.</span><span class="n">Templates</span><span class="p">.</span><span class="n">V1</span><span class="p">.</span><span class="n">CredentialTemplates</span><span class="p">.</span><span class="n">CredentialTemplatesClient</span><span class="w"> </span><span class="n">NewInstance</span><span class="p">(</span><span class="n">Grpc</span><span class="p">.</span><span class="n">Core</span><span class="p">.</span><span class="n">ClientBase</span><span class="p">.</span><span class="n">ClientBaseConfiguration</span><span class="w"> </span><span class="n">configuration</span><span class="p">);</span><span class="w"></span>
+</code></pre></div></p>
+<h4 id="parameters_5">Parameters<a class="headerlink" href="#parameters_5" title="Permanent link">&para;</a></h4>
+<p><a name='Trinsic_Services_VerifiableCredentials_Templates_V1_CredentialTemplates_CredentialTemplatesClient_NewInstance(Grpc_Core_ClientBase_ClientBaseConfiguration)_configuration'></a>
+<code>configuration</code> <a href="https://docs.microsoft.com/en-us/dotnet/api/Grpc.Core.ClientBase.ClientBaseConfiguration" title="Grpc.Core.ClientBase.ClientBaseConfiguration">Grpc.Core.ClientBase.ClientBaseConfiguration</a>  </p>
+<h4 id="returns_1">Returns<a class="headerlink" href="#returns_1" title="Permanent link">&para;</a></h4>
+<p><a href="./#Trinsic_Services_VerifiableCredentials_Templates_V1_CredentialTemplates_CredentialTemplatesClient" title="Trinsic.Services.VerifiableCredentials.Templates.V1.CredentialTemplates.CredentialTemplatesClient">CredentialTemplatesClient</a>  </p>
+<p><a name='Trinsic_Services_VerifiableCredentials_Templates_V1_DeleteCredentialTemplateRequest'></a></p>
+<h2 id="deletecredentialtemplaterequest-class">DeleteCredentialTemplateRequest Class<a class="headerlink" href="#deletecredentialtemplaterequest-class" title="Permanent link">&para;</a></h2>
+<div class="highlight"><pre><span></span><code><span class="k">public</span><span class="w"> </span><span class="k">sealed</span><span class="w"> </span><span class="k">class</span><span class="w"> </span><span class="nc">DeleteCredentialTemplateRequest</span><span class="w"> </span><span class="p">:</span><span class="w"></span>
+<span class="n">Google</span><span class="p">.</span><span class="n">Protobuf</span><span class="p">.</span><span class="n">IMessage</span><span class="p">&lt;</span><span class="n">Trinsic</span><span class="p">.</span><span class="n">Services</span><span class="p">.</span><span class="n">VerifiableCredentials</span><span class="p">.</span><span class="n">Templates</span><span class="p">.</span><span class="n">V1</span><span class="p">.</span><span class="n">DeleteCredentialTemplateRequest</span><span class="p">&gt;,</span><span class="w"></span>
+<span class="n">Google</span><span class="p">.</span><span class="n">Protobuf</span><span class="p">.</span><span class="n">IMessage</span><span class="p">,</span><span class="w"></span>
+<span class="n">System</span><span class="p">.</span><span class="n">IEquatable</span><span class="p">&lt;</span><span class="n">Trinsic</span><span class="p">.</span><span class="n">Services</span><span class="p">.</span><span class="n">VerifiableCredentials</span><span class="p">.</span><span class="n">Templates</span><span class="p">.</span><span class="n">V1</span><span class="p">.</span><span class="n">DeleteCredentialTemplateRequest</span><span class="p">&gt;,</span><span class="w"></span>
+<span class="n">Google</span><span class="p">.</span><span class="n">Protobuf</span><span class="p">.</span><span class="n">IDeepCloneable</span><span class="p">&lt;</span><span class="n">Trinsic</span><span class="p">.</span><span class="n">Services</span><span class="p">.</span><span class="n">VerifiableCredentials</span><span class="p">.</span><span class="n">Templates</span><span class="p">.</span><span class="n">V1</span><span class="p">.</span><span class="n">DeleteCredentialTemplateRequest</span><span class="p">&gt;,</span><span class="w"></span>
+<span class="n">Google</span><span class="p">.</span><span class="n">Protobuf</span><span class="p">.</span><span class="n">IBufferMessage</span><span class="w"></span>
+</code></pre></div>
+<p>Inheritance <a href="https://docs.microsoft.com/en-us/dotnet/api/System.Object" title="System.Object">System.Object</a> &#129106; DeleteCredentialTemplateRequest  </p>
+<p>Implements <a href="https://docs.microsoft.com/en-us/dotnet/api/Google.Protobuf.IMessage-1" title="Google.Protobuf.IMessage1')[DeleteCredentialTemplateRequest](Trinsic_Services_VerifiableCredentials_Templates_V1.md#Trinsic_Services_VerifiableCredentials_Templates_V1_DeleteCredentialTemplateRequest 'Trinsic.Services.VerifiableCredentials.Templates.V1.DeleteCredentialTemplateRequest')[&amp;gt;](https://docs.microsoft.com/en-us/dotnet/api/Google.Protobuf.IMessage-1 'Google.Protobuf.IMessage1">Google.Protobuf.IMessage&lt;</a>, <a href="https://docs.microsoft.com/en-us/dotnet/api/Google.Protobuf.IMessage" title="Google.Protobuf.IMessage">Google.Protobuf.IMessage</a>, <a href="https://docs.microsoft.com/en-us/dotnet/api/System.IEquatable-1" title="System.IEquatable1')[DeleteCredentialTemplateRequest](Trinsic_Services_VerifiableCredentials_Templates_V1.md#Trinsic_Services_VerifiableCredentials_Templates_V1_DeleteCredentialTemplateRequest 'Trinsic.Services.VerifiableCredentials.Templates.V1.DeleteCredentialTemplateRequest')[&amp;gt;](https://docs.microsoft.com/en-us/dotnet/api/System.IEquatable-1 'System.IEquatable1">System.IEquatable&lt;</a>, <a href="https://docs.microsoft.com/en-us/dotnet/api/Google.Protobuf.IDeepCloneable-1" title="Google.Protobuf.IDeepCloneable1')[DeleteCredentialTemplateRequest](Trinsic_Services_VerifiableCredentials_Templates_V1.md#Trinsic_Services_VerifiableCredentials_Templates_V1_DeleteCredentialTemplateRequest 'Trinsic.Services.VerifiableCredentials.Templates.V1.DeleteCredentialTemplateRequest')[&amp;gt;](https://docs.microsoft.com/en-us/dotnet/api/Google.Protobuf.IDeepCloneable-1 'Google.Protobuf.IDeepCloneable1">Google.Protobuf.IDeepCloneable&lt;</a>, <a href="https://docs.microsoft.com/en-us/dotnet/api/Google.Protobuf.IBufferMessage" title="Google.Protobuf.IBufferMessage">Google.Protobuf.IBufferMessage</a>  </p>
+<h3 id="fields_2">Fields<a class="headerlink" href="#fields_2" title="Permanent link">&para;</a></h3>
+<p><a name='Trinsic_Services_VerifiableCredentials_Templates_V1_DeleteCredentialTemplateRequest_IdFieldNumber'></a></p>
+<h2 id="deletecredentialtemplaterequestidfieldnumber-field">DeleteCredentialTemplateRequest.IdFieldNumber Field<a class="headerlink" href="#deletecredentialtemplaterequestidfieldnumber-field" title="Permanent link">&para;</a></h2>
+<p>Field number for the "id" field.
+<div class="highlight"><pre><span></span><code><span class="k">public</span><span class="w"> </span><span class="k">const</span><span class="w"> </span><span class="kt">int</span><span class="w"> </span><span class="n">IdFieldNumber</span><span class="w"> </span><span class="p">=</span><span class="w"> </span><span class="m">1</span><span class="p">;</span><span class="w"></span>
+</code></pre></div></p>
+<h4 id="field-value_4">Field Value<a class="headerlink" href="#field-value_4" title="Permanent link">&para;</a></h4>
+<p><a href="https://docs.microsoft.com/en-us/dotnet/api/System.Int32" title="System.Int32">System.Int32</a></p>
+<p><a name='Trinsic_Services_VerifiableCredentials_Templates_V1_GetCredentialTemplateRequest'></a></p>
+<h2 id="getcredentialtemplaterequest-class">GetCredentialTemplateRequest Class<a class="headerlink" href="#getcredentialtemplaterequest-class" title="Permanent link">&para;</a></h2>
+<div class="highlight"><pre><span></span><code><span class="k">public</span><span class="w"> </span><span class="k">sealed</span><span class="w"> </span><span class="k">class</span><span class="w"> </span><span class="nc">GetCredentialTemplateRequest</span><span class="w"> </span><span class="p">:</span><span class="w"></span>
+<span class="n">Google</span><span class="p">.</span><span class="n">Protobuf</span><span class="p">.</span><span class="n">IMessage</span><span class="p">&lt;</span><span class="n">Trinsic</span><span class="p">.</span><span class="n">Services</span><span class="p">.</span><span class="n">VerifiableCredentials</span><span class="p">.</span><span class="n">Templates</span><span class="p">.</span><span class="n">V1</span><span class="p">.</span><span class="n">GetCredentialTemplateRequest</span><span class="p">&gt;,</span><span class="w"></span>
+<span class="n">Google</span><span class="p">.</span><span class="n">Protobuf</span><span class="p">.</span><span class="n">IMessage</span><span class="p">,</span><span class="w"></span>
+<span class="n">System</span><span class="p">.</span><span class="n">IEquatable</span><span class="p">&lt;</span><span class="n">Trinsic</span><span class="p">.</span><span class="n">Services</span><span class="p">.</span><span class="n">VerifiableCredentials</span><span class="p">.</span><span class="n">Templates</span><span class="p">.</span><span class="n">V1</span><span class="p">.</span><span class="n">GetCredentialTemplateRequest</span><span class="p">&gt;,</span><span class="w"></span>
+<span class="n">Google</span><span class="p">.</span><span class="n">Protobuf</span><span class="p">.</span><span class="n">IDeepCloneable</span><span class="p">&lt;</span><span class="n">Trinsic</span><span class="p">.</span><span class="n">Services</span><span class="p">.</span><span class="n">VerifiableCredentials</span><span class="p">.</span><span class="n">Templates</span><span class="p">.</span><span class="n">V1</span><span class="p">.</span><span class="n">GetCredentialTemplateRequest</span><span class="p">&gt;,</span><span class="w"></span>
+<span class="n">Google</span><span class="p">.</span><span class="n">Protobuf</span><span class="p">.</span><span class="n">IBufferMessage</span><span class="w"></span>
+</code></pre></div>
+<p>Inheritance <a href="https://docs.microsoft.com/en-us/dotnet/api/System.Object" title="System.Object">System.Object</a> &#129106; GetCredentialTemplateRequest  </p>
+<p>Implements <a href="https://docs.microsoft.com/en-us/dotnet/api/Google.Protobuf.IMessage-1" title="Google.Protobuf.IMessage1')[GetCredentialTemplateRequest](Trinsic_Services_VerifiableCredentials_Templates_V1.md#Trinsic_Services_VerifiableCredentials_Templates_V1_GetCredentialTemplateRequest 'Trinsic.Services.VerifiableCredentials.Templates.V1.GetCredentialTemplateRequest')[&amp;gt;](https://docs.microsoft.com/en-us/dotnet/api/Google.Protobuf.IMessage-1 'Google.Protobuf.IMessage1">Google.Protobuf.IMessage&lt;</a>, <a href="https://docs.microsoft.com/en-us/dotnet/api/Google.Protobuf.IMessage" title="Google.Protobuf.IMessage">Google.Protobuf.IMessage</a>, <a href="https://docs.microsoft.com/en-us/dotnet/api/System.IEquatable-1" title="System.IEquatable1')[GetCredentialTemplateRequest](Trinsic_Services_VerifiableCredentials_Templates_V1.md#Trinsic_Services_VerifiableCredentials_Templates_V1_GetCredentialTemplateRequest 'Trinsic.Services.VerifiableCredentials.Templates.V1.GetCredentialTemplateRequest')[&amp;gt;](https://docs.microsoft.com/en-us/dotnet/api/System.IEquatable-1 'System.IEquatable1">System.IEquatable&lt;</a>, <a href="https://docs.microsoft.com/en-us/dotnet/api/Google.Protobuf.IDeepCloneable-1" title="Google.Protobuf.IDeepCloneable1')[GetCredentialTemplateRequest](Trinsic_Services_VerifiableCredentials_Templates_V1.md#Trinsic_Services_VerifiableCredentials_Templates_V1_GetCredentialTemplateRequest 'Trinsic.Services.VerifiableCredentials.Templates.V1.GetCredentialTemplateRequest')[&amp;gt;](https://docs.microsoft.com/en-us/dotnet/api/Google.Protobuf.IDeepCloneable-1 'Google.Protobuf.IDeepCloneable1">Google.Protobuf.IDeepCloneable&lt;</a>, <a href="https://docs.microsoft.com/en-us/dotnet/api/Google.Protobuf.IBufferMessage" title="Google.Protobuf.IBufferMessage">Google.Protobuf.IBufferMessage</a>  </p>
+<h3 id="fields_3">Fields<a class="headerlink" href="#fields_3" title="Permanent link">&para;</a></h3>
+<p><a name='Trinsic_Services_VerifiableCredentials_Templates_V1_GetCredentialTemplateRequest_IdFieldNumber'></a></p>
+<h2 id="getcredentialtemplaterequestidfieldnumber-field">GetCredentialTemplateRequest.IdFieldNumber Field<a class="headerlink" href="#getcredentialtemplaterequestidfieldnumber-field" title="Permanent link">&para;</a></h2>
+<p>Field number for the "id" field.
+<div class="highlight"><pre><span></span><code><span class="k">public</span><span class="w"> </span><span class="k">const</span><span class="w"> </span><span class="kt">int</span><span class="w"> </span><span class="n">IdFieldNumber</span><span class="w"> </span><span class="p">=</span><span class="w"> </span><span class="m">1</span><span class="p">;</span><span class="w"></span>
+</code></pre></div></p>
+<h4 id="field-value_5">Field Value<a class="headerlink" href="#field-value_5" title="Permanent link">&para;</a></h4>
+<p><a href="https://docs.microsoft.com/en-us/dotnet/api/System.Int32" title="System.Int32">System.Int32</a></p>
+<p><a name='Trinsic_Services_VerifiableCredentials_Templates_V1_GetCredentialTemplateResponse'></a></p>
+<h2 id="getcredentialtemplateresponse-class">GetCredentialTemplateResponse Class<a class="headerlink" href="#getcredentialtemplateresponse-class" title="Permanent link">&para;</a></h2>
+<div class="highlight"><pre><span></span><code><span class="k">public</span><span class="w"> </span><span class="k">sealed</span><span class="w"> </span><span class="k">class</span><span class="w"> </span><span class="nc">GetCredentialTemplateResponse</span><span class="w"> </span><span class="p">:</span><span class="w"></span>
+<span class="n">Google</span><span class="p">.</span><span class="n">Protobuf</span><span class="p">.</span><span class="n">IMessage</span><span class="p">&lt;</span><span class="n">Trinsic</span><span class="p">.</span><span class="n">Services</span><span class="p">.</span><span class="n">VerifiableCredentials</span><span class="p">.</span><span class="n">Templates</span><span class="p">.</span><span class="n">V1</span><span class="p">.</span><span class="n">GetCredentialTemplateResponse</span><span class="p">&gt;,</span><span class="w"></span>
+<span class="n">Google</span><span class="p">.</span><span class="n">Protobuf</span><span class="p">.</span><span class="n">IMessage</span><span class="p">,</span><span class="w"></span>
+<span class="n">System</span><span class="p">.</span><span class="n">IEquatable</span><span class="p">&lt;</span><span class="n">Trinsic</span><span class="p">.</span><span class="n">Services</span><span class="p">.</span><span class="n">VerifiableCredentials</span><span class="p">.</span><span class="n">Templates</span><span class="p">.</span><span class="n">V1</span><span class="p">.</span><span class="n">GetCredentialTemplateResponse</span><span class="p">&gt;,</span><span class="w"></span>
+<span class="n">Google</span><span class="p">.</span><span class="n">Protobuf</span><span class="p">.</span><span class="n">IDeepCloneable</span><span class="p">&lt;</span><span class="n">Trinsic</span><span class="p">.</span><span class="n">Services</span><span class="p">.</span><span class="n">VerifiableCredentials</span><span class="p">.</span><span class="n">Templates</span><span class="p">.</span><span class="n">V1</span><span class="p">.</span><span class="n">GetCredentialTemplateResponse</span><span class="p">&gt;,</span><span class="w"></span>
+<span class="n">Google</span><span class="p">.</span><span class="n">Protobuf</span><span class="p">.</span><span class="n">IBufferMessage</span><span class="w"></span>
+</code></pre></div>
+<p>Inheritance <a href="https://docs.microsoft.com/en-us/dotnet/api/System.Object" title="System.Object">System.Object</a> &#129106; GetCredentialTemplateResponse  </p>
+<p>Implements <a href="https://docs.microsoft.com/en-us/dotnet/api/Google.Protobuf.IMessage-1" title="Google.Protobuf.IMessage1')[GetCredentialTemplateResponse](Trinsic_Services_VerifiableCredentials_Templates_V1.md#Trinsic_Services_VerifiableCredentials_Templates_V1_GetCredentialTemplateResponse 'Trinsic.Services.VerifiableCredentials.Templates.V1.GetCredentialTemplateResponse')[&amp;gt;](https://docs.microsoft.com/en-us/dotnet/api/Google.Protobuf.IMessage-1 'Google.Protobuf.IMessage1">Google.Protobuf.IMessage&lt;</a>, <a href="https://docs.microsoft.com/en-us/dotnet/api/Google.Protobuf.IMessage" title="Google.Protobuf.IMessage">Google.Protobuf.IMessage</a>, <a href="https://docs.microsoft.com/en-us/dotnet/api/System.IEquatable-1" title="System.IEquatable1')[GetCredentialTemplateResponse](Trinsic_Services_VerifiableCredentials_Templates_V1.md#Trinsic_Services_VerifiableCredentials_Templates_V1_GetCredentialTemplateResponse 'Trinsic.Services.VerifiableCredentials.Templates.V1.GetCredentialTemplateResponse')[&amp;gt;](https://docs.microsoft.com/en-us/dotnet/api/System.IEquatable-1 'System.IEquatable1">System.IEquatable&lt;</a>, <a href="https://docs.microsoft.com/en-us/dotnet/api/Google.Protobuf.IDeepCloneable-1" title="Google.Protobuf.IDeepCloneable1')[GetCredentialTemplateResponse](Trinsic_Services_VerifiableCredentials_Templates_V1.md#Trinsic_Services_VerifiableCredentials_Templates_V1_GetCredentialTemplateResponse 'Trinsic.Services.VerifiableCredentials.Templates.V1.GetCredentialTemplateResponse')[&amp;gt;](https://docs.microsoft.com/en-us/dotnet/api/Google.Protobuf.IDeepCloneable-1 'Google.Protobuf.IDeepCloneable1">Google.Protobuf.IDeepCloneable&lt;</a>, <a href="https://docs.microsoft.com/en-us/dotnet/api/Google.Protobuf.IBufferMessage" title="Google.Protobuf.IBufferMessage">Google.Protobuf.IBufferMessage</a>  </p>
+<h3 id="fields_4">Fields<a class="headerlink" href="#fields_4" title="Permanent link">&para;</a></h3>
+<p><a name='Trinsic_Services_VerifiableCredentials_Templates_V1_GetCredentialTemplateResponse_TemplateFieldNumber'></a></p>
+<h2 id="getcredentialtemplateresponsetemplatefieldnumber-field">GetCredentialTemplateResponse.TemplateFieldNumber Field<a class="headerlink" href="#getcredentialtemplateresponsetemplatefieldnumber-field" title="Permanent link">&para;</a></h2>
+<p>Field number for the "template" field.
+<div class="highlight"><pre><span></span><code><span class="k">public</span><span class="w"> </span><span class="k">const</span><span class="w"> </span><span class="kt">int</span><span class="w"> </span><span class="n">TemplateFieldNumber</span><span class="w"> </span><span class="p">=</span><span class="w"> </span><span class="m">1</span><span class="p">;</span><span class="w"></span>
+</code></pre></div></p>
+<h4 id="field-value_6">Field Value<a class="headerlink" href="#field-value_6" title="Permanent link">&para;</a></h4>
+<p><a href="https://docs.microsoft.com/en-us/dotnet/api/System.Int32" title="System.Int32">System.Int32</a></p>
+<p><a name='Trinsic_Services_VerifiableCredentials_Templates_V1_GetTemplateRequest'></a></p>
+<h2 id="gettemplaterequest-class">GetTemplateRequest Class<a class="headerlink" href="#gettemplaterequest-class" title="Permanent link">&para;</a></h2>
+<div class="highlight"><pre><span></span><code><span class="k">public</span><span class="w"> </span><span class="k">sealed</span><span class="w"> </span><span class="k">class</span><span class="w"> </span><span class="nc">GetTemplateRequest</span><span class="w"> </span><span class="p">:</span><span class="w"></span>
+<span class="n">Google</span><span class="p">.</span><span class="n">Protobuf</span><span class="p">.</span><span class="n">IMessage</span><span class="p">&lt;</span><span class="n">Trinsic</span><span class="p">.</span><span class="n">Services</span><span class="p">.</span><span class="n">VerifiableCredentials</span><span class="p">.</span><span class="n">Templates</span><span class="p">.</span><span class="n">V1</span><span class="p">.</span><span class="n">GetTemplateRequest</span><span class="p">&gt;,</span><span class="w"></span>
+<span class="n">Google</span><span class="p">.</span><span class="n">Protobuf</span><span class="p">.</span><span class="n">IMessage</span><span class="p">,</span><span class="w"></span>
+<span class="n">System</span><span class="p">.</span><span class="n">IEquatable</span><span class="p">&lt;</span><span class="n">Trinsic</span><span class="p">.</span><span class="n">Services</span><span class="p">.</span><span class="n">VerifiableCredentials</span><span class="p">.</span><span class="n">Templates</span><span class="p">.</span><span class="n">V1</span><span class="p">.</span><span class="n">GetTemplateRequest</span><span class="p">&gt;,</span><span class="w"></span>
+<span class="n">Google</span><span class="p">.</span><span class="n">Protobuf</span><span class="p">.</span><span class="n">IDeepCloneable</span><span class="p">&lt;</span><span class="n">Trinsic</span><span class="p">.</span><span class="n">Services</span><span class="p">.</span><span class="n">VerifiableCredentials</span><span class="p">.</span><span class="n">Templates</span><span class="p">.</span><span class="n">V1</span><span class="p">.</span><span class="n">GetTemplateRequest</span><span class="p">&gt;,</span><span class="w"></span>
+<span class="n">Google</span><span class="p">.</span><span class="n">Protobuf</span><span class="p">.</span><span class="n">IBufferMessage</span><span class="w"></span>
+</code></pre></div>
+<p>Inheritance <a href="https://docs.microsoft.com/en-us/dotnet/api/System.Object" title="System.Object">System.Object</a> &#129106; GetTemplateRequest  </p>
+<p>Implements <a href="https://docs.microsoft.com/en-us/dotnet/api/Google.Protobuf.IMessage-1" title="Google.Protobuf.IMessage1')[GetTemplateRequest](Trinsic_Services_VerifiableCredentials_Templates_V1.md#Trinsic_Services_VerifiableCredentials_Templates_V1_GetTemplateRequest 'Trinsic.Services.VerifiableCredentials.Templates.V1.GetTemplateRequest')[&amp;gt;](https://docs.microsoft.com/en-us/dotnet/api/Google.Protobuf.IMessage-1 'Google.Protobuf.IMessage1">Google.Protobuf.IMessage&lt;</a>, <a href="https://docs.microsoft.com/en-us/dotnet/api/Google.Protobuf.IMessage" title="Google.Protobuf.IMessage">Google.Protobuf.IMessage</a>, <a href="https://docs.microsoft.com/en-us/dotnet/api/System.IEquatable-1" title="System.IEquatable1')[GetTemplateRequest](Trinsic_Services_VerifiableCredentials_Templates_V1.md#Trinsic_Services_VerifiableCredentials_Templates_V1_GetTemplateRequest 'Trinsic.Services.VerifiableCredentials.Templates.V1.GetTemplateRequest')[&amp;gt;](https://docs.microsoft.com/en-us/dotnet/api/System.IEquatable-1 'System.IEquatable1">System.IEquatable&lt;</a>, <a href="https://docs.microsoft.com/en-us/dotnet/api/Google.Protobuf.IDeepCloneable-1" title="Google.Protobuf.IDeepCloneable1')[GetTemplateRequest](Trinsic_Services_VerifiableCredentials_Templates_V1.md#Trinsic_Services_VerifiableCredentials_Templates_V1_GetTemplateRequest 'Trinsic.Services.VerifiableCredentials.Templates.V1.GetTemplateRequest')[&amp;gt;](https://docs.microsoft.com/en-us/dotnet/api/Google.Protobuf.IDeepCloneable-1 'Google.Protobuf.IDeepCloneable1">Google.Protobuf.IDeepCloneable&lt;</a>, <a href="https://docs.microsoft.com/en-us/dotnet/api/Google.Protobuf.IBufferMessage" title="Google.Protobuf.IBufferMessage">Google.Protobuf.IBufferMessage</a>  </p>
+<h3 id="fields_5">Fields<a class="headerlink" href="#fields_5" title="Permanent link">&para;</a></h3>
+<p><a name='Trinsic_Services_VerifiableCredentials_Templates_V1_GetTemplateRequest_IdFieldNumber'></a></p>
+<h2 id="gettemplaterequestidfieldnumber-field">GetTemplateRequest.IdFieldNumber Field<a class="headerlink" href="#gettemplaterequestidfieldnumber-field" title="Permanent link">&para;</a></h2>
+<p>Field number for the "id" field.
+<div class="highlight"><pre><span></span><code><span class="k">public</span><span class="w"> </span><span class="k">const</span><span class="w"> </span><span class="kt">int</span><span class="w"> </span><span class="n">IdFieldNumber</span><span class="w"> </span><span class="p">=</span><span class="w"> </span><span class="m">1</span><span class="p">;</span><span class="w"></span>
+</code></pre></div></p>
+<h4 id="field-value_7">Field Value<a class="headerlink" href="#field-value_7" title="Permanent link">&para;</a></h4>
+<p><a href="https://docs.microsoft.com/en-us/dotnet/api/System.Int32" title="System.Int32">System.Int32</a></p>
+<p><a name='Trinsic_Services_VerifiableCredentials_Templates_V1_GetTemplateResponse'></a></p>
+<h2 id="gettemplateresponse-class">GetTemplateResponse Class<a class="headerlink" href="#gettemplateresponse-class" title="Permanent link">&para;</a></h2>
+<div class="highlight"><pre><span></span><code><span class="k">public</span><span class="w"> </span><span class="k">sealed</span><span class="w"> </span><span class="k">class</span><span class="w"> </span><span class="nc">GetTemplateResponse</span><span class="w"> </span><span class="p">:</span><span class="w"></span>
+<span class="n">Google</span><span class="p">.</span><span class="n">Protobuf</span><span class="p">.</span><span class="n">IMessage</span><span class="p">&lt;</span><span class="n">Trinsic</span><span class="p">.</span><span class="n">Services</span><span class="p">.</span><span class="n">VerifiableCredentials</span><span class="p">.</span><span class="n">Templates</span><span class="p">.</span><span class="n">V1</span><span class="p">.</span><span class="n">GetTemplateResponse</span><span class="p">&gt;,</span><span class="w"></span>
+<span class="n">Google</span><span class="p">.</span><span class="n">Protobuf</span><span class="p">.</span><span class="n">IMessage</span><span class="p">,</span><span class="w"></span>
+<span class="n">System</span><span class="p">.</span><span class="n">IEquatable</span><span class="p">&lt;</span><span class="n">Trinsic</span><span class="p">.</span><span class="n">Services</span><span class="p">.</span><span class="n">VerifiableCredentials</span><span class="p">.</span><span class="n">Templates</span><span class="p">.</span><span class="n">V1</span><span class="p">.</span><span class="n">GetTemplateResponse</span><span class="p">&gt;,</span><span class="w"></span>
+<span class="n">Google</span><span class="p">.</span><span class="n">Protobuf</span><span class="p">.</span><span class="n">IDeepCloneable</span><span class="p">&lt;</span><span class="n">Trinsic</span><span class="p">.</span><span class="n">Services</span><span class="p">.</span><span class="n">VerifiableCredentials</span><span class="p">.</span><span class="n">Templates</span><span class="p">.</span><span class="n">V1</span><span class="p">.</span><span class="n">GetTemplateResponse</span><span class="p">&gt;,</span><span class="w"></span>
+<span class="n">Google</span><span class="p">.</span><span class="n">Protobuf</span><span class="p">.</span><span class="n">IBufferMessage</span><span class="w"></span>
+</code></pre></div>
+<p>Inheritance <a href="https://docs.microsoft.com/en-us/dotnet/api/System.Object" title="System.Object">System.Object</a> &#129106; GetTemplateResponse  </p>
+<p>Implements <a href="https://docs.microsoft.com/en-us/dotnet/api/Google.Protobuf.IMessage-1" title="Google.Protobuf.IMessage1')[GetTemplateResponse](Trinsic_Services_VerifiableCredentials_Templates_V1.md#Trinsic_Services_VerifiableCredentials_Templates_V1_GetTemplateResponse 'Trinsic.Services.VerifiableCredentials.Templates.V1.GetTemplateResponse')[&amp;gt;](https://docs.microsoft.com/en-us/dotnet/api/Google.Protobuf.IMessage-1 'Google.Protobuf.IMessage1">Google.Protobuf.IMessage&lt;</a>, <a href="https://docs.microsoft.com/en-us/dotnet/api/Google.Protobuf.IMessage" title="Google.Protobuf.IMessage">Google.Protobuf.IMessage</a>, <a href="https://docs.microsoft.com/en-us/dotnet/api/System.IEquatable-1" title="System.IEquatable1')[GetTemplateResponse](Trinsic_Services_VerifiableCredentials_Templates_V1.md#Trinsic_Services_VerifiableCredentials_Templates_V1_GetTemplateResponse 'Trinsic.Services.VerifiableCredentials.Templates.V1.GetTemplateResponse')[&amp;gt;](https://docs.microsoft.com/en-us/dotnet/api/System.IEquatable-1 'System.IEquatable1">System.IEquatable&lt;</a>, <a href="https://docs.microsoft.com/en-us/dotnet/api/Google.Protobuf.IDeepCloneable-1" title="Google.Protobuf.IDeepCloneable1')[GetTemplateResponse](Trinsic_Services_VerifiableCredentials_Templates_V1.md#Trinsic_Services_VerifiableCredentials_Templates_V1_GetTemplateResponse 'Trinsic.Services.VerifiableCredentials.Templates.V1.GetTemplateResponse')[&amp;gt;](https://docs.microsoft.com/en-us/dotnet/api/Google.Protobuf.IDeepCloneable-1 'Google.Protobuf.IDeepCloneable1">Google.Protobuf.IDeepCloneable&lt;</a>, <a href="https://docs.microsoft.com/en-us/dotnet/api/Google.Protobuf.IBufferMessage" title="Google.Protobuf.IBufferMessage">Google.Protobuf.IBufferMessage</a>  </p>
+<h3 id="fields_6">Fields<a class="headerlink" href="#fields_6" title="Permanent link">&para;</a></h3>
+<p><a name='Trinsic_Services_VerifiableCredentials_Templates_V1_GetTemplateResponse_DataFieldNumber'></a></p>
+<h2 id="gettemplateresponsedatafieldnumber-field">GetTemplateResponse.DataFieldNumber Field<a class="headerlink" href="#gettemplateresponsedatafieldnumber-field" title="Permanent link">&para;</a></h2>
+<p>Field number for the "data" field.
+<div class="highlight"><pre><span></span><code><span class="k">public</span><span class="w"> </span><span class="k">const</span><span class="w"> </span><span class="kt">int</span><span class="w"> </span><span class="n">DataFieldNumber</span><span class="w"> </span><span class="p">=</span><span class="w"> </span><span class="m">1</span><span class="p">;</span><span class="w"></span>
+</code></pre></div></p>
+<h4 id="field-value_8">Field Value<a class="headerlink" href="#field-value_8" title="Permanent link">&para;</a></h4>
+<p><a href="https://docs.microsoft.com/en-us/dotnet/api/System.Int32" title="System.Int32">System.Int32</a></p>
+<p><a name='Trinsic_Services_VerifiableCredentials_Templates_V1_ListCredentialTemplatesRequest'></a></p>
+<h2 id="listcredentialtemplatesrequest-class">ListCredentialTemplatesRequest Class<a class="headerlink" href="#listcredentialtemplatesrequest-class" title="Permanent link">&para;</a></h2>
+<div class="highlight"><pre><span></span><code><span class="k">public</span><span class="w"> </span><span class="k">sealed</span><span class="w"> </span><span class="k">class</span><span class="w"> </span><span class="nc">ListCredentialTemplatesRequest</span><span class="w"> </span><span class="p">:</span><span class="w"></span>
+<span class="n">Google</span><span class="p">.</span><span class="n">Protobuf</span><span class="p">.</span><span class="n">IMessage</span><span class="p">&lt;</span><span class="n">Trinsic</span><span class="p">.</span><span class="n">Services</span><span class="p">.</span><span class="n">VerifiableCredentials</span><span class="p">.</span><span class="n">Templates</span><span class="p">.</span><span class="n">V1</span><span class="p">.</span><span class="n">ListCredentialTemplatesRequest</span><span class="p">&gt;,</span><span class="w"></span>
+<span class="n">Google</span><span class="p">.</span><span class="n">Protobuf</span><span class="p">.</span><span class="n">IMessage</span><span class="p">,</span><span class="w"></span>
+<span class="n">System</span><span class="p">.</span><span class="n">IEquatable</span><span class="p">&lt;</span><span class="n">Trinsic</span><span class="p">.</span><span class="n">Services</span><span class="p">.</span><span class="n">VerifiableCredentials</span><span class="p">.</span><span class="n">Templates</span><span class="p">.</span><span class="n">V1</span><span class="p">.</span><span class="n">ListCredentialTemplatesRequest</span><span class="p">&gt;,</span><span class="w"></span>
+<span class="n">Google</span><span class="p">.</span><span class="n">Protobuf</span><span class="p">.</span><span class="n">IDeepCloneable</span><span class="p">&lt;</span><span class="n">Trinsic</span><span class="p">.</span><span class="n">Services</span><span class="p">.</span><span class="n">VerifiableCredentials</span><span class="p">.</span><span class="n">Templates</span><span class="p">.</span><span class="n">V1</span><span class="p">.</span><span class="n">ListCredentialTemplatesRequest</span><span class="p">&gt;,</span><span class="w"></span>
+<span class="n">Google</span><span class="p">.</span><span class="n">Protobuf</span><span class="p">.</span><span class="n">IBufferMessage</span><span class="w"></span>
+</code></pre></div>
+<p>Inheritance <a href="https://docs.microsoft.com/en-us/dotnet/api/System.Object" title="System.Object">System.Object</a> &#129106; ListCredentialTemplatesRequest  </p>
+<p>Implements <a href="https://docs.microsoft.com/en-us/dotnet/api/Google.Protobuf.IMessage-1" title="Google.Protobuf.IMessage1')[ListCredentialTemplatesRequest](Trinsic_Services_VerifiableCredentials_Templates_V1.md#Trinsic_Services_VerifiableCredentials_Templates_V1_ListCredentialTemplatesRequest 'Trinsic.Services.VerifiableCredentials.Templates.V1.ListCredentialTemplatesRequest')[&amp;gt;](https://docs.microsoft.com/en-us/dotnet/api/Google.Protobuf.IMessage-1 'Google.Protobuf.IMessage1">Google.Protobuf.IMessage&lt;</a>, <a href="https://docs.microsoft.com/en-us/dotnet/api/Google.Protobuf.IMessage" title="Google.Protobuf.IMessage">Google.Protobuf.IMessage</a>, <a href="https://docs.microsoft.com/en-us/dotnet/api/System.IEquatable-1" title="System.IEquatable1')[ListCredentialTemplatesRequest](Trinsic_Services_VerifiableCredentials_Templates_V1.md#Trinsic_Services_VerifiableCredentials_Templates_V1_ListCredentialTemplatesRequest 'Trinsic.Services.VerifiableCredentials.Templates.V1.ListCredentialTemplatesRequest')[&amp;gt;](https://docs.microsoft.com/en-us/dotnet/api/System.IEquatable-1 'System.IEquatable1">System.IEquatable&lt;</a>, <a href="https://docs.microsoft.com/en-us/dotnet/api/Google.Protobuf.IDeepCloneable-1" title="Google.Protobuf.IDeepCloneable1')[ListCredentialTemplatesRequest](Trinsic_Services_VerifiableCredentials_Templates_V1.md#Trinsic_Services_VerifiableCredentials_Templates_V1_ListCredentialTemplatesRequest 'Trinsic.Services.VerifiableCredentials.Templates.V1.ListCredentialTemplatesRequest')[&amp;gt;](https://docs.microsoft.com/en-us/dotnet/api/Google.Protobuf.IDeepCloneable-1 'Google.Protobuf.IDeepCloneable1">Google.Protobuf.IDeepCloneable&lt;</a>, <a href="https://docs.microsoft.com/en-us/dotnet/api/Google.Protobuf.IBufferMessage" title="Google.Protobuf.IBufferMessage">Google.Protobuf.IBufferMessage</a>  </p>
+<h3 id="fields_7">Fields<a class="headerlink" href="#fields_7" title="Permanent link">&para;</a></h3>
+<p><a name='Trinsic_Services_VerifiableCredentials_Templates_V1_ListCredentialTemplatesRequest_ContinuationTokenFieldNumber'></a></p>
+<h2 id="listcredentialtemplatesrequestcontinuationtokenfieldnumber-field">ListCredentialTemplatesRequest.ContinuationTokenFieldNumber Field<a class="headerlink" href="#listcredentialtemplatesrequestcontinuationtokenfieldnumber-field" title="Permanent link">&para;</a></h2>
+<p>Field number for the "continuation_token" field.
+<div class="highlight"><pre><span></span><code><span class="k">public</span><span class="w"> </span><span class="k">const</span><span class="w"> </span><span class="kt">int</span><span class="w"> </span><span class="n">ContinuationTokenFieldNumber</span><span class="w"> </span><span class="p">=</span><span class="w"> </span><span class="m">2</span><span class="p">;</span><span class="w"></span>
+</code></pre></div></p>
+<h4 id="field-value_9">Field Value<a class="headerlink" href="#field-value_9" title="Permanent link">&para;</a></h4>
+<p><a href="https://docs.microsoft.com/en-us/dotnet/api/System.Int32" title="System.Int32">System.Int32</a></p>
+<p><a name='Trinsic_Services_VerifiableCredentials_Templates_V1_ListCredentialTemplatesRequest_QueryFieldNumber'></a></p>
+<h2 id="listcredentialtemplatesrequestqueryfieldnumber-field">ListCredentialTemplatesRequest.QueryFieldNumber Field<a class="headerlink" href="#listcredentialtemplatesrequestqueryfieldnumber-field" title="Permanent link">&para;</a></h2>
+<p>Field number for the "query" field.
+<div class="highlight"><pre><span></span><code><span class="k">public</span><span class="w"> </span><span class="k">const</span><span class="w"> </span><span class="kt">int</span><span class="w"> </span><span class="n">QueryFieldNumber</span><span class="w"> </span><span class="p">=</span><span class="w"> </span><span class="m">1</span><span class="p">;</span><span class="w"></span>
+</code></pre></div></p>
+<h4 id="field-value_10">Field Value<a class="headerlink" href="#field-value_10" title="Permanent link">&para;</a></h4>
+<p><a href="https://docs.microsoft.com/en-us/dotnet/api/System.Int32" title="System.Int32">System.Int32</a></p>
+<h3 id="properties_1">Properties<a class="headerlink" href="#properties_1" title="Permanent link">&para;</a></h3>
+<p><a name='Trinsic_Services_VerifiableCredentials_Templates_V1_ListCredentialTemplatesRequest_Query'></a></p>
+<h2 id="listcredentialtemplatesrequestquery-property">ListCredentialTemplatesRequest.Query Property<a class="headerlink" href="#listcredentialtemplatesrequestquery-property" title="Permanent link">&para;</a></h2>
+<p>SELECT * FROM c WHERE c.name = 'Diploma'<br />
+<div class="highlight"><pre><span></span><code><span class="k">public</span><span class="w"> </span><span class="kt">string</span><span class="w"> </span><span class="n">Query</span><span class="w"> </span><span class="p">{</span><span class="w"> </span><span class="k">get</span><span class="p">;</span><span class="w"> </span><span class="k">set</span><span class="p">;</span><span class="w"> </span><span class="p">}</span><span class="w"></span>
+</code></pre></div></p>
+<h4 id="property-value_1">Property Value<a class="headerlink" href="#property-value_1" title="Permanent link">&para;</a></h4>
+<p><a href="https://docs.microsoft.com/en-us/dotnet/api/System.String" title="System.String">System.String</a></p>
+<p><a name='Trinsic_Services_VerifiableCredentials_Templates_V1_ListCredentialTemplatesResponse'></a></p>
+<h2 id="listcredentialtemplatesresponse-class">ListCredentialTemplatesResponse Class<a class="headerlink" href="#listcredentialtemplatesresponse-class" title="Permanent link">&para;</a></h2>
+<div class="highlight"><pre><span></span><code><span class="k">public</span><span class="w"> </span><span class="k">sealed</span><span class="w"> </span><span class="k">class</span><span class="w"> </span><span class="nc">ListCredentialTemplatesResponse</span><span class="w"> </span><span class="p">:</span><span class="w"></span>
+<span class="n">Google</span><span class="p">.</span><span class="n">Protobuf</span><span class="p">.</span><span class="n">IMessage</span><span class="p">&lt;</span><span class="n">Trinsic</span><span class="p">.</span><span class="n">Services</span><span class="p">.</span><span class="n">VerifiableCredentials</span><span class="p">.</span><span class="n">Templates</span><span class="p">.</span><span class="n">V1</span><span class="p">.</span><span class="n">ListCredentialTemplatesResponse</span><span class="p">&gt;,</span><span class="w"></span>
+<span class="n">Google</span><span class="p">.</span><span class="n">Protobuf</span><span class="p">.</span><span class="n">IMessage</span><span class="p">,</span><span class="w"></span>
+<span class="n">System</span><span class="p">.</span><span class="n">IEquatable</span><span class="p">&lt;</span><span class="n">Trinsic</span><span class="p">.</span><span class="n">Services</span><span class="p">.</span><span class="n">VerifiableCredentials</span><span class="p">.</span><span class="n">Templates</span><span class="p">.</span><span class="n">V1</span><span class="p">.</span><span class="n">ListCredentialTemplatesResponse</span><span class="p">&gt;,</span><span class="w"></span>
+<span class="n">Google</span><span class="p">.</span><span class="n">Protobuf</span><span class="p">.</span><span class="n">IDeepCloneable</span><span class="p">&lt;</span><span class="n">Trinsic</span><span class="p">.</span><span class="n">Services</span><span class="p">.</span><span class="n">VerifiableCredentials</span><span class="p">.</span><span class="n">Templates</span><span class="p">.</span><span class="n">V1</span><span class="p">.</span><span class="n">ListCredentialTemplatesResponse</span><span class="p">&gt;,</span><span class="w"></span>
+<span class="n">Google</span><span class="p">.</span><span class="n">Protobuf</span><span class="p">.</span><span class="n">IBufferMessage</span><span class="w"></span>
+</code></pre></div>
+<p>Inheritance <a href="https://docs.microsoft.com/en-us/dotnet/api/System.Object" title="System.Object">System.Object</a> &#129106; ListCredentialTemplatesResponse  </p>
+<p>Implements <a href="https://docs.microsoft.com/en-us/dotnet/api/Google.Protobuf.IMessage-1" title="Google.Protobuf.IMessage1')[ListCredentialTemplatesResponse](Trinsic_Services_VerifiableCredentials_Templates_V1.md#Trinsic_Services_VerifiableCredentials_Templates_V1_ListCredentialTemplatesResponse 'Trinsic.Services.VerifiableCredentials.Templates.V1.ListCredentialTemplatesResponse')[&amp;gt;](https://docs.microsoft.com/en-us/dotnet/api/Google.Protobuf.IMessage-1 'Google.Protobuf.IMessage1">Google.Protobuf.IMessage&lt;</a>, <a href="https://docs.microsoft.com/en-us/dotnet/api/Google.Protobuf.IMessage" title="Google.Protobuf.IMessage">Google.Protobuf.IMessage</a>, <a href="https://docs.microsoft.com/en-us/dotnet/api/System.IEquatable-1" title="System.IEquatable1')[ListCredentialTemplatesResponse](Trinsic_Services_VerifiableCredentials_Templates_V1.md#Trinsic_Services_VerifiableCredentials_Templates_V1_ListCredentialTemplatesResponse 'Trinsic.Services.VerifiableCredentials.Templates.V1.ListCredentialTemplatesResponse')[&amp;gt;](https://docs.microsoft.com/en-us/dotnet/api/System.IEquatable-1 'System.IEquatable1">System.IEquatable&lt;</a>, <a href="https://docs.microsoft.com/en-us/dotnet/api/Google.Protobuf.IDeepCloneable-1" title="Google.Protobuf.IDeepCloneable1')[ListCredentialTemplatesResponse](Trinsic_Services_VerifiableCredentials_Templates_V1.md#Trinsic_Services_VerifiableCredentials_Templates_V1_ListCredentialTemplatesResponse 'Trinsic.Services.VerifiableCredentials.Templates.V1.ListCredentialTemplatesResponse')[&amp;gt;](https://docs.microsoft.com/en-us/dotnet/api/Google.Protobuf.IDeepCloneable-1 'Google.Protobuf.IDeepCloneable1">Google.Protobuf.IDeepCloneable&lt;</a>, <a href="https://docs.microsoft.com/en-us/dotnet/api/Google.Protobuf.IBufferMessage" title="Google.Protobuf.IBufferMessage">Google.Protobuf.IBufferMessage</a>  </p>
+<h3 id="fields_8">Fields<a class="headerlink" href="#fields_8" title="Permanent link">&para;</a></h3>
+<p><a name='Trinsic_Services_VerifiableCredentials_Templates_V1_ListCredentialTemplatesResponse_ContinuationTokenFieldNumber'></a></p>
+<h2 id="listcredentialtemplatesresponsecontinuationtokenfieldnumber-field">ListCredentialTemplatesResponse.ContinuationTokenFieldNumber Field<a class="headerlink" href="#listcredentialtemplatesresponsecontinuationtokenfieldnumber-field" title="Permanent link">&para;</a></h2>
+<p>Field number for the "continuation_token" field.
+<div class="highlight"><pre><span></span><code><span class="k">public</span><span class="w"> </span><span class="k">const</span><span class="w"> </span><span class="kt">int</span><span class="w"> </span><span class="n">ContinuationTokenFieldNumber</span><span class="w"> </span><span class="p">=</span><span class="w"> </span><span class="m">3</span><span class="p">;</span><span class="w"></span>
+</code></pre></div></p>
+<h4 id="field-value_11">Field Value<a class="headerlink" href="#field-value_11" title="Permanent link">&para;</a></h4>
+<p><a href="https://docs.microsoft.com/en-us/dotnet/api/System.Int32" title="System.Int32">System.Int32</a></p>
+<p><a name='Trinsic_Services_VerifiableCredentials_Templates_V1_ListCredentialTemplatesResponse_HasMoreResultsFieldNumber'></a></p>
+<h2 id="listcredentialtemplatesresponsehasmoreresultsfieldnumber-field">ListCredentialTemplatesResponse.HasMoreResultsFieldNumber Field<a class="headerlink" href="#listcredentialtemplatesresponsehasmoreresultsfieldnumber-field" title="Permanent link">&para;</a></h2>
+<p>Field number for the "has_more_results" field.
+<div class="highlight"><pre><span></span><code><span class="k">public</span><span class="w"> </span><span class="k">const</span><span class="w"> </span><span class="kt">int</span><span class="w"> </span><span class="n">HasMoreResultsFieldNumber</span><span class="w"> </span><span class="p">=</span><span class="w"> </span><span class="m">2</span><span class="p">;</span><span class="w"></span>
+</code></pre></div></p>
+<h4 id="field-value_12">Field Value<a class="headerlink" href="#field-value_12" title="Permanent link">&para;</a></h4>
+<p><a href="https://docs.microsoft.com/en-us/dotnet/api/System.Int32" title="System.Int32">System.Int32</a></p>
+<p><a name='Trinsic_Services_VerifiableCredentials_Templates_V1_ListCredentialTemplatesResponse_TemplatesFieldNumber'></a></p>
+<h2 id="listcredentialtemplatesresponsetemplatesfieldnumber-field">ListCredentialTemplatesResponse.TemplatesFieldNumber Field<a class="headerlink" href="#listcredentialtemplatesresponsetemplatesfieldnumber-field" title="Permanent link">&para;</a></h2>
+<p>Field number for the "templates" field.
+<div class="highlight"><pre><span></span><code><span class="k">public</span><span class="w"> </span><span class="k">const</span><span class="w"> </span><span class="kt">int</span><span class="w"> </span><span class="n">TemplatesFieldNumber</span><span class="w"> </span><span class="p">=</span><span class="w"> </span><span class="m">1</span><span class="p">;</span><span class="w"></span>
+</code></pre></div></p>
+<h4 id="field-value_13">Field Value<a class="headerlink" href="#field-value_13" title="Permanent link">&para;</a></h4>
+<p><a href="https://docs.microsoft.com/en-us/dotnet/api/System.Int32" title="System.Int32">System.Int32</a></p>
+<p><a name='Trinsic_Services_VerifiableCredentials_Templates_V1_ListTemplatesResponse'></a></p>
+<h2 id="listtemplatesresponse-class">ListTemplatesResponse Class<a class="headerlink" href="#listtemplatesresponse-class" title="Permanent link">&para;</a></h2>
+<div class="highlight"><pre><span></span><code><span class="k">public</span><span class="w"> </span><span class="k">sealed</span><span class="w"> </span><span class="k">class</span><span class="w"> </span><span class="nc">ListTemplatesResponse</span><span class="w"> </span><span class="p">:</span><span class="w"></span>
+<span class="n">Google</span><span class="p">.</span><span class="n">Protobuf</span><span class="p">.</span><span class="n">IMessage</span><span class="p">&lt;</span><span class="n">Trinsic</span><span class="p">.</span><span class="n">Services</span><span class="p">.</span><span class="n">VerifiableCredentials</span><span class="p">.</span><span class="n">Templates</span><span class="p">.</span><span class="n">V1</span><span class="p">.</span><span class="n">ListTemplatesResponse</span><span class="p">&gt;,</span><span class="w"></span>
+<span class="n">Google</span><span class="p">.</span><span class="n">Protobuf</span><span class="p">.</span><span class="n">IMessage</span><span class="p">,</span><span class="w"></span>
+<span class="n">System</span><span class="p">.</span><span class="n">IEquatable</span><span class="p">&lt;</span><span class="n">Trinsic</span><span class="p">.</span><span class="n">Services</span><span class="p">.</span><span class="n">VerifiableCredentials</span><span class="p">.</span><span class="n">Templates</span><span class="p">.</span><span class="n">V1</span><span class="p">.</span><span class="n">ListTemplatesResponse</span><span class="p">&gt;,</span><span class="w"></span>
+<span class="n">Google</span><span class="p">.</span><span class="n">Protobuf</span><span class="p">.</span><span class="n">IDeepCloneable</span><span class="p">&lt;</span><span class="n">Trinsic</span><span class="p">.</span><span class="n">Services</span><span class="p">.</span><span class="n">VerifiableCredentials</span><span class="p">.</span><span class="n">Templates</span><span class="p">.</span><span class="n">V1</span><span class="p">.</span><span class="n">ListTemplatesResponse</span><span class="p">&gt;,</span><span class="w"></span>
+<span class="n">Google</span><span class="p">.</span><span class="n">Protobuf</span><span class="p">.</span><span class="n">IBufferMessage</span><span class="w"></span>
+</code></pre></div>
+<p>Inheritance <a href="https://docs.microsoft.com/en-us/dotnet/api/System.Object" title="System.Object">System.Object</a> &#129106; ListTemplatesResponse  </p>
+<p>Implements <a href="https://docs.microsoft.com/en-us/dotnet/api/Google.Protobuf.IMessage-1" title="Google.Protobuf.IMessage1')[ListTemplatesResponse](Trinsic_Services_VerifiableCredentials_Templates_V1.md#Trinsic_Services_VerifiableCredentials_Templates_V1_ListTemplatesResponse 'Trinsic.Services.VerifiableCredentials.Templates.V1.ListTemplatesResponse')[&amp;gt;](https://docs.microsoft.com/en-us/dotnet/api/Google.Protobuf.IMessage-1 'Google.Protobuf.IMessage1">Google.Protobuf.IMessage&lt;</a>, <a href="https://docs.microsoft.com/en-us/dotnet/api/Google.Protobuf.IMessage" title="Google.Protobuf.IMessage">Google.Protobuf.IMessage</a>, <a href="https://docs.microsoft.com/en-us/dotnet/api/System.IEquatable-1" title="System.IEquatable1')[ListTemplatesResponse](Trinsic_Services_VerifiableCredentials_Templates_V1.md#Trinsic_Services_VerifiableCredentials_Templates_V1_ListTemplatesResponse 'Trinsic.Services.VerifiableCredentials.Templates.V1.ListTemplatesResponse')[&amp;gt;](https://docs.microsoft.com/en-us/dotnet/api/System.IEquatable-1 'System.IEquatable1">System.IEquatable&lt;</a>, <a href="https://docs.microsoft.com/en-us/dotnet/api/Google.Protobuf.IDeepCloneable-1" title="Google.Protobuf.IDeepCloneable1')[ListTemplatesResponse](Trinsic_Services_VerifiableCredentials_Templates_V1.md#Trinsic_Services_VerifiableCredentials_Templates_V1_ListTemplatesResponse 'Trinsic.Services.VerifiableCredentials.Templates.V1.ListTemplatesResponse')[&amp;gt;](https://docs.microsoft.com/en-us/dotnet/api/Google.Protobuf.IDeepCloneable-1 'Google.Protobuf.IDeepCloneable1">Google.Protobuf.IDeepCloneable&lt;</a>, <a href="https://docs.microsoft.com/en-us/dotnet/api/Google.Protobuf.IBufferMessage" title="Google.Protobuf.IBufferMessage">Google.Protobuf.IBufferMessage</a>  </p>
+<h3 id="fields_9">Fields<a class="headerlink" href="#fields_9" title="Permanent link">&para;</a></h3>
+<p><a name='Trinsic_Services_VerifiableCredentials_Templates_V1_ListTemplatesResponse_TemplatesFieldNumber'></a></p>
+<h2 id="listtemplatesresponsetemplatesfieldnumber-field">ListTemplatesResponse.TemplatesFieldNumber Field<a class="headerlink" href="#listtemplatesresponsetemplatesfieldnumber-field" title="Permanent link">&para;</a></h2>
+<p>Field number for the "templates" field.
+<div class="highlight"><pre><span></span><code><span class="k">public</span><span class="w"> </span><span class="k">const</span><span class="w"> </span><span class="kt">int</span><span class="w"> </span><span class="n">TemplatesFieldNumber</span><span class="w"> </span><span class="p">=</span><span class="w"> </span><span class="m">1</span><span class="p">;</span><span class="w"></span>
+</code></pre></div></p>
+<h4 id="field-value_14">Field Value<a class="headerlink" href="#field-value_14" title="Permanent link">&para;</a></h4>
+<p><a href="https://docs.microsoft.com/en-us/dotnet/api/System.Int32" title="System.Int32">System.Int32</a></p>
+<p><a name='Trinsic_Services_VerifiableCredentials_Templates_V1_SearchCredentialTemplatesRequest'></a></p>
+<h2 id="searchcredentialtemplatesrequest-class">SearchCredentialTemplatesRequest Class<a class="headerlink" href="#searchcredentialtemplatesrequest-class" title="Permanent link">&para;</a></h2>
+<div class="highlight"><pre><span></span><code><span class="k">public</span><span class="w"> </span><span class="k">sealed</span><span class="w"> </span><span class="k">class</span><span class="w"> </span><span class="nc">SearchCredentialTemplatesRequest</span><span class="w"> </span><span class="p">:</span><span class="w"></span>
+<span class="n">Google</span><span class="p">.</span><span class="n">Protobuf</span><span class="p">.</span><span class="n">IMessage</span><span class="p">&lt;</span><span class="n">Trinsic</span><span class="p">.</span><span class="n">Services</span><span class="p">.</span><span class="n">VerifiableCredentials</span><span class="p">.</span><span class="n">Templates</span><span class="p">.</span><span class="n">V1</span><span class="p">.</span><span class="n">SearchCredentialTemplatesRequest</span><span class="p">&gt;,</span><span class="w"></span>
+<span class="n">Google</span><span class="p">.</span><span class="n">Protobuf</span><span class="p">.</span><span class="n">IMessage</span><span class="p">,</span><span class="w"></span>
+<span class="n">System</span><span class="p">.</span><span class="n">IEquatable</span><span class="p">&lt;</span><span class="n">Trinsic</span><span class="p">.</span><span class="n">Services</span><span class="p">.</span><span class="n">VerifiableCredentials</span><span class="p">.</span><span class="n">Templates</span><span class="p">.</span><span class="n">V1</span><span class="p">.</span><span class="n">SearchCredentialTemplatesRequest</span><span class="p">&gt;,</span><span class="w"></span>
+<span class="n">Google</span><span class="p">.</span><span class="n">Protobuf</span><span class="p">.</span><span class="n">IDeepCloneable</span><span class="p">&lt;</span><span class="n">Trinsic</span><span class="p">.</span><span class="n">Services</span><span class="p">.</span><span class="n">VerifiableCredentials</span><span class="p">.</span><span class="n">Templates</span><span class="p">.</span><span class="n">V1</span><span class="p">.</span><span class="n">SearchCredentialTemplatesRequest</span><span class="p">&gt;,</span><span class="w"></span>
+<span class="n">Google</span><span class="p">.</span><span class="n">Protobuf</span><span class="p">.</span><span class="n">IBufferMessage</span><span class="w"></span>
+</code></pre></div>
+<p>Inheritance <a href="https://docs.microsoft.com/en-us/dotnet/api/System.Object" title="System.Object">System.Object</a> &#129106; SearchCredentialTemplatesRequest  </p>
+<p>Implements <a href="https://docs.microsoft.com/en-us/dotnet/api/Google.Protobuf.IMessage-1" title="Google.Protobuf.IMessage1')[SearchCredentialTemplatesRequest](Trinsic_Services_VerifiableCredentials_Templates_V1.md#Trinsic_Services_VerifiableCredentials_Templates_V1_SearchCredentialTemplatesRequest 'Trinsic.Services.VerifiableCredentials.Templates.V1.SearchCredentialTemplatesRequest')[&amp;gt;](https://docs.microsoft.com/en-us/dotnet/api/Google.Protobuf.IMessage-1 'Google.Protobuf.IMessage1">Google.Protobuf.IMessage&lt;</a>, <a href="https://docs.microsoft.com/en-us/dotnet/api/Google.Protobuf.IMessage" title="Google.Protobuf.IMessage">Google.Protobuf.IMessage</a>, <a href="https://docs.microsoft.com/en-us/dotnet/api/System.IEquatable-1" title="System.IEquatable1')[SearchCredentialTemplatesRequest](Trinsic_Services_VerifiableCredentials_Templates_V1.md#Trinsic_Services_VerifiableCredentials_Templates_V1_SearchCredentialTemplatesRequest 'Trinsic.Services.VerifiableCredentials.Templates.V1.SearchCredentialTemplatesRequest')[&amp;gt;](https://docs.microsoft.com/en-us/dotnet/api/System.IEquatable-1 'System.IEquatable1">System.IEquatable&lt;</a>, <a href="https://docs.microsoft.com/en-us/dotnet/api/Google.Protobuf.IDeepCloneable-1" title="Google.Protobuf.IDeepCloneable1')[SearchCredentialTemplatesRequest](Trinsic_Services_VerifiableCredentials_Templates_V1.md#Trinsic_Services_VerifiableCredentials_Templates_V1_SearchCredentialTemplatesRequest 'Trinsic.Services.VerifiableCredentials.Templates.V1.SearchCredentialTemplatesRequest')[&amp;gt;](https://docs.microsoft.com/en-us/dotnet/api/Google.Protobuf.IDeepCloneable-1 'Google.Protobuf.IDeepCloneable1">Google.Protobuf.IDeepCloneable&lt;</a>, <a href="https://docs.microsoft.com/en-us/dotnet/api/Google.Protobuf.IBufferMessage" title="Google.Protobuf.IBufferMessage">Google.Protobuf.IBufferMessage</a>  </p>
+<h3 id="fields_10">Fields<a class="headerlink" href="#fields_10" title="Permanent link">&para;</a></h3>
+<p><a name='Trinsic_Services_VerifiableCredentials_Templates_V1_SearchCredentialTemplatesRequest_ContinuationTokenFieldNumber'></a></p>
+<h2 id="searchcredentialtemplatesrequestcontinuationtokenfieldnumber-field">SearchCredentialTemplatesRequest.ContinuationTokenFieldNumber Field<a class="headerlink" href="#searchcredentialtemplatesrequestcontinuationtokenfieldnumber-field" title="Permanent link">&para;</a></h2>
+<p>Field number for the "continuation_token" field.
+<div class="highlight"><pre><span></span><code><span class="k">public</span><span class="w"> </span><span class="k">const</span><span class="w"> </span><span class="kt">int</span><span class="w"> </span><span class="n">ContinuationTokenFieldNumber</span><span class="w"> </span><span class="p">=</span><span class="w"> </span><span class="m">2</span><span class="p">;</span><span class="w"></span>
+</code></pre></div></p>
+<h4 id="field-value_15">Field Value<a class="headerlink" href="#field-value_15" title="Permanent link">&para;</a></h4>
+<p><a href="https://docs.microsoft.com/en-us/dotnet/api/System.Int32" title="System.Int32">System.Int32</a></p>
+<p><a name='Trinsic_Services_VerifiableCredentials_Templates_V1_SearchCredentialTemplatesRequest_QueryFieldNumber'></a></p>
+<h2 id="searchcredentialtemplatesrequestqueryfieldnumber-field">SearchCredentialTemplatesRequest.QueryFieldNumber Field<a class="headerlink" href="#searchcredentialtemplatesrequestqueryfieldnumber-field" title="Permanent link">&para;</a></h2>
+<p>Field number for the "query" field.
+<div class="highlight"><pre><span></span><code><span class="k">public</span><span class="w"> </span><span class="k">const</span><span class="w"> </span><span class="kt">int</span><span class="w"> </span><span class="n">QueryFieldNumber</span><span class="w"> </span><span class="p">=</span><span class="w"> </span><span class="m">1</span><span class="p">;</span><span class="w"></span>
+</code></pre></div></p>
+<h4 id="field-value_16">Field Value<a class="headerlink" href="#field-value_16" title="Permanent link">&para;</a></h4>
+<p><a href="https://docs.microsoft.com/en-us/dotnet/api/System.Int32" title="System.Int32">System.Int32</a></p>
+<h3 id="properties_2">Properties<a class="headerlink" href="#properties_2" title="Permanent link">&para;</a></h3>
+<p><a name='Trinsic_Services_VerifiableCredentials_Templates_V1_SearchCredentialTemplatesRequest_Query'></a></p>
+<h2 id="searchcredentialtemplatesrequestquery-property">SearchCredentialTemplatesRequest.Query Property<a class="headerlink" href="#searchcredentialtemplatesrequestquery-property" title="Permanent link">&para;</a></h2>
+<p>SELECT * FROM c WHERE c.name = 'Diploma'<br />
+<div class="highlight"><pre><span></span><code><span class="k">public</span><span class="w"> </span><span class="kt">string</span><span class="w"> </span><span class="n">Query</span><span class="w"> </span><span class="p">{</span><span class="w"> </span><span class="k">get</span><span class="p">;</span><span class="w"> </span><span class="k">set</span><span class="p">;</span><span class="w"> </span><span class="p">}</span><span class="w"></span>
+</code></pre></div></p>
+<h4 id="property-value_2">Property Value<a class="headerlink" href="#property-value_2" title="Permanent link">&para;</a></h4>
+<p><a href="https://docs.microsoft.com/en-us/dotnet/api/System.String" title="System.String">System.String</a></p>
+<p><a name='Trinsic_Services_VerifiableCredentials_Templates_V1_SearchCredentialTemplatesResponse'></a></p>
+<h2 id="searchcredentialtemplatesresponse-class">SearchCredentialTemplatesResponse Class<a class="headerlink" href="#searchcredentialtemplatesresponse-class" title="Permanent link">&para;</a></h2>
+<div class="highlight"><pre><span></span><code><span class="k">public</span><span class="w"> </span><span class="k">sealed</span><span class="w"> </span><span class="k">class</span><span class="w"> </span><span class="nc">SearchCredentialTemplatesResponse</span><span class="w"> </span><span class="p">:</span><span class="w"></span>
+<span class="n">Google</span><span class="p">.</span><span class="n">Protobuf</span><span class="p">.</span><span class="n">IMessage</span><span class="p">&lt;</span><span class="n">Trinsic</span><span class="p">.</span><span class="n">Services</span><span class="p">.</span><span class="n">VerifiableCredentials</span><span class="p">.</span><span class="n">Templates</span><span class="p">.</span><span class="n">V1</span><span class="p">.</span><span class="n">SearchCredentialTemplatesResponse</span><span class="p">&gt;,</span><span class="w"></span>
+<span class="n">Google</span><span class="p">.</span><span class="n">Protobuf</span><span class="p">.</span><span class="n">IMessage</span><span class="p">,</span><span class="w"></span>
+<span class="n">System</span><span class="p">.</span><span class="n">IEquatable</span><span class="p">&lt;</span><span class="n">Trinsic</span><span class="p">.</span><span class="n">Services</span><span class="p">.</span><span class="n">VerifiableCredentials</span><span class="p">.</span><span class="n">Templates</span><span class="p">.</span><span class="n">V1</span><span class="p">.</span><span class="n">SearchCredentialTemplatesResponse</span><span class="p">&gt;,</span><span class="w"></span>
+<span class="n">Google</span><span class="p">.</span><span class="n">Protobuf</span><span class="p">.</span><span class="n">IDeepCloneable</span><span class="p">&lt;</span><span class="n">Trinsic</span><span class="p">.</span><span class="n">Services</span><span class="p">.</span><span class="n">VerifiableCredentials</span><span class="p">.</span><span class="n">Templates</span><span class="p">.</span><span class="n">V1</span><span class="p">.</span><span class="n">SearchCredentialTemplatesResponse</span><span class="p">&gt;,</span><span class="w"></span>
+<span class="n">Google</span><span class="p">.</span><span class="n">Protobuf</span><span class="p">.</span><span class="n">IBufferMessage</span><span class="w"></span>
+</code></pre></div>
+<p>Inheritance <a href="https://docs.microsoft.com/en-us/dotnet/api/System.Object" title="System.Object">System.Object</a> &#129106; SearchCredentialTemplatesResponse  </p>
+<p>Implements <a href="https://docs.microsoft.com/en-us/dotnet/api/Google.Protobuf.IMessage-1" title="Google.Protobuf.IMessage1')[SearchCredentialTemplatesResponse](Trinsic_Services_VerifiableCredentials_Templates_V1.md#Trinsic_Services_VerifiableCredentials_Templates_V1_SearchCredentialTemplatesResponse 'Trinsic.Services.VerifiableCredentials.Templates.V1.SearchCredentialTemplatesResponse')[&amp;gt;](https://docs.microsoft.com/en-us/dotnet/api/Google.Protobuf.IMessage-1 'Google.Protobuf.IMessage1">Google.Protobuf.IMessage&lt;</a>, <a href="https://docs.microsoft.com/en-us/dotnet/api/Google.Protobuf.IMessage" title="Google.Protobuf.IMessage">Google.Protobuf.IMessage</a>, <a href="https://docs.microsoft.com/en-us/dotnet/api/System.IEquatable-1" title="System.IEquatable1')[SearchCredentialTemplatesResponse](Trinsic_Services_VerifiableCredentials_Templates_V1.md#Trinsic_Services_VerifiableCredentials_Templates_V1_SearchCredentialTemplatesResponse 'Trinsic.Services.VerifiableCredentials.Templates.V1.SearchCredentialTemplatesResponse')[&amp;gt;](https://docs.microsoft.com/en-us/dotnet/api/System.IEquatable-1 'System.IEquatable1">System.IEquatable&lt;</a>, <a href="https://docs.microsoft.com/en-us/dotnet/api/Google.Protobuf.IDeepCloneable-1" title="Google.Protobuf.IDeepCloneable1')[SearchCredentialTemplatesResponse](Trinsic_Services_VerifiableCredentials_Templates_V1.md#Trinsic_Services_VerifiableCredentials_Templates_V1_SearchCredentialTemplatesResponse 'Trinsic.Services.VerifiableCredentials.Templates.V1.SearchCredentialTemplatesResponse')[&amp;gt;](https://docs.microsoft.com/en-us/dotnet/api/Google.Protobuf.IDeepCloneable-1 'Google.Protobuf.IDeepCloneable1">Google.Protobuf.IDeepCloneable&lt;</a>, <a href="https://docs.microsoft.com/en-us/dotnet/api/Google.Protobuf.IBufferMessage" title="Google.Protobuf.IBufferMessage">Google.Protobuf.IBufferMessage</a>  </p>
+<h3 id="fields_11">Fields<a class="headerlink" href="#fields_11" title="Permanent link">&para;</a></h3>
+<p><a name='Trinsic_Services_VerifiableCredentials_Templates_V1_SearchCredentialTemplatesResponse_ContinuationTokenFieldNumber'></a></p>
+<h2 id="searchcredentialtemplatesresponsecontinuationtokenfieldnumber-field">SearchCredentialTemplatesResponse.ContinuationTokenFieldNumber Field<a class="headerlink" href="#searchcredentialtemplatesresponsecontinuationtokenfieldnumber-field" title="Permanent link">&para;</a></h2>
+<p>Field number for the "continuation_token" field.
+<div class="highlight"><pre><span></span><code><span class="k">public</span><span class="w"> </span><span class="k">const</span><span class="w"> </span><span class="kt">int</span><span class="w"> </span><span class="n">ContinuationTokenFieldNumber</span><span class="w"> </span><span class="p">=</span><span class="w"> </span><span class="m">4</span><span class="p">;</span><span class="w"></span>
+</code></pre></div></p>
+<h4 id="field-value_17">Field Value<a class="headerlink" href="#field-value_17" title="Permanent link">&para;</a></h4>
+<p><a href="https://docs.microsoft.com/en-us/dotnet/api/System.Int32" title="System.Int32">System.Int32</a></p>
+<p><a name='Trinsic_Services_VerifiableCredentials_Templates_V1_SearchCredentialTemplatesResponse_CountFieldNumber'></a></p>
+<h2 id="searchcredentialtemplatesresponsecountfieldnumber-field">SearchCredentialTemplatesResponse.CountFieldNumber Field<a class="headerlink" href="#searchcredentialtemplatesresponsecountfieldnumber-field" title="Permanent link">&para;</a></h2>
+<p>Field number for the "count" field.
+<div class="highlight"><pre><span></span><code><span class="k">public</span><span class="w"> </span><span class="k">const</span><span class="w"> </span><span class="kt">int</span><span class="w"> </span><span class="n">CountFieldNumber</span><span class="w"> </span><span class="p">=</span><span class="w"> </span><span class="m">3</span><span class="p">;</span><span class="w"></span>
+</code></pre></div></p>
+<h4 id="field-value_18">Field Value<a class="headerlink" href="#field-value_18" title="Permanent link">&para;</a></h4>
+<p><a href="https://docs.microsoft.com/en-us/dotnet/api/System.Int32" title="System.Int32">System.Int32</a></p>
+<p><a name='Trinsic_Services_VerifiableCredentials_Templates_V1_SearchCredentialTemplatesResponse_HasMoreFieldNumber'></a></p>
+<h2 id="searchcredentialtemplatesresponsehasmorefieldnumber-field">SearchCredentialTemplatesResponse.HasMoreFieldNumber Field<a class="headerlink" href="#searchcredentialtemplatesresponsehasmorefieldnumber-field" title="Permanent link">&para;</a></h2>
+<p>Field number for the "has_more" field.
+<div class="highlight"><pre><span></span><code><span class="k">public</span><span class="w"> </span><span class="k">const</span><span class="w"> </span><span class="kt">int</span><span class="w"> </span><span class="n">HasMoreFieldNumber</span><span class="w"> </span><span class="p">=</span><span class="w"> </span><span class="m">2</span><span class="p">;</span><span class="w"></span>
+</code></pre></div></p>
+<h4 id="field-value_19">Field Value<a class="headerlink" href="#field-value_19" title="Permanent link">&para;</a></h4>
+<p><a href="https://docs.microsoft.com/en-us/dotnet/api/System.Int32" title="System.Int32">System.Int32</a></p>
+<p><a name='Trinsic_Services_VerifiableCredentials_Templates_V1_SearchCredentialTemplatesResponse_ItemsJsonFieldNumber'></a></p>
+<h2 id="searchcredentialtemplatesresponseitemsjsonfieldnumber-field">SearchCredentialTemplatesResponse.ItemsJsonFieldNumber Field<a class="headerlink" href="#searchcredentialtemplatesresponseitemsjsonfieldnumber-field" title="Permanent link">&para;</a></h2>
+<p>Field number for the "items_json" field.
+<div class="highlight"><pre><span></span><code><span class="k">public</span><span class="w"> </span><span class="k">const</span><span class="w"> </span><span class="kt">int</span><span class="w"> </span><span class="n">ItemsJsonFieldNumber</span><span class="w"> </span><span class="p">=</span><span class="w"> </span><span class="m">1</span><span class="p">;</span><span class="w"></span>
+</code></pre></div></p>
+<h4 id="field-value_20">Field Value<a class="headerlink" href="#field-value_20" title="Permanent link">&para;</a></h4>
+<p><a href="https://docs.microsoft.com/en-us/dotnet/api/System.Int32" title="System.Int32">System.Int32</a></p>
+<p><a name='Trinsic_Services_VerifiableCredentials_Templates_V1_TemplateData'></a></p>
+<h2 id="templatedata-class">TemplateData Class<a class="headerlink" href="#templatedata-class" title="Permanent link">&para;</a></h2>
+<div class="highlight"><pre><span></span><code><span class="k">public</span><span class="w"> </span><span class="k">sealed</span><span class="w"> </span><span class="k">class</span><span class="w"> </span><span class="nc">TemplateData</span><span class="w"> </span><span class="p">:</span><span class="w"></span>
+<span class="n">Google</span><span class="p">.</span><span class="n">Protobuf</span><span class="p">.</span><span class="n">IMessage</span><span class="p">&lt;</span><span class="n">Trinsic</span><span class="p">.</span><span class="n">Services</span><span class="p">.</span><span class="n">VerifiableCredentials</span><span class="p">.</span><span class="n">Templates</span><span class="p">.</span><span class="n">V1</span><span class="p">.</span><span class="n">TemplateData</span><span class="p">&gt;,</span><span class="w"></span>
+<span class="n">Google</span><span class="p">.</span><span class="n">Protobuf</span><span class="p">.</span><span class="n">IMessage</span><span class="p">,</span><span class="w"></span>
+<span class="n">System</span><span class="p">.</span><span class="n">IEquatable</span><span class="p">&lt;</span><span class="n">Trinsic</span><span class="p">.</span><span class="n">Services</span><span class="p">.</span><span class="n">VerifiableCredentials</span><span class="p">.</span><span class="n">Templates</span><span class="p">.</span><span class="n">V1</span><span class="p">.</span><span class="n">TemplateData</span><span class="p">&gt;,</span><span class="w"></span>
+<span class="n">Google</span><span class="p">.</span><span class="n">Protobuf</span><span class="p">.</span><span class="n">IDeepCloneable</span><span class="p">&lt;</span><span class="n">Trinsic</span><span class="p">.</span><span class="n">Services</span><span class="p">.</span><span class="n">VerifiableCredentials</span><span class="p">.</span><span class="n">Templates</span><span class="p">.</span><span class="n">V1</span><span class="p">.</span><span class="n">TemplateData</span><span class="p">&gt;,</span><span class="w"></span>
+<span class="n">Google</span><span class="p">.</span><span class="n">Protobuf</span><span class="p">.</span><span class="n">IBufferMessage</span><span class="w"></span>
+</code></pre></div>
+<p>Inheritance <a href="https://docs.microsoft.com/en-us/dotnet/api/System.Object" title="System.Object">System.Object</a> &#129106; TemplateData  </p>
+<p>Implements <a href="https://docs.microsoft.com/en-us/dotnet/api/Google.Protobuf.IMessage-1" title="Google.Protobuf.IMessage1')[TemplateData](Trinsic_Services_VerifiableCredentials_Templates_V1.md#Trinsic_Services_VerifiableCredentials_Templates_V1_TemplateData 'Trinsic.Services.VerifiableCredentials.Templates.V1.TemplateData')[&amp;gt;](https://docs.microsoft.com/en-us/dotnet/api/Google.Protobuf.IMessage-1 'Google.Protobuf.IMessage1">Google.Protobuf.IMessage&lt;</a>, <a href="https://docs.microsoft.com/en-us/dotnet/api/Google.Protobuf.IMessage" title="Google.Protobuf.IMessage">Google.Protobuf.IMessage</a>, <a href="https://docs.microsoft.com/en-us/dotnet/api/System.IEquatable-1" title="System.IEquatable1')[TemplateData](Trinsic_Services_VerifiableCredentials_Templates_V1.md#Trinsic_Services_VerifiableCredentials_Templates_V1_TemplateData 'Trinsic.Services.VerifiableCredentials.Templates.V1.TemplateData')[&amp;gt;](https://docs.microsoft.com/en-us/dotnet/api/System.IEquatable-1 'System.IEquatable1">System.IEquatable&lt;</a>, <a href="https://docs.microsoft.com/en-us/dotnet/api/Google.Protobuf.IDeepCloneable-1" title="Google.Protobuf.IDeepCloneable1')[TemplateData](Trinsic_Services_VerifiableCredentials_Templates_V1.md#Trinsic_Services_VerifiableCredentials_Templates_V1_TemplateData 'Trinsic.Services.VerifiableCredentials.Templates.V1.TemplateData')[&amp;gt;](https://docs.microsoft.com/en-us/dotnet/api/Google.Protobuf.IDeepCloneable-1 'Google.Protobuf.IDeepCloneable1">Google.Protobuf.IDeepCloneable&lt;</a>, <a href="https://docs.microsoft.com/en-us/dotnet/api/Google.Protobuf.IBufferMessage" title="Google.Protobuf.IBufferMessage">Google.Protobuf.IBufferMessage</a>  </p>
+<h3 id="fields_12">Fields<a class="headerlink" href="#fields_12" title="Permanent link">&para;</a></h3>
+<p><a name='Trinsic_Services_VerifiableCredentials_Templates_V1_TemplateData_AllowAdditionalFieldsFieldNumber'></a></p>
+<h2 id="templatedataallowadditionalfieldsfieldnumber-field">TemplateData.AllowAdditionalFieldsFieldNumber Field<a class="headerlink" href="#templatedataallowadditionalfieldsfieldnumber-field" title="Permanent link">&para;</a></h2>
+<p>Field number for the "allow_additional_fields" field.
+<div class="highlight"><pre><span></span><code><span class="k">public</span><span class="w"> </span><span class="k">const</span><span class="w"> </span><span class="kt">int</span><span class="w"> </span><span class="n">AllowAdditionalFieldsFieldNumber</span><span class="w"> </span><span class="p">=</span><span class="w"> </span><span class="m">5</span><span class="p">;</span><span class="w"></span>
+</code></pre></div></p>
+<h4 id="field-value_21">Field Value<a class="headerlink" href="#field-value_21" title="Permanent link">&para;</a></h4>
+<p><a href="https://docs.microsoft.com/en-us/dotnet/api/System.Int32" title="System.Int32">System.Int32</a></p>
+<p><a name='Trinsic_Services_VerifiableCredentials_Templates_V1_TemplateData_ContextUriFieldNumber'></a></p>
+<h2 id="templatedatacontexturifieldnumber-field">TemplateData.ContextUriFieldNumber Field<a class="headerlink" href="#templatedatacontexturifieldnumber-field" title="Permanent link">&para;</a></h2>
+<p>Field number for the "context_uri" field.
+<div class="highlight"><pre><span></span><code><span class="k">public</span><span class="w"> </span><span class="k">const</span><span class="w"> </span><span class="kt">int</span><span class="w"> </span><span class="n">ContextUriFieldNumber</span><span class="w"> </span><span class="p">=</span><span class="w"> </span><span class="m">7</span><span class="p">;</span><span class="w"></span>
+</code></pre></div></p>
+<h4 id="field-value_22">Field Value<a class="headerlink" href="#field-value_22" title="Permanent link">&para;</a></h4>
+<p><a href="https://docs.microsoft.com/en-us/dotnet/api/System.Int32" title="System.Int32">System.Int32</a></p>
+<p><a name='Trinsic_Services_VerifiableCredentials_Templates_V1_TemplateData_EcosystemIdFieldNumber'></a></p>
+<h2 id="templatedataecosystemidfieldnumber-field">TemplateData.EcosystemIdFieldNumber Field<a class="headerlink" href="#templatedataecosystemidfieldnumber-field" title="Permanent link">&para;</a></h2>
+<p>Field number for the "ecosystem_id" field.
+<div class="highlight"><pre><span></span><code><span class="k">public</span><span class="w"> </span><span class="k">const</span><span class="w"> </span><span class="kt">int</span><span class="w"> </span><span class="n">EcosystemIdFieldNumber</span><span class="w"> </span><span class="p">=</span><span class="w"> </span><span class="m">8</span><span class="p">;</span><span class="w"></span>
+</code></pre></div></p>
+<h4 id="field-value_23">Field Value<a class="headerlink" href="#field-value_23" title="Permanent link">&para;</a></h4>
+<p><a href="https://docs.microsoft.com/en-us/dotnet/api/System.Int32" title="System.Int32">System.Int32</a></p>
+<p><a name='Trinsic_Services_VerifiableCredentials_Templates_V1_TemplateData_FieldsFieldNumber'></a></p>
+<h2 id="templatedatafieldsfieldnumber-field">TemplateData.FieldsFieldNumber Field<a class="headerlink" href="#templatedatafieldsfieldnumber-field" title="Permanent link">&para;</a></h2>
+<p>Field number for the "fields" field.
+<div class="highlight"><pre><span></span><code><span class="k">public</span><span class="w"> </span><span class="k">const</span><span class="w"> </span><span class="kt">int</span><span class="w"> </span><span class="n">FieldsFieldNumber</span><span class="w"> </span><span class="p">=</span><span class="w"> </span><span class="m">4</span><span class="p">;</span><span class="w"></span>
+</code></pre></div></p>
+<h4 id="field-value_24">Field Value<a class="headerlink" href="#field-value_24" title="Permanent link">&para;</a></h4>
+<p><a href="https://docs.microsoft.com/en-us/dotnet/api/System.Int32" title="System.Int32">System.Int32</a></p>
+<p><a name='Trinsic_Services_VerifiableCredentials_Templates_V1_TemplateData_IdFieldNumber'></a></p>
+<h2 id="templatedataidfieldnumber-field">TemplateData.IdFieldNumber Field<a class="headerlink" href="#templatedataidfieldnumber-field" title="Permanent link">&para;</a></h2>
+<p>Field number for the "id" field.
+<div class="highlight"><pre><span></span><code><span class="k">public</span><span class="w"> </span><span class="k">const</span><span class="w"> </span><span class="kt">int</span><span class="w"> </span><span class="n">IdFieldNumber</span><span class="w"> </span><span class="p">=</span><span class="w"> </span><span class="m">1</span><span class="p">;</span><span class="w"></span>
+</code></pre></div></p>
+<h4 id="field-value_25">Field Value<a class="headerlink" href="#field-value_25" title="Permanent link">&para;</a></h4>
+<p><a href="https://docs.microsoft.com/en-us/dotnet/api/System.Int32" title="System.Int32">System.Int32</a></p>
+<p><a name='Trinsic_Services_VerifiableCredentials_Templates_V1_TemplateData_NameFieldNumber'></a></p>
+<h2 id="templatedatanamefieldnumber-field">TemplateData.NameFieldNumber Field<a class="headerlink" href="#templatedatanamefieldnumber-field" title="Permanent link">&para;</a></h2>
+<p>Field number for the "name" field.
+<div class="highlight"><pre><span></span><code><span class="k">public</span><span class="w"> </span><span class="k">const</span><span class="w"> </span><span class="kt">int</span><span class="w"> </span><span class="n">NameFieldNumber</span><span class="w"> </span><span class="p">=</span><span class="w"> </span><span class="m">2</span><span class="p">;</span><span class="w"></span>
+</code></pre></div></p>
+<h4 id="field-value_26">Field Value<a class="headerlink" href="#field-value_26" title="Permanent link">&para;</a></h4>
+<p><a href="https://docs.microsoft.com/en-us/dotnet/api/System.Int32" title="System.Int32">System.Int32</a></p>
+<p><a name='Trinsic_Services_VerifiableCredentials_Templates_V1_TemplateData_SchemaUriFieldNumber'></a></p>
+<h2 id="templatedataschemaurifieldnumber-field">TemplateData.SchemaUriFieldNumber Field<a class="headerlink" href="#templatedataschemaurifieldnumber-field" title="Permanent link">&para;</a></h2>
+<p>Field number for the "schema_uri" field.
+<div class="highlight"><pre><span></span><code><span class="k">public</span><span class="w"> </span><span class="k">const</span><span class="w"> </span><span class="kt">int</span><span class="w"> </span><span class="n">SchemaUriFieldNumber</span><span class="w"> </span><span class="p">=</span><span class="w"> </span><span class="m">6</span><span class="p">;</span><span class="w"></span>
+</code></pre></div></p>
+<h4 id="field-value_27">Field Value<a class="headerlink" href="#field-value_27" title="Permanent link">&para;</a></h4>
+<p><a href="https://docs.microsoft.com/en-us/dotnet/api/System.Int32" title="System.Int32">System.Int32</a></p>
+<p><a name='Trinsic_Services_VerifiableCredentials_Templates_V1_TemplateData_TypeFieldNumber'></a></p>
+<h2 id="templatedatatypefieldnumber-field">TemplateData.TypeFieldNumber Field<a class="headerlink" href="#templatedatatypefieldnumber-field" title="Permanent link">&para;</a></h2>
+<p>Field number for the "type" field.
+<div class="highlight"><pre><span></span><code><span class="k">public</span><span class="w"> </span><span class="k">const</span><span class="w"> </span><span class="kt">int</span><span class="w"> </span><span class="n">TypeFieldNumber</span><span class="w"> </span><span class="p">=</span><span class="w"> </span><span class="m">9</span><span class="p">;</span><span class="w"></span>
+</code></pre></div></p>
+<h4 id="field-value_28">Field Value<a class="headerlink" href="#field-value_28" title="Permanent link">&para;</a></h4>
+<p><a href="https://docs.microsoft.com/en-us/dotnet/api/System.Int32" title="System.Int32">System.Int32</a></p>
+<p><a name='Trinsic_Services_VerifiableCredentials_Templates_V1_TemplateData_VersionFieldNumber'></a></p>
+<h2 id="templatedataversionfieldnumber-field">TemplateData.VersionFieldNumber Field<a class="headerlink" href="#templatedataversionfieldnumber-field" title="Permanent link">&para;</a></h2>
+<p>Field number for the "version" field.
+<div class="highlight"><pre><span></span><code><span class="k">public</span><span class="w"> </span><span class="k">const</span><span class="w"> </span><span class="kt">int</span><span class="w"> </span><span class="n">VersionFieldNumber</span><span class="w"> </span><span class="p">=</span><span class="w"> </span><span class="m">3</span><span class="p">;</span><span class="w"></span>
+</code></pre></div></p>
+<h4 id="field-value_29">Field Value<a class="headerlink" href="#field-value_29" title="Permanent link">&para;</a></h4>
+<p><a href="https://docs.microsoft.com/en-us/dotnet/api/System.Int32" title="System.Int32">System.Int32</a></p>
+<p><a name='Trinsic_Services_VerifiableCredentials_Templates_V1_TemplateField'></a></p>
+<h2 id="templatefield-class">TemplateField Class<a class="headerlink" href="#templatefield-class" title="Permanent link">&para;</a></h2>
+<div class="highlight"><pre><span></span><code><span class="k">public</span><span class="w"> </span><span class="k">sealed</span><span class="w"> </span><span class="k">class</span><span class="w"> </span><span class="nc">TemplateField</span><span class="w"> </span><span class="p">:</span><span class="w"></span>
+<span class="n">Google</span><span class="p">.</span><span class="n">Protobuf</span><span class="p">.</span><span class="n">IMessage</span><span class="p">&lt;</span><span class="n">Trinsic</span><span class="p">.</span><span class="n">Services</span><span class="p">.</span><span class="n">VerifiableCredentials</span><span class="p">.</span><span class="n">Templates</span><span class="p">.</span><span class="n">V1</span><span class="p">.</span><span class="n">TemplateField</span><span class="p">&gt;,</span><span class="w"></span>
+<span class="n">Google</span><span class="p">.</span><span class="n">Protobuf</span><span class="p">.</span><span class="n">IMessage</span><span class="p">,</span><span class="w"></span>
+<span class="n">System</span><span class="p">.</span><span class="n">IEquatable</span><span class="p">&lt;</span><span class="n">Trinsic</span><span class="p">.</span><span class="n">Services</span><span class="p">.</span><span class="n">VerifiableCredentials</span><span class="p">.</span><span class="n">Templates</span><span class="p">.</span><span class="n">V1</span><span class="p">.</span><span class="n">TemplateField</span><span class="p">&gt;,</span><span class="w"></span>
+<span class="n">Google</span><span class="p">.</span><span class="n">Protobuf</span><span class="p">.</span><span class="n">IDeepCloneable</span><span class="p">&lt;</span><span class="n">Trinsic</span><span class="p">.</span><span class="n">Services</span><span class="p">.</span><span class="n">VerifiableCredentials</span><span class="p">.</span><span class="n">Templates</span><span class="p">.</span><span class="n">V1</span><span class="p">.</span><span class="n">TemplateField</span><span class="p">&gt;,</span><span class="w"></span>
+<span class="n">Google</span><span class="p">.</span><span class="n">Protobuf</span><span class="p">.</span><span class="n">IBufferMessage</span><span class="w"></span>
+</code></pre></div>
+<p>Inheritance <a href="https://docs.microsoft.com/en-us/dotnet/api/System.Object" title="System.Object">System.Object</a> &#129106; TemplateField  </p>
+<p>Implements <a href="https://docs.microsoft.com/en-us/dotnet/api/Google.Protobuf.IMessage-1" title="Google.Protobuf.IMessage1')[TemplateField](Trinsic_Services_VerifiableCredentials_Templates_V1.md#Trinsic_Services_VerifiableCredentials_Templates_V1_TemplateField 'Trinsic.Services.VerifiableCredentials.Templates.V1.TemplateField')[&amp;gt;](https://docs.microsoft.com/en-us/dotnet/api/Google.Protobuf.IMessage-1 'Google.Protobuf.IMessage1">Google.Protobuf.IMessage&lt;</a>, <a href="https://docs.microsoft.com/en-us/dotnet/api/Google.Protobuf.IMessage" title="Google.Protobuf.IMessage">Google.Protobuf.IMessage</a>, <a href="https://docs.microsoft.com/en-us/dotnet/api/System.IEquatable-1" title="System.IEquatable1')[TemplateField](Trinsic_Services_VerifiableCredentials_Templates_V1.md#Trinsic_Services_VerifiableCredentials_Templates_V1_TemplateField 'Trinsic.Services.VerifiableCredentials.Templates.V1.TemplateField')[&amp;gt;](https://docs.microsoft.com/en-us/dotnet/api/System.IEquatable-1 'System.IEquatable1">System.IEquatable&lt;</a>, <a href="https://docs.microsoft.com/en-us/dotnet/api/Google.Protobuf.IDeepCloneable-1" title="Google.Protobuf.IDeepCloneable1')[TemplateField](Trinsic_Services_VerifiableCredentials_Templates_V1.md#Trinsic_Services_VerifiableCredentials_Templates_V1_TemplateField 'Trinsic.Services.VerifiableCredentials.Templates.V1.TemplateField')[&amp;gt;](https://docs.microsoft.com/en-us/dotnet/api/Google.Protobuf.IDeepCloneable-1 'Google.Protobuf.IDeepCloneable1">Google.Protobuf.IDeepCloneable&lt;</a>, <a href="https://docs.microsoft.com/en-us/dotnet/api/Google.Protobuf.IBufferMessage" title="Google.Protobuf.IBufferMessage">Google.Protobuf.IBufferMessage</a>  </p>
+<h3 id="fields_13">Fields<a class="headerlink" href="#fields_13" title="Permanent link">&para;</a></h3>
+<p><a name='Trinsic_Services_VerifiableCredentials_Templates_V1_TemplateField_DescriptionFieldNumber'></a></p>
+<h2 id="templatefielddescriptionfieldnumber-field">TemplateField.DescriptionFieldNumber Field<a class="headerlink" href="#templatefielddescriptionfieldnumber-field" title="Permanent link">&para;</a></h2>
+<p>Field number for the "description" field.
+<div class="highlight"><pre><span></span><code><span class="k">public</span><span class="w"> </span><span class="k">const</span><span class="w"> </span><span class="kt">int</span><span class="w"> </span><span class="n">DescriptionFieldNumber</span><span class="w"> </span><span class="p">=</span><span class="w"> </span><span class="m">2</span><span class="p">;</span><span class="w"></span>
+</code></pre></div></p>
+<h4 id="field-value_30">Field Value<a class="headerlink" href="#field-value_30" title="Permanent link">&para;</a></h4>
+<p><a href="https://docs.microsoft.com/en-us/dotnet/api/System.Int32" title="System.Int32">System.Int32</a></p>
+<p><a name='Trinsic_Services_VerifiableCredentials_Templates_V1_TemplateField_OptionalFieldNumber'></a></p>
+<h2 id="templatefieldoptionalfieldnumber-field">TemplateField.OptionalFieldNumber Field<a class="headerlink" href="#templatefieldoptionalfieldnumber-field" title="Permanent link">&para;</a></h2>
+<p>Field number for the "optional" field.
+<div class="highlight"><pre><span></span><code><span class="k">public</span><span class="w"> </span><span class="k">const</span><span class="w"> </span><span class="kt">int</span><span class="w"> </span><span class="n">OptionalFieldNumber</span><span class="w"> </span><span class="p">=</span><span class="w"> </span><span class="m">3</span><span class="p">;</span><span class="w"></span>
+</code></pre></div></p>
+<h4 id="field-value_31">Field Value<a class="headerlink" href="#field-value_31" title="Permanent link">&para;</a></h4>
+<p><a href="https://docs.microsoft.com/en-us/dotnet/api/System.Int32" title="System.Int32">System.Int32</a></p>
+<p><a name='Trinsic_Services_VerifiableCredentials_Templates_V1_TemplateField_TypeFieldNumber'></a></p>
+<h2 id="templatefieldtypefieldnumber-field">TemplateField.TypeFieldNumber Field<a class="headerlink" href="#templatefieldtypefieldnumber-field" title="Permanent link">&para;</a></h2>
+<p>Field number for the "type" field.
+<div class="highlight"><pre><span></span><code><span class="k">public</span><span class="w"> </span><span class="k">const</span><span class="w"> </span><span class="kt">int</span><span class="w"> </span><span class="n">TypeFieldNumber</span><span class="w"> </span><span class="p">=</span><span class="w"> </span><span class="m">4</span><span class="p">;</span><span class="w"></span>
+</code></pre></div></p>
+<h4 id="field-value_32">Field Value<a class="headerlink" href="#field-value_32" title="Permanent link">&para;</a></h4>
+<p><a href="https://docs.microsoft.com/en-us/dotnet/api/System.Int32" title="System.Int32">System.Int32</a></p>
+<p><a name='Trinsic_Services_VerifiableCredentials_Templates_V1_TemplatesReflection'></a></p>
+<h2 id="templatesreflection-class">TemplatesReflection Class<a class="headerlink" href="#templatesreflection-class" title="Permanent link">&para;</a></h2>
+<p>Holder for reflection information generated from services/verifiable-credentials/templates/v1/templates.proto
+<div class="highlight"><pre><span></span><code><span class="k">public</span><span class="w"> </span><span class="k">static</span><span class="w"> </span><span class="k">class</span><span class="w"> </span><span class="nc">TemplatesReflection</span><span class="w"></span>
+</code></pre></div></p>
+<p>Inheritance <a href="https://docs.microsoft.com/en-us/dotnet/api/System.Object" title="System.Object">System.Object</a> &#129106; TemplatesReflection  </p>
+<h3 id="properties_3">Properties<a class="headerlink" href="#properties_3" title="Permanent link">&para;</a></h3>
+<p><a name='Trinsic_Services_VerifiableCredentials_Templates_V1_TemplatesReflection_Descriptor'></a></p>
+<h2 id="templatesreflectiondescriptor-property">TemplatesReflection.Descriptor Property<a class="headerlink" href="#templatesreflectiondescriptor-property" title="Permanent link">&para;</a></h2>
+<p>File descriptor for services/verifiable-credentials/templates/v1/templates.proto
+<div class="highlight"><pre><span></span><code><span class="k">public</span><span class="w"> </span><span class="k">static</span><span class="w"> </span><span class="n">Google</span><span class="p">.</span><span class="n">Protobuf</span><span class="p">.</span><span class="n">Reflection</span><span class="p">.</span><span class="n">FileDescriptor</span><span class="w"> </span><span class="n">Descriptor</span><span class="w"> </span><span class="p">{</span><span class="w"> </span><span class="k">get</span><span class="p">;</span><span class="w"> </span><span class="p">}</span><span class="w"></span>
+</code></pre></div></p>
+<h4 id="property-value_3">Property Value<a class="headerlink" href="#property-value_3" title="Permanent link">&para;</a></h4>
+<p><a href="https://docs.microsoft.com/en-us/dotnet/api/Google.Protobuf.Reflection.FileDescriptor" title="Google.Protobuf.Reflection.FileDescriptor">Google.Protobuf.Reflection.FileDescriptor</a></p>
+
+
+
+
+              
+            </article>
+            
+  <script>var tabs=__md_get("__tabs");if(Array.isArray(tabs))e:for(var set of document.querySelectorAll(".tabbed-set")){var tab,labels=set.querySelector(".tabbed-labels");for(tab of tabs)for(var label of labels.getElementsByTagName("label"))if(label.innerText.trim()===tab){var input=document.getElementById(label.htmlFor);input.checked=!0;continue e}}</script>
+
+          </div>
+        </div>
+        
+      </main>
+      
+        <footer class="md-footer">
+  
+  <div class="md-footer-meta md-typeset">
+    <div class="md-footer-meta__inner md-grid">
+      <div class="md-copyright">
+  
+  
+</div>
+      
+    </div>
+  </div>
+</footer>
+      
+    </div>
+    <div class="md-dialog" data-md-component="dialog">
+      <div class="md-dialog__inner md-typeset"></div>
+    </div>
+    
+    <script id="__config" type="application/json">{"base": "../../..", "features": ["content.tabs.link", "navigation.instant", "navigation.tracking"], "search": "../../../assets/javascripts/workers/search.2c028271.min.js", "translations": {"clipboard.copied": "Copied to clipboard", "clipboard.copy": "Copy to clipboard", "search.config.lang": "en", "search.config.pipeline": "stopWordFilter", "search.config.separator": "[\\s\\-]+", "search.placeholder": "Search", "search.result.more.one": "1 more on this page", "search.result.more.other": "# more on this page", "search.result.none": "No matching documents", "search.result.one": "1 matching document", "search.result.other": "# matching documents", "search.result.placeholder": "Type to start searching", "search.result.term.missing": "Missing", "select.version.title": "Select version"}}</script>
+    
+    
+      <script src="../../../assets/javascripts/bundle.714a356a.min.js"></script>
+      
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/10.7.2/highlight.min.js"></script>
+      
+        <script src="../../../_static/javascripts/config.js"></script>
+      
+    
+  </body>
+</html>

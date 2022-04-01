@@ -1,0 +1,1746 @@
+
+<!doctype html>
+<html lang="en" class="no-js">
+  <head>
+    
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width,initial-scale=1">
+      
+      
+      
+        <link rel="canonical" href="https://docs-v2.trinsic.id/reference/go/services/">
+      
+      
+        
+      
+      <link rel="icon" href="../../../_static/logo.png">
+      <meta name="generator" content="mkdocs-1.3.0, mkdocs-material-8.2.8+insiders-4.12.0">
+    
+    
+      
+        <title>services - Documentation</title>
+      
+    
+    
+      <link rel="stylesheet" href="../../../assets/stylesheets/main.7d01766c.min.css">
+      
+        
+        <link rel="stylesheet" href="../../../assets/stylesheets/palette.e6a45f82.min.css">
+        
+      
+      
+    
+    
+    
+      
+        
+        
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Inter:300,300i,400,400i,700,700i%7CJetBrains+Mono:400,400i,700,700i&display=fallback">
+        <style>:root{--md-text-font:"Inter";--md-code-font:"JetBrains Mono"}</style>
+      
+    
+    
+      <link rel="stylesheet" href="../../../assets/_mkdocstrings.css">
+    
+      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/10.7.2/styles/vs.min.css">
+    
+      <link rel="stylesheet" href="../../../_static/extra.css">
+    
+    <script>__md_scope=new URL("../../..",location),__md_hash=e=>[...e].reduce((e,_)=>(e<<5)-e+_.charCodeAt(0),0),__md_get=(e,_=localStorage,t=__md_scope)=>JSON.parse(_.getItem(t.pathname+"."+e)),__md_set=(e,_,t=localStorage,a=__md_scope)=>{try{t.setItem(a.pathname+"."+e,JSON.stringify(_))}catch(e){}}</script>
+    
+      
+
+    
+    
+    
+  </head>
+  
+  
+    
+    
+      
+    
+    
+    
+    
+    <body dir="ltr" data-md-color-scheme="default" data-md-color-primary="" data-md-color-accent="">
+  
+    
+    
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+    
+      <script>var palette=__md_get("__palette");if(palette&&"object"==typeof palette.color)for(var key of Object.keys(palette.color))document.body.setAttribute("data-md-color-"+key,palette.color[key])</script>
+    
+    <input class="md-toggle" data-md-toggle="drawer" type="checkbox" id="__drawer" autocomplete="off">
+    <input class="md-toggle" data-md-toggle="search" type="checkbox" id="__search" autocomplete="off">
+    <label class="md-overlay" for="__drawer"></label>
+    <div data-md-component="skip">
+      
+        
+        <a href="#services" class="md-skip">
+          Skip to content
+        </a>
+      
+    </div>
+    <div data-md-component="announce">
+      
+        <aside class="md-banner">
+          <div class="md-banner__inner md-grid md-typeset">
+            
+            
+<p>Join <a href="https://trinsic.typeform.com/to/EIO26xym">Trinsic Ecosystems Beta!</a></p>
+
+          </div>
+          
+        </aside>
+      
+    </div>
+    
+    
+      
+
+<header class="md-header" data-md-component="header">
+  <nav class="md-header__inner md-grid" aria-label="Header">
+    <a href="../../.." title="Documentation" class="md-header__button md-logo" aria-label="Documentation" data-md-component="logo">
+      
+  <img src="../../../_static/logo-title.svg" alt="logo">
+
+    </a>
+    <label class="md-header__button md-icon" for="__drawer">
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M3 6h18v2H3V6m0 5h18v2H3v-2m0 5h18v2H3v-2z"/></svg>
+    </label>
+    <div class="md-header__title" data-md-component="header-title">
+      <div class="md-header__ellipsis">
+        <div class="md-header__topic">
+          <span class="md-ellipsis">
+            Documentation
+          </span>
+        </div>
+        <div class="md-header__topic" data-md-component="header-topic">
+          <span class="md-ellipsis">
+            
+              services
+            
+          </span>
+        </div>
+      </div>
+    </div>
+    
+      <form class="md-header__option" data-md-component="palette">
+        
+          
+          
+          <input class="md-option" data-md-color-media="(prefers-color-scheme: light)" data-md-color-scheme="default" data-md-color-primary="" data-md-color-accent=""  aria-label="Switch to dark mode"  type="radio" name="__palette" id="__palette_1">
+          
+            <label class="md-header__button md-icon" title="Switch to dark mode" for="__palette_2" hidden>
+              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 576 512"><!--! Font Awesome Free 6.1.1 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2022 Fonticons, Inc.--><path d="M342.7 352.7c5.75-9.625 9.25-20.75 9.25-32.75 0-35.25-28.75-64-63.1-64-17.25 0-32.75 6.875-44.25 17.87-17.2-29.62-48.4-50.72-85.5-50.72-53 0-96 43.06-96 96.06 0 2 .503 3.687.628 5.687-37.5 13-64.62 48.38-64.62 90.25C-.005 468.1 42.99 512 95.99 512h239.1c44.25 0 79.1-35.75 79.1-80 .91-41.9-30.49-75.8-71.49-79.3zm222.5-54.3c-93 17.75-178.5-53.62-178.5-147.6 0-54.25 28.1-104 76.12-130.9 7.375-4.125 5.375-15.12-2.75-16.63C448.4 1.125 436.7 0 424.1 0 318.2 0 232.2 85.88 232.2 192c0 8.5.625 16.75 1.75 25 5.875 4.25 11.62 8.875 16.75 14.25 11.4-4.75 24.5-7.25 36.4-7.25 52.88 0 95.1 43.13 95.1 96 0 3.625-.25 7.25-.625 10.75 23.62 10.75 42.37 29.5 53.5 52.5 54.38-3.375 103.7-29.25 137.1-70.37 7.025-6.48 1.325-16.08-6.975-14.48z"/></svg>
+            </label>
+          
+        
+          
+          
+          <input class="md-option" data-md-color-media="(prefers-color-scheme: dark)" data-md-color-scheme="slate" data-md-color-primary="" data-md-color-accent=""  aria-label="Switch to light mode"  type="radio" name="__palette" id="__palette_2">
+          
+            <label class="md-header__button md-icon" title="Switch to light mode" for="__palette_1" hidden>
+              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><!--! Font Awesome Free 6.1.1 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2022 Fonticons, Inc.--><path d="M256 159.1c-53.02 0-95.1 42.98-95.1 95.1s41.2 96.9 95.1 96.9 95.1-42.98 95.1-95.1-42.1-96.9-95.1-96.9zM509.3 347l-63.2-91.9 63.15-91.01c6.332-9.125 1.104-21.74-9.826-23.72l-109-19.7-19.7-109c-1.975-10.93-14.59-16.16-23.72-9.824L256 65.89 164.1 2.736c-9.125-6.332-21.74-1.107-23.72 9.824L121.6 121.6 12.56 141.3c-10.927 1.9-16.156 14.6-9.824 22.8L65.89 256 2.74 347.01c-6.332 9.125-1.105 21.74 9.824 23.72l109 19.7 19.7 109c1.975 10.93 14.59 16.16 23.72 9.824L256 446.1l91.01 63.15c9.127 6.334 21.75 1.107 23.72-9.822l19.7-109 109-19.7C510.4 368.8 515.6 356.1 509.3 347zM256 383.1c-70.69 0-127.1-57.31-127.1-127.1 0-70.69 57.31-127.1 127.1-127.1S383.1 186.2 383.1 256c0 70.7-56.4 127.1-127.1 127.1z"/></svg>
+            </label>
+          
+        
+      </form>
+    
+    
+    
+      <label class="md-header__button md-icon" for="__search">
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.516 6.516 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5z"/></svg>
+      </label>
+      <div class="md-search" data-md-component="search" role="dialog">
+  <label class="md-search__overlay" for="__search"></label>
+  <div class="md-search__inner" role="search">
+    <form class="md-search__form" name="search">
+      <input type="text" class="md-search__input" name="query" aria-label="Search" placeholder="Search" autocapitalize="off" autocorrect="off" autocomplete="off" spellcheck="false" data-md-component="search-query" required>
+      <label class="md-search__icon md-icon" for="__search">
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.516 6.516 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5z"/></svg>
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11h12z"/></svg>
+      </label>
+      <nav class="md-search__options" aria-label="Search">
+        
+        <button type="reset" class="md-search__icon md-icon" aria-label="Clear" tabindex="-1">
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M19 6.41 17.59 5 12 10.59 6.41 5 5 6.41 10.59 12 5 17.59 6.41 19 12 13.41 17.59 19 19 17.59 13.41 12 19 6.41z"/></svg>
+        </button>
+      </nav>
+      
+    </form>
+    <div class="md-search__output">
+      <div class="md-search__scrollwrap" data-md-scrollfix>
+        <div class="md-search-result" data-md-component="search-result">
+          <div class="md-search-result__meta">
+            Initializing search
+          </div>
+          <ol class="md-search-result__list"></ol>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+    
+    
+      <div class="md-header__source">
+        <a href="https://github.com/trinsic-id/sdk" title="Go to repository" class="md-source" data-md-component="source">
+  <div class="md-source__icon md-icon">
+    
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 480 512"><!--! Font Awesome Free 6.1.1 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2022 Fonticons, Inc.--><path d="M186.1 328.7c0 20.9-10.9 55.1-36.7 55.1s-36.7-34.2-36.7-55.1 10.9-55.1 36.7-55.1 36.7 34.2 36.7 55.1zM480 278.2c0 31.9-3.2 65.7-17.5 95-37.9 76.6-142.1 74.8-216.7 74.8-75.8 0-186.2 2.7-225.6-74.8-14.6-29-20.2-63.1-20.2-95 0-41.9 13.9-81.5 41.5-113.6-5.2-15.8-7.7-32.4-7.7-48.8 0-21.5 4.9-32.3 14.6-51.8 45.3 0 74.3 9 108.8 36 29-6.9 58.8-10 88.7-10 27 0 54.2 2.9 80.4 9.2 34-26.7 63-35.2 107.8-35.2 9.8 19.5 14.6 30.3 14.6 51.8 0 16.4-2.6 32.7-7.7 48.2 27.5 32.4 39 72.3 39 114.2zm-64.3 50.5c0-43.9-26.7-82.6-73.5-82.6-18.9 0-37 3.4-56 6-14.9 2.3-29.8 3.2-45.1 3.2-15.2 0-30.1-.9-45.1-3.2-18.7-2.6-37-6-56-6-46.8 0-73.5 38.7-73.5 82.6 0 87.8 80.4 101.3 150.4 101.3h48.2c70.3 0 150.6-13.4 150.6-101.3zm-82.6-55.1c-25.8 0-36.7 34.2-36.7 55.1s10.9 55.1 36.7 55.1 36.7-34.2 36.7-55.1-10.9-55.1-36.7-55.1z"/></svg>
+  </div>
+  <div class="md-source__repository">
+    trinsic-id/sdk
+  </div>
+</a>
+      </div>
+    
+  </nav>
+  
+</header>
+    
+    <div class="md-container" data-md-component="container">
+      
+      
+        
+          
+        
+      
+      <main class="md-main" data-md-component="main">
+        <div class="md-main__inner md-grid">
+          
+            
+              
+              <div class="md-sidebar md-sidebar--primary" data-md-component="sidebar" data-md-type="navigation" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+
+<nav class="md-nav md-nav--primary" aria-label="Navigation" data-md-level="0">
+  <label class="md-nav__title" for="__drawer">
+    <a href="../../.." title="Documentation" class="md-nav__button md-logo" aria-label="Documentation" data-md-component="logo">
+      
+  <img src="../../../_static/logo-title.svg" alt="logo">
+
+    </a>
+    Documentation
+  </label>
+  
+    <div class="md-nav__source">
+      <a href="https://github.com/trinsic-id/sdk" title="Go to repository" class="md-source" data-md-component="source">
+  <div class="md-source__icon md-icon">
+    
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 480 512"><!--! Font Awesome Free 6.1.1 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2022 Fonticons, Inc.--><path d="M186.1 328.7c0 20.9-10.9 55.1-36.7 55.1s-36.7-34.2-36.7-55.1 10.9-55.1 36.7-55.1 36.7 34.2 36.7 55.1zM480 278.2c0 31.9-3.2 65.7-17.5 95-37.9 76.6-142.1 74.8-216.7 74.8-75.8 0-186.2 2.7-225.6-74.8-14.6-29-20.2-63.1-20.2-95 0-41.9 13.9-81.5 41.5-113.6-5.2-15.8-7.7-32.4-7.7-48.8 0-21.5 4.9-32.3 14.6-51.8 45.3 0 74.3 9 108.8 36 29-6.9 58.8-10 88.7-10 27 0 54.2 2.9 80.4 9.2 34-26.7 63-35.2 107.8-35.2 9.8 19.5 14.6 30.3 14.6 51.8 0 16.4-2.6 32.7-7.7 48.2 27.5 32.4 39 72.3 39 114.2zm-64.3 50.5c0-43.9-26.7-82.6-73.5-82.6-18.9 0-37 3.4-56 6-14.9 2.3-29.8 3.2-45.1 3.2-15.2 0-30.1-.9-45.1-3.2-18.7-2.6-37-6-56-6-46.8 0-73.5 38.7-73.5 82.6 0 87.8 80.4 101.3 150.4 101.3h48.2c70.3 0 150.6-13.4 150.6-101.3zm-82.6-55.1c-25.8 0-36.7 34.2-36.7 55.1s10.9 55.1 36.7 55.1 36.7-34.2 36.7-55.1-10.9-55.1-36.7-55.1z"/></svg>
+  </div>
+  <div class="md-source__repository">
+    trinsic-id/sdk
+  </div>
+</a>
+    </div>
+  
+  <ul class="md-nav__list" data-md-scrollfix>
+    
+      
+      
+      
+
+
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../.." class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Home
+  </span>
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+      
+
+
+  
+  
+  
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+      
+        <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_2" type="checkbox" id="__nav_2" >
+      
+      
+      
+      
+        <label class="md-nav__link" for="__nav_2">
+          
+  
+  <span class="md-ellipsis">
+    Getting Started
+  </span>
+
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <nav class="md-nav" aria-label="Getting Started" data-md-level="1">
+        <label class="md-nav__title" for="__nav_2">
+          <span class="md-nav__icon md-icon"></span>
+          Getting Started
+        </label>
+        <ul class="md-nav__list" data-md-scrollfix>
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../learn/intro/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    What is Trinsic?
+  </span>
+
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../early-adopter/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Before You Start
+  </span>
+
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../walkthroughs/vaccination/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Try the Walkthrough
+  </span>
+
+      </a>
+    </li>
+  
+
+            
+          
+        </ul>
+      </nav>
+    </li>
+  
+
+    
+      
+      
+      
+
+
+  
+  
+  
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+      
+        <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_3" type="checkbox" id="__nav_3" >
+      
+      
+      
+      
+        <label class="md-nav__link" for="__nav_3">
+          
+  
+  <span class="md-ellipsis">
+    Key Concepts
+  </span>
+
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <nav class="md-nav" aria-label="Key Concepts" data-md-level="1">
+        <label class="md-nav__title" for="__nav_3">
+          <span class="md-nav__icon md-icon"></span>
+          Key Concepts
+        </label>
+        <ul class="md-nav__list" data-md-scrollfix>
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../learn/security/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Security Overview
+  </span>
+
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../learn/ecosystems/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Identity Ecosystems
+  </span>
+
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../learn/wallets/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Wallets
+  </span>
+
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../learn/templates/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Templates
+  </span>
+
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../learn/credentials/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Credentials
+  </span>
+
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../learn/standards/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Standards
+  </span>
+
+      </a>
+    </li>
+  
+
+            
+          
+        </ul>
+      </nav>
+    </li>
+  
+
+    
+      
+      
+      
+
+
+  
+  
+  
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+      
+        <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_4" type="checkbox" id="__nav_4" >
+      
+      
+      
+      
+        <label class="md-nav__link" for="__nav_4">
+          
+  
+  <span class="md-ellipsis">
+    Developer Tools
+  </span>
+
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <nav class="md-nav" aria-label="Developer Tools" data-md-level="1">
+        <label class="md-nav__title" for="__nav_4">
+          <span class="md-nav__icon md-icon"></span>
+          Developer Tools
+        </label>
+        <ul class="md-nav__list" data-md-scrollfix>
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../cli/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Trinsic CLI
+  </span>
+
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+      
+        <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_4_2" type="checkbox" id="__nav_4_2" >
+      
+      
+      
+      
+        <label class="md-nav__link" for="__nav_4_2">
+          
+  
+  <span class="md-ellipsis">
+    Client-Side SDKs
+  </span>
+
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <nav class="md-nav" aria-label="Client-Side SDKs" data-md-level="2">
+        <label class="md-nav__title" for="__nav_4_2">
+          <span class="md-nav__icon md-icon"></span>
+          Client-Side SDKs
+        </label>
+        <ul class="md-nav__list" data-md-scrollfix>
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../web/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Browser
+  </span>
+
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../ios/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    iOS
+  </span>
+
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../android/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Android
+  </span>
+
+      </a>
+    </li>
+  
+
+            
+          
+        </ul>
+      </nav>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+      
+        <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_4_3" type="checkbox" id="__nav_4_3" >
+      
+      
+      
+      
+        <label class="md-nav__link" for="__nav_4_3">
+          
+  
+  <span class="md-ellipsis">
+    Server-Side SDKs
+  </span>
+
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <nav class="md-nav" aria-label="Server-Side SDKs" data-md-level="2">
+        <label class="md-nav__title" for="__nav_4_3">
+          <span class="md-nav__icon md-icon"></span>
+          Server-Side SDKs
+        </label>
+        <ul class="md-nav__list" data-md-scrollfix>
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../node/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Node
+  </span>
+
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../dotnet/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    C#
+  </span>
+
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../python/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Python
+  </span>
+
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../ruby/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Ruby
+  </span>
+
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../go/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Go
+  </span>
+
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../java/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Java
+  </span>
+
+      </a>
+    </li>
+  
+
+            
+          
+        </ul>
+      </nav>
+    </li>
+  
+
+            
+          
+        </ul>
+      </nav>
+    </li>
+  
+
+    
+      
+      
+      
+
+
+  
+  
+  
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+      
+        <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_5" type="checkbox" id="__nav_5" >
+      
+      
+      
+      
+        <label class="md-nav__link" for="__nav_5">
+          
+  
+  <span class="md-ellipsis">
+    SDK Reference
+  </span>
+
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <nav class="md-nav" aria-label="SDK Reference" data-md-level="1">
+        <label class="md-nav__title" for="__nav_5">
+          <span class="md-nav__icon md-icon"></span>
+          SDK Reference
+        </label>
+        <ul class="md-nav__list" data-md-scrollfix>
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Overview
+  </span>
+
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../services/account-service/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Account Service
+  </span>
+
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../services/wallet-service/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Wallet Service
+  </span>
+
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../services/credential-service/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Credential Service
+  </span>
+
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../services/provider-service/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Provider Service
+  </span>
+
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../services/trust-registry-service/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Trust Registry Service
+  </span>
+
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../proto/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Protocol Buffers
+  </span>
+
+      </a>
+    </li>
+  
+
+            
+          
+        </ul>
+      </nav>
+    </li>
+  
+
+    
+      
+      
+      
+
+
+  
+  
+  
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+      
+        <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_6" type="checkbox" id="__nav_6" >
+      
+      
+      
+      
+        <label class="md-nav__link" for="__nav_6">
+          
+  
+  <span class="md-ellipsis">
+    Resources
+  </span>
+
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <nav class="md-nav" aria-label="Resources" data-md-level="1">
+        <label class="md-nav__title" for="__nav_6">
+          <span class="md-nav__icon md-icon"></span>
+          Resources
+        </label>
+        <ul class="md-nav__list" data-md-scrollfix>
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../roadmap/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Roadmap
+  </span>
+
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../support/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Ask a Question
+  </span>
+
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="https://join.slack.com/t/trinsiccommunity/shared_invite/zt-pcsdy7kn-h4vtdPEpqQUlmirU8FFzSQ" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Join the Community
+  </span>
+
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="https://github.com/trinsic-id" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Contribute on GitHub
+  </span>
+
+      </a>
+    </li>
+  
+
+            
+          
+        </ul>
+      </nav>
+    </li>
+  
+
+    
+  </ul>
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+            
+              
+              <div class="md-sidebar md-sidebar--secondary" data-md-component="sidebar" data-md-type="toc" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
+  
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#functions" class="md-nav__link">
+    Functions
+  </a>
+  
+    <nav class="md-nav" aria-label="Functions">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#func-createchannel" class="md-nav__link">
+    func CreateChannel
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#func-createchannelurlfromconfig" class="md-nav__link">
+    func CreateChannelUrlFromConfig
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#func-trinsicdevelopmentconfig" class="md-nav__link">
+    func TrinsicDevelopmentConfig
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#func-trinsicproductionconfig" class="md-nav__link">
+    func TrinsicProductionConfig
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#func-trinsicstagingconfig" class="md-nav__link">
+    func TrinsicStagingConfig
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#func-trinsictestconfig" class="md-nav__link">
+    func TrinsicTestConfig
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#types" class="md-nav__link">
+    Types
+  </a>
+  
+    <nav class="md-nav" aria-label="Types">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#type-accountbase" class="md-nav__link">
+    type AccountBase
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#type-accountservice" class="md-nav__link">
+    type AccountService
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#type-credentialbase" class="md-nav__link">
+    type CredentialBase
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#type-credentialservice" class="md-nav__link">
+    type CredentialService
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#type-credentialtemplatebase" class="md-nav__link">
+    type CredentialTemplateBase
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#type-credentialtemplateservice" class="md-nav__link">
+    type CredentialTemplateService
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#type-document" class="md-nav__link">
+    type Document
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#type-fileprofileprovider" class="md-nav__link">
+    type FileProfileProvider
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#type-keychainprofileprovider" class="md-nav__link">
+    type KeychainProfileProvider
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#type-oberonsecurityprovider" class="md-nav__link">
+    type OberonSecurityProvider
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#type-profileprovider" class="md-nav__link">
+    type ProfileProvider
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#type-providerbase" class="md-nav__link">
+    type ProviderBase
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#type-providerservice" class="md-nav__link">
+    type ProviderService
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#type-securityprovider" class="md-nav__link">
+    type SecurityProvider
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#type-service" class="md-nav__link">
+    type Service
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#type-servicebase" class="md-nav__link">
+    type ServiceBase
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#type-serviceoptions" class="md-nav__link">
+    type ServiceOptions
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#type-trustregistrybase" class="md-nav__link">
+    type TrustRegistryBase
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#type-trustregistryservice" class="md-nav__link">
+    type TrustRegistryService
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#type-walletbase" class="md-nav__link">
+    type WalletBase
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#type-walletservice" class="md-nav__link">
+    type WalletService
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+          
+          <div class="md-content" data-md-component="content">
+            <article class="md-content__inner md-typeset">
+              
+                
+<a href="https://github.com/trinsic-id/sdk/edit/main/docs/reference/go/services.md" title="Edit this page" class="md-content__button md-icon">
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20.71 7.04c.39-.39.39-1.04 0-1.41l-2.34-2.34c-.37-.39-1.02-.39-1.41 0l-1.84 1.83 3.75 3.75M3 17.25V21h3.75L17.81 9.93l-3.75-3.75L3 17.25z"/></svg>
+</a>
+
+
+
+<h1 id="services">services<a class="headerlink" href="#services" title="Permanent link">&para;</a></h1>
+<h2 id="functions">Functions<a class="headerlink" href="#functions" title="Permanent link">&para;</a></h2>
+<h3 id="func-createchannel">func <a href="/services.go#L78">CreateChannel</a><a class="headerlink" href="#func-createchannel" title="Permanent link">&para;</a></h3>
+<p><code>func CreateChannel(serviceAddress string, blockOnOpen bool) (*grpc.ClientConn, error)</code></p>
+<h3 id="func-createchannelurlfromconfig">func <a href="/services.go#L67">CreateChannelUrlFromConfig</a><a class="headerlink" href="#func-createchannelurlfromconfig" title="Permanent link">&para;</a></h3>
+<p><code>func CreateChannelUrlFromConfig(config *sdk.ServerConfig) string</code></p>
+<h3 id="func-trinsicdevelopmentconfig">func <a href="/services.go#L33">TrinsicDevelopmentConfig</a><a class="headerlink" href="#func-trinsicdevelopmentconfig" title="Permanent link">&para;</a></h3>
+<p><code>func TrinsicDevelopmentConfig() *sdk.ServerConfig</code></p>
+<h3 id="func-trinsicproductionconfig">func <a href="/services.go#L25">TrinsicProductionConfig</a><a class="headerlink" href="#func-trinsicproductionconfig" title="Permanent link">&para;</a></h3>
+<p><code>func TrinsicProductionConfig() *sdk.ServerConfig</code></p>
+<h3 id="func-trinsicstagingconfig">func <a href="/services.go#L41">TrinsicStagingConfig</a><a class="headerlink" href="#func-trinsicstagingconfig" title="Permanent link">&para;</a></h3>
+<p><code>func TrinsicStagingConfig() *sdk.ServerConfig</code></p>
+<h3 id="func-trinsictestconfig">func <a href="/services.go#L49">TrinsicTestConfig</a><a class="headerlink" href="#func-trinsictestconfig" title="Permanent link">&para;</a></h3>
+<p><code>func TrinsicTestConfig() *sdk.ServerConfig</code></p>
+<h2 id="types">Types<a class="headerlink" href="#types" title="Permanent link">&para;</a></h2>
+<h3 id="type-accountbase">type <a href="/account_service.go#L33">AccountBase</a><a class="headerlink" href="#type-accountbase" title="Permanent link">&para;</a></h3>
+<p><code>type AccountBase struct { ... }</code></p>
+<h4 id="func-accountbase-getinfo">func (*AccountBase) <a href="/account_service.go#L95">GetInfo</a><a class="headerlink" href="#func-accountbase-getinfo" title="Permanent link">&para;</a></h4>
+<p><code>func (a *AccountBase) GetInfo(userContext context.Context) (*sdk.InfoResponse, error)</code></p>
+<h4 id="func-accountbase-listdevices">func (*AccountBase) <a href="/account_service.go#L108">ListDevices</a><a class="headerlink" href="#func-accountbase-listdevices" title="Permanent link">&para;</a></h4>
+<p><code>func (a *AccountBase) ListDevices(userContext context.Context, request *sdk.ListDevicesRequest) (*sdk.ListDevicesResponse, error)</code></p>
+<h4 id="func-accountbase-protect">func (*AccountBase) <a href="/account_service.go#L74">Protect</a><a class="headerlink" href="#func-accountbase-protect" title="Permanent link">&para;</a></h4>
+<p><code>func (a *AccountBase) Protect(profile *sdk.AccountProfile, securityCode string) (*sdk.AccountProfile, error)</code></p>
+<h4 id="func-accountbase-revokedevice">func (*AccountBase) <a href="/account_service.go#L120">RevokeDevice</a><a class="headerlink" href="#func-accountbase-revokedevice" title="Permanent link">&para;</a></h4>
+<p><code>func (a *AccountBase) RevokeDevice(userContext context.Context, request *sdk.RevokeDeviceRequest) (*sdk.RevokeDeviceResponse, error)</code></p>
+<h4 id="func-accountbase-signin">func (*AccountBase) <a href="/account_service.go#L38">SignIn</a><a class="headerlink" href="#func-accountbase-signin" title="Permanent link">&para;</a></h4>
+<p><code>func (a *AccountBase) SignIn(userContext context.Context, details *sdk.AccountDetails) (*sdk.AccountProfile, sdk.ConfirmationMethod, error)</code></p>
+<h4 id="func-accountbase-unprotect">func (*AccountBase) <a href="/account_service.go#L53">Unprotect</a><a class="headerlink" href="#func-accountbase-unprotect" title="Permanent link">&para;</a></h4>
+<p><code>func (a *AccountBase) Unprotect(profile *sdk.AccountProfile, securityCode string) (*sdk.AccountProfile, error)</code></p>
+<h3 id="type-accountservice">type <a href="/account_service.go#L23">AccountService</a><a class="headerlink" href="#type-accountservice" title="Permanent link">&para;</a></h3>
+<p><code>type AccountService interface { ... }</code></p>
+<h3 id="type-credentialbase">type <a href="/credential_service.go#L34">CredentialBase</a><a class="headerlink" href="#type-credentialbase" title="Permanent link">&para;</a></h3>
+<p><code>type CredentialBase struct { ... }</code></p>
+<h4 id="func-credentialbase-checkstatus">func (*CredentialBase) <a href="/credential_service.go#L132">CheckStatus</a><a class="headerlink" href="#func-credentialbase-checkstatus" title="Permanent link">&para;</a></h4>
+<p><code>func (c *CredentialBase) CheckStatus(userContext context.Context, request *sdk.CheckStatusRequest) (*sdk.CheckStatusResponse, error)</code></p>
+<h4 id="func-credentialbase-createproof">func (*CredentialBase) <a href="/credential_service.go#L80">CreateProof</a><a class="headerlink" href="#func-credentialbase-createproof" title="Permanent link">&para;</a></h4>
+<p><code>func (c *CredentialBase) CreateProof(userContext context.Context, documentId string, revealDocument Document) (Document, error)</code></p>
+<h4 id="func-credentialbase-issuecredential">func (*CredentialBase) <a href="/credential_service.go#L39">IssueCredential</a><a class="headerlink" href="#func-credentialbase-issuecredential" title="Permanent link">&para;</a></h4>
+<p><code>func (c *CredentialBase) IssueCredential(userContext context.Context, document Document) (Document, error)</code></p>
+<h4 id="func-credentialbase-issuefromtemplate">func (*CredentialBase) <a href="/credential_service.go#L68">IssueFromTemplate</a><a class="headerlink" href="#func-credentialbase-issuefromtemplate" title="Permanent link">&para;</a></h4>
+<p><code>func (c *CredentialBase) IssueFromTemplate(userContext context.Context, request *sdk.IssueFromTemplateRequest) (*sdk.IssueFromTemplateResponse, error)</code></p>
+<h4 id="func-credentialbase-send">func (*CredentialBase) <a href="/credential_service.go#L159">Send</a><a class="headerlink" href="#func-credentialbase-send" title="Permanent link">&para;</a></h4>
+<p><code>func (c *CredentialBase) Send(userContext context.Context, document Document, email string) error</code></p>
+<h4 id="func-credentialbase-updatestatus">func (*CredentialBase) <a href="/credential_service.go#L144">UpdateStatus</a><a class="headerlink" href="#func-credentialbase-updatestatus" title="Permanent link">&para;</a></h4>
+<p><code>func (c *CredentialBase) UpdateStatus(userContext context.Context, request *sdk.UpdateStatusRequest) (*sdk.UpdateStatusResponse, error)</code></p>
+<h4 id="func-credentialbase-verifyproof">func (*CredentialBase) <a href="/credential_service.go#L109">VerifyProof</a><a class="headerlink" href="#func-credentialbase-verifyproof" title="Permanent link">&para;</a></h4>
+<p><code>func (c *CredentialBase) VerifyProof(userContext context.Context, proofDocument Document) (bool, error)</code></p>
+<h3 id="type-credentialservice">type <a href="/credential_service.go#L23">CredentialService</a><a class="headerlink" href="#type-credentialservice" title="Permanent link">&para;</a></h3>
+<p><code>type CredentialService interface { ... }</code></p>
+<h3 id="type-credentialtemplatebase">type <a href="/credentialtemplate_service.go#L30">CredentialTemplateBase</a><a class="headerlink" href="#type-credentialtemplatebase" title="Permanent link">&para;</a></h3>
+<p><code>type CredentialTemplateBase struct { ... }</code></p>
+<h4 id="func-credentialtemplatebase-create">func (*CredentialTemplateBase) <a href="/credentialtemplate_service.go#L35">Create</a><a class="headerlink" href="#func-credentialtemplatebase-create" title="Permanent link">&para;</a></h4>
+<p><code>func (c *CredentialTemplateBase) Create(userContext context.Context, request *sdk.CreateCredentialTemplateRequest) (*sdk.CreateCredentialTemplateResponse, error)</code></p>
+<h4 id="func-credentialtemplatebase-delete">func (*CredentialTemplateBase) <a href="/credentialtemplate_service.go#L83">Delete</a><a class="headerlink" href="#func-credentialtemplatebase-delete" title="Permanent link">&para;</a></h4>
+<p><code>func (c *CredentialTemplateBase) Delete(userContext context.Context, request *sdk.DeleteCredentialTemplateRequest) (*sdk.DeleteCredentialTemplateResponse, error)</code></p>
+<h4 id="func-credentialtemplatebase-get">func (*CredentialTemplateBase) <a href="/credentialtemplate_service.go#L47">Get</a><a class="headerlink" href="#func-credentialtemplatebase-get" title="Permanent link">&para;</a></h4>
+<p><code>func (c *CredentialTemplateBase) Get(userContext context.Context, request *sdk.GetCredentialTemplateRequest) (*sdk.GetCredentialTemplateResponse, error)</code></p>
+<h4 id="func-credentialtemplatebase-list">func (*CredentialTemplateBase) <a href="/credentialtemplate_service.go#L59">List</a><a class="headerlink" href="#func-credentialtemplatebase-list" title="Permanent link">&para;</a></h4>
+<p><code>func (c *CredentialTemplateBase) List(userContext context.Context, request *sdk.ListCredentialTemplatesRequest) (*sdk.ListCredentialTemplatesResponse, error)</code></p>
+<h4 id="func-credentialtemplatebase-search">func (*CredentialTemplateBase) <a href="/credentialtemplate_service.go#L71">Search</a><a class="headerlink" href="#func-credentialtemplatebase-search" title="Permanent link">&para;</a></h4>
+<p><code>func (c *CredentialTemplateBase) Search(userContext context.Context, request *sdk.SearchCredentialTemplatesRequest) (*sdk.SearchCredentialTemplatesResponse, error)</code></p>
+<h3 id="type-credentialtemplateservice">type <a href="/credentialtemplate_service.go#L21">CredentialTemplateService</a><a class="headerlink" href="#type-credentialtemplateservice" title="Permanent link">&para;</a></h3>
+<p><code>type CredentialTemplateService interface { ... }</code></p>
+<h3 id="type-document">type <a href="/services.go#L17">Document</a><a class="headerlink" href="#type-document" title="Permanent link">&para;</a></h3>
+<p><code>type Document map[string]interface{ ... }</code></p>
+<h3 id="type-fileprofileprovider">type <a href="/storage.go#L10">FileProfileProvider</a><a class="headerlink" href="#type-fileprofileprovider" title="Permanent link">&para;</a></h3>
+<p><code>type FileProfileProvider struct { ... }</code></p>
+<h4 id="func-fileprofileprovider-get">func (FileProfileProvider) <a href="/storage.go#L16">Get</a><a class="headerlink" href="#func-fileprofileprovider-get" title="Permanent link">&para;</a></h4>
+<p><code>func (f FileProfileProvider) Get(name string) (sdk.AccountProfile, error)</code></p>
+<h4 id="func-fileprofileprovider-save">func (FileProfileProvider) <a href="/storage.go#L20">Save</a><a class="headerlink" href="#func-fileprofileprovider-save" title="Permanent link">&para;</a></h4>
+<p><code>func (f FileProfileProvider) Save(name string, profile *sdk.AccountProfile) error</code></p>
+<h3 id="type-keychainprofileprovider">type <a href="/storage.go#L13">KeychainProfileProvider</a><a class="headerlink" href="#type-keychainprofileprovider" title="Permanent link">&para;</a></h3>
+<p><code>type KeychainProfileProvider struct { ... }</code></p>
+<h4 id="func-keychainprofileprovider-get">func (KeychainProfileProvider) <a href="/storage.go#L24">Get</a><a class="headerlink" href="#func-keychainprofileprovider-get" title="Permanent link">&para;</a></h4>
+<p><code>func (k KeychainProfileProvider) Get(name string) (sdk.AccountProfile, error)</code></p>
+<h4 id="func-keychainprofileprovider-save">func (KeychainProfileProvider) <a href="/storage.go#L28">Save</a><a class="headerlink" href="#func-keychainprofileprovider-save" title="Permanent link">&para;</a></h4>
+<p><code>func (k KeychainProfileProvider) Save(name string, profile *sdk.AccountProfile) error</code></p>
+<h3 id="type-oberonsecurityprovider">type <a href="/security.go#L17">OberonSecurityProvider</a><a class="headerlink" href="#type-oberonsecurityprovider" title="Permanent link">&para;</a></h3>
+<p><code>type OberonSecurityProvider struct { ... }</code></p>
+<h4 id="func-oberonsecurityprovider-getauthheader">func (OberonSecurityProvider) <a href="/security.go#L20">GetAuthHeader</a><a class="headerlink" href="#func-oberonsecurityprovider-getauthheader" title="Permanent link">&para;</a></h4>
+<p><code>func (o OberonSecurityProvider) GetAuthHeader(profile *sdk.AccountProfile, message proto.Message) (string, error)</code></p>
+<h3 id="type-profileprovider">type <a href="/storage.go#L5">ProfileProvider</a><a class="headerlink" href="#type-profileprovider" title="Permanent link">&para;</a></h3>
+<p><code>type ProfileProvider interface { ... }</code></p>
+<h3 id="type-providerbase">type <a href="/provider_service.go#L33">ProviderBase</a><a class="headerlink" href="#type-providerbase" title="Permanent link">&para;</a></h3>
+<p><code>type ProviderBase struct { ... }</code></p>
+<h4 id="func-providerbase-acceptinvite">func (*ProviderBase) <a href="/provider_service.go#L105">AcceptInvite</a><a class="headerlink" href="#func-providerbase-acceptinvite" title="Permanent link">&para;</a></h4>
+<p><code>func (p *ProviderBase) AcceptInvite(ctx context.Context, code string) (*sdk.AcceptInviteResponse, error)</code></p>
+<h4 id="func-providerbase-createecosystem">func (*ProviderBase) <a href="/provider_service.go#L76">CreateEcosystem</a><a class="headerlink" href="#func-providerbase-createecosystem" title="Permanent link">&para;</a></h4>
+<p><code>func (p *ProviderBase) CreateEcosystem(ctx context.Context, request *sdk.CreateEcosystemRequest) (*sdk.CreateEcosystemResponse, error)</code></p>
+<h4 id="func-providerbase-invitationstatus">func (*ProviderBase) <a href="/provider_service.go#L62">InvitationStatus</a><a class="headerlink" href="#func-providerbase-invitationstatus" title="Permanent link">&para;</a></h4>
+<p><code>func (p *ProviderBase) InvitationStatus(ctx context.Context, request *sdk.InvitationStatusRequest) (*sdk.InvitationStatusResponse, error)</code></p>
+<h4 id="func-providerbase-inviteparticipant">func (*ProviderBase) <a href="/provider_service.go#L43">InviteParticipant</a><a class="headerlink" href="#func-providerbase-inviteparticipant" title="Permanent link">&para;</a></h4>
+<p><code>func (p *ProviderBase) InviteParticipant(ctx context.Context, request *sdk.InviteRequest) (*sdk.InviteResponse, error)</code></p>
+<h4 id="func-providerbase-listecosystems">func (*ProviderBase) <a href="/provider_service.go#L90">ListEcosystems</a><a class="headerlink" href="#func-providerbase-listecosystems" title="Permanent link">&para;</a></h4>
+<p><code>func (p *ProviderBase) ListEcosystems(ctx context.Context) ([]*sdk.Ecosystem, error)</code></p>
+<h3 id="type-providerservice">type <a href="/provider_service.go#L23">ProviderService</a><a class="headerlink" href="#type-providerservice" title="Permanent link">&para;</a></h3>
+<p><code>type ProviderService interface { ... }</code></p>
+<h3 id="type-securityprovider">type <a href="/security.go#L13">SecurityProvider</a><a class="headerlink" href="#type-securityprovider" title="Permanent link">&para;</a></h3>
+<p><code>type SecurityProvider interface { ... }</code></p>
+<h3 id="type-service">type <a href="/service_base.go#L42">Service</a><a class="headerlink" href="#type-service" title="Permanent link">&para;</a></h3>
+<p><code>type Service interface { ... }</code></p>
+<h3 id="type-servicebase">type <a href="/service_base.go#L34">ServiceBase</a><a class="headerlink" href="#type-servicebase" title="Permanent link">&para;</a></h3>
+<p><code>type ServiceBase struct { ... }</code></p>
+<h4 id="func-servicebase-buildmetadata">func (*ServiceBase) <a href="/service_base.go#L73">BuildMetadata</a><a class="headerlink" href="#func-servicebase-buildmetadata" title="Permanent link">&para;</a></h4>
+<p><code>func (s *ServiceBase) BuildMetadata(message proto.Message) (metadata.MD, error)</code></p>
+<h4 id="func-servicebase-getchannel">func (*ServiceBase) <a href="/service_base.go#L50">GetChannel</a><a class="headerlink" href="#func-servicebase-getchannel" title="Permanent link">&para;</a></h4>
+<p><code>func (s *ServiceBase) GetChannel() *grpc.ClientConn</code></p>
+<h4 id="func-servicebase-getmetadatacontext">func (*ServiceBase) <a href="/service_base.go#L62">GetMetadataContext</a><a class="headerlink" href="#func-servicebase-getmetadatacontext" title="Permanent link">&para;</a></h4>
+<p><code>func (s *ServiceBase) GetMetadataContext(userContext context.Context, message proto.Message) (context.Context, error)</code></p>
+<h4 id="func-servicebase-setchannel">func (*ServiceBase) <a href="/service_base.go#L54">SetChannel</a><a class="headerlink" href="#func-servicebase-setchannel" title="Permanent link">&para;</a></h4>
+<p><code>func (s *ServiceBase) SetChannel(channel *grpc.ClientConn)</code></p>
+<h4 id="func-servicebase-setprofile">func (*ServiceBase) <a href="/service_base.go#L58">SetProfile</a><a class="headerlink" href="#func-servicebase-setprofile" title="Permanent link">&para;</a></h4>
+<p><code>func (s *ServiceBase) SetProfile(profile *sdk.AccountProfile)</code></p>
+<h3 id="type-serviceoptions">type <a href="/services.go#L19">ServiceOptions</a><a class="headerlink" href="#type-serviceoptions" title="Permanent link">&para;</a></h3>
+<p><code>type ServiceOptions struct { ... }</code></p>
+<h3 id="type-trustregistrybase">type <a href="/trustregistry_service.go#L37">TrustRegistryBase</a><a class="headerlink" href="#type-trustregistrybase" title="Permanent link">&para;</a></h3>
+<p><code>type TrustRegistryBase struct { ... }</code></p>
+<h4 id="func-trustregistrybase-checkissuerstatus">func (*TrustRegistryBase) <a href="/trustregistry_service.go#L104">CheckIssuerStatus</a><a class="headerlink" href="#func-trustregistrybase-checkissuerstatus" title="Permanent link">&para;</a></h4>
+<p><code>func (t *TrustRegistryBase) CheckIssuerStatus(userContext context.Context, request *sdk.CheckIssuerStatusRequest) (sdk.RegistrationStatus, error)</code></p>
+<h4 id="func-trustregistrybase-checkverifierstatus">func (*TrustRegistryBase) <a href="/trustregistry_service.go#L116">CheckVerifierStatus</a><a class="headerlink" href="#func-trustregistrybase-checkverifierstatus" title="Permanent link">&para;</a></h4>
+<p><code>func (t *TrustRegistryBase) CheckVerifierStatus(userContext context.Context, request *sdk.CheckVerifierStatusRequest) (sdk.RegistrationStatus, error)</code></p>
+<h4 id="func-trustregistrybase-fetchdata">func (*TrustRegistryBase) <a href="/trustregistry_service.go#L159">FetchData</a><a class="headerlink" href="#func-trustregistrybase-fetchdata" title="Permanent link">&para;</a></h4>
+<p><code>func (t *TrustRegistryBase) FetchData(userContext context.Context, request *sdk.FetchDataRequest) (sdk.TrustRegistry_FetchDataClient, error)</code></p>
+<h4 id="func-trustregistrybase-registergovernanceframework">func (*TrustRegistryBase) <a href="/trustregistry_service.go#L42">RegisterGovernanceFramework</a><a class="headerlink" href="#func-trustregistrybase-registergovernanceframework" title="Permanent link">&para;</a></h4>
+<p><code>func (t *TrustRegistryBase) RegisterGovernanceFramework(userContext context.Context, governanceFramework string, description string) error</code></p>
+<h4 id="func-trustregistrybase-registerissuer">func (*TrustRegistryBase) <a href="/trustregistry_service.go#L66">RegisterIssuer</a><a class="headerlink" href="#func-trustregistrybase-registerissuer" title="Permanent link">&para;</a></h4>
+<p><code>func (t *TrustRegistryBase) RegisterIssuer(userContext context.Context, request *sdk.RegisterIssuerRequest) error</code></p>
+<h4 id="func-trustregistrybase-registerverifier">func (*TrustRegistryBase) <a href="/trustregistry_service.go#L85">RegisterVerifier</a><a class="headerlink" href="#func-trustregistrybase-registerverifier" title="Permanent link">&para;</a></h4>
+<p><code>func (t *TrustRegistryBase) RegisterVerifier(userContext context.Context, request *sdk.RegisterVerifierRequest) error</code></p>
+<h4 id="func-trustregistrybase-removegovernanceframework">func (*TrustRegistryBase) <a href="/trustregistry_service.go#L147">RemoveGovernanceFramework</a><a class="headerlink" href="#func-trustregistrybase-removegovernanceframework" title="Permanent link">&para;</a></h4>
+<p><code>func (t *TrustRegistryBase) RemoveGovernanceFramework(userContext context.Context, request *sdk.RemoveFrameworkRequest) (*sdk.RemoveFrameworkResponse, error)</code></p>
+<h4 id="func-trustregistrybase-searchregistry">func (*TrustRegistryBase) <a href="/trustregistry_service.go#L128">SearchRegistry</a><a class="headerlink" href="#func-trustregistrybase-searchregistry" title="Permanent link">&para;</a></h4>
+<p><code>func (t *TrustRegistryBase) SearchRegistry(userContext context.Context, query string) (*sdk.SearchRegistryResponse, error)</code></p>
+<h4 id="func-trustregistrybase-unregisterissuer">func (*TrustRegistryBase) <a href="/trustregistry_service.go#L81">UnregisterIssuer</a><a class="headerlink" href="#func-trustregistrybase-unregisterissuer" title="Permanent link">&para;</a></h4>
+<p><code>func (t *TrustRegistryBase) UnregisterIssuer(userContext context.Context, request *sdk.UnregisterIssuerRequest) error</code></p>
+<h4 id="func-trustregistrybase-unregisterverifier">func (*TrustRegistryBase) <a href="/trustregistry_service.go#L100">UnregisterVerifier</a><a class="headerlink" href="#func-trustregistrybase-unregisterverifier" title="Permanent link">&para;</a></h4>
+<p><code>func (t *TrustRegistryBase) UnregisterVerifier(userContext context.Context, request *sdk.UnregisterVerifierRequest) error</code></p>
+<h3 id="type-trustregistryservice">type <a href="/trustregistry_service.go#L23">TrustRegistryService</a><a class="headerlink" href="#type-trustregistryservice" title="Permanent link">&para;</a></h3>
+<p><code>type TrustRegistryService interface { ... }</code></p>
+<h3 id="type-walletbase">type <a href="/wallet_service.go#L31">WalletBase</a><a class="headerlink" href="#type-walletbase" title="Permanent link">&para;</a></h3>
+<p><code>type WalletBase struct { ... }</code></p>
+<h4 id="func-walletbase-deleteitem">func (*WalletBase) <a href="/wallet_service.go#L75">DeleteItem</a><a class="headerlink" href="#func-walletbase-deleteitem" title="Permanent link">&para;</a></h4>
+<p><code>func (w *WalletBase) DeleteItem(userContext context.Context, request *sdk.DeleteItemRequest) (*sdk.DeleteItemResponse, error)</code></p>
+<h4 id="func-walletbase-insertitem">func (*WalletBase) <a href="/wallet_service.go#L52">InsertItem</a><a class="headerlink" href="#func-walletbase-insertitem" title="Permanent link">&para;</a></h4>
+<p><code>func (w *WalletBase) InsertItem(userContext context.Context, item Document) (string, error)</code></p>
+<h4 id="func-walletbase-search">func (*WalletBase) <a href="/wallet_service.go#L37">Search</a><a class="headerlink" href="#func-walletbase-search" title="Permanent link">&para;</a></h4>
+<p><code>func (w *WalletBase) Search(userContext context.Context, query string) (*sdk.SearchResponse, error)</code></p>
+<h3 id="type-walletservice">type <a href="/wallet_service.go#L23">WalletService</a><a class="headerlink" href="#type-walletservice" title="Permanent link">&para;</a></h3>
+<p><code>type WalletService interface { ... }</code></p>
+<hr />
+<p>Readme created from Go doc with <a href="https://github.com/posener/goreadme">goreadme</a></p>
+
+
+
+
+              
+            </article>
+            
+  <script>var tabs=__md_get("__tabs");if(Array.isArray(tabs))e:for(var set of document.querySelectorAll(".tabbed-set")){var tab,labels=set.querySelector(".tabbed-labels");for(tab of tabs)for(var label of labels.getElementsByTagName("label"))if(label.innerText.trim()===tab){var input=document.getElementById(label.htmlFor);input.checked=!0;continue e}}</script>
+
+          </div>
+        </div>
+        
+      </main>
+      
+        <footer class="md-footer">
+  
+  <div class="md-footer-meta md-typeset">
+    <div class="md-footer-meta__inner md-grid">
+      <div class="md-copyright">
+  
+  
+</div>
+      
+    </div>
+  </div>
+</footer>
+      
+    </div>
+    <div class="md-dialog" data-md-component="dialog">
+      <div class="md-dialog__inner md-typeset"></div>
+    </div>
+    
+    <script id="__config" type="application/json">{"base": "../../..", "features": ["content.tabs.link", "navigation.instant", "navigation.tracking"], "search": "../../../assets/javascripts/workers/search.2c028271.min.js", "translations": {"clipboard.copied": "Copied to clipboard", "clipboard.copy": "Copy to clipboard", "search.config.lang": "en", "search.config.pipeline": "stopWordFilter", "search.config.separator": "[\\s\\-]+", "search.placeholder": "Search", "search.result.more.one": "1 more on this page", "search.result.more.other": "# more on this page", "search.result.none": "No matching documents", "search.result.one": "1 matching document", "search.result.other": "# matching documents", "search.result.placeholder": "Type to start searching", "search.result.term.missing": "Missing", "select.version.title": "Select version"}}</script>
+    
+    
+      <script src="../../../assets/javascripts/bundle.714a356a.min.js"></script>
+      
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/10.7.2/highlight.min.js"></script>
+      
+        <script src="../../../_static/javascripts/config.js"></script>
+      
+    
+  </body>
+</html>

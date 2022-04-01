@@ -1,0 +1,4408 @@
+
+<!doctype html>
+<html lang="en" class="no-js">
+  <head>
+    
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width,initial-scale=1">
+      
+      
+      
+        <link rel="canonical" href="https://docs-v2.trinsic.id/reference/java/src/main/java/trinsic/services/verifiablecredentials/v1/VerifiableCredentials/">
+      
+      
+        
+      
+      <link rel="icon" href="../../../../../../../../../../_static/logo.png">
+      <meta name="generator" content="mkdocs-1.3.0, mkdocs-material-8.2.8+insiders-4.12.0">
+    
+    
+      
+        <title>Documentation - Documentation</title>
+      
+    
+    
+      <link rel="stylesheet" href="../../../../../../../../../../assets/stylesheets/main.7d01766c.min.css">
+      
+        
+        <link rel="stylesheet" href="../../../../../../../../../../assets/stylesheets/palette.e6a45f82.min.css">
+        
+      
+      
+    
+    
+    
+      
+        
+        
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Inter:300,300i,400,400i,700,700i%7CJetBrains+Mono:400,400i,700,700i&display=fallback">
+        <style>:root{--md-text-font:"Inter";--md-code-font:"JetBrains Mono"}</style>
+      
+    
+    
+      <link rel="stylesheet" href="../../../../../../../../../../assets/_mkdocstrings.css">
+    
+      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/10.7.2/styles/vs.min.css">
+    
+      <link rel="stylesheet" href="../../../../../../../../../../_static/extra.css">
+    
+    <script>__md_scope=new URL("../../../../../../../../../..",location),__md_hash=e=>[...e].reduce((e,_)=>(e<<5)-e+_.charCodeAt(0),0),__md_get=(e,_=localStorage,t=__md_scope)=>JSON.parse(_.getItem(t.pathname+"."+e)),__md_set=(e,_,t=localStorage,a=__md_scope)=>{try{t.setItem(a.pathname+"."+e,JSON.stringify(_))}catch(e){}}</script>
+    
+      
+
+    
+    
+    
+  </head>
+  
+  
+    
+    
+      
+    
+    
+    
+    
+    <body dir="ltr" data-md-color-scheme="default" data-md-color-primary="" data-md-color-accent="">
+  
+    
+    
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+    
+      <script>var palette=__md_get("__palette");if(palette&&"object"==typeof palette.color)for(var key of Object.keys(palette.color))document.body.setAttribute("data-md-color-"+key,palette.color[key])</script>
+    
+    <input class="md-toggle" data-md-toggle="drawer" type="checkbox" id="__drawer" autocomplete="off">
+    <input class="md-toggle" data-md-toggle="search" type="checkbox" id="__search" autocomplete="off">
+    <label class="md-overlay" for="__drawer"></label>
+    <div data-md-component="skip">
+      
+        
+        <a href="#documentation" class="md-skip">
+          Skip to content
+        </a>
+      
+    </div>
+    <div data-md-component="announce">
+      
+        <aside class="md-banner">
+          <div class="md-banner__inner md-grid md-typeset">
+            
+            
+<p>Join <a href="https://trinsic.typeform.com/to/EIO26xym">Trinsic Ecosystems Beta!</a></p>
+
+          </div>
+          
+        </aside>
+      
+    </div>
+    
+    
+      
+
+<header class="md-header" data-md-component="header">
+  <nav class="md-header__inner md-grid" aria-label="Header">
+    <a href="../../../../../../../../../.." title="Documentation" class="md-header__button md-logo" aria-label="Documentation" data-md-component="logo">
+      
+  <img src="../../../../../../../../../../_static/logo-title.svg" alt="logo">
+
+    </a>
+    <label class="md-header__button md-icon" for="__drawer">
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M3 6h18v2H3V6m0 5h18v2H3v-2m0 5h18v2H3v-2z"/></svg>
+    </label>
+    <div class="md-header__title" data-md-component="header-title">
+      <div class="md-header__ellipsis">
+        <div class="md-header__topic">
+          <span class="md-ellipsis">
+            Documentation
+          </span>
+        </div>
+        <div class="md-header__topic" data-md-component="header-topic">
+          <span class="md-ellipsis">
+            
+              Documentation
+            
+          </span>
+        </div>
+      </div>
+    </div>
+    
+      <form class="md-header__option" data-md-component="palette">
+        
+          
+          
+          <input class="md-option" data-md-color-media="(prefers-color-scheme: light)" data-md-color-scheme="default" data-md-color-primary="" data-md-color-accent=""  aria-label="Switch to dark mode"  type="radio" name="__palette" id="__palette_1">
+          
+            <label class="md-header__button md-icon" title="Switch to dark mode" for="__palette_2" hidden>
+              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 576 512"><!--! Font Awesome Free 6.1.1 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2022 Fonticons, Inc.--><path d="M342.7 352.7c5.75-9.625 9.25-20.75 9.25-32.75 0-35.25-28.75-64-63.1-64-17.25 0-32.75 6.875-44.25 17.87-17.2-29.62-48.4-50.72-85.5-50.72-53 0-96 43.06-96 96.06 0 2 .503 3.687.628 5.687-37.5 13-64.62 48.38-64.62 90.25C-.005 468.1 42.99 512 95.99 512h239.1c44.25 0 79.1-35.75 79.1-80 .91-41.9-30.49-75.8-71.49-79.3zm222.5-54.3c-93 17.75-178.5-53.62-178.5-147.6 0-54.25 28.1-104 76.12-130.9 7.375-4.125 5.375-15.12-2.75-16.63C448.4 1.125 436.7 0 424.1 0 318.2 0 232.2 85.88 232.2 192c0 8.5.625 16.75 1.75 25 5.875 4.25 11.62 8.875 16.75 14.25 11.4-4.75 24.5-7.25 36.4-7.25 52.88 0 95.1 43.13 95.1 96 0 3.625-.25 7.25-.625 10.75 23.62 10.75 42.37 29.5 53.5 52.5 54.38-3.375 103.7-29.25 137.1-70.37 7.025-6.48 1.325-16.08-6.975-14.48z"/></svg>
+            </label>
+          
+        
+          
+          
+          <input class="md-option" data-md-color-media="(prefers-color-scheme: dark)" data-md-color-scheme="slate" data-md-color-primary="" data-md-color-accent=""  aria-label="Switch to light mode"  type="radio" name="__palette" id="__palette_2">
+          
+            <label class="md-header__button md-icon" title="Switch to light mode" for="__palette_1" hidden>
+              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><!--! Font Awesome Free 6.1.1 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2022 Fonticons, Inc.--><path d="M256 159.1c-53.02 0-95.1 42.98-95.1 95.1s41.2 96.9 95.1 96.9 95.1-42.98 95.1-95.1-42.1-96.9-95.1-96.9zM509.3 347l-63.2-91.9 63.15-91.01c6.332-9.125 1.104-21.74-9.826-23.72l-109-19.7-19.7-109c-1.975-10.93-14.59-16.16-23.72-9.824L256 65.89 164.1 2.736c-9.125-6.332-21.74-1.107-23.72 9.824L121.6 121.6 12.56 141.3c-10.927 1.9-16.156 14.6-9.824 22.8L65.89 256 2.74 347.01c-6.332 9.125-1.105 21.74 9.824 23.72l109 19.7 19.7 109c1.975 10.93 14.59 16.16 23.72 9.824L256 446.1l91.01 63.15c9.127 6.334 21.75 1.107 23.72-9.822l19.7-109 109-19.7C510.4 368.8 515.6 356.1 509.3 347zM256 383.1c-70.69 0-127.1-57.31-127.1-127.1 0-70.69 57.31-127.1 127.1-127.1S383.1 186.2 383.1 256c0 70.7-56.4 127.1-127.1 127.1z"/></svg>
+            </label>
+          
+        
+      </form>
+    
+    
+    
+      <label class="md-header__button md-icon" for="__search">
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.516 6.516 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5z"/></svg>
+      </label>
+      <div class="md-search" data-md-component="search" role="dialog">
+  <label class="md-search__overlay" for="__search"></label>
+  <div class="md-search__inner" role="search">
+    <form class="md-search__form" name="search">
+      <input type="text" class="md-search__input" name="query" aria-label="Search" placeholder="Search" autocapitalize="off" autocorrect="off" autocomplete="off" spellcheck="false" data-md-component="search-query" required>
+      <label class="md-search__icon md-icon" for="__search">
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.516 6.516 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5z"/></svg>
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11h12z"/></svg>
+      </label>
+      <nav class="md-search__options" aria-label="Search">
+        
+        <button type="reset" class="md-search__icon md-icon" aria-label="Clear" tabindex="-1">
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M19 6.41 17.59 5 12 10.59 6.41 5 5 6.41 10.59 12 5 17.59 6.41 19 12 13.41 17.59 19 19 17.59 13.41 12 19 6.41z"/></svg>
+        </button>
+      </nav>
+      
+    </form>
+    <div class="md-search__output">
+      <div class="md-search__scrollwrap" data-md-scrollfix>
+        <div class="md-search-result" data-md-component="search-result">
+          <div class="md-search-result__meta">
+            Initializing search
+          </div>
+          <ol class="md-search-result__list"></ol>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+    
+    
+      <div class="md-header__source">
+        <a href="https://github.com/trinsic-id/sdk" title="Go to repository" class="md-source" data-md-component="source">
+  <div class="md-source__icon md-icon">
+    
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 480 512"><!--! Font Awesome Free 6.1.1 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2022 Fonticons, Inc.--><path d="M186.1 328.7c0 20.9-10.9 55.1-36.7 55.1s-36.7-34.2-36.7-55.1 10.9-55.1 36.7-55.1 36.7 34.2 36.7 55.1zM480 278.2c0 31.9-3.2 65.7-17.5 95-37.9 76.6-142.1 74.8-216.7 74.8-75.8 0-186.2 2.7-225.6-74.8-14.6-29-20.2-63.1-20.2-95 0-41.9 13.9-81.5 41.5-113.6-5.2-15.8-7.7-32.4-7.7-48.8 0-21.5 4.9-32.3 14.6-51.8 45.3 0 74.3 9 108.8 36 29-6.9 58.8-10 88.7-10 27 0 54.2 2.9 80.4 9.2 34-26.7 63-35.2 107.8-35.2 9.8 19.5 14.6 30.3 14.6 51.8 0 16.4-2.6 32.7-7.7 48.2 27.5 32.4 39 72.3 39 114.2zm-64.3 50.5c0-43.9-26.7-82.6-73.5-82.6-18.9 0-37 3.4-56 6-14.9 2.3-29.8 3.2-45.1 3.2-15.2 0-30.1-.9-45.1-3.2-18.7-2.6-37-6-56-6-46.8 0-73.5 38.7-73.5 82.6 0 87.8 80.4 101.3 150.4 101.3h48.2c70.3 0 150.6-13.4 150.6-101.3zm-82.6-55.1c-25.8 0-36.7 34.2-36.7 55.1s10.9 55.1 36.7 55.1 36.7-34.2 36.7-55.1-10.9-55.1-36.7-55.1z"/></svg>
+  </div>
+  <div class="md-source__repository">
+    trinsic-id/sdk
+  </div>
+</a>
+      </div>
+    
+  </nav>
+  
+</header>
+    
+    <div class="md-container" data-md-component="container">
+      
+      
+        
+          
+        
+      
+      <main class="md-main" data-md-component="main">
+        <div class="md-main__inner md-grid">
+          
+            
+              
+              <div class="md-sidebar md-sidebar--primary" data-md-component="sidebar" data-md-type="navigation" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+
+<nav class="md-nav md-nav--primary" aria-label="Navigation" data-md-level="0">
+  <label class="md-nav__title" for="__drawer">
+    <a href="../../../../../../../../../.." title="Documentation" class="md-nav__button md-logo" aria-label="Documentation" data-md-component="logo">
+      
+  <img src="../../../../../../../../../../_static/logo-title.svg" alt="logo">
+
+    </a>
+    Documentation
+  </label>
+  
+    <div class="md-nav__source">
+      <a href="https://github.com/trinsic-id/sdk" title="Go to repository" class="md-source" data-md-component="source">
+  <div class="md-source__icon md-icon">
+    
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 480 512"><!--! Font Awesome Free 6.1.1 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2022 Fonticons, Inc.--><path d="M186.1 328.7c0 20.9-10.9 55.1-36.7 55.1s-36.7-34.2-36.7-55.1 10.9-55.1 36.7-55.1 36.7 34.2 36.7 55.1zM480 278.2c0 31.9-3.2 65.7-17.5 95-37.9 76.6-142.1 74.8-216.7 74.8-75.8 0-186.2 2.7-225.6-74.8-14.6-29-20.2-63.1-20.2-95 0-41.9 13.9-81.5 41.5-113.6-5.2-15.8-7.7-32.4-7.7-48.8 0-21.5 4.9-32.3 14.6-51.8 45.3 0 74.3 9 108.8 36 29-6.9 58.8-10 88.7-10 27 0 54.2 2.9 80.4 9.2 34-26.7 63-35.2 107.8-35.2 9.8 19.5 14.6 30.3 14.6 51.8 0 16.4-2.6 32.7-7.7 48.2 27.5 32.4 39 72.3 39 114.2zm-64.3 50.5c0-43.9-26.7-82.6-73.5-82.6-18.9 0-37 3.4-56 6-14.9 2.3-29.8 3.2-45.1 3.2-15.2 0-30.1-.9-45.1-3.2-18.7-2.6-37-6-56-6-46.8 0-73.5 38.7-73.5 82.6 0 87.8 80.4 101.3 150.4 101.3h48.2c70.3 0 150.6-13.4 150.6-101.3zm-82.6-55.1c-25.8 0-36.7 34.2-36.7 55.1s10.9 55.1 36.7 55.1 36.7-34.2 36.7-55.1-10.9-55.1-36.7-55.1z"/></svg>
+  </div>
+  <div class="md-source__repository">
+    trinsic-id/sdk
+  </div>
+</a>
+    </div>
+  
+  <ul class="md-nav__list" data-md-scrollfix>
+    
+      
+      
+      
+
+
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../../../../../../../.." class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Home
+  </span>
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+      
+
+
+  
+  
+  
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+      
+        <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_2" type="checkbox" id="__nav_2" >
+      
+      
+      
+      
+        <label class="md-nav__link" for="__nav_2">
+          
+  
+  <span class="md-ellipsis">
+    Getting Started
+  </span>
+
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <nav class="md-nav" aria-label="Getting Started" data-md-level="1">
+        <label class="md-nav__title" for="__nav_2">
+          <span class="md-nav__icon md-icon"></span>
+          Getting Started
+        </label>
+        <ul class="md-nav__list" data-md-scrollfix>
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../../../../../../../../learn/intro/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    What is Trinsic?
+  </span>
+
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../../../../../../../../early-adopter/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Before You Start
+  </span>
+
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../../../../../../../../walkthroughs/vaccination/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Try the Walkthrough
+  </span>
+
+      </a>
+    </li>
+  
+
+            
+          
+        </ul>
+      </nav>
+    </li>
+  
+
+    
+      
+      
+      
+
+
+  
+  
+  
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+      
+        <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_3" type="checkbox" id="__nav_3" >
+      
+      
+      
+      
+        <label class="md-nav__link" for="__nav_3">
+          
+  
+  <span class="md-ellipsis">
+    Key Concepts
+  </span>
+
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <nav class="md-nav" aria-label="Key Concepts" data-md-level="1">
+        <label class="md-nav__title" for="__nav_3">
+          <span class="md-nav__icon md-icon"></span>
+          Key Concepts
+        </label>
+        <ul class="md-nav__list" data-md-scrollfix>
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../../../../../../../../learn/security/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Security Overview
+  </span>
+
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../../../../../../../../learn/ecosystems/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Identity Ecosystems
+  </span>
+
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../../../../../../../../learn/wallets/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Wallets
+  </span>
+
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../../../../../../../../learn/templates/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Templates
+  </span>
+
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../../../../../../../../learn/credentials/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Credentials
+  </span>
+
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../../../../../../../../learn/standards/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Standards
+  </span>
+
+      </a>
+    </li>
+  
+
+            
+          
+        </ul>
+      </nav>
+    </li>
+  
+
+    
+      
+      
+      
+
+
+  
+  
+  
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+      
+        <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_4" type="checkbox" id="__nav_4" >
+      
+      
+      
+      
+        <label class="md-nav__link" for="__nav_4">
+          
+  
+  <span class="md-ellipsis">
+    Developer Tools
+  </span>
+
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <nav class="md-nav" aria-label="Developer Tools" data-md-level="1">
+        <label class="md-nav__title" for="__nav_4">
+          <span class="md-nav__icon md-icon"></span>
+          Developer Tools
+        </label>
+        <ul class="md-nav__list" data-md-scrollfix>
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../../../../../../../../cli/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Trinsic CLI
+  </span>
+
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+      
+        <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_4_2" type="checkbox" id="__nav_4_2" >
+      
+      
+      
+      
+        <label class="md-nav__link" for="__nav_4_2">
+          
+  
+  <span class="md-ellipsis">
+    Client-Side SDKs
+  </span>
+
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <nav class="md-nav" aria-label="Client-Side SDKs" data-md-level="2">
+        <label class="md-nav__title" for="__nav_4_2">
+          <span class="md-nav__icon md-icon"></span>
+          Client-Side SDKs
+        </label>
+        <ul class="md-nav__list" data-md-scrollfix>
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../../../../../../../../web/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Browser
+  </span>
+
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../../../../../../../../ios/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    iOS
+  </span>
+
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../../../../../../../../android/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Android
+  </span>
+
+      </a>
+    </li>
+  
+
+            
+          
+        </ul>
+      </nav>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+      
+        <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_4_3" type="checkbox" id="__nav_4_3" >
+      
+      
+      
+      
+        <label class="md-nav__link" for="__nav_4_3">
+          
+  
+  <span class="md-ellipsis">
+    Server-Side SDKs
+  </span>
+
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <nav class="md-nav" aria-label="Server-Side SDKs" data-md-level="2">
+        <label class="md-nav__title" for="__nav_4_3">
+          <span class="md-nav__icon md-icon"></span>
+          Server-Side SDKs
+        </label>
+        <ul class="md-nav__list" data-md-scrollfix>
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../../../../../../../../node/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Node
+  </span>
+
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../../../../../../../../dotnet/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    C#
+  </span>
+
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../../../../../../../../python/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Python
+  </span>
+
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../../../../../../../../ruby/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Ruby
+  </span>
+
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../../../../../../../../go/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Go
+  </span>
+
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../../../../../../../../java/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Java
+  </span>
+
+      </a>
+    </li>
+  
+
+            
+          
+        </ul>
+      </nav>
+    </li>
+  
+
+            
+          
+        </ul>
+      </nav>
+    </li>
+  
+
+    
+      
+      
+      
+
+
+  
+  
+  
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+      
+        <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_5" type="checkbox" id="__nav_5" >
+      
+      
+      
+      
+        <label class="md-nav__link" for="__nav_5">
+          
+  
+  <span class="md-ellipsis">
+    SDK Reference
+  </span>
+
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <nav class="md-nav" aria-label="SDK Reference" data-md-level="1">
+        <label class="md-nav__title" for="__nav_5">
+          <span class="md-nav__icon md-icon"></span>
+          SDK Reference
+        </label>
+        <ul class="md-nav__list" data-md-scrollfix>
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../../../../../../../" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Overview
+  </span>
+
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../../../../../../../services/account-service/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Account Service
+  </span>
+
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../../../../../../../services/wallet-service/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Wallet Service
+  </span>
+
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../../../../../../../services/credential-service/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Credential Service
+  </span>
+
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../../../../../../../services/provider-service/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Provider Service
+  </span>
+
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../../../../../../../services/trust-registry-service/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Trust Registry Service
+  </span>
+
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../../../../../../../proto/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Protocol Buffers
+  </span>
+
+      </a>
+    </li>
+  
+
+            
+          
+        </ul>
+      </nav>
+    </li>
+  
+
+    
+      
+      
+      
+
+
+  
+  
+  
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+      
+        <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_6" type="checkbox" id="__nav_6" >
+      
+      
+      
+      
+        <label class="md-nav__link" for="__nav_6">
+          
+  
+  <span class="md-ellipsis">
+    Resources
+  </span>
+
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <nav class="md-nav" aria-label="Resources" data-md-level="1">
+        <label class="md-nav__title" for="__nav_6">
+          <span class="md-nav__icon md-icon"></span>
+          Resources
+        </label>
+        <ul class="md-nav__list" data-md-scrollfix>
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../../../../../../../../roadmap/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Roadmap
+  </span>
+
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../../../../../../../../support/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Ask a Question
+  </span>
+
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="https://join.slack.com/t/trinsiccommunity/shared_invite/zt-pcsdy7kn-h4vtdPEpqQUlmirU8FFzSQ" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Join the Community
+  </span>
+
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="https://github.com/trinsic-id" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Contribute on GitHub
+  </span>
+
+      </a>
+    </li>
+  
+
+            
+          
+        </ul>
+      </nav>
+    </li>
+  
+
+    
+  </ul>
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+            
+              
+              <div class="md-sidebar md-sidebar--secondary" data-md-component="sidebar" data-md-type="toc" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
+  
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#javalangstring-getdocumentjson" class="md-nav__link">
+    java.lang.String getDocumentJson()
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#comgoogleprotobufbytestring-getdocumentjsonbytes" class="md-nav__link">
+    com.google.protobuf.ByteString getDocumentJsonBytes()
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#public-static-final-class-issuerequest-extends-comgoogleprotobufgeneratedmessagev3-implements" class="md-nav__link">
+    public static final class IssueRequest extends com.google.protobuf.GeneratedMessageV3 implements
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#javalangoverride-public-javalangstring-getdocumentjson" class="md-nav__link">
+    @java.lang.Override public java.lang.String getDocumentJson()
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#javalangoverride-public-comgoogleprotobufbytestring-getdocumentjsonbytes" class="md-nav__link">
+    @java.lang.Override public com.google.protobuf.ByteString getDocumentJsonBytes()
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#public-static-final-class-builder-extends-comgoogleprotobufgeneratedmessagev3builderbuilder-implements" class="md-nav__link">
+    public static final class Builder extends com.google.protobuf.GeneratedMessageV3.Builder&lt;Builder&gt; implements
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#public-javalangstring-getdocumentjson" class="md-nav__link">
+    public java.lang.String getDocumentJson()
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#public-comgoogleprotobufbytestring-getdocumentjsonbytes" class="md-nav__link">
+    public com.google.protobuf.ByteString getDocumentJsonBytes()
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#public-builder-setdocumentjson-javalangstring-value" class="md-nav__link">
+    public Builder setDocumentJson( java.lang.String value)
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#public-builder-cleardocumentjson" class="md-nav__link">
+    public Builder clearDocumentJson()
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#public-builder-setdocumentjsonbytes-comgoogleprotobufbytestring-value" class="md-nav__link">
+    public Builder setDocumentJsonBytes( com.google.protobuf.ByteString value)
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#javalangstring-getsigneddocumentjson" class="md-nav__link">
+    java.lang.String getSignedDocumentJson()
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#comgoogleprotobufbytestring-getsigneddocumentjsonbytes" class="md-nav__link">
+    com.google.protobuf.ByteString getSignedDocumentJsonBytes()
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#public-static-final-class-issueresponse-extends-comgoogleprotobufgeneratedmessagev3-implements" class="md-nav__link">
+    public static final class IssueResponse extends com.google.protobuf.GeneratedMessageV3 implements
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#javalangoverride-public-javalangstring-getsigneddocumentjson" class="md-nav__link">
+    @java.lang.Override public java.lang.String getSignedDocumentJson()
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#javalangoverride-public-comgoogleprotobufbytestring-getsigneddocumentjsonbytes" class="md-nav__link">
+    @java.lang.Override public com.google.protobuf.ByteString getSignedDocumentJsonBytes()
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#public-static-final-class-builder-extends-comgoogleprotobufgeneratedmessagev3builderbuilder-implements_1" class="md-nav__link">
+    public static final class Builder extends com.google.protobuf.GeneratedMessageV3.Builder&lt;Builder&gt; implements
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#public-javalangstring-getsigneddocumentjson" class="md-nav__link">
+    public java.lang.String getSignedDocumentJson()
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#public-comgoogleprotobufbytestring-getsigneddocumentjsonbytes" class="md-nav__link">
+    public com.google.protobuf.ByteString getSignedDocumentJsonBytes()
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#public-builder-setsigneddocumentjson-javalangstring-value" class="md-nav__link">
+    public Builder setSignedDocumentJson( java.lang.String value)
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#public-builder-clearsigneddocumentjson" class="md-nav__link">
+    public Builder clearSignedDocumentJson()
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#public-builder-setsigneddocumentjsonbytes-comgoogleprotobufbytestring-value" class="md-nav__link">
+    public Builder setSignedDocumentJsonBytes( com.google.protobuf.ByteString value)
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#javalangstring-gettemplateid" class="md-nav__link">
+    java.lang.String getTemplateId()
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#comgoogleprotobufbytestring-gettemplateidbytes" class="md-nav__link">
+    com.google.protobuf.ByteString getTemplateIdBytes()
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#javalangstring-getvaluesjson" class="md-nav__link">
+    java.lang.String getValuesJson()
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#comgoogleprotobufbytestring-getvaluesjsonbytes" class="md-nav__link">
+    com.google.protobuf.ByteString getValuesJsonBytes()
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#public-static-final-class-issuefromtemplaterequest-extends-comgoogleprotobufgeneratedmessagev3-implements" class="md-nav__link">
+    public static final class IssueFromTemplateRequest extends com.google.protobuf.GeneratedMessageV3 implements
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#javalangoverride-public-javalangstring-gettemplateid" class="md-nav__link">
+    @java.lang.Override public java.lang.String getTemplateId()
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#javalangoverride-public-comgoogleprotobufbytestring-gettemplateidbytes" class="md-nav__link">
+    @java.lang.Override public com.google.protobuf.ByteString getTemplateIdBytes()
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#javalangoverride-public-javalangstring-getvaluesjson" class="md-nav__link">
+    @java.lang.Override public java.lang.String getValuesJson()
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#javalangoverride-public-comgoogleprotobufbytestring-getvaluesjsonbytes" class="md-nav__link">
+    @java.lang.Override public com.google.protobuf.ByteString getValuesJsonBytes()
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#public-static-final-class-builder-extends-comgoogleprotobufgeneratedmessagev3builderbuilder-implements_2" class="md-nav__link">
+    public static final class Builder extends com.google.protobuf.GeneratedMessageV3.Builder&lt;Builder&gt; implements
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#public-javalangstring-gettemplateid" class="md-nav__link">
+    public java.lang.String getTemplateId()
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#public-comgoogleprotobufbytestring-gettemplateidbytes" class="md-nav__link">
+    public com.google.protobuf.ByteString getTemplateIdBytes()
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#public-builder-settemplateid-javalangstring-value" class="md-nav__link">
+    public Builder setTemplateId( java.lang.String value)
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#public-builder-cleartemplateid" class="md-nav__link">
+    public Builder clearTemplateId()
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#public-builder-settemplateidbytes-comgoogleprotobufbytestring-value" class="md-nav__link">
+    public Builder setTemplateIdBytes( com.google.protobuf.ByteString value)
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#public-javalangstring-getvaluesjson" class="md-nav__link">
+    public java.lang.String getValuesJson()
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#public-comgoogleprotobufbytestring-getvaluesjsonbytes" class="md-nav__link">
+    public com.google.protobuf.ByteString getValuesJsonBytes()
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#public-builder-setvaluesjson-javalangstring-value" class="md-nav__link">
+    public Builder setValuesJson( java.lang.String value)
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#public-builder-clearvaluesjson" class="md-nav__link">
+    public Builder clearValuesJson()
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#public-builder-setvaluesjsonbytes-comgoogleprotobufbytestring-value" class="md-nav__link">
+    public Builder setValuesJsonBytes( com.google.protobuf.ByteString value)
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#javalangstring-getdocumentjson_1" class="md-nav__link">
+    java.lang.String getDocumentJson()
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#comgoogleprotobufbytestring-getdocumentjsonbytes_1" class="md-nav__link">
+    com.google.protobuf.ByteString getDocumentJsonBytes()
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#public-static-final-class-issuefromtemplateresponse-extends-comgoogleprotobufgeneratedmessagev3-implements" class="md-nav__link">
+    public static final class IssueFromTemplateResponse extends com.google.protobuf.GeneratedMessageV3 implements
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#javalangoverride-public-javalangstring-getdocumentjson_1" class="md-nav__link">
+    @java.lang.Override public java.lang.String getDocumentJson()
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#javalangoverride-public-comgoogleprotobufbytestring-getdocumentjsonbytes_1" class="md-nav__link">
+    @java.lang.Override public com.google.protobuf.ByteString getDocumentJsonBytes()
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#public-static-final-class-builder-extends-comgoogleprotobufgeneratedmessagev3builderbuilder-implements_3" class="md-nav__link">
+    public static final class Builder extends com.google.protobuf.GeneratedMessageV3.Builder&lt;Builder&gt; implements
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#public-javalangstring-getdocumentjson_1" class="md-nav__link">
+    public java.lang.String getDocumentJson()
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#public-comgoogleprotobufbytestring-getdocumentjsonbytes_1" class="md-nav__link">
+    public com.google.protobuf.ByteString getDocumentJsonBytes()
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#public-builder-setdocumentjson-javalangstring-value_1" class="md-nav__link">
+    public Builder setDocumentJson( java.lang.String value)
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#public-builder-cleardocumentjson_1" class="md-nav__link">
+    public Builder clearDocumentJson()
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#public-builder-setdocumentjsonbytes-comgoogleprotobufbytestring-value_1" class="md-nav__link">
+    public Builder setDocumentJsonBytes( com.google.protobuf.ByteString value)
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#javalangstring-getrevealdocumentjson" class="md-nav__link">
+    java.lang.String getRevealDocumentJson()
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#comgoogleprotobufbytestring-getrevealdocumentjsonbytes" class="md-nav__link">
+    com.google.protobuf.ByteString getRevealDocumentJsonBytes()
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#boolean-hasitemid" class="md-nav__link">
+    boolean hasItemId()
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#javalangstring-getitemid" class="md-nav__link">
+    java.lang.String getItemId()
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#comgoogleprotobufbytestring-getitemidbytes" class="md-nav__link">
+    com.google.protobuf.ByteString getItemIdBytes()
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#boolean-hasdocumentjson" class="md-nav__link">
+    boolean hasDocumentJson()
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#javalangstring-getdocumentjson_2" class="md-nav__link">
+    java.lang.String getDocumentJson()
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#comgoogleprotobufbytestring-getdocumentjsonbytes_2" class="md-nav__link">
+    com.google.protobuf.ByteString getDocumentJsonBytes()
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#public-static-final-class-createproofrequest-extends-comgoogleprotobufgeneratedmessagev3-implements" class="md-nav__link">
+    public static final class CreateProofRequest extends com.google.protobuf.GeneratedMessageV3 implements
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#javalangdeprecated-public-static-proofcase-valueofint-value" class="md-nav__link">
+    @java.lang.Deprecated public static ProofCase valueOf(int value)
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#javalangoverride-public-javalangstring-getrevealdocumentjson" class="md-nav__link">
+    @java.lang.Override public java.lang.String getRevealDocumentJson()
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#javalangoverride-public-comgoogleprotobufbytestring-getrevealdocumentjsonbytes" class="md-nav__link">
+    @java.lang.Override public com.google.protobuf.ByteString getRevealDocumentJsonBytes()
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#public-boolean-hasitemid" class="md-nav__link">
+    public boolean hasItemId()
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#public-javalangstring-getitemid" class="md-nav__link">
+    public java.lang.String getItemId()
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#public-comgoogleprotobufbytestring-getitemidbytes" class="md-nav__link">
+    public com.google.protobuf.ByteString getItemIdBytes()
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#public-boolean-hasdocumentjson" class="md-nav__link">
+    public boolean hasDocumentJson()
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#public-javalangstring-getdocumentjson_2" class="md-nav__link">
+    public java.lang.String getDocumentJson()
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#public-comgoogleprotobufbytestring-getdocumentjsonbytes_2" class="md-nav__link">
+    public com.google.protobuf.ByteString getDocumentJsonBytes()
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#public-static-final-class-builder-extends-comgoogleprotobufgeneratedmessagev3builderbuilder-implements_4" class="md-nav__link">
+    public static final class Builder extends com.google.protobuf.GeneratedMessageV3.Builder&lt;Builder&gt; implements
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#public-javalangstring-getrevealdocumentjson" class="md-nav__link">
+    public java.lang.String getRevealDocumentJson()
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#public-comgoogleprotobufbytestring-getrevealdocumentjsonbytes" class="md-nav__link">
+    public com.google.protobuf.ByteString getRevealDocumentJsonBytes()
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#public-builder-setrevealdocumentjson-javalangstring-value" class="md-nav__link">
+    public Builder setRevealDocumentJson( java.lang.String value)
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#public-builder-clearrevealdocumentjson" class="md-nav__link">
+    public Builder clearRevealDocumentJson()
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#public-builder-setrevealdocumentjsonbytes-comgoogleprotobufbytestring-value" class="md-nav__link">
+    public Builder setRevealDocumentJsonBytes( com.google.protobuf.ByteString value)
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#javalangoverride-public-boolean-hasitemid" class="md-nav__link">
+    @java.lang.Override public boolean hasItemId()
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#javalangoverride-public-javalangstring-getitemid" class="md-nav__link">
+    @java.lang.Override public java.lang.String getItemId()
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#javalangoverride-public-comgoogleprotobufbytestring-getitemidbytes" class="md-nav__link">
+    @java.lang.Override public com.google.protobuf.ByteString getItemIdBytes()
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#public-builder-setitemid-javalangstring-value" class="md-nav__link">
+    public Builder setItemId( java.lang.String value)
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#public-builder-clearitemid" class="md-nav__link">
+    public Builder clearItemId()
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#public-builder-setitemidbytes-comgoogleprotobufbytestring-value" class="md-nav__link">
+    public Builder setItemIdBytes( com.google.protobuf.ByteString value)
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#javalangoverride-public-boolean-hasdocumentjson" class="md-nav__link">
+    @java.lang.Override public boolean hasDocumentJson()
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#javalangoverride-public-javalangstring-getdocumentjson_2" class="md-nav__link">
+    @java.lang.Override public java.lang.String getDocumentJson()
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#javalangoverride-public-comgoogleprotobufbytestring-getdocumentjsonbytes_2" class="md-nav__link">
+    @java.lang.Override public com.google.protobuf.ByteString getDocumentJsonBytes()
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#public-builder-setdocumentjson-javalangstring-value_2" class="md-nav__link">
+    public Builder setDocumentJson( java.lang.String value)
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#public-builder-cleardocumentjson_2" class="md-nav__link">
+    public Builder clearDocumentJson()
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#public-builder-setdocumentjsonbytes-comgoogleprotobufbytestring-value_2" class="md-nav__link">
+    public Builder setDocumentJsonBytes( com.google.protobuf.ByteString value)
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#javalangstring-getproofdocumentjson" class="md-nav__link">
+    java.lang.String getProofDocumentJson()
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#comgoogleprotobufbytestring-getproofdocumentjsonbytes" class="md-nav__link">
+    com.google.protobuf.ByteString getProofDocumentJsonBytes()
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#public-static-final-class-createproofresponse-extends-comgoogleprotobufgeneratedmessagev3-implements" class="md-nav__link">
+    public static final class CreateProofResponse extends com.google.protobuf.GeneratedMessageV3 implements
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#javalangoverride-public-javalangstring-getproofdocumentjson" class="md-nav__link">
+    @java.lang.Override public java.lang.String getProofDocumentJson()
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#javalangoverride-public-comgoogleprotobufbytestring-getproofdocumentjsonbytes" class="md-nav__link">
+    @java.lang.Override public com.google.protobuf.ByteString getProofDocumentJsonBytes()
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#public-static-final-class-builder-extends-comgoogleprotobufgeneratedmessagev3builderbuilder-implements_5" class="md-nav__link">
+    public static final class Builder extends com.google.protobuf.GeneratedMessageV3.Builder&lt;Builder&gt; implements
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#public-javalangstring-getproofdocumentjson" class="md-nav__link">
+    public java.lang.String getProofDocumentJson()
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#public-comgoogleprotobufbytestring-getproofdocumentjsonbytes" class="md-nav__link">
+    public com.google.protobuf.ByteString getProofDocumentJsonBytes()
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#public-builder-setproofdocumentjson-javalangstring-value" class="md-nav__link">
+    public Builder setProofDocumentJson( java.lang.String value)
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#public-builder-clearproofdocumentjson" class="md-nav__link">
+    public Builder clearProofDocumentJson()
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#public-builder-setproofdocumentjsonbytes-comgoogleprotobufbytestring-value" class="md-nav__link">
+    public Builder setProofDocumentJsonBytes( com.google.protobuf.ByteString value)
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#javalangstring-getproofdocumentjson_1" class="md-nav__link">
+    java.lang.String getProofDocumentJson()
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#comgoogleprotobufbytestring-getproofdocumentjsonbytes_1" class="md-nav__link">
+    com.google.protobuf.ByteString getProofDocumentJsonBytes()
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#public-static-final-class-verifyproofrequest-extends-comgoogleprotobufgeneratedmessagev3-implements" class="md-nav__link">
+    public static final class VerifyProofRequest extends com.google.protobuf.GeneratedMessageV3 implements
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#javalangoverride-public-javalangstring-getproofdocumentjson_1" class="md-nav__link">
+    @java.lang.Override public java.lang.String getProofDocumentJson()
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#javalangoverride-public-comgoogleprotobufbytestring-getproofdocumentjsonbytes_1" class="md-nav__link">
+    @java.lang.Override public com.google.protobuf.ByteString getProofDocumentJsonBytes()
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#public-static-final-class-builder-extends-comgoogleprotobufgeneratedmessagev3builderbuilder-implements_6" class="md-nav__link">
+    public static final class Builder extends com.google.protobuf.GeneratedMessageV3.Builder&lt;Builder&gt; implements
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#public-javalangstring-getproofdocumentjson_1" class="md-nav__link">
+    public java.lang.String getProofDocumentJson()
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#public-comgoogleprotobufbytestring-getproofdocumentjsonbytes_1" class="md-nav__link">
+    public com.google.protobuf.ByteString getProofDocumentJsonBytes()
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#public-builder-setproofdocumentjson-javalangstring-value_1" class="md-nav__link">
+    public Builder setProofDocumentJson( java.lang.String value)
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#public-builder-clearproofdocumentjson_1" class="md-nav__link">
+    public Builder clearProofDocumentJson()
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#public-builder-setproofdocumentjsonbytes-comgoogleprotobufbytestring-value_1" class="md-nav__link">
+    public Builder setProofDocumentJsonBytes( com.google.protobuf.ByteString value)
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#boolean-getisvalid" class="md-nav__link">
+    boolean getIsValid()
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#javautillistjavalangstring-getvalidationmessageslist" class="md-nav__link">
+    java.util.List&lt;java.lang.String&gt; getValidationMessagesList()
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#int-getvalidationmessagescount" class="md-nav__link">
+    int getValidationMessagesCount()
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#javalangstring-getvalidationmessagesint-index" class="md-nav__link">
+    java.lang.String getValidationMessages(int index)
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#comgoogleprotobufbytestring-getvalidationmessagesbytesint-index" class="md-nav__link">
+    com.google.protobuf.ByteString getValidationMessagesBytes(int index)
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#public-static-final-class-verifyproofresponse-extends-comgoogleprotobufgeneratedmessagev3-implements" class="md-nav__link">
+    public static final class VerifyProofResponse extends com.google.protobuf.GeneratedMessageV3 implements
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#javalangoverride-public-boolean-getisvalid" class="md-nav__link">
+    @java.lang.Override public boolean getIsValid()
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#public-comgoogleprotobufprotocolstringlist-getvalidationmessageslist" class="md-nav__link">
+    public com.google.protobuf.ProtocolStringList getValidationMessagesList()
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#public-int-getvalidationmessagescount" class="md-nav__link">
+    public int getValidationMessagesCount()
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#public-javalangstring-getvalidationmessagesint-index" class="md-nav__link">
+    public java.lang.String getValidationMessages(int index)
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#public-comgoogleprotobufbytestring-getvalidationmessagesbytesint-index" class="md-nav__link">
+    public com.google.protobuf.ByteString getValidationMessagesBytes(int index)
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#public-static-final-class-builder-extends-comgoogleprotobufgeneratedmessagev3builderbuilder-implements_7" class="md-nav__link">
+    public static final class Builder extends com.google.protobuf.GeneratedMessageV3.Builder&lt;Builder&gt; implements
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#javalangoverride-public-boolean-getisvalid_1" class="md-nav__link">
+    @java.lang.Override public boolean getIsValid()
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#public-builder-setisvalidboolean-value" class="md-nav__link">
+    public Builder setIsValid(boolean value)
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#public-builder-clearisvalid" class="md-nav__link">
+    public Builder clearIsValid()
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#public-comgoogleprotobufprotocolstringlist-getvalidationmessageslist_1" class="md-nav__link">
+    public com.google.protobuf.ProtocolStringList getValidationMessagesList()
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#public-int-getvalidationmessagescount_1" class="md-nav__link">
+    public int getValidationMessagesCount()
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#public-javalangstring-getvalidationmessagesint-index_1" class="md-nav__link">
+    public java.lang.String getValidationMessages(int index)
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#public-comgoogleprotobufbytestring-getvalidationmessagesbytesint-index_1" class="md-nav__link">
+    public com.google.protobuf.ByteString getValidationMessagesBytes(int index)
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#public-builder-setvalidationmessages-int-index-javalangstring-value" class="md-nav__link">
+    public Builder setValidationMessages( int index, java.lang.String value)
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#public-builder-addvalidationmessages-javalangstring-value" class="md-nav__link">
+    public Builder addValidationMessages( java.lang.String value)
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#public-builder-addallvalidationmessages-javalangiterablejavalangstring-values" class="md-nav__link">
+    public Builder addAllValidationMessages( java.lang.Iterable&lt;java.lang.String&gt; values)
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#public-builder-clearvalidationmessages" class="md-nav__link">
+    public Builder clearValidationMessages()
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#public-builder-addvalidationmessagesbytes-comgoogleprotobufbytestring-value" class="md-nav__link">
+    public Builder addValidationMessagesBytes( com.google.protobuf.ByteString value)
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#boolean-hasemail" class="md-nav__link">
+    boolean hasEmail()
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#javalangstring-getemail" class="md-nav__link">
+    java.lang.String getEmail()
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#comgoogleprotobufbytestring-getemailbytes" class="md-nav__link">
+    com.google.protobuf.ByteString getEmailBytes()
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#boolean-hasdiduri" class="md-nav__link">
+    boolean hasDidUri()
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#javalangstring-getdiduri" class="md-nav__link">
+    java.lang.String getDidUri()
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#comgoogleprotobufbytestring-getdiduribytes" class="md-nav__link">
+    com.google.protobuf.ByteString getDidUriBytes()
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#boolean-hasdidcomminvitationjson" class="md-nav__link">
+    boolean hasDidcommInvitationJson()
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#javalangstring-getdidcomminvitationjson" class="md-nav__link">
+    java.lang.String getDidcommInvitationJson()
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#comgoogleprotobufbytestring-getdidcomminvitationjsonbytes" class="md-nav__link">
+    com.google.protobuf.ByteString getDidcommInvitationJsonBytes()
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#javalangstring-getdocumentjson_3" class="md-nav__link">
+    java.lang.String getDocumentJson()
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#comgoogleprotobufbytestring-getdocumentjsonbytes_3" class="md-nav__link">
+    com.google.protobuf.ByteString getDocumentJsonBytes()
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#public-static-final-class-sendrequest-extends-comgoogleprotobufgeneratedmessagev3-implements" class="md-nav__link">
+    public static final class SendRequest extends com.google.protobuf.GeneratedMessageV3 implements
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#javalangdeprecated-public-static-deliverymethodcase-valueofint-value" class="md-nav__link">
+    @java.lang.Deprecated public static DeliveryMethodCase valueOf(int value)
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#public-boolean-hasemail" class="md-nav__link">
+    public boolean hasEmail()
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#public-javalangstring-getemail" class="md-nav__link">
+    public java.lang.String getEmail()
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#public-comgoogleprotobufbytestring-getemailbytes" class="md-nav__link">
+    public com.google.protobuf.ByteString getEmailBytes()
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#public-boolean-hasdiduri" class="md-nav__link">
+    public boolean hasDidUri()
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#public-javalangstring-getdiduri" class="md-nav__link">
+    public java.lang.String getDidUri()
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#public-comgoogleprotobufbytestring-getdiduribytes" class="md-nav__link">
+    public com.google.protobuf.ByteString getDidUriBytes()
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#public-boolean-hasdidcomminvitationjson" class="md-nav__link">
+    public boolean hasDidcommInvitationJson()
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#public-javalangstring-getdidcomminvitationjson" class="md-nav__link">
+    public java.lang.String getDidcommInvitationJson()
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#public-comgoogleprotobufbytestring-getdidcomminvitationjsonbytes" class="md-nav__link">
+    public com.google.protobuf.ByteString getDidcommInvitationJsonBytes()
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#javalangoverride-public-javalangstring-getdocumentjson_3" class="md-nav__link">
+    @java.lang.Override public java.lang.String getDocumentJson()
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#javalangoverride-public-comgoogleprotobufbytestring-getdocumentjsonbytes_3" class="md-nav__link">
+    @java.lang.Override public com.google.protobuf.ByteString getDocumentJsonBytes()
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#public-static-final-class-builder-extends-comgoogleprotobufgeneratedmessagev3builderbuilder-implements_8" class="md-nav__link">
+    public static final class Builder extends com.google.protobuf.GeneratedMessageV3.Builder&lt;Builder&gt; implements
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#javalangoverride-public-boolean-hasemail" class="md-nav__link">
+    @java.lang.Override public boolean hasEmail()
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#javalangoverride-public-javalangstring-getemail" class="md-nav__link">
+    @java.lang.Override public java.lang.String getEmail()
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#javalangoverride-public-comgoogleprotobufbytestring-getemailbytes" class="md-nav__link">
+    @java.lang.Override public com.google.protobuf.ByteString getEmailBytes()
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#public-builder-setemail-javalangstring-value" class="md-nav__link">
+    public Builder setEmail( java.lang.String value)
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#public-builder-clearemail" class="md-nav__link">
+    public Builder clearEmail()
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#public-builder-setemailbytes-comgoogleprotobufbytestring-value" class="md-nav__link">
+    public Builder setEmailBytes( com.google.protobuf.ByteString value)
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#javalangoverride-public-boolean-hasdiduri" class="md-nav__link">
+    @java.lang.Override public boolean hasDidUri()
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#javalangoverride-public-javalangstring-getdiduri" class="md-nav__link">
+    @java.lang.Override public java.lang.String getDidUri()
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#javalangoverride-public-comgoogleprotobufbytestring-getdiduribytes" class="md-nav__link">
+    @java.lang.Override public com.google.protobuf.ByteString getDidUriBytes()
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#public-builder-setdiduri-javalangstring-value" class="md-nav__link">
+    public Builder setDidUri( java.lang.String value)
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#public-builder-cleardiduri" class="md-nav__link">
+    public Builder clearDidUri()
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#public-builder-setdiduribytes-comgoogleprotobufbytestring-value" class="md-nav__link">
+    public Builder setDidUriBytes( com.google.protobuf.ByteString value)
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#javalangoverride-public-boolean-hasdidcomminvitationjson" class="md-nav__link">
+    @java.lang.Override public boolean hasDidcommInvitationJson()
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#javalangoverride-public-javalangstring-getdidcomminvitationjson" class="md-nav__link">
+    @java.lang.Override public java.lang.String getDidcommInvitationJson()
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#javalangoverride-public-comgoogleprotobufbytestring-getdidcomminvitationjsonbytes" class="md-nav__link">
+    @java.lang.Override public com.google.protobuf.ByteString getDidcommInvitationJsonBytes()
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#public-builder-setdidcomminvitationjson-javalangstring-value" class="md-nav__link">
+    public Builder setDidcommInvitationJson( java.lang.String value)
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#public-builder-cleardidcomminvitationjson" class="md-nav__link">
+    public Builder clearDidcommInvitationJson()
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#public-builder-setdidcomminvitationjsonbytes-comgoogleprotobufbytestring-value" class="md-nav__link">
+    public Builder setDidcommInvitationJsonBytes( com.google.protobuf.ByteString value)
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#public-javalangstring-getdocumentjson_3" class="md-nav__link">
+    public java.lang.String getDocumentJson()
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#public-comgoogleprotobufbytestring-getdocumentjsonbytes_3" class="md-nav__link">
+    public com.google.protobuf.ByteString getDocumentJsonBytes()
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#public-builder-setdocumentjson-javalangstring-value_3" class="md-nav__link">
+    public Builder setDocumentJson( java.lang.String value)
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#public-builder-cleardocumentjson_3" class="md-nav__link">
+    public Builder clearDocumentJson()
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#public-builder-setdocumentjsonbytes-comgoogleprotobufbytestring-value_3" class="md-nav__link">
+    public Builder setDocumentJsonBytes( com.google.protobuf.ByteString value)
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#int-getstatusvalue" class="md-nav__link">
+    int getStatusValue()
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#trinsicservicescommonv1commonouterclassresponsestatus-getstatus" class="md-nav__link">
+    trinsic.services.common.v1.CommonOuterClass.ResponseStatus getStatus()
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#public-static-final-class-sendresponse-extends-comgoogleprotobufgeneratedmessagev3-implements" class="md-nav__link">
+    public static final class SendResponse extends com.google.protobuf.GeneratedMessageV3 implements
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#javalangoverride-public-int-getstatusvalue" class="md-nav__link">
+    @java.lang.Override public int getStatusValue()
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#javalangoverride-public-trinsicservicescommonv1commonouterclassresponsestatus-getstatus" class="md-nav__link">
+    @java.lang.Override public trinsic.services.common.v1.CommonOuterClass.ResponseStatus getStatus()
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#public-static-final-class-builder-extends-comgoogleprotobufgeneratedmessagev3builderbuilder-implements_9" class="md-nav__link">
+    public static final class Builder extends com.google.protobuf.GeneratedMessageV3.Builder&lt;Builder&gt; implements
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#javalangoverride-public-int-getstatusvalue_1" class="md-nav__link">
+    @java.lang.Override public int getStatusValue()
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#public-builder-setstatusvalueint-value" class="md-nav__link">
+    public Builder setStatusValue(int value)
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#javalangoverride-public-trinsicservicescommonv1commonouterclassresponsestatus-getstatus_1" class="md-nav__link">
+    @java.lang.Override public trinsic.services.common.v1.CommonOuterClass.ResponseStatus getStatus()
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#public-builder-setstatustrinsicservicescommonv1commonouterclassresponsestatus-value" class="md-nav__link">
+    public Builder setStatus(trinsic.services.common.v1.CommonOuterClass.ResponseStatus value)
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#public-builder-clearstatus" class="md-nav__link">
+    public Builder clearStatus()
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#javalangstring-getcredentialstatusid" class="md-nav__link">
+    java.lang.String getCredentialStatusId()
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#comgoogleprotobufbytestring-getcredentialstatusidbytes" class="md-nav__link">
+    com.google.protobuf.ByteString getCredentialStatusIdBytes()
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#boolean-getrevoked" class="md-nav__link">
+    boolean getRevoked()
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#public-static-final-class-updatestatusrequest-extends-comgoogleprotobufgeneratedmessagev3-implements" class="md-nav__link">
+    public static final class UpdateStatusRequest extends com.google.protobuf.GeneratedMessageV3 implements
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#javalangoverride-public-javalangstring-getcredentialstatusid" class="md-nav__link">
+    @java.lang.Override public java.lang.String getCredentialStatusId()
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#javalangoverride-public-comgoogleprotobufbytestring-getcredentialstatusidbytes" class="md-nav__link">
+    @java.lang.Override public com.google.protobuf.ByteString getCredentialStatusIdBytes()
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#javalangoverride-public-boolean-getrevoked" class="md-nav__link">
+    @java.lang.Override public boolean getRevoked()
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#public-static-final-class-builder-extends-comgoogleprotobufgeneratedmessagev3builderbuilder-implements_10" class="md-nav__link">
+    public static final class Builder extends com.google.protobuf.GeneratedMessageV3.Builder&lt;Builder&gt; implements
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#public-javalangstring-getcredentialstatusid" class="md-nav__link">
+    public java.lang.String getCredentialStatusId()
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#public-comgoogleprotobufbytestring-getcredentialstatusidbytes" class="md-nav__link">
+    public com.google.protobuf.ByteString getCredentialStatusIdBytes()
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#public-builder-setcredentialstatusid-javalangstring-value" class="md-nav__link">
+    public Builder setCredentialStatusId( java.lang.String value)
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#public-builder-clearcredentialstatusid" class="md-nav__link">
+    public Builder clearCredentialStatusId()
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#public-builder-setcredentialstatusidbytes-comgoogleprotobufbytestring-value" class="md-nav__link">
+    public Builder setCredentialStatusIdBytes( com.google.protobuf.ByteString value)
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#javalangoverride-public-boolean-getrevoked_1" class="md-nav__link">
+    @java.lang.Override public boolean getRevoked()
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#public-builder-setrevokedboolean-value" class="md-nav__link">
+    public Builder setRevoked(boolean value)
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#public-builder-clearrevoked" class="md-nav__link">
+    public Builder clearRevoked()
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#int-getstatusvalue_1" class="md-nav__link">
+    int getStatusValue()
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#trinsicservicescommonv1commonouterclassresponsestatus-getstatus_1" class="md-nav__link">
+    trinsic.services.common.v1.CommonOuterClass.ResponseStatus getStatus()
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#public-static-final-class-updatestatusresponse-extends-comgoogleprotobufgeneratedmessagev3-implements" class="md-nav__link">
+    public static final class UpdateStatusResponse extends com.google.protobuf.GeneratedMessageV3 implements
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#javalangoverride-public-int-getstatusvalue_2" class="md-nav__link">
+    @java.lang.Override public int getStatusValue()
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#javalangoverride-public-trinsicservicescommonv1commonouterclassresponsestatus-getstatus_2" class="md-nav__link">
+    @java.lang.Override public trinsic.services.common.v1.CommonOuterClass.ResponseStatus getStatus()
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#public-static-final-class-builder-extends-comgoogleprotobufgeneratedmessagev3builderbuilder-implements_11" class="md-nav__link">
+    public static final class Builder extends com.google.protobuf.GeneratedMessageV3.Builder&lt;Builder&gt; implements
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#javalangoverride-public-int-getstatusvalue_3" class="md-nav__link">
+    @java.lang.Override public int getStatusValue()
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#public-builder-setstatusvalueint-value_1" class="md-nav__link">
+    public Builder setStatusValue(int value)
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#javalangoverride-public-trinsicservicescommonv1commonouterclassresponsestatus-getstatus_3" class="md-nav__link">
+    @java.lang.Override public trinsic.services.common.v1.CommonOuterClass.ResponseStatus getStatus()
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#public-builder-setstatustrinsicservicescommonv1commonouterclassresponsestatus-value_1" class="md-nav__link">
+    public Builder setStatus(trinsic.services.common.v1.CommonOuterClass.ResponseStatus value)
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#public-builder-clearstatus_1" class="md-nav__link">
+    public Builder clearStatus()
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#javalangstring-getcredentialstatusid_1" class="md-nav__link">
+    java.lang.String getCredentialStatusId()
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#comgoogleprotobufbytestring-getcredentialstatusidbytes_1" class="md-nav__link">
+    com.google.protobuf.ByteString getCredentialStatusIdBytes()
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#public-static-final-class-checkstatusrequest-extends-comgoogleprotobufgeneratedmessagev3-implements" class="md-nav__link">
+    public static final class CheckStatusRequest extends com.google.protobuf.GeneratedMessageV3 implements
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#javalangoverride-public-javalangstring-getcredentialstatusid_1" class="md-nav__link">
+    @java.lang.Override public java.lang.String getCredentialStatusId()
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#javalangoverride-public-comgoogleprotobufbytestring-getcredentialstatusidbytes_1" class="md-nav__link">
+    @java.lang.Override public com.google.protobuf.ByteString getCredentialStatusIdBytes()
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#public-static-final-class-builder-extends-comgoogleprotobufgeneratedmessagev3builderbuilder-implements_12" class="md-nav__link">
+    public static final class Builder extends com.google.protobuf.GeneratedMessageV3.Builder&lt;Builder&gt; implements
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#public-javalangstring-getcredentialstatusid_1" class="md-nav__link">
+    public java.lang.String getCredentialStatusId()
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#public-comgoogleprotobufbytestring-getcredentialstatusidbytes_1" class="md-nav__link">
+    public com.google.protobuf.ByteString getCredentialStatusIdBytes()
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#public-builder-setcredentialstatusid-javalangstring-value_1" class="md-nav__link">
+    public Builder setCredentialStatusId( java.lang.String value)
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#public-builder-clearcredentialstatusid_1" class="md-nav__link">
+    public Builder clearCredentialStatusId()
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#public-builder-setcredentialstatusidbytes-comgoogleprotobufbytestring-value_1" class="md-nav__link">
+    public Builder setCredentialStatusIdBytes( com.google.protobuf.ByteString value)
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#boolean-getrevoked_1" class="md-nav__link">
+    boolean getRevoked()
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#public-static-final-class-checkstatusresponse-extends-comgoogleprotobufgeneratedmessagev3-implements" class="md-nav__link">
+    public static final class CheckStatusResponse extends com.google.protobuf.GeneratedMessageV3 implements
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#javalangoverride-public-boolean-getrevoked_2" class="md-nav__link">
+    @java.lang.Override public boolean getRevoked()
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#public-static-final-class-builder-extends-comgoogleprotobufgeneratedmessagev3builderbuilder-implements_13" class="md-nav__link">
+    public static final class Builder extends com.google.protobuf.GeneratedMessageV3.Builder&lt;Builder&gt; implements
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#javalangoverride-public-boolean-getrevoked_3" class="md-nav__link">
+    @java.lang.Override public boolean getRevoked()
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#public-builder-setrevokedboolean-value_1" class="md-nav__link">
+    public Builder setRevoked(boolean value)
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#public-builder-clearrevoked_1" class="md-nav__link">
+    public Builder clearRevoked()
+  </a>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+          
+          <div class="md-content" data-md-component="content">
+            <article class="md-content__inner md-typeset">
+              
+                
+<a href="https://github.com/trinsic-id/sdk/edit/main/docs/reference/java/src/main/java/trinsic/services/verifiablecredentials/v1/VerifiableCredentials.md" title="Edit this page" class="md-content__button md-icon">
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20.71 7.04c.39-.39.39-1.04 0-1.41l-2.34-2.34c-.37-.39-1.02-.39-1.41 0l-1.84 1.83 3.75 3.75M3 17.25V21h3.75L17.81 9.93l-3.75-3.75L3 17.25z"/></svg>
+</a>
+
+
+
+<h1 id="documentation">Documentation<a class="headerlink" href="#documentation" title="Permanent link">&para;</a></h1>
+<h2 id="javalangstring-getdocumentjson"><code>java.lang.String getDocumentJson()</code><a class="headerlink" href="#javalangstring-getdocumentjson" title="Permanent link">&para;</a></h2>
+<p><code>string document_json = 1;</code></p>
+<ul>
+<li><strong>Returns:</strong> The documentJson.</li>
+</ul>
+<h2 id="comgoogleprotobufbytestring-getdocumentjsonbytes"><code>com.google.protobuf.ByteString getDocumentJsonBytes()</code><a class="headerlink" href="#comgoogleprotobufbytestring-getdocumentjsonbytes" title="Permanent link">&para;</a></h2>
+<p><code>string document_json = 1;</code></p>
+<ul>
+<li><strong>Returns:</strong> The bytes for documentJson.</li>
+</ul>
+<h2 id="public-static-final-class-issuerequest-extends-comgoogleprotobufgeneratedmessagev3-implements"><code>public static final class IssueRequest extends com.google.protobuf.GeneratedMessageV3 implements</code><a class="headerlink" href="#public-static-final-class-issuerequest-extends-comgoogleprotobufgeneratedmessagev3-implements" title="Permanent link">&para;</a></h2>
+<p>Protobuf type {@code services.verifiablecredentials.v1.IssueRequest}</p>
+<h2 id="javalangoverride-public-javalangstring-getdocumentjson"><code>@java.lang.Override public java.lang.String getDocumentJson()</code><a class="headerlink" href="#javalangoverride-public-javalangstring-getdocumentjson" title="Permanent link">&para;</a></h2>
+<p><code>string document_json = 1;</code></p>
+<ul>
+<li><strong>Returns:</strong> The documentJson.</li>
+</ul>
+<h2 id="javalangoverride-public-comgoogleprotobufbytestring-getdocumentjsonbytes"><code>@java.lang.Override public com.google.protobuf.ByteString getDocumentJsonBytes()</code><a class="headerlink" href="#javalangoverride-public-comgoogleprotobufbytestring-getdocumentjsonbytes" title="Permanent link">&para;</a></h2>
+<p><code>string document_json = 1;</code></p>
+<ul>
+<li><strong>Returns:</strong> The bytes for documentJson.</li>
+</ul>
+<h2 id="public-static-final-class-builder-extends-comgoogleprotobufgeneratedmessagev3builderbuilder-implements"><code>public static final class Builder extends com.google.protobuf.GeneratedMessageV3.Builder&lt;Builder&gt; implements</code><a class="headerlink" href="#public-static-final-class-builder-extends-comgoogleprotobufgeneratedmessagev3builderbuilder-implements" title="Permanent link">&para;</a></h2>
+<p>Protobuf type {@code services.verifiablecredentials.v1.IssueRequest}</p>
+<h2 id="public-javalangstring-getdocumentjson"><code>public java.lang.String getDocumentJson()</code><a class="headerlink" href="#public-javalangstring-getdocumentjson" title="Permanent link">&para;</a></h2>
+<p><code>string document_json = 1;</code></p>
+<ul>
+<li><strong>Returns:</strong> The documentJson.</li>
+</ul>
+<h2 id="public-comgoogleprotobufbytestring-getdocumentjsonbytes"><code>public com.google.protobuf.ByteString getDocumentJsonBytes()</code><a class="headerlink" href="#public-comgoogleprotobufbytestring-getdocumentjsonbytes" title="Permanent link">&para;</a></h2>
+<p><code>string document_json = 1;</code></p>
+<ul>
+<li><strong>Returns:</strong> The bytes for documentJson.</li>
+</ul>
+<h2 id="public-builder-setdocumentjson-javalangstring-value"><code>public Builder setDocumentJson( java.lang.String value)</code><a class="headerlink" href="#public-builder-setdocumentjson-javalangstring-value" title="Permanent link">&para;</a></h2>
+<p><code>string document_json = 1;</code></p>
+<ul>
+<li><strong>Parameters:</strong> <code>value</code> — The documentJson to set.</li>
+<li><strong>Returns:</strong> This builder for chaining.</li>
+</ul>
+<h2 id="public-builder-cleardocumentjson"><code>public Builder clearDocumentJson()</code><a class="headerlink" href="#public-builder-cleardocumentjson" title="Permanent link">&para;</a></h2>
+<p><code>string document_json = 1;</code></p>
+<ul>
+<li><strong>Returns:</strong> This builder for chaining.</li>
+</ul>
+<h2 id="public-builder-setdocumentjsonbytes-comgoogleprotobufbytestring-value"><code>public Builder setDocumentJsonBytes( com.google.protobuf.ByteString value)</code><a class="headerlink" href="#public-builder-setdocumentjsonbytes-comgoogleprotobufbytestring-value" title="Permanent link">&para;</a></h2>
+<p><code>string document_json = 1;</code></p>
+<ul>
+<li><strong>Parameters:</strong> <code>value</code> — The bytes for documentJson to set.</li>
+<li><strong>Returns:</strong> This builder for chaining.</li>
+</ul>
+<h2 id="javalangstring-getsigneddocumentjson"><code>java.lang.String getSignedDocumentJson()</code><a class="headerlink" href="#javalangstring-getsigneddocumentjson" title="Permanent link">&para;</a></h2>
+<p><code>string signed_document_json = 1;</code></p>
+<ul>
+<li><strong>Returns:</strong> The signedDocumentJson.</li>
+</ul>
+<h2 id="comgoogleprotobufbytestring-getsigneddocumentjsonbytes"><code>com.google.protobuf.ByteString getSignedDocumentJsonBytes()</code><a class="headerlink" href="#comgoogleprotobufbytestring-getsigneddocumentjsonbytes" title="Permanent link">&para;</a></h2>
+<p><code>string signed_document_json = 1;</code></p>
+<ul>
+<li><strong>Returns:</strong> The bytes for signedDocumentJson.</li>
+</ul>
+<h2 id="public-static-final-class-issueresponse-extends-comgoogleprotobufgeneratedmessagev3-implements"><code>public static final class IssueResponse extends com.google.protobuf.GeneratedMessageV3 implements</code><a class="headerlink" href="#public-static-final-class-issueresponse-extends-comgoogleprotobufgeneratedmessagev3-implements" title="Permanent link">&para;</a></h2>
+<p>Protobuf type {@code services.verifiablecredentials.v1.IssueResponse}</p>
+<h2 id="javalangoverride-public-javalangstring-getsigneddocumentjson"><code>@java.lang.Override public java.lang.String getSignedDocumentJson()</code><a class="headerlink" href="#javalangoverride-public-javalangstring-getsigneddocumentjson" title="Permanent link">&para;</a></h2>
+<p><code>string signed_document_json = 1;</code></p>
+<ul>
+<li><strong>Returns:</strong> The signedDocumentJson.</li>
+</ul>
+<h2 id="javalangoverride-public-comgoogleprotobufbytestring-getsigneddocumentjsonbytes"><code>@java.lang.Override public com.google.protobuf.ByteString getSignedDocumentJsonBytes()</code><a class="headerlink" href="#javalangoverride-public-comgoogleprotobufbytestring-getsigneddocumentjsonbytes" title="Permanent link">&para;</a></h2>
+<p><code>string signed_document_json = 1;</code></p>
+<ul>
+<li><strong>Returns:</strong> The bytes for signedDocumentJson.</li>
+</ul>
+<h2 id="public-static-final-class-builder-extends-comgoogleprotobufgeneratedmessagev3builderbuilder-implements_1"><code>public static final class Builder extends com.google.protobuf.GeneratedMessageV3.Builder&lt;Builder&gt; implements</code><a class="headerlink" href="#public-static-final-class-builder-extends-comgoogleprotobufgeneratedmessagev3builderbuilder-implements_1" title="Permanent link">&para;</a></h2>
+<p>Protobuf type {@code services.verifiablecredentials.v1.IssueResponse}</p>
+<h2 id="public-javalangstring-getsigneddocumentjson"><code>public java.lang.String getSignedDocumentJson()</code><a class="headerlink" href="#public-javalangstring-getsigneddocumentjson" title="Permanent link">&para;</a></h2>
+<p><code>string signed_document_json = 1;</code></p>
+<ul>
+<li><strong>Returns:</strong> The signedDocumentJson.</li>
+</ul>
+<h2 id="public-comgoogleprotobufbytestring-getsigneddocumentjsonbytes"><code>public com.google.protobuf.ByteString getSignedDocumentJsonBytes()</code><a class="headerlink" href="#public-comgoogleprotobufbytestring-getsigneddocumentjsonbytes" title="Permanent link">&para;</a></h2>
+<p><code>string signed_document_json = 1;</code></p>
+<ul>
+<li><strong>Returns:</strong> The bytes for signedDocumentJson.</li>
+</ul>
+<h2 id="public-builder-setsigneddocumentjson-javalangstring-value"><code>public Builder setSignedDocumentJson( java.lang.String value)</code><a class="headerlink" href="#public-builder-setsigneddocumentjson-javalangstring-value" title="Permanent link">&para;</a></h2>
+<p><code>string signed_document_json = 1;</code></p>
+<ul>
+<li><strong>Parameters:</strong> <code>value</code> — The signedDocumentJson to set.</li>
+<li><strong>Returns:</strong> This builder for chaining.</li>
+</ul>
+<h2 id="public-builder-clearsigneddocumentjson"><code>public Builder clearSignedDocumentJson()</code><a class="headerlink" href="#public-builder-clearsigneddocumentjson" title="Permanent link">&para;</a></h2>
+<p><code>string signed_document_json = 1;</code></p>
+<ul>
+<li><strong>Returns:</strong> This builder for chaining.</li>
+</ul>
+<h2 id="public-builder-setsigneddocumentjsonbytes-comgoogleprotobufbytestring-value"><code>public Builder setSignedDocumentJsonBytes( com.google.protobuf.ByteString value)</code><a class="headerlink" href="#public-builder-setsigneddocumentjsonbytes-comgoogleprotobufbytestring-value" title="Permanent link">&para;</a></h2>
+<p><code>string signed_document_json = 1;</code></p>
+<ul>
+<li><strong>Parameters:</strong> <code>value</code> — The bytes for signedDocumentJson to set.</li>
+<li><strong>Returns:</strong> This builder for chaining.</li>
+</ul>
+<h2 id="javalangstring-gettemplateid"><code>java.lang.String getTemplateId()</code><a class="headerlink" href="#javalangstring-gettemplateid" title="Permanent link">&para;</a></h2>
+<p><code>string template_id = 1;</code></p>
+<ul>
+<li><strong>Returns:</strong> The templateId.</li>
+</ul>
+<h2 id="comgoogleprotobufbytestring-gettemplateidbytes"><code>com.google.protobuf.ByteString getTemplateIdBytes()</code><a class="headerlink" href="#comgoogleprotobufbytestring-gettemplateidbytes" title="Permanent link">&para;</a></h2>
+<p><code>string template_id = 1;</code></p>
+<ul>
+<li><strong>Returns:</strong> The bytes for templateId.</li>
+</ul>
+<h2 id="javalangstring-getvaluesjson"><code>java.lang.String getValuesJson()</code><a class="headerlink" href="#javalangstring-getvaluesjson" title="Permanent link">&para;</a></h2>
+<p><code>string values_json = 2;</code></p>
+<ul>
+<li><strong>Returns:</strong> The valuesJson.</li>
+</ul>
+<h2 id="comgoogleprotobufbytestring-getvaluesjsonbytes"><code>com.google.protobuf.ByteString getValuesJsonBytes()</code><a class="headerlink" href="#comgoogleprotobufbytestring-getvaluesjsonbytes" title="Permanent link">&para;</a></h2>
+<p><code>string values_json = 2;</code></p>
+<ul>
+<li><strong>Returns:</strong> The bytes for valuesJson.</li>
+</ul>
+<h2 id="public-static-final-class-issuefromtemplaterequest-extends-comgoogleprotobufgeneratedmessagev3-implements"><code>public static final class IssueFromTemplateRequest extends com.google.protobuf.GeneratedMessageV3 implements</code><a class="headerlink" href="#public-static-final-class-issuefromtemplaterequest-extends-comgoogleprotobufgeneratedmessagev3-implements" title="Permanent link">&para;</a></h2>
+<p>Protobuf type {@code services.verifiablecredentials.v1.IssueFromTemplateRequest}</p>
+<h2 id="javalangoverride-public-javalangstring-gettemplateid"><code>@java.lang.Override public java.lang.String getTemplateId()</code><a class="headerlink" href="#javalangoverride-public-javalangstring-gettemplateid" title="Permanent link">&para;</a></h2>
+<p><code>string template_id = 1;</code></p>
+<ul>
+<li><strong>Returns:</strong> The templateId.</li>
+</ul>
+<h2 id="javalangoverride-public-comgoogleprotobufbytestring-gettemplateidbytes"><code>@java.lang.Override public com.google.protobuf.ByteString getTemplateIdBytes()</code><a class="headerlink" href="#javalangoverride-public-comgoogleprotobufbytestring-gettemplateidbytes" title="Permanent link">&para;</a></h2>
+<p><code>string template_id = 1;</code></p>
+<ul>
+<li><strong>Returns:</strong> The bytes for templateId.</li>
+</ul>
+<h2 id="javalangoverride-public-javalangstring-getvaluesjson"><code>@java.lang.Override public java.lang.String getValuesJson()</code><a class="headerlink" href="#javalangoverride-public-javalangstring-getvaluesjson" title="Permanent link">&para;</a></h2>
+<p><code>string values_json = 2;</code></p>
+<ul>
+<li><strong>Returns:</strong> The valuesJson.</li>
+</ul>
+<h2 id="javalangoverride-public-comgoogleprotobufbytestring-getvaluesjsonbytes"><code>@java.lang.Override public com.google.protobuf.ByteString getValuesJsonBytes()</code><a class="headerlink" href="#javalangoverride-public-comgoogleprotobufbytestring-getvaluesjsonbytes" title="Permanent link">&para;</a></h2>
+<p><code>string values_json = 2;</code></p>
+<ul>
+<li><strong>Returns:</strong> The bytes for valuesJson.</li>
+</ul>
+<h2 id="public-static-final-class-builder-extends-comgoogleprotobufgeneratedmessagev3builderbuilder-implements_2"><code>public static final class Builder extends com.google.protobuf.GeneratedMessageV3.Builder&lt;Builder&gt; implements</code><a class="headerlink" href="#public-static-final-class-builder-extends-comgoogleprotobufgeneratedmessagev3builderbuilder-implements_2" title="Permanent link">&para;</a></h2>
+<p>Protobuf type {@code services.verifiablecredentials.v1.IssueFromTemplateRequest}</p>
+<h2 id="public-javalangstring-gettemplateid"><code>public java.lang.String getTemplateId()</code><a class="headerlink" href="#public-javalangstring-gettemplateid" title="Permanent link">&para;</a></h2>
+<p><code>string template_id = 1;</code></p>
+<ul>
+<li><strong>Returns:</strong> The templateId.</li>
+</ul>
+<h2 id="public-comgoogleprotobufbytestring-gettemplateidbytes"><code>public com.google.protobuf.ByteString getTemplateIdBytes()</code><a class="headerlink" href="#public-comgoogleprotobufbytestring-gettemplateidbytes" title="Permanent link">&para;</a></h2>
+<p><code>string template_id = 1;</code></p>
+<ul>
+<li><strong>Returns:</strong> The bytes for templateId.</li>
+</ul>
+<h2 id="public-builder-settemplateid-javalangstring-value"><code>public Builder setTemplateId( java.lang.String value)</code><a class="headerlink" href="#public-builder-settemplateid-javalangstring-value" title="Permanent link">&para;</a></h2>
+<p><code>string template_id = 1;</code></p>
+<ul>
+<li><strong>Parameters:</strong> <code>value</code> — The templateId to set.</li>
+<li><strong>Returns:</strong> This builder for chaining.</li>
+</ul>
+<h2 id="public-builder-cleartemplateid"><code>public Builder clearTemplateId()</code><a class="headerlink" href="#public-builder-cleartemplateid" title="Permanent link">&para;</a></h2>
+<p><code>string template_id = 1;</code></p>
+<ul>
+<li><strong>Returns:</strong> This builder for chaining.</li>
+</ul>
+<h2 id="public-builder-settemplateidbytes-comgoogleprotobufbytestring-value"><code>public Builder setTemplateIdBytes( com.google.protobuf.ByteString value)</code><a class="headerlink" href="#public-builder-settemplateidbytes-comgoogleprotobufbytestring-value" title="Permanent link">&para;</a></h2>
+<p><code>string template_id = 1;</code></p>
+<ul>
+<li><strong>Parameters:</strong> <code>value</code> — The bytes for templateId to set.</li>
+<li><strong>Returns:</strong> This builder for chaining.</li>
+</ul>
+<h2 id="public-javalangstring-getvaluesjson"><code>public java.lang.String getValuesJson()</code><a class="headerlink" href="#public-javalangstring-getvaluesjson" title="Permanent link">&para;</a></h2>
+<p><code>string values_json = 2;</code></p>
+<ul>
+<li><strong>Returns:</strong> The valuesJson.</li>
+</ul>
+<h2 id="public-comgoogleprotobufbytestring-getvaluesjsonbytes"><code>public com.google.protobuf.ByteString getValuesJsonBytes()</code><a class="headerlink" href="#public-comgoogleprotobufbytestring-getvaluesjsonbytes" title="Permanent link">&para;</a></h2>
+<p><code>string values_json = 2;</code></p>
+<ul>
+<li><strong>Returns:</strong> The bytes for valuesJson.</li>
+</ul>
+<h2 id="public-builder-setvaluesjson-javalangstring-value"><code>public Builder setValuesJson( java.lang.String value)</code><a class="headerlink" href="#public-builder-setvaluesjson-javalangstring-value" title="Permanent link">&para;</a></h2>
+<p><code>string values_json = 2;</code></p>
+<ul>
+<li><strong>Parameters:</strong> <code>value</code> — The valuesJson to set.</li>
+<li><strong>Returns:</strong> This builder for chaining.</li>
+</ul>
+<h2 id="public-builder-clearvaluesjson"><code>public Builder clearValuesJson()</code><a class="headerlink" href="#public-builder-clearvaluesjson" title="Permanent link">&para;</a></h2>
+<p><code>string values_json = 2;</code></p>
+<ul>
+<li><strong>Returns:</strong> This builder for chaining.</li>
+</ul>
+<h2 id="public-builder-setvaluesjsonbytes-comgoogleprotobufbytestring-value"><code>public Builder setValuesJsonBytes( com.google.protobuf.ByteString value)</code><a class="headerlink" href="#public-builder-setvaluesjsonbytes-comgoogleprotobufbytestring-value" title="Permanent link">&para;</a></h2>
+<p><code>string values_json = 2;</code></p>
+<ul>
+<li><strong>Parameters:</strong> <code>value</code> — The bytes for valuesJson to set.</li>
+<li><strong>Returns:</strong> This builder for chaining.</li>
+</ul>
+<h2 id="javalangstring-getdocumentjson_1"><code>java.lang.String getDocumentJson()</code><a class="headerlink" href="#javalangstring-getdocumentjson_1" title="Permanent link">&para;</a></h2>
+<p><code>string document_json = 1;</code></p>
+<ul>
+<li><strong>Returns:</strong> The documentJson.</li>
+</ul>
+<h2 id="comgoogleprotobufbytestring-getdocumentjsonbytes_1"><code>com.google.protobuf.ByteString getDocumentJsonBytes()</code><a class="headerlink" href="#comgoogleprotobufbytestring-getdocumentjsonbytes_1" title="Permanent link">&para;</a></h2>
+<p><code>string document_json = 1;</code></p>
+<ul>
+<li><strong>Returns:</strong> The bytes for documentJson.</li>
+</ul>
+<h2 id="public-static-final-class-issuefromtemplateresponse-extends-comgoogleprotobufgeneratedmessagev3-implements"><code>public static final class IssueFromTemplateResponse extends com.google.protobuf.GeneratedMessageV3 implements</code><a class="headerlink" href="#public-static-final-class-issuefromtemplateresponse-extends-comgoogleprotobufgeneratedmessagev3-implements" title="Permanent link">&para;</a></h2>
+<p>Protobuf type {@code services.verifiablecredentials.v1.IssueFromTemplateResponse}</p>
+<h2 id="javalangoverride-public-javalangstring-getdocumentjson_1"><code>@java.lang.Override public java.lang.String getDocumentJson()</code><a class="headerlink" href="#javalangoverride-public-javalangstring-getdocumentjson_1" title="Permanent link">&para;</a></h2>
+<p><code>string document_json = 1;</code></p>
+<ul>
+<li><strong>Returns:</strong> The documentJson.</li>
+</ul>
+<h2 id="javalangoverride-public-comgoogleprotobufbytestring-getdocumentjsonbytes_1"><code>@java.lang.Override public com.google.protobuf.ByteString getDocumentJsonBytes()</code><a class="headerlink" href="#javalangoverride-public-comgoogleprotobufbytestring-getdocumentjsonbytes_1" title="Permanent link">&para;</a></h2>
+<p><code>string document_json = 1;</code></p>
+<ul>
+<li><strong>Returns:</strong> The bytes for documentJson.</li>
+</ul>
+<h2 id="public-static-final-class-builder-extends-comgoogleprotobufgeneratedmessagev3builderbuilder-implements_3"><code>public static final class Builder extends com.google.protobuf.GeneratedMessageV3.Builder&lt;Builder&gt; implements</code><a class="headerlink" href="#public-static-final-class-builder-extends-comgoogleprotobufgeneratedmessagev3builderbuilder-implements_3" title="Permanent link">&para;</a></h2>
+<p>Protobuf type {@code services.verifiablecredentials.v1.IssueFromTemplateResponse}</p>
+<h2 id="public-javalangstring-getdocumentjson_1"><code>public java.lang.String getDocumentJson()</code><a class="headerlink" href="#public-javalangstring-getdocumentjson_1" title="Permanent link">&para;</a></h2>
+<p><code>string document_json = 1;</code></p>
+<ul>
+<li><strong>Returns:</strong> The documentJson.</li>
+</ul>
+<h2 id="public-comgoogleprotobufbytestring-getdocumentjsonbytes_1"><code>public com.google.protobuf.ByteString getDocumentJsonBytes()</code><a class="headerlink" href="#public-comgoogleprotobufbytestring-getdocumentjsonbytes_1" title="Permanent link">&para;</a></h2>
+<p><code>string document_json = 1;</code></p>
+<ul>
+<li><strong>Returns:</strong> The bytes for documentJson.</li>
+</ul>
+<h2 id="public-builder-setdocumentjson-javalangstring-value_1"><code>public Builder setDocumentJson( java.lang.String value)</code><a class="headerlink" href="#public-builder-setdocumentjson-javalangstring-value_1" title="Permanent link">&para;</a></h2>
+<p><code>string document_json = 1;</code></p>
+<ul>
+<li><strong>Parameters:</strong> <code>value</code> — The documentJson to set.</li>
+<li><strong>Returns:</strong> This builder for chaining.</li>
+</ul>
+<h2 id="public-builder-cleardocumentjson_1"><code>public Builder clearDocumentJson()</code><a class="headerlink" href="#public-builder-cleardocumentjson_1" title="Permanent link">&para;</a></h2>
+<p><code>string document_json = 1;</code></p>
+<ul>
+<li><strong>Returns:</strong> This builder for chaining.</li>
+</ul>
+<h2 id="public-builder-setdocumentjsonbytes-comgoogleprotobufbytestring-value_1"><code>public Builder setDocumentJsonBytes( com.google.protobuf.ByteString value)</code><a class="headerlink" href="#public-builder-setdocumentjsonbytes-comgoogleprotobufbytestring-value_1" title="Permanent link">&para;</a></h2>
+<p><code>string document_json = 1;</code></p>
+<ul>
+<li><strong>Parameters:</strong> <code>value</code> — The bytes for documentJson to set.</li>
+<li><strong>Returns:</strong> This builder for chaining.</li>
+</ul>
+<h2 id="javalangstring-getrevealdocumentjson"><code>java.lang.String getRevealDocumentJson()</code><a class="headerlink" href="#javalangstring-getrevealdocumentjson" title="Permanent link">&para;</a></h2>
+<pre> Optional document that describes which fields should be revealed in the generated proof. If specified, this document must be a valid JSON-LD frame. If this field is not specified, a default reveal document will be used and all fields in the signed document will be revealed </pre>
+
+<p><code>string reveal_document_json = 1;</code></p>
+<ul>
+<li><strong>Returns:</strong> The revealDocumentJson.</li>
+</ul>
+<h2 id="comgoogleprotobufbytestring-getrevealdocumentjsonbytes"><code>com.google.protobuf.ByteString getRevealDocumentJsonBytes()</code><a class="headerlink" href="#comgoogleprotobufbytestring-getrevealdocumentjsonbytes" title="Permanent link">&para;</a></h2>
+<pre> Optional document that describes which fields should be revealed in the generated proof. If specified, this document must be a valid JSON-LD frame. If this field is not specified, a default reveal document will be used and all fields in the signed document will be revealed </pre>
+
+<p><code>string reveal_document_json = 1;</code></p>
+<ul>
+<li><strong>Returns:</strong> The bytes for revealDocumentJson.</li>
+</ul>
+<h2 id="boolean-hasitemid"><code>boolean hasItemId()</code><a class="headerlink" href="#boolean-hasitemid" title="Permanent link">&para;</a></h2>
+<pre> The item identifier that contains a record with a verifiable credential to be used for generating the proof. </pre>
+
+<p><code>string item_id = 2;</code></p>
+<ul>
+<li><strong>Returns:</strong> Whether the itemId field is set.</li>
+</ul>
+<h2 id="javalangstring-getitemid"><code>java.lang.String getItemId()</code><a class="headerlink" href="#javalangstring-getitemid" title="Permanent link">&para;</a></h2>
+<pre> The item identifier that contains a record with a verifiable credential to be used for generating the proof. </pre>
+
+<p><code>string item_id = 2;</code></p>
+<ul>
+<li><strong>Returns:</strong> The itemId.</li>
+</ul>
+<h2 id="comgoogleprotobufbytestring-getitemidbytes"><code>com.google.protobuf.ByteString getItemIdBytes()</code><a class="headerlink" href="#comgoogleprotobufbytestring-getitemidbytes" title="Permanent link">&para;</a></h2>
+<pre> The item identifier that contains a record with a verifiable credential to be used for generating the proof. </pre>
+
+<p><code>string item_id = 2;</code></p>
+<ul>
+<li><strong>Returns:</strong> The bytes for itemId.</li>
+</ul>
+<h2 id="boolean-hasdocumentjson"><code>boolean hasDocumentJson()</code><a class="headerlink" href="#boolean-hasdocumentjson" title="Permanent link">&para;</a></h2>
+<pre> A document that contains a valid verifiable credential with an unbound signature. The proof will be derived from this document directly. The document will not be stored in the wallet. </pre>
+
+<p><code>string document_json = 3;</code></p>
+<ul>
+<li><strong>Returns:</strong> Whether the documentJson field is set.</li>
+</ul>
+<h2 id="javalangstring-getdocumentjson_2"><code>java.lang.String getDocumentJson()</code><a class="headerlink" href="#javalangstring-getdocumentjson_2" title="Permanent link">&para;</a></h2>
+<pre> A document that contains a valid verifiable credential with an unbound signature. The proof will be derived from this document directly. The document will not be stored in the wallet. </pre>
+
+<p><code>string document_json = 3;</code></p>
+<ul>
+<li><strong>Returns:</strong> The documentJson.</li>
+</ul>
+<h2 id="comgoogleprotobufbytestring-getdocumentjsonbytes_2"><code>com.google.protobuf.ByteString getDocumentJsonBytes()</code><a class="headerlink" href="#comgoogleprotobufbytestring-getdocumentjsonbytes_2" title="Permanent link">&para;</a></h2>
+<pre> A document that contains a valid verifiable credential with an unbound signature. The proof will be derived from this document directly. The document will not be stored in the wallet. </pre>
+
+<p><code>string document_json = 3;</code></p>
+<ul>
+<li><strong>Returns:</strong> The bytes for documentJson.</li>
+</ul>
+<h2 id="public-static-final-class-createproofrequest-extends-comgoogleprotobufgeneratedmessagev3-implements"><code>public static final class CreateProofRequest extends com.google.protobuf.GeneratedMessageV3 implements</code><a class="headerlink" href="#public-static-final-class-createproofrequest-extends-comgoogleprotobufgeneratedmessagev3-implements" title="Permanent link">&para;</a></h2>
+<pre> Create Proof </pre>
+
+<p>Protobuf type {@code services.verifiablecredentials.v1.CreateProofRequest}</p>
+<h2 id="javalangdeprecated-public-static-proofcase-valueofint-value"><code>@java.lang.Deprecated public static ProofCase valueOf(int value)</code><a class="headerlink" href="#javalangdeprecated-public-static-proofcase-valueofint-value" title="Permanent link">&para;</a></h2>
+<ul>
+<li><strong>Parameters:</strong> <code>value</code> — The number of the enum to look for.</li>
+<li><strong>Returns:</strong> The enum associated with the given number.</li>
+<li><strong>Deprecated</strong></li>
+</ul>
+<h2 id="javalangoverride-public-javalangstring-getrevealdocumentjson"><code>@java.lang.Override public java.lang.String getRevealDocumentJson()</code><a class="headerlink" href="#javalangoverride-public-javalangstring-getrevealdocumentjson" title="Permanent link">&para;</a></h2>
+<pre> Optional document that describes which fields should be revealed in the generated proof. If specified, this document must be a valid JSON-LD frame. If this field is not specified, a default reveal document will be used and all fields in the signed document will be revealed </pre>
+
+<p><code>string reveal_document_json = 1;</code></p>
+<ul>
+<li><strong>Returns:</strong> The revealDocumentJson.</li>
+</ul>
+<h2 id="javalangoverride-public-comgoogleprotobufbytestring-getrevealdocumentjsonbytes"><code>@java.lang.Override public com.google.protobuf.ByteString getRevealDocumentJsonBytes()</code><a class="headerlink" href="#javalangoverride-public-comgoogleprotobufbytestring-getrevealdocumentjsonbytes" title="Permanent link">&para;</a></h2>
+<pre> Optional document that describes which fields should be revealed in the generated proof. If specified, this document must be a valid JSON-LD frame. If this field is not specified, a default reveal document will be used and all fields in the signed document will be revealed </pre>
+
+<p><code>string reveal_document_json = 1;</code></p>
+<ul>
+<li><strong>Returns:</strong> The bytes for revealDocumentJson.</li>
+</ul>
+<h2 id="public-boolean-hasitemid"><code>public boolean hasItemId()</code><a class="headerlink" href="#public-boolean-hasitemid" title="Permanent link">&para;</a></h2>
+<pre> The item identifier that contains a record with a verifiable credential to be used for generating the proof. </pre>
+
+<p><code>string item_id = 2;</code></p>
+<ul>
+<li><strong>Returns:</strong> Whether the itemId field is set.</li>
+</ul>
+<h2 id="public-javalangstring-getitemid"><code>public java.lang.String getItemId()</code><a class="headerlink" href="#public-javalangstring-getitemid" title="Permanent link">&para;</a></h2>
+<pre> The item identifier that contains a record with a verifiable credential to be used for generating the proof. </pre>
+
+<p><code>string item_id = 2;</code></p>
+<ul>
+<li><strong>Returns:</strong> The itemId.</li>
+</ul>
+<h2 id="public-comgoogleprotobufbytestring-getitemidbytes"><code>public com.google.protobuf.ByteString getItemIdBytes()</code><a class="headerlink" href="#public-comgoogleprotobufbytestring-getitemidbytes" title="Permanent link">&para;</a></h2>
+<pre> The item identifier that contains a record with a verifiable credential to be used for generating the proof. </pre>
+
+<p><code>string item_id = 2;</code></p>
+<ul>
+<li><strong>Returns:</strong> The bytes for itemId.</li>
+</ul>
+<h2 id="public-boolean-hasdocumentjson"><code>public boolean hasDocumentJson()</code><a class="headerlink" href="#public-boolean-hasdocumentjson" title="Permanent link">&para;</a></h2>
+<pre> A document that contains a valid verifiable credential with an unbound signature. The proof will be derived from this document directly. The document will not be stored in the wallet. </pre>
+
+<p><code>string document_json = 3;</code></p>
+<ul>
+<li><strong>Returns:</strong> Whether the documentJson field is set.</li>
+</ul>
+<h2 id="public-javalangstring-getdocumentjson_2"><code>public java.lang.String getDocumentJson()</code><a class="headerlink" href="#public-javalangstring-getdocumentjson_2" title="Permanent link">&para;</a></h2>
+<pre> A document that contains a valid verifiable credential with an unbound signature. The proof will be derived from this document directly. The document will not be stored in the wallet. </pre>
+
+<p><code>string document_json = 3;</code></p>
+<ul>
+<li><strong>Returns:</strong> The documentJson.</li>
+</ul>
+<h2 id="public-comgoogleprotobufbytestring-getdocumentjsonbytes_2"><code>public com.google.protobuf.ByteString getDocumentJsonBytes()</code><a class="headerlink" href="#public-comgoogleprotobufbytestring-getdocumentjsonbytes_2" title="Permanent link">&para;</a></h2>
+<pre> A document that contains a valid verifiable credential with an unbound signature. The proof will be derived from this document directly. The document will not be stored in the wallet. </pre>
+
+<p><code>string document_json = 3;</code></p>
+<ul>
+<li><strong>Returns:</strong> The bytes for documentJson.</li>
+</ul>
+<h2 id="public-static-final-class-builder-extends-comgoogleprotobufgeneratedmessagev3builderbuilder-implements_4"><code>public static final class Builder extends com.google.protobuf.GeneratedMessageV3.Builder&lt;Builder&gt; implements</code><a class="headerlink" href="#public-static-final-class-builder-extends-comgoogleprotobufgeneratedmessagev3builderbuilder-implements_4" title="Permanent link">&para;</a></h2>
+<pre> Create Proof </pre>
+
+<p>Protobuf type {@code services.verifiablecredentials.v1.CreateProofRequest}</p>
+<h2 id="public-javalangstring-getrevealdocumentjson"><code>public java.lang.String getRevealDocumentJson()</code><a class="headerlink" href="#public-javalangstring-getrevealdocumentjson" title="Permanent link">&para;</a></h2>
+<pre> Optional document that describes which fields should be revealed in the generated proof. If specified, this document must be a valid JSON-LD frame. If this field is not specified, a default reveal document will be used and all fields in the signed document will be revealed </pre>
+
+<p><code>string reveal_document_json = 1;</code></p>
+<ul>
+<li><strong>Returns:</strong> The revealDocumentJson.</li>
+</ul>
+<h2 id="public-comgoogleprotobufbytestring-getrevealdocumentjsonbytes"><code>public com.google.protobuf.ByteString getRevealDocumentJsonBytes()</code><a class="headerlink" href="#public-comgoogleprotobufbytestring-getrevealdocumentjsonbytes" title="Permanent link">&para;</a></h2>
+<pre> Optional document that describes which fields should be revealed in the generated proof. If specified, this document must be a valid JSON-LD frame. If this field is not specified, a default reveal document will be used and all fields in the signed document will be revealed </pre>
+
+<p><code>string reveal_document_json = 1;</code></p>
+<ul>
+<li><strong>Returns:</strong> The bytes for revealDocumentJson.</li>
+</ul>
+<h2 id="public-builder-setrevealdocumentjson-javalangstring-value"><code>public Builder setRevealDocumentJson( java.lang.String value)</code><a class="headerlink" href="#public-builder-setrevealdocumentjson-javalangstring-value" title="Permanent link">&para;</a></h2>
+<pre> Optional document that describes which fields should be revealed in the generated proof. If specified, this document must be a valid JSON-LD frame. If this field is not specified, a default reveal document will be used and all fields in the signed document will be revealed </pre>
+
+<p><code>string reveal_document_json = 1;</code></p>
+<ul>
+<li><strong>Parameters:</strong> <code>value</code> — The revealDocumentJson to set.</li>
+<li><strong>Returns:</strong> This builder for chaining.</li>
+</ul>
+<h2 id="public-builder-clearrevealdocumentjson"><code>public Builder clearRevealDocumentJson()</code><a class="headerlink" href="#public-builder-clearrevealdocumentjson" title="Permanent link">&para;</a></h2>
+<pre> Optional document that describes which fields should be revealed in the generated proof. If specified, this document must be a valid JSON-LD frame. If this field is not specified, a default reveal document will be used and all fields in the signed document will be revealed </pre>
+
+<p><code>string reveal_document_json = 1;</code></p>
+<ul>
+<li><strong>Returns:</strong> This builder for chaining.</li>
+</ul>
+<h2 id="public-builder-setrevealdocumentjsonbytes-comgoogleprotobufbytestring-value"><code>public Builder setRevealDocumentJsonBytes( com.google.protobuf.ByteString value)</code><a class="headerlink" href="#public-builder-setrevealdocumentjsonbytes-comgoogleprotobufbytestring-value" title="Permanent link">&para;</a></h2>
+<pre> Optional document that describes which fields should be revealed in the generated proof. If specified, this document must be a valid JSON-LD frame. If this field is not specified, a default reveal document will be used and all fields in the signed document will be revealed </pre>
+
+<p><code>string reveal_document_json = 1;</code></p>
+<ul>
+<li><strong>Parameters:</strong> <code>value</code> — The bytes for revealDocumentJson to set.</li>
+<li><strong>Returns:</strong> This builder for chaining.</li>
+</ul>
+<h2 id="javalangoverride-public-boolean-hasitemid"><code>@java.lang.Override public boolean hasItemId()</code><a class="headerlink" href="#javalangoverride-public-boolean-hasitemid" title="Permanent link">&para;</a></h2>
+<pre> The item identifier that contains a record with a verifiable credential to be used for generating the proof. </pre>
+
+<p><code>string item_id = 2;</code></p>
+<ul>
+<li><strong>Returns:</strong> Whether the itemId field is set.</li>
+</ul>
+<h2 id="javalangoverride-public-javalangstring-getitemid"><code>@java.lang.Override public java.lang.String getItemId()</code><a class="headerlink" href="#javalangoverride-public-javalangstring-getitemid" title="Permanent link">&para;</a></h2>
+<pre> The item identifier that contains a record with a verifiable credential to be used for generating the proof. </pre>
+
+<p><code>string item_id = 2;</code></p>
+<ul>
+<li><strong>Returns:</strong> The itemId.</li>
+</ul>
+<h2 id="javalangoverride-public-comgoogleprotobufbytestring-getitemidbytes"><code>@java.lang.Override public com.google.protobuf.ByteString getItemIdBytes()</code><a class="headerlink" href="#javalangoverride-public-comgoogleprotobufbytestring-getitemidbytes" title="Permanent link">&para;</a></h2>
+<pre> The item identifier that contains a record with a verifiable credential to be used for generating the proof. </pre>
+
+<p><code>string item_id = 2;</code></p>
+<ul>
+<li><strong>Returns:</strong> The bytes for itemId.</li>
+</ul>
+<h2 id="public-builder-setitemid-javalangstring-value"><code>public Builder setItemId( java.lang.String value)</code><a class="headerlink" href="#public-builder-setitemid-javalangstring-value" title="Permanent link">&para;</a></h2>
+<pre> The item identifier that contains a record with a verifiable credential to be used for generating the proof. </pre>
+
+<p><code>string item_id = 2;</code></p>
+<ul>
+<li><strong>Parameters:</strong> <code>value</code> — The itemId to set.</li>
+<li><strong>Returns:</strong> This builder for chaining.</li>
+</ul>
+<h2 id="public-builder-clearitemid"><code>public Builder clearItemId()</code><a class="headerlink" href="#public-builder-clearitemid" title="Permanent link">&para;</a></h2>
+<pre> The item identifier that contains a record with a verifiable credential to be used for generating the proof. </pre>
+
+<p><code>string item_id = 2;</code></p>
+<ul>
+<li><strong>Returns:</strong> This builder for chaining.</li>
+</ul>
+<h2 id="public-builder-setitemidbytes-comgoogleprotobufbytestring-value"><code>public Builder setItemIdBytes( com.google.protobuf.ByteString value)</code><a class="headerlink" href="#public-builder-setitemidbytes-comgoogleprotobufbytestring-value" title="Permanent link">&para;</a></h2>
+<pre> The item identifier that contains a record with a verifiable credential to be used for generating the proof. </pre>
+
+<p><code>string item_id = 2;</code></p>
+<ul>
+<li><strong>Parameters:</strong> <code>value</code> — The bytes for itemId to set.</li>
+<li><strong>Returns:</strong> This builder for chaining.</li>
+</ul>
+<h2 id="javalangoverride-public-boolean-hasdocumentjson"><code>@java.lang.Override public boolean hasDocumentJson()</code><a class="headerlink" href="#javalangoverride-public-boolean-hasdocumentjson" title="Permanent link">&para;</a></h2>
+<pre> A document that contains a valid verifiable credential with an unbound signature. The proof will be derived from this document directly. The document will not be stored in the wallet. </pre>
+
+<p><code>string document_json = 3;</code></p>
+<ul>
+<li><strong>Returns:</strong> Whether the documentJson field is set.</li>
+</ul>
+<h2 id="javalangoverride-public-javalangstring-getdocumentjson_2"><code>@java.lang.Override public java.lang.String getDocumentJson()</code><a class="headerlink" href="#javalangoverride-public-javalangstring-getdocumentjson_2" title="Permanent link">&para;</a></h2>
+<pre> A document that contains a valid verifiable credential with an unbound signature. The proof will be derived from this document directly. The document will not be stored in the wallet. </pre>
+
+<p><code>string document_json = 3;</code></p>
+<ul>
+<li><strong>Returns:</strong> The documentJson.</li>
+</ul>
+<h2 id="javalangoverride-public-comgoogleprotobufbytestring-getdocumentjsonbytes_2"><code>@java.lang.Override public com.google.protobuf.ByteString getDocumentJsonBytes()</code><a class="headerlink" href="#javalangoverride-public-comgoogleprotobufbytestring-getdocumentjsonbytes_2" title="Permanent link">&para;</a></h2>
+<pre> A document that contains a valid verifiable credential with an unbound signature. The proof will be derived from this document directly. The document will not be stored in the wallet. </pre>
+
+<p><code>string document_json = 3;</code></p>
+<ul>
+<li><strong>Returns:</strong> The bytes for documentJson.</li>
+</ul>
+<h2 id="public-builder-setdocumentjson-javalangstring-value_2"><code>public Builder setDocumentJson( java.lang.String value)</code><a class="headerlink" href="#public-builder-setdocumentjson-javalangstring-value_2" title="Permanent link">&para;</a></h2>
+<pre> A document that contains a valid verifiable credential with an unbound signature. The proof will be derived from this document directly. The document will not be stored in the wallet. </pre>
+
+<p><code>string document_json = 3;</code></p>
+<ul>
+<li><strong>Parameters:</strong> <code>value</code> — The documentJson to set.</li>
+<li><strong>Returns:</strong> This builder for chaining.</li>
+</ul>
+<h2 id="public-builder-cleardocumentjson_2"><code>public Builder clearDocumentJson()</code><a class="headerlink" href="#public-builder-cleardocumentjson_2" title="Permanent link">&para;</a></h2>
+<pre> A document that contains a valid verifiable credential with an unbound signature. The proof will be derived from this document directly. The document will not be stored in the wallet. </pre>
+
+<p><code>string document_json = 3;</code></p>
+<ul>
+<li><strong>Returns:</strong> This builder for chaining.</li>
+</ul>
+<h2 id="public-builder-setdocumentjsonbytes-comgoogleprotobufbytestring-value_2"><code>public Builder setDocumentJsonBytes( com.google.protobuf.ByteString value)</code><a class="headerlink" href="#public-builder-setdocumentjsonbytes-comgoogleprotobufbytestring-value_2" title="Permanent link">&para;</a></h2>
+<pre> A document that contains a valid verifiable credential with an unbound signature. The proof will be derived from this document directly. The document will not be stored in the wallet. </pre>
+
+<p><code>string document_json = 3;</code></p>
+<ul>
+<li><strong>Parameters:</strong> <code>value</code> — The bytes for documentJson to set.</li>
+<li><strong>Returns:</strong> This builder for chaining.</li>
+</ul>
+<h2 id="javalangstring-getproofdocumentjson"><code>java.lang.String getProofDocumentJson()</code><a class="headerlink" href="#javalangstring-getproofdocumentjson" title="Permanent link">&para;</a></h2>
+<p><code>string proof_document_json = 1;</code></p>
+<ul>
+<li><strong>Returns:</strong> The proofDocumentJson.</li>
+</ul>
+<h2 id="comgoogleprotobufbytestring-getproofdocumentjsonbytes"><code>com.google.protobuf.ByteString getProofDocumentJsonBytes()</code><a class="headerlink" href="#comgoogleprotobufbytestring-getproofdocumentjsonbytes" title="Permanent link">&para;</a></h2>
+<p><code>string proof_document_json = 1;</code></p>
+<ul>
+<li><strong>Returns:</strong> The bytes for proofDocumentJson.</li>
+</ul>
+<h2 id="public-static-final-class-createproofresponse-extends-comgoogleprotobufgeneratedmessagev3-implements"><code>public static final class CreateProofResponse extends com.google.protobuf.GeneratedMessageV3 implements</code><a class="headerlink" href="#public-static-final-class-createproofresponse-extends-comgoogleprotobufgeneratedmessagev3-implements" title="Permanent link">&para;</a></h2>
+<p>Protobuf type {@code services.verifiablecredentials.v1.CreateProofResponse}</p>
+<h2 id="javalangoverride-public-javalangstring-getproofdocumentjson"><code>@java.lang.Override public java.lang.String getProofDocumentJson()</code><a class="headerlink" href="#javalangoverride-public-javalangstring-getproofdocumentjson" title="Permanent link">&para;</a></h2>
+<p><code>string proof_document_json = 1;</code></p>
+<ul>
+<li><strong>Returns:</strong> The proofDocumentJson.</li>
+</ul>
+<h2 id="javalangoverride-public-comgoogleprotobufbytestring-getproofdocumentjsonbytes"><code>@java.lang.Override public com.google.protobuf.ByteString getProofDocumentJsonBytes()</code><a class="headerlink" href="#javalangoverride-public-comgoogleprotobufbytestring-getproofdocumentjsonbytes" title="Permanent link">&para;</a></h2>
+<p><code>string proof_document_json = 1;</code></p>
+<ul>
+<li><strong>Returns:</strong> The bytes for proofDocumentJson.</li>
+</ul>
+<h2 id="public-static-final-class-builder-extends-comgoogleprotobufgeneratedmessagev3builderbuilder-implements_5"><code>public static final class Builder extends com.google.protobuf.GeneratedMessageV3.Builder&lt;Builder&gt; implements</code><a class="headerlink" href="#public-static-final-class-builder-extends-comgoogleprotobufgeneratedmessagev3builderbuilder-implements_5" title="Permanent link">&para;</a></h2>
+<p>Protobuf type {@code services.verifiablecredentials.v1.CreateProofResponse}</p>
+<h2 id="public-javalangstring-getproofdocumentjson"><code>public java.lang.String getProofDocumentJson()</code><a class="headerlink" href="#public-javalangstring-getproofdocumentjson" title="Permanent link">&para;</a></h2>
+<p><code>string proof_document_json = 1;</code></p>
+<ul>
+<li><strong>Returns:</strong> The proofDocumentJson.</li>
+</ul>
+<h2 id="public-comgoogleprotobufbytestring-getproofdocumentjsonbytes"><code>public com.google.protobuf.ByteString getProofDocumentJsonBytes()</code><a class="headerlink" href="#public-comgoogleprotobufbytestring-getproofdocumentjsonbytes" title="Permanent link">&para;</a></h2>
+<p><code>string proof_document_json = 1;</code></p>
+<ul>
+<li><strong>Returns:</strong> The bytes for proofDocumentJson.</li>
+</ul>
+<h2 id="public-builder-setproofdocumentjson-javalangstring-value"><code>public Builder setProofDocumentJson( java.lang.String value)</code><a class="headerlink" href="#public-builder-setproofdocumentjson-javalangstring-value" title="Permanent link">&para;</a></h2>
+<p><code>string proof_document_json = 1;</code></p>
+<ul>
+<li><strong>Parameters:</strong> <code>value</code> — The proofDocumentJson to set.</li>
+<li><strong>Returns:</strong> This builder for chaining.</li>
+</ul>
+<h2 id="public-builder-clearproofdocumentjson"><code>public Builder clearProofDocumentJson()</code><a class="headerlink" href="#public-builder-clearproofdocumentjson" title="Permanent link">&para;</a></h2>
+<p><code>string proof_document_json = 1;</code></p>
+<ul>
+<li><strong>Returns:</strong> This builder for chaining.</li>
+</ul>
+<h2 id="public-builder-setproofdocumentjsonbytes-comgoogleprotobufbytestring-value"><code>public Builder setProofDocumentJsonBytes( com.google.protobuf.ByteString value)</code><a class="headerlink" href="#public-builder-setproofdocumentjsonbytes-comgoogleprotobufbytestring-value" title="Permanent link">&para;</a></h2>
+<p><code>string proof_document_json = 1;</code></p>
+<ul>
+<li><strong>Parameters:</strong> <code>value</code> — The bytes for proofDocumentJson to set.</li>
+<li><strong>Returns:</strong> This builder for chaining.</li>
+</ul>
+<h2 id="javalangstring-getproofdocumentjson_1"><code>java.lang.String getProofDocumentJson()</code><a class="headerlink" href="#javalangstring-getproofdocumentjson_1" title="Permanent link">&para;</a></h2>
+<p><code>string proof_document_json = 1;</code></p>
+<ul>
+<li><strong>Returns:</strong> The proofDocumentJson.</li>
+</ul>
+<h2 id="comgoogleprotobufbytestring-getproofdocumentjsonbytes_1"><code>com.google.protobuf.ByteString getProofDocumentJsonBytes()</code><a class="headerlink" href="#comgoogleprotobufbytestring-getproofdocumentjsonbytes_1" title="Permanent link">&para;</a></h2>
+<p><code>string proof_document_json = 1;</code></p>
+<ul>
+<li><strong>Returns:</strong> The bytes for proofDocumentJson.</li>
+</ul>
+<h2 id="public-static-final-class-verifyproofrequest-extends-comgoogleprotobufgeneratedmessagev3-implements"><code>public static final class VerifyProofRequest extends com.google.protobuf.GeneratedMessageV3 implements</code><a class="headerlink" href="#public-static-final-class-verifyproofrequest-extends-comgoogleprotobufgeneratedmessagev3-implements" title="Permanent link">&para;</a></h2>
+<pre> Verify Proof </pre>
+
+<p>Protobuf type {@code services.verifiablecredentials.v1.VerifyProofRequest}</p>
+<h2 id="javalangoverride-public-javalangstring-getproofdocumentjson_1"><code>@java.lang.Override public java.lang.String getProofDocumentJson()</code><a class="headerlink" href="#javalangoverride-public-javalangstring-getproofdocumentjson_1" title="Permanent link">&para;</a></h2>
+<p><code>string proof_document_json = 1;</code></p>
+<ul>
+<li><strong>Returns:</strong> The proofDocumentJson.</li>
+</ul>
+<h2 id="javalangoverride-public-comgoogleprotobufbytestring-getproofdocumentjsonbytes_1"><code>@java.lang.Override public com.google.protobuf.ByteString getProofDocumentJsonBytes()</code><a class="headerlink" href="#javalangoverride-public-comgoogleprotobufbytestring-getproofdocumentjsonbytes_1" title="Permanent link">&para;</a></h2>
+<p><code>string proof_document_json = 1;</code></p>
+<ul>
+<li><strong>Returns:</strong> The bytes for proofDocumentJson.</li>
+</ul>
+<h2 id="public-static-final-class-builder-extends-comgoogleprotobufgeneratedmessagev3builderbuilder-implements_6"><code>public static final class Builder extends com.google.protobuf.GeneratedMessageV3.Builder&lt;Builder&gt; implements</code><a class="headerlink" href="#public-static-final-class-builder-extends-comgoogleprotobufgeneratedmessagev3builderbuilder-implements_6" title="Permanent link">&para;</a></h2>
+<pre> Verify Proof </pre>
+
+<p>Protobuf type {@code services.verifiablecredentials.v1.VerifyProofRequest}</p>
+<h2 id="public-javalangstring-getproofdocumentjson_1"><code>public java.lang.String getProofDocumentJson()</code><a class="headerlink" href="#public-javalangstring-getproofdocumentjson_1" title="Permanent link">&para;</a></h2>
+<p><code>string proof_document_json = 1;</code></p>
+<ul>
+<li><strong>Returns:</strong> The proofDocumentJson.</li>
+</ul>
+<h2 id="public-comgoogleprotobufbytestring-getproofdocumentjsonbytes_1"><code>public com.google.protobuf.ByteString getProofDocumentJsonBytes()</code><a class="headerlink" href="#public-comgoogleprotobufbytestring-getproofdocumentjsonbytes_1" title="Permanent link">&para;</a></h2>
+<p><code>string proof_document_json = 1;</code></p>
+<ul>
+<li><strong>Returns:</strong> The bytes for proofDocumentJson.</li>
+</ul>
+<h2 id="public-builder-setproofdocumentjson-javalangstring-value_1"><code>public Builder setProofDocumentJson( java.lang.String value)</code><a class="headerlink" href="#public-builder-setproofdocumentjson-javalangstring-value_1" title="Permanent link">&para;</a></h2>
+<p><code>string proof_document_json = 1;</code></p>
+<ul>
+<li><strong>Parameters:</strong> <code>value</code> — The proofDocumentJson to set.</li>
+<li><strong>Returns:</strong> This builder for chaining.</li>
+</ul>
+<h2 id="public-builder-clearproofdocumentjson_1"><code>public Builder clearProofDocumentJson()</code><a class="headerlink" href="#public-builder-clearproofdocumentjson_1" title="Permanent link">&para;</a></h2>
+<p><code>string proof_document_json = 1;</code></p>
+<ul>
+<li><strong>Returns:</strong> This builder for chaining.</li>
+</ul>
+<h2 id="public-builder-setproofdocumentjsonbytes-comgoogleprotobufbytestring-value_1"><code>public Builder setProofDocumentJsonBytes( com.google.protobuf.ByteString value)</code><a class="headerlink" href="#public-builder-setproofdocumentjsonbytes-comgoogleprotobufbytestring-value_1" title="Permanent link">&para;</a></h2>
+<p><code>string proof_document_json = 1;</code></p>
+<ul>
+<li><strong>Parameters:</strong> <code>value</code> — The bytes for proofDocumentJson to set.</li>
+<li><strong>Returns:</strong> This builder for chaining.</li>
+</ul>
+<h2 id="boolean-getisvalid"><code>boolean getIsValid()</code><a class="headerlink" href="#boolean-getisvalid" title="Permanent link">&para;</a></h2>
+<pre> Indicates if the proof is valid </pre>
+
+<p><code>bool is_valid = 1;</code></p>
+<ul>
+<li><strong>Returns:</strong> The isValid.</li>
+</ul>
+<h2 id="javautillistjavalangstring-getvalidationmessageslist"><code>java.util.List&lt;java.lang.String&gt; getValidationMessagesList()</code><a class="headerlink" href="#javautillistjavalangstring-getvalidationmessageslist" title="Permanent link">&para;</a></h2>
+<pre> Validation messages that describe invalid verifications based on different factors, such as schema validation, proof verification, revocation registry membership, etc. If the proof is not valid, this field will contain detailed results where this verification failed. </pre>
+
+<p><code>repeated string validation_messages = 2;</code></p>
+<ul>
+<li><strong>Returns:</strong> A list containing the validationMessages.</li>
+</ul>
+<h2 id="int-getvalidationmessagescount"><code>int getValidationMessagesCount()</code><a class="headerlink" href="#int-getvalidationmessagescount" title="Permanent link">&para;</a></h2>
+<pre> Validation messages that describe invalid verifications based on different factors, such as schema validation, proof verification, revocation registry membership, etc. If the proof is not valid, this field will contain detailed results where this verification failed. </pre>
+
+<p><code>repeated string validation_messages = 2;</code></p>
+<ul>
+<li><strong>Returns:</strong> The count of validationMessages.</li>
+</ul>
+<h2 id="javalangstring-getvalidationmessagesint-index"><code>java.lang.String getValidationMessages(int index)</code><a class="headerlink" href="#javalangstring-getvalidationmessagesint-index" title="Permanent link">&para;</a></h2>
+<pre> Validation messages that describe invalid verifications based on different factors, such as schema validation, proof verification, revocation registry membership, etc. If the proof is not valid, this field will contain detailed results where this verification failed. </pre>
+
+<p><code>repeated string validation_messages = 2;</code></p>
+<ul>
+<li><strong>Parameters:</strong> <code>index</code> — The index of the element to return.</li>
+<li><strong>Returns:</strong> The validationMessages at the given index.</li>
+</ul>
+<h2 id="comgoogleprotobufbytestring-getvalidationmessagesbytesint-index"><code>com.google.protobuf.ByteString getValidationMessagesBytes(int index)</code><a class="headerlink" href="#comgoogleprotobufbytestring-getvalidationmessagesbytesint-index" title="Permanent link">&para;</a></h2>
+<pre> Validation messages that describe invalid verifications based on different factors, such as schema validation, proof verification, revocation registry membership, etc. If the proof is not valid, this field will contain detailed results where this verification failed. </pre>
+
+<p><code>repeated string validation_messages = 2;</code></p>
+<ul>
+<li><strong>Parameters:</strong> <code>index</code> — The index of the value to return.</li>
+<li><strong>Returns:</strong> The bytes of the validationMessages at the given index.</li>
+</ul>
+<h2 id="public-static-final-class-verifyproofresponse-extends-comgoogleprotobufgeneratedmessagev3-implements"><code>public static final class VerifyProofResponse extends com.google.protobuf.GeneratedMessageV3 implements</code><a class="headerlink" href="#public-static-final-class-verifyproofresponse-extends-comgoogleprotobufgeneratedmessagev3-implements" title="Permanent link">&para;</a></h2>
+<p>Protobuf type {@code services.verifiablecredentials.v1.VerifyProofResponse}</p>
+<h2 id="javalangoverride-public-boolean-getisvalid"><code>@java.lang.Override public boolean getIsValid()</code><a class="headerlink" href="#javalangoverride-public-boolean-getisvalid" title="Permanent link">&para;</a></h2>
+<pre> Indicates if the proof is valid </pre>
+
+<p><code>bool is_valid = 1;</code></p>
+<ul>
+<li><strong>Returns:</strong> The isValid.</li>
+</ul>
+<h2 id="public-comgoogleprotobufprotocolstringlist-getvalidationmessageslist"><code>public com.google.protobuf.ProtocolStringList getValidationMessagesList()</code><a class="headerlink" href="#public-comgoogleprotobufprotocolstringlist-getvalidationmessageslist" title="Permanent link">&para;</a></h2>
+<pre> Validation messages that describe invalid verifications based on different factors, such as schema validation, proof verification, revocation registry membership, etc. If the proof is not valid, this field will contain detailed results where this verification failed. </pre>
+
+<p><code>repeated string validation_messages = 2;</code></p>
+<ul>
+<li><strong>Returns:</strong> A list containing the validationMessages.</li>
+</ul>
+<h2 id="public-int-getvalidationmessagescount"><code>public int getValidationMessagesCount()</code><a class="headerlink" href="#public-int-getvalidationmessagescount" title="Permanent link">&para;</a></h2>
+<pre> Validation messages that describe invalid verifications based on different factors, such as schema validation, proof verification, revocation registry membership, etc. If the proof is not valid, this field will contain detailed results where this verification failed. </pre>
+
+<p><code>repeated string validation_messages = 2;</code></p>
+<ul>
+<li><strong>Returns:</strong> The count of validationMessages.</li>
+</ul>
+<h2 id="public-javalangstring-getvalidationmessagesint-index"><code>public java.lang.String getValidationMessages(int index)</code><a class="headerlink" href="#public-javalangstring-getvalidationmessagesint-index" title="Permanent link">&para;</a></h2>
+<pre> Validation messages that describe invalid verifications based on different factors, such as schema validation, proof verification, revocation registry membership, etc. If the proof is not valid, this field will contain detailed results where this verification failed. </pre>
+
+<p><code>repeated string validation_messages = 2;</code></p>
+<ul>
+<li><strong>Parameters:</strong> <code>index</code> — The index of the element to return.</li>
+<li><strong>Returns:</strong> The validationMessages at the given index.</li>
+</ul>
+<h2 id="public-comgoogleprotobufbytestring-getvalidationmessagesbytesint-index"><code>public com.google.protobuf.ByteString getValidationMessagesBytes(int index)</code><a class="headerlink" href="#public-comgoogleprotobufbytestring-getvalidationmessagesbytesint-index" title="Permanent link">&para;</a></h2>
+<pre> Validation messages that describe invalid verifications based on different factors, such as schema validation, proof verification, revocation registry membership, etc. If the proof is not valid, this field will contain detailed results where this verification failed. </pre>
+
+<p><code>repeated string validation_messages = 2;</code></p>
+<ul>
+<li><strong>Parameters:</strong> <code>index</code> — The index of the value to return.</li>
+<li><strong>Returns:</strong> The bytes of the validationMessages at the given index.</li>
+</ul>
+<h2 id="public-static-final-class-builder-extends-comgoogleprotobufgeneratedmessagev3builderbuilder-implements_7"><code>public static final class Builder extends com.google.protobuf.GeneratedMessageV3.Builder&lt;Builder&gt; implements</code><a class="headerlink" href="#public-static-final-class-builder-extends-comgoogleprotobufgeneratedmessagev3builderbuilder-implements_7" title="Permanent link">&para;</a></h2>
+<p>Protobuf type {@code services.verifiablecredentials.v1.VerifyProofResponse}</p>
+<h2 id="javalangoverride-public-boolean-getisvalid_1"><code>@java.lang.Override public boolean getIsValid()</code><a class="headerlink" href="#javalangoverride-public-boolean-getisvalid_1" title="Permanent link">&para;</a></h2>
+<pre> Indicates if the proof is valid </pre>
+
+<p><code>bool is_valid = 1;</code></p>
+<ul>
+<li><strong>Returns:</strong> The isValid.</li>
+</ul>
+<h2 id="public-builder-setisvalidboolean-value"><code>public Builder setIsValid(boolean value)</code><a class="headerlink" href="#public-builder-setisvalidboolean-value" title="Permanent link">&para;</a></h2>
+<pre> Indicates if the proof is valid </pre>
+
+<p><code>bool is_valid = 1;</code></p>
+<ul>
+<li><strong>Parameters:</strong> <code>value</code> — The isValid to set.</li>
+<li><strong>Returns:</strong> This builder for chaining.</li>
+</ul>
+<h2 id="public-builder-clearisvalid"><code>public Builder clearIsValid()</code><a class="headerlink" href="#public-builder-clearisvalid" title="Permanent link">&para;</a></h2>
+<pre> Indicates if the proof is valid </pre>
+
+<p><code>bool is_valid = 1;</code></p>
+<ul>
+<li><strong>Returns:</strong> This builder for chaining.</li>
+</ul>
+<h2 id="public-comgoogleprotobufprotocolstringlist-getvalidationmessageslist_1"><code>public com.google.protobuf.ProtocolStringList getValidationMessagesList()</code><a class="headerlink" href="#public-comgoogleprotobufprotocolstringlist-getvalidationmessageslist_1" title="Permanent link">&para;</a></h2>
+<pre> Validation messages that describe invalid verifications based on different factors, such as schema validation, proof verification, revocation registry membership, etc. If the proof is not valid, this field will contain detailed results where this verification failed. </pre>
+
+<p><code>repeated string validation_messages = 2;</code></p>
+<ul>
+<li><strong>Returns:</strong> A list containing the validationMessages.</li>
+</ul>
+<h2 id="public-int-getvalidationmessagescount_1"><code>public int getValidationMessagesCount()</code><a class="headerlink" href="#public-int-getvalidationmessagescount_1" title="Permanent link">&para;</a></h2>
+<pre> Validation messages that describe invalid verifications based on different factors, such as schema validation, proof verification, revocation registry membership, etc. If the proof is not valid, this field will contain detailed results where this verification failed. </pre>
+
+<p><code>repeated string validation_messages = 2;</code></p>
+<ul>
+<li><strong>Returns:</strong> The count of validationMessages.</li>
+</ul>
+<h2 id="public-javalangstring-getvalidationmessagesint-index_1"><code>public java.lang.String getValidationMessages(int index)</code><a class="headerlink" href="#public-javalangstring-getvalidationmessagesint-index_1" title="Permanent link">&para;</a></h2>
+<pre> Validation messages that describe invalid verifications based on different factors, such as schema validation, proof verification, revocation registry membership, etc. If the proof is not valid, this field will contain detailed results where this verification failed. </pre>
+
+<p><code>repeated string validation_messages = 2;</code></p>
+<ul>
+<li><strong>Parameters:</strong> <code>index</code> — The index of the element to return.</li>
+<li><strong>Returns:</strong> The validationMessages at the given index.</li>
+</ul>
+<h2 id="public-comgoogleprotobufbytestring-getvalidationmessagesbytesint-index_1"><code>public com.google.protobuf.ByteString getValidationMessagesBytes(int index)</code><a class="headerlink" href="#public-comgoogleprotobufbytestring-getvalidationmessagesbytesint-index_1" title="Permanent link">&para;</a></h2>
+<pre> Validation messages that describe invalid verifications based on different factors, such as schema validation, proof verification, revocation registry membership, etc. If the proof is not valid, this field will contain detailed results where this verification failed. </pre>
+
+<p><code>repeated string validation_messages = 2;</code></p>
+<ul>
+<li><strong>Parameters:</strong> <code>index</code> — The index of the value to return.</li>
+<li><strong>Returns:</strong> The bytes of the validationMessages at the given index.</li>
+</ul>
+<h2 id="public-builder-setvalidationmessages-int-index-javalangstring-value"><code>public Builder setValidationMessages( int index, java.lang.String value)</code><a class="headerlink" href="#public-builder-setvalidationmessages-int-index-javalangstring-value" title="Permanent link">&para;</a></h2>
+<pre> Validation messages that describe invalid verifications based on different factors, such as schema validation, proof verification, revocation registry membership, etc. If the proof is not valid, this field will contain detailed results where this verification failed. </pre>
+
+<p><code>repeated string validation_messages = 2;</code></p>
+<ul>
+<li><strong>Parameters:</strong></li>
+<li><code>index</code> — The index to set the value at.</li>
+<li><code>value</code> — The validationMessages to set.</li>
+<li><strong>Returns:</strong> This builder for chaining.</li>
+</ul>
+<h2 id="public-builder-addvalidationmessages-javalangstring-value"><code>public Builder addValidationMessages( java.lang.String value)</code><a class="headerlink" href="#public-builder-addvalidationmessages-javalangstring-value" title="Permanent link">&para;</a></h2>
+<pre> Validation messages that describe invalid verifications based on different factors, such as schema validation, proof verification, revocation registry membership, etc. If the proof is not valid, this field will contain detailed results where this verification failed. </pre>
+
+<p><code>repeated string validation_messages = 2;</code></p>
+<ul>
+<li><strong>Parameters:</strong> <code>value</code> — The validationMessages to add.</li>
+<li><strong>Returns:</strong> This builder for chaining.</li>
+</ul>
+<h2 id="public-builder-addallvalidationmessages-javalangiterablejavalangstring-values"><code>public Builder addAllValidationMessages( java.lang.Iterable&lt;java.lang.String&gt; values)</code><a class="headerlink" href="#public-builder-addallvalidationmessages-javalangiterablejavalangstring-values" title="Permanent link">&para;</a></h2>
+<pre> Validation messages that describe invalid verifications based on different factors, such as schema validation, proof verification, revocation registry membership, etc. If the proof is not valid, this field will contain detailed results where this verification failed. </pre>
+
+<p><code>repeated string validation_messages = 2;</code></p>
+<ul>
+<li><strong>Parameters:</strong> <code>values</code> — The validationMessages to add.</li>
+<li><strong>Returns:</strong> This builder for chaining.</li>
+</ul>
+<h2 id="public-builder-clearvalidationmessages"><code>public Builder clearValidationMessages()</code><a class="headerlink" href="#public-builder-clearvalidationmessages" title="Permanent link">&para;</a></h2>
+<pre> Validation messages that describe invalid verifications based on different factors, such as schema validation, proof verification, revocation registry membership, etc. If the proof is not valid, this field will contain detailed results where this verification failed. </pre>
+
+<p><code>repeated string validation_messages = 2;</code></p>
+<ul>
+<li><strong>Returns:</strong> This builder for chaining.</li>
+</ul>
+<h2 id="public-builder-addvalidationmessagesbytes-comgoogleprotobufbytestring-value"><code>public Builder addValidationMessagesBytes( com.google.protobuf.ByteString value)</code><a class="headerlink" href="#public-builder-addvalidationmessagesbytes-comgoogleprotobufbytestring-value" title="Permanent link">&para;</a></h2>
+<pre> Validation messages that describe invalid verifications based on different factors, such as schema validation, proof verification, revocation registry membership, etc. If the proof is not valid, this field will contain detailed results where this verification failed. </pre>
+
+<p><code>repeated string validation_messages = 2;</code></p>
+<ul>
+<li><strong>Parameters:</strong> <code>value</code> — The bytes of the validationMessages to add.</li>
+<li><strong>Returns:</strong> This builder for chaining.</li>
+</ul>
+<h2 id="boolean-hasemail"><code>boolean hasEmail()</code><a class="headerlink" href="#boolean-hasemail" title="Permanent link">&para;</a></h2>
+<p><code>string email = 1;</code></p>
+<ul>
+<li><strong>Returns:</strong> Whether the email field is set.</li>
+</ul>
+<h2 id="javalangstring-getemail"><code>java.lang.String getEmail()</code><a class="headerlink" href="#javalangstring-getemail" title="Permanent link">&para;</a></h2>
+<p><code>string email = 1;</code></p>
+<ul>
+<li><strong>Returns:</strong> The email.</li>
+</ul>
+<h2 id="comgoogleprotobufbytestring-getemailbytes"><code>com.google.protobuf.ByteString getEmailBytes()</code><a class="headerlink" href="#comgoogleprotobufbytestring-getemailbytes" title="Permanent link">&para;</a></h2>
+<p><code>string email = 1;</code></p>
+<ul>
+<li><strong>Returns:</strong> The bytes for email.</li>
+</ul>
+<h2 id="boolean-hasdiduri"><code>boolean hasDidUri()</code><a class="headerlink" href="#boolean-hasdiduri" title="Permanent link">&para;</a></h2>
+<p><code>string did_uri = 2;</code></p>
+<ul>
+<li><strong>Returns:</strong> Whether the didUri field is set.</li>
+</ul>
+<h2 id="javalangstring-getdiduri"><code>java.lang.String getDidUri()</code><a class="headerlink" href="#javalangstring-getdiduri" title="Permanent link">&para;</a></h2>
+<p><code>string did_uri = 2;</code></p>
+<ul>
+<li><strong>Returns:</strong> The didUri.</li>
+</ul>
+<h2 id="comgoogleprotobufbytestring-getdiduribytes"><code>com.google.protobuf.ByteString getDidUriBytes()</code><a class="headerlink" href="#comgoogleprotobufbytestring-getdiduribytes" title="Permanent link">&para;</a></h2>
+<p><code>string did_uri = 2;</code></p>
+<ul>
+<li><strong>Returns:</strong> The bytes for didUri.</li>
+</ul>
+<h2 id="boolean-hasdidcomminvitationjson"><code>boolean hasDidcommInvitationJson()</code><a class="headerlink" href="#boolean-hasdidcomminvitationjson" title="Permanent link">&para;</a></h2>
+<p><code>string didcomm_invitation_json = 3;</code></p>
+<ul>
+<li><strong>Returns:</strong> Whether the didcommInvitationJson field is set.</li>
+</ul>
+<h2 id="javalangstring-getdidcomminvitationjson"><code>java.lang.String getDidcommInvitationJson()</code><a class="headerlink" href="#javalangstring-getdidcomminvitationjson" title="Permanent link">&para;</a></h2>
+<p><code>string didcomm_invitation_json = 3;</code></p>
+<ul>
+<li><strong>Returns:</strong> The didcommInvitationJson.</li>
+</ul>
+<h2 id="comgoogleprotobufbytestring-getdidcomminvitationjsonbytes"><code>com.google.protobuf.ByteString getDidcommInvitationJsonBytes()</code><a class="headerlink" href="#comgoogleprotobufbytestring-getdidcomminvitationjsonbytes" title="Permanent link">&para;</a></h2>
+<p><code>string didcomm_invitation_json = 3;</code></p>
+<ul>
+<li><strong>Returns:</strong> The bytes for didcommInvitationJson.</li>
+</ul>
+<h2 id="javalangstring-getdocumentjson_3"><code>java.lang.String getDocumentJson()</code><a class="headerlink" href="#javalangstring-getdocumentjson_3" title="Permanent link">&para;</a></h2>
+<p><code>string document_json = 100;</code></p>
+<ul>
+<li><strong>Returns:</strong> The documentJson.</li>
+</ul>
+<h2 id="comgoogleprotobufbytestring-getdocumentjsonbytes_3"><code>com.google.protobuf.ByteString getDocumentJsonBytes()</code><a class="headerlink" href="#comgoogleprotobufbytestring-getdocumentjsonbytes_3" title="Permanent link">&para;</a></h2>
+<p><code>string document_json = 100;</code></p>
+<ul>
+<li><strong>Returns:</strong> The bytes for documentJson.</li>
+</ul>
+<h2 id="public-static-final-class-sendrequest-extends-comgoogleprotobufgeneratedmessagev3-implements"><code>public static final class SendRequest extends com.google.protobuf.GeneratedMessageV3 implements</code><a class="headerlink" href="#public-static-final-class-sendrequest-extends-comgoogleprotobufgeneratedmessagev3-implements" title="Permanent link">&para;</a></h2>
+<p>Protobuf type {@code services.verifiablecredentials.v1.SendRequest}</p>
+<h2 id="javalangdeprecated-public-static-deliverymethodcase-valueofint-value"><code>@java.lang.Deprecated public static DeliveryMethodCase valueOf(int value)</code><a class="headerlink" href="#javalangdeprecated-public-static-deliverymethodcase-valueofint-value" title="Permanent link">&para;</a></h2>
+<ul>
+<li><strong>Parameters:</strong> <code>value</code> — The number of the enum to look for.</li>
+<li><strong>Returns:</strong> The enum associated with the given number.</li>
+<li><strong>Deprecated</strong></li>
+</ul>
+<h2 id="public-boolean-hasemail"><code>public boolean hasEmail()</code><a class="headerlink" href="#public-boolean-hasemail" title="Permanent link">&para;</a></h2>
+<p><code>string email = 1;</code></p>
+<ul>
+<li><strong>Returns:</strong> Whether the email field is set.</li>
+</ul>
+<h2 id="public-javalangstring-getemail"><code>public java.lang.String getEmail()</code><a class="headerlink" href="#public-javalangstring-getemail" title="Permanent link">&para;</a></h2>
+<p><code>string email = 1;</code></p>
+<ul>
+<li><strong>Returns:</strong> The email.</li>
+</ul>
+<h2 id="public-comgoogleprotobufbytestring-getemailbytes"><code>public com.google.protobuf.ByteString getEmailBytes()</code><a class="headerlink" href="#public-comgoogleprotobufbytestring-getemailbytes" title="Permanent link">&para;</a></h2>
+<p><code>string email = 1;</code></p>
+<ul>
+<li><strong>Returns:</strong> The bytes for email.</li>
+</ul>
+<h2 id="public-boolean-hasdiduri"><code>public boolean hasDidUri()</code><a class="headerlink" href="#public-boolean-hasdiduri" title="Permanent link">&para;</a></h2>
+<p><code>string did_uri = 2;</code></p>
+<ul>
+<li><strong>Returns:</strong> Whether the didUri field is set.</li>
+</ul>
+<h2 id="public-javalangstring-getdiduri"><code>public java.lang.String getDidUri()</code><a class="headerlink" href="#public-javalangstring-getdiduri" title="Permanent link">&para;</a></h2>
+<p><code>string did_uri = 2;</code></p>
+<ul>
+<li><strong>Returns:</strong> The didUri.</li>
+</ul>
+<h2 id="public-comgoogleprotobufbytestring-getdiduribytes"><code>public com.google.protobuf.ByteString getDidUriBytes()</code><a class="headerlink" href="#public-comgoogleprotobufbytestring-getdiduribytes" title="Permanent link">&para;</a></h2>
+<p><code>string did_uri = 2;</code></p>
+<ul>
+<li><strong>Returns:</strong> The bytes for didUri.</li>
+</ul>
+<h2 id="public-boolean-hasdidcomminvitationjson"><code>public boolean hasDidcommInvitationJson()</code><a class="headerlink" href="#public-boolean-hasdidcomminvitationjson" title="Permanent link">&para;</a></h2>
+<p><code>string didcomm_invitation_json = 3;</code></p>
+<ul>
+<li><strong>Returns:</strong> Whether the didcommInvitationJson field is set.</li>
+</ul>
+<h2 id="public-javalangstring-getdidcomminvitationjson"><code>public java.lang.String getDidcommInvitationJson()</code><a class="headerlink" href="#public-javalangstring-getdidcomminvitationjson" title="Permanent link">&para;</a></h2>
+<p><code>string didcomm_invitation_json = 3;</code></p>
+<ul>
+<li><strong>Returns:</strong> The didcommInvitationJson.</li>
+</ul>
+<h2 id="public-comgoogleprotobufbytestring-getdidcomminvitationjsonbytes"><code>public com.google.protobuf.ByteString getDidcommInvitationJsonBytes()</code><a class="headerlink" href="#public-comgoogleprotobufbytestring-getdidcomminvitationjsonbytes" title="Permanent link">&para;</a></h2>
+<p><code>string didcomm_invitation_json = 3;</code></p>
+<ul>
+<li><strong>Returns:</strong> The bytes for didcommInvitationJson.</li>
+</ul>
+<h2 id="javalangoverride-public-javalangstring-getdocumentjson_3"><code>@java.lang.Override public java.lang.String getDocumentJson()</code><a class="headerlink" href="#javalangoverride-public-javalangstring-getdocumentjson_3" title="Permanent link">&para;</a></h2>
+<p><code>string document_json = 100;</code></p>
+<ul>
+<li><strong>Returns:</strong> The documentJson.</li>
+</ul>
+<h2 id="javalangoverride-public-comgoogleprotobufbytestring-getdocumentjsonbytes_3"><code>@java.lang.Override public com.google.protobuf.ByteString getDocumentJsonBytes()</code><a class="headerlink" href="#javalangoverride-public-comgoogleprotobufbytestring-getdocumentjsonbytes_3" title="Permanent link">&para;</a></h2>
+<p><code>string document_json = 100;</code></p>
+<ul>
+<li><strong>Returns:</strong> The bytes for documentJson.</li>
+</ul>
+<h2 id="public-static-final-class-builder-extends-comgoogleprotobufgeneratedmessagev3builderbuilder-implements_8"><code>public static final class Builder extends com.google.protobuf.GeneratedMessageV3.Builder&lt;Builder&gt; implements</code><a class="headerlink" href="#public-static-final-class-builder-extends-comgoogleprotobufgeneratedmessagev3builderbuilder-implements_8" title="Permanent link">&para;</a></h2>
+<p>Protobuf type {@code services.verifiablecredentials.v1.SendRequest}</p>
+<h2 id="javalangoverride-public-boolean-hasemail"><code>@java.lang.Override public boolean hasEmail()</code><a class="headerlink" href="#javalangoverride-public-boolean-hasemail" title="Permanent link">&para;</a></h2>
+<p><code>string email = 1;</code></p>
+<ul>
+<li><strong>Returns:</strong> Whether the email field is set.</li>
+</ul>
+<h2 id="javalangoverride-public-javalangstring-getemail"><code>@java.lang.Override public java.lang.String getEmail()</code><a class="headerlink" href="#javalangoverride-public-javalangstring-getemail" title="Permanent link">&para;</a></h2>
+<p><code>string email = 1;</code></p>
+<ul>
+<li><strong>Returns:</strong> The email.</li>
+</ul>
+<h2 id="javalangoverride-public-comgoogleprotobufbytestring-getemailbytes"><code>@java.lang.Override public com.google.protobuf.ByteString getEmailBytes()</code><a class="headerlink" href="#javalangoverride-public-comgoogleprotobufbytestring-getemailbytes" title="Permanent link">&para;</a></h2>
+<p><code>string email = 1;</code></p>
+<ul>
+<li><strong>Returns:</strong> The bytes for email.</li>
+</ul>
+<h2 id="public-builder-setemail-javalangstring-value"><code>public Builder setEmail( java.lang.String value)</code><a class="headerlink" href="#public-builder-setemail-javalangstring-value" title="Permanent link">&para;</a></h2>
+<p><code>string email = 1;</code></p>
+<ul>
+<li><strong>Parameters:</strong> <code>value</code> — The email to set.</li>
+<li><strong>Returns:</strong> This builder for chaining.</li>
+</ul>
+<h2 id="public-builder-clearemail"><code>public Builder clearEmail()</code><a class="headerlink" href="#public-builder-clearemail" title="Permanent link">&para;</a></h2>
+<p><code>string email = 1;</code></p>
+<ul>
+<li><strong>Returns:</strong> This builder for chaining.</li>
+</ul>
+<h2 id="public-builder-setemailbytes-comgoogleprotobufbytestring-value"><code>public Builder setEmailBytes( com.google.protobuf.ByteString value)</code><a class="headerlink" href="#public-builder-setemailbytes-comgoogleprotobufbytestring-value" title="Permanent link">&para;</a></h2>
+<p><code>string email = 1;</code></p>
+<ul>
+<li><strong>Parameters:</strong> <code>value</code> — The bytes for email to set.</li>
+<li><strong>Returns:</strong> This builder for chaining.</li>
+</ul>
+<h2 id="javalangoverride-public-boolean-hasdiduri"><code>@java.lang.Override public boolean hasDidUri()</code><a class="headerlink" href="#javalangoverride-public-boolean-hasdiduri" title="Permanent link">&para;</a></h2>
+<p><code>string did_uri = 2;</code></p>
+<ul>
+<li><strong>Returns:</strong> Whether the didUri field is set.</li>
+</ul>
+<h2 id="javalangoverride-public-javalangstring-getdiduri"><code>@java.lang.Override public java.lang.String getDidUri()</code><a class="headerlink" href="#javalangoverride-public-javalangstring-getdiduri" title="Permanent link">&para;</a></h2>
+<p><code>string did_uri = 2;</code></p>
+<ul>
+<li><strong>Returns:</strong> The didUri.</li>
+</ul>
+<h2 id="javalangoverride-public-comgoogleprotobufbytestring-getdiduribytes"><code>@java.lang.Override public com.google.protobuf.ByteString getDidUriBytes()</code><a class="headerlink" href="#javalangoverride-public-comgoogleprotobufbytestring-getdiduribytes" title="Permanent link">&para;</a></h2>
+<p><code>string did_uri = 2;</code></p>
+<ul>
+<li><strong>Returns:</strong> The bytes for didUri.</li>
+</ul>
+<h2 id="public-builder-setdiduri-javalangstring-value"><code>public Builder setDidUri( java.lang.String value)</code><a class="headerlink" href="#public-builder-setdiduri-javalangstring-value" title="Permanent link">&para;</a></h2>
+<p><code>string did_uri = 2;</code></p>
+<ul>
+<li><strong>Parameters:</strong> <code>value</code> — The didUri to set.</li>
+<li><strong>Returns:</strong> This builder for chaining.</li>
+</ul>
+<h2 id="public-builder-cleardiduri"><code>public Builder clearDidUri()</code><a class="headerlink" href="#public-builder-cleardiduri" title="Permanent link">&para;</a></h2>
+<p><code>string did_uri = 2;</code></p>
+<ul>
+<li><strong>Returns:</strong> This builder for chaining.</li>
+</ul>
+<h2 id="public-builder-setdiduribytes-comgoogleprotobufbytestring-value"><code>public Builder setDidUriBytes( com.google.protobuf.ByteString value)</code><a class="headerlink" href="#public-builder-setdiduribytes-comgoogleprotobufbytestring-value" title="Permanent link">&para;</a></h2>
+<p><code>string did_uri = 2;</code></p>
+<ul>
+<li><strong>Parameters:</strong> <code>value</code> — The bytes for didUri to set.</li>
+<li><strong>Returns:</strong> This builder for chaining.</li>
+</ul>
+<h2 id="javalangoverride-public-boolean-hasdidcomminvitationjson"><code>@java.lang.Override public boolean hasDidcommInvitationJson()</code><a class="headerlink" href="#javalangoverride-public-boolean-hasdidcomminvitationjson" title="Permanent link">&para;</a></h2>
+<p><code>string didcomm_invitation_json = 3;</code></p>
+<ul>
+<li><strong>Returns:</strong> Whether the didcommInvitationJson field is set.</li>
+</ul>
+<h2 id="javalangoverride-public-javalangstring-getdidcomminvitationjson"><code>@java.lang.Override public java.lang.String getDidcommInvitationJson()</code><a class="headerlink" href="#javalangoverride-public-javalangstring-getdidcomminvitationjson" title="Permanent link">&para;</a></h2>
+<p><code>string didcomm_invitation_json = 3;</code></p>
+<ul>
+<li><strong>Returns:</strong> The didcommInvitationJson.</li>
+</ul>
+<h2 id="javalangoverride-public-comgoogleprotobufbytestring-getdidcomminvitationjsonbytes"><code>@java.lang.Override public com.google.protobuf.ByteString getDidcommInvitationJsonBytes()</code><a class="headerlink" href="#javalangoverride-public-comgoogleprotobufbytestring-getdidcomminvitationjsonbytes" title="Permanent link">&para;</a></h2>
+<p><code>string didcomm_invitation_json = 3;</code></p>
+<ul>
+<li><strong>Returns:</strong> The bytes for didcommInvitationJson.</li>
+</ul>
+<h2 id="public-builder-setdidcomminvitationjson-javalangstring-value"><code>public Builder setDidcommInvitationJson( java.lang.String value)</code><a class="headerlink" href="#public-builder-setdidcomminvitationjson-javalangstring-value" title="Permanent link">&para;</a></h2>
+<p><code>string didcomm_invitation_json = 3;</code></p>
+<ul>
+<li><strong>Parameters:</strong> <code>value</code> — The didcommInvitationJson to set.</li>
+<li><strong>Returns:</strong> This builder for chaining.</li>
+</ul>
+<h2 id="public-builder-cleardidcomminvitationjson"><code>public Builder clearDidcommInvitationJson()</code><a class="headerlink" href="#public-builder-cleardidcomminvitationjson" title="Permanent link">&para;</a></h2>
+<p><code>string didcomm_invitation_json = 3;</code></p>
+<ul>
+<li><strong>Returns:</strong> This builder for chaining.</li>
+</ul>
+<h2 id="public-builder-setdidcomminvitationjsonbytes-comgoogleprotobufbytestring-value"><code>public Builder setDidcommInvitationJsonBytes( com.google.protobuf.ByteString value)</code><a class="headerlink" href="#public-builder-setdidcomminvitationjsonbytes-comgoogleprotobufbytestring-value" title="Permanent link">&para;</a></h2>
+<p><code>string didcomm_invitation_json = 3;</code></p>
+<ul>
+<li><strong>Parameters:</strong> <code>value</code> — The bytes for didcommInvitationJson to set.</li>
+<li><strong>Returns:</strong> This builder for chaining.</li>
+</ul>
+<h2 id="public-javalangstring-getdocumentjson_3"><code>public java.lang.String getDocumentJson()</code><a class="headerlink" href="#public-javalangstring-getdocumentjson_3" title="Permanent link">&para;</a></h2>
+<p><code>string document_json = 100;</code></p>
+<ul>
+<li><strong>Returns:</strong> The documentJson.</li>
+</ul>
+<h2 id="public-comgoogleprotobufbytestring-getdocumentjsonbytes_3"><code>public com.google.protobuf.ByteString getDocumentJsonBytes()</code><a class="headerlink" href="#public-comgoogleprotobufbytestring-getdocumentjsonbytes_3" title="Permanent link">&para;</a></h2>
+<p><code>string document_json = 100;</code></p>
+<ul>
+<li><strong>Returns:</strong> The bytes for documentJson.</li>
+</ul>
+<h2 id="public-builder-setdocumentjson-javalangstring-value_3"><code>public Builder setDocumentJson( java.lang.String value)</code><a class="headerlink" href="#public-builder-setdocumentjson-javalangstring-value_3" title="Permanent link">&para;</a></h2>
+<p><code>string document_json = 100;</code></p>
+<ul>
+<li><strong>Parameters:</strong> <code>value</code> — The documentJson to set.</li>
+<li><strong>Returns:</strong> This builder for chaining.</li>
+</ul>
+<h2 id="public-builder-cleardocumentjson_3"><code>public Builder clearDocumentJson()</code><a class="headerlink" href="#public-builder-cleardocumentjson_3" title="Permanent link">&para;</a></h2>
+<p><code>string document_json = 100;</code></p>
+<ul>
+<li><strong>Returns:</strong> This builder for chaining.</li>
+</ul>
+<h2 id="public-builder-setdocumentjsonbytes-comgoogleprotobufbytestring-value_3"><code>public Builder setDocumentJsonBytes( com.google.protobuf.ByteString value)</code><a class="headerlink" href="#public-builder-setdocumentjsonbytes-comgoogleprotobufbytestring-value_3" title="Permanent link">&para;</a></h2>
+<p><code>string document_json = 100;</code></p>
+<ul>
+<li><strong>Parameters:</strong> <code>value</code> — The bytes for documentJson to set.</li>
+<li><strong>Returns:</strong> This builder for chaining.</li>
+</ul>
+<h2 id="int-getstatusvalue"><code>int getStatusValue()</code><a class="headerlink" href="#int-getstatusvalue" title="Permanent link">&para;</a></h2>
+<p><code>.services.common.v1.ResponseStatus status = 1;</code></p>
+<ul>
+<li><strong>Returns:</strong> The enum numeric value on the wire for status.</li>
+</ul>
+<h2 id="trinsicservicescommonv1commonouterclassresponsestatus-getstatus"><code>trinsic.services.common.v1.CommonOuterClass.ResponseStatus getStatus()</code><a class="headerlink" href="#trinsicservicescommonv1commonouterclassresponsestatus-getstatus" title="Permanent link">&para;</a></h2>
+<p><code>.services.common.v1.ResponseStatus status = 1;</code></p>
+<ul>
+<li><strong>Returns:</strong> The status.</li>
+</ul>
+<h2 id="public-static-final-class-sendresponse-extends-comgoogleprotobufgeneratedmessagev3-implements"><code>public static final class SendResponse extends com.google.protobuf.GeneratedMessageV3 implements</code><a class="headerlink" href="#public-static-final-class-sendresponse-extends-comgoogleprotobufgeneratedmessagev3-implements" title="Permanent link">&para;</a></h2>
+<p>Protobuf type {@code services.verifiablecredentials.v1.SendResponse}</p>
+<h2 id="javalangoverride-public-int-getstatusvalue"><code>@java.lang.Override public int getStatusValue()</code><a class="headerlink" href="#javalangoverride-public-int-getstatusvalue" title="Permanent link">&para;</a></h2>
+<p><code>.services.common.v1.ResponseStatus status = 1;</code></p>
+<ul>
+<li><strong>Returns:</strong> The enum numeric value on the wire for status.</li>
+</ul>
+<h2 id="javalangoverride-public-trinsicservicescommonv1commonouterclassresponsestatus-getstatus"><code>@java.lang.Override public trinsic.services.common.v1.CommonOuterClass.ResponseStatus getStatus()</code><a class="headerlink" href="#javalangoverride-public-trinsicservicescommonv1commonouterclassresponsestatus-getstatus" title="Permanent link">&para;</a></h2>
+<p><code>.services.common.v1.ResponseStatus status = 1;</code></p>
+<ul>
+<li><strong>Returns:</strong> The status.</li>
+</ul>
+<h2 id="public-static-final-class-builder-extends-comgoogleprotobufgeneratedmessagev3builderbuilder-implements_9"><code>public static final class Builder extends com.google.protobuf.GeneratedMessageV3.Builder&lt;Builder&gt; implements</code><a class="headerlink" href="#public-static-final-class-builder-extends-comgoogleprotobufgeneratedmessagev3builderbuilder-implements_9" title="Permanent link">&para;</a></h2>
+<p>Protobuf type {@code services.verifiablecredentials.v1.SendResponse}</p>
+<h2 id="javalangoverride-public-int-getstatusvalue_1"><code>@java.lang.Override public int getStatusValue()</code><a class="headerlink" href="#javalangoverride-public-int-getstatusvalue_1" title="Permanent link">&para;</a></h2>
+<p><code>.services.common.v1.ResponseStatus status = 1;</code></p>
+<ul>
+<li><strong>Returns:</strong> The enum numeric value on the wire for status.</li>
+</ul>
+<h2 id="public-builder-setstatusvalueint-value"><code>public Builder setStatusValue(int value)</code><a class="headerlink" href="#public-builder-setstatusvalueint-value" title="Permanent link">&para;</a></h2>
+<p><code>.services.common.v1.ResponseStatus status = 1;</code></p>
+<ul>
+<li><strong>Parameters:</strong> <code>value</code> — The enum numeric value on the wire for status to set.</li>
+<li><strong>Returns:</strong> This builder for chaining.</li>
+</ul>
+<h2 id="javalangoverride-public-trinsicservicescommonv1commonouterclassresponsestatus-getstatus_1"><code>@java.lang.Override public trinsic.services.common.v1.CommonOuterClass.ResponseStatus getStatus()</code><a class="headerlink" href="#javalangoverride-public-trinsicservicescommonv1commonouterclassresponsestatus-getstatus_1" title="Permanent link">&para;</a></h2>
+<p><code>.services.common.v1.ResponseStatus status = 1;</code></p>
+<ul>
+<li><strong>Returns:</strong> The status.</li>
+</ul>
+<h2 id="public-builder-setstatustrinsicservicescommonv1commonouterclassresponsestatus-value"><code>public Builder setStatus(trinsic.services.common.v1.CommonOuterClass.ResponseStatus value)</code><a class="headerlink" href="#public-builder-setstatustrinsicservicescommonv1commonouterclassresponsestatus-value" title="Permanent link">&para;</a></h2>
+<p><code>.services.common.v1.ResponseStatus status = 1;</code></p>
+<ul>
+<li><strong>Parameters:</strong> <code>value</code> — The status to set.</li>
+<li><strong>Returns:</strong> This builder for chaining.</li>
+</ul>
+<h2 id="public-builder-clearstatus"><code>public Builder clearStatus()</code><a class="headerlink" href="#public-builder-clearstatus" title="Permanent link">&para;</a></h2>
+<p><code>.services.common.v1.ResponseStatus status = 1;</code></p>
+<ul>
+<li><strong>Returns:</strong> This builder for chaining.</li>
+</ul>
+<h2 id="javalangstring-getcredentialstatusid"><code>java.lang.String getCredentialStatusId()</code><a class="headerlink" href="#javalangstring-getcredentialstatusid" title="Permanent link">&para;</a></h2>
+<pre> the credential status id </pre>
+
+<p><code>string credential_status_id = 1;</code></p>
+<ul>
+<li><strong>Returns:</strong> The credentialStatusId.</li>
+</ul>
+<h2 id="comgoogleprotobufbytestring-getcredentialstatusidbytes"><code>com.google.protobuf.ByteString getCredentialStatusIdBytes()</code><a class="headerlink" href="#comgoogleprotobufbytestring-getcredentialstatusidbytes" title="Permanent link">&para;</a></h2>
+<pre> the credential status id </pre>
+
+<p><code>string credential_status_id = 1;</code></p>
+<ul>
+<li><strong>Returns:</strong> The bytes for credentialStatusId.</li>
+</ul>
+<h2 id="boolean-getrevoked"><code>boolean getRevoked()</code><a class="headerlink" href="#boolean-getrevoked" title="Permanent link">&para;</a></h2>
+<pre> indicates if the status is revoked </pre>
+
+<p><code>bool revoked = 2;</code></p>
+<ul>
+<li><strong>Returns:</strong> The revoked.</li>
+</ul>
+<h2 id="public-static-final-class-updatestatusrequest-extends-comgoogleprotobufgeneratedmessagev3-implements"><code>public static final class UpdateStatusRequest extends com.google.protobuf.GeneratedMessageV3 implements</code><a class="headerlink" href="#public-static-final-class-updatestatusrequest-extends-comgoogleprotobufgeneratedmessagev3-implements" title="Permanent link">&para;</a></h2>
+<pre> request object to update the status of the revocation entry </pre>
+
+<p>Protobuf type {@code services.verifiablecredentials.v1.UpdateStatusRequest}</p>
+<h2 id="javalangoverride-public-javalangstring-getcredentialstatusid"><code>@java.lang.Override public java.lang.String getCredentialStatusId()</code><a class="headerlink" href="#javalangoverride-public-javalangstring-getcredentialstatusid" title="Permanent link">&para;</a></h2>
+<pre> the credential status id </pre>
+
+<p><code>string credential_status_id = 1;</code></p>
+<ul>
+<li><strong>Returns:</strong> The credentialStatusId.</li>
+</ul>
+<h2 id="javalangoverride-public-comgoogleprotobufbytestring-getcredentialstatusidbytes"><code>@java.lang.Override public com.google.protobuf.ByteString getCredentialStatusIdBytes()</code><a class="headerlink" href="#javalangoverride-public-comgoogleprotobufbytestring-getcredentialstatusidbytes" title="Permanent link">&para;</a></h2>
+<pre> the credential status id </pre>
+
+<p><code>string credential_status_id = 1;</code></p>
+<ul>
+<li><strong>Returns:</strong> The bytes for credentialStatusId.</li>
+</ul>
+<h2 id="javalangoverride-public-boolean-getrevoked"><code>@java.lang.Override public boolean getRevoked()</code><a class="headerlink" href="#javalangoverride-public-boolean-getrevoked" title="Permanent link">&para;</a></h2>
+<pre> indicates if the status is revoked </pre>
+
+<p><code>bool revoked = 2;</code></p>
+<ul>
+<li><strong>Returns:</strong> The revoked.</li>
+</ul>
+<h2 id="public-static-final-class-builder-extends-comgoogleprotobufgeneratedmessagev3builderbuilder-implements_10"><code>public static final class Builder extends com.google.protobuf.GeneratedMessageV3.Builder&lt;Builder&gt; implements</code><a class="headerlink" href="#public-static-final-class-builder-extends-comgoogleprotobufgeneratedmessagev3builderbuilder-implements_10" title="Permanent link">&para;</a></h2>
+<pre> request object to update the status of the revocation entry </pre>
+
+<p>Protobuf type {@code services.verifiablecredentials.v1.UpdateStatusRequest}</p>
+<h2 id="public-javalangstring-getcredentialstatusid"><code>public java.lang.String getCredentialStatusId()</code><a class="headerlink" href="#public-javalangstring-getcredentialstatusid" title="Permanent link">&para;</a></h2>
+<pre> the credential status id </pre>
+
+<p><code>string credential_status_id = 1;</code></p>
+<ul>
+<li><strong>Returns:</strong> The credentialStatusId.</li>
+</ul>
+<h2 id="public-comgoogleprotobufbytestring-getcredentialstatusidbytes"><code>public com.google.protobuf.ByteString getCredentialStatusIdBytes()</code><a class="headerlink" href="#public-comgoogleprotobufbytestring-getcredentialstatusidbytes" title="Permanent link">&para;</a></h2>
+<pre> the credential status id </pre>
+
+<p><code>string credential_status_id = 1;</code></p>
+<ul>
+<li><strong>Returns:</strong> The bytes for credentialStatusId.</li>
+</ul>
+<h2 id="public-builder-setcredentialstatusid-javalangstring-value"><code>public Builder setCredentialStatusId( java.lang.String value)</code><a class="headerlink" href="#public-builder-setcredentialstatusid-javalangstring-value" title="Permanent link">&para;</a></h2>
+<pre> the credential status id </pre>
+
+<p><code>string credential_status_id = 1;</code></p>
+<ul>
+<li><strong>Parameters:</strong> <code>value</code> — The credentialStatusId to set.</li>
+<li><strong>Returns:</strong> This builder for chaining.</li>
+</ul>
+<h2 id="public-builder-clearcredentialstatusid"><code>public Builder clearCredentialStatusId()</code><a class="headerlink" href="#public-builder-clearcredentialstatusid" title="Permanent link">&para;</a></h2>
+<pre> the credential status id </pre>
+
+<p><code>string credential_status_id = 1;</code></p>
+<ul>
+<li><strong>Returns:</strong> This builder for chaining.</li>
+</ul>
+<h2 id="public-builder-setcredentialstatusidbytes-comgoogleprotobufbytestring-value"><code>public Builder setCredentialStatusIdBytes( com.google.protobuf.ByteString value)</code><a class="headerlink" href="#public-builder-setcredentialstatusidbytes-comgoogleprotobufbytestring-value" title="Permanent link">&para;</a></h2>
+<pre> the credential status id </pre>
+
+<p><code>string credential_status_id = 1;</code></p>
+<ul>
+<li><strong>Parameters:</strong> <code>value</code> — The bytes for credentialStatusId to set.</li>
+<li><strong>Returns:</strong> This builder for chaining.</li>
+</ul>
+<h2 id="javalangoverride-public-boolean-getrevoked_1"><code>@java.lang.Override public boolean getRevoked()</code><a class="headerlink" href="#javalangoverride-public-boolean-getrevoked_1" title="Permanent link">&para;</a></h2>
+<pre> indicates if the status is revoked </pre>
+
+<p><code>bool revoked = 2;</code></p>
+<ul>
+<li><strong>Returns:</strong> The revoked.</li>
+</ul>
+<h2 id="public-builder-setrevokedboolean-value"><code>public Builder setRevoked(boolean value)</code><a class="headerlink" href="#public-builder-setrevokedboolean-value" title="Permanent link">&para;</a></h2>
+<pre> indicates if the status is revoked </pre>
+
+<p><code>bool revoked = 2;</code></p>
+<ul>
+<li><strong>Parameters:</strong> <code>value</code> — The revoked to set.</li>
+<li><strong>Returns:</strong> This builder for chaining.</li>
+</ul>
+<h2 id="public-builder-clearrevoked"><code>public Builder clearRevoked()</code><a class="headerlink" href="#public-builder-clearrevoked" title="Permanent link">&para;</a></h2>
+<pre> indicates if the status is revoked </pre>
+
+<p><code>bool revoked = 2;</code></p>
+<ul>
+<li><strong>Returns:</strong> This builder for chaining.</li>
+</ul>
+<h2 id="int-getstatusvalue_1"><code>int getStatusValue()</code><a class="headerlink" href="#int-getstatusvalue_1" title="Permanent link">&para;</a></h2>
+<p><code>.services.common.v1.ResponseStatus status = 1;</code></p>
+<ul>
+<li><strong>Returns:</strong> The enum numeric value on the wire for status.</li>
+</ul>
+<h2 id="trinsicservicescommonv1commonouterclassresponsestatus-getstatus_1"><code>trinsic.services.common.v1.CommonOuterClass.ResponseStatus getStatus()</code><a class="headerlink" href="#trinsicservicescommonv1commonouterclassresponsestatus-getstatus_1" title="Permanent link">&para;</a></h2>
+<p><code>.services.common.v1.ResponseStatus status = 1;</code></p>
+<ul>
+<li><strong>Returns:</strong> The status.</li>
+</ul>
+<h2 id="public-static-final-class-updatestatusresponse-extends-comgoogleprotobufgeneratedmessagev3-implements"><code>public static final class UpdateStatusResponse extends com.google.protobuf.GeneratedMessageV3 implements</code><a class="headerlink" href="#public-static-final-class-updatestatusresponse-extends-comgoogleprotobufgeneratedmessagev3-implements" title="Permanent link">&para;</a></h2>
+<pre> response object for update of status of revocation entry </pre>
+
+<p>Protobuf type {@code services.verifiablecredentials.v1.UpdateStatusResponse}</p>
+<h2 id="javalangoverride-public-int-getstatusvalue_2"><code>@java.lang.Override public int getStatusValue()</code><a class="headerlink" href="#javalangoverride-public-int-getstatusvalue_2" title="Permanent link">&para;</a></h2>
+<p><code>.services.common.v1.ResponseStatus status = 1;</code></p>
+<ul>
+<li><strong>Returns:</strong> The enum numeric value on the wire for status.</li>
+</ul>
+<h2 id="javalangoverride-public-trinsicservicescommonv1commonouterclassresponsestatus-getstatus_2"><code>@java.lang.Override public trinsic.services.common.v1.CommonOuterClass.ResponseStatus getStatus()</code><a class="headerlink" href="#javalangoverride-public-trinsicservicescommonv1commonouterclassresponsestatus-getstatus_2" title="Permanent link">&para;</a></h2>
+<p><code>.services.common.v1.ResponseStatus status = 1;</code></p>
+<ul>
+<li><strong>Returns:</strong> The status.</li>
+</ul>
+<h2 id="public-static-final-class-builder-extends-comgoogleprotobufgeneratedmessagev3builderbuilder-implements_11"><code>public static final class Builder extends com.google.protobuf.GeneratedMessageV3.Builder&lt;Builder&gt; implements</code><a class="headerlink" href="#public-static-final-class-builder-extends-comgoogleprotobufgeneratedmessagev3builderbuilder-implements_11" title="Permanent link">&para;</a></h2>
+<pre> response object for update of status of revocation entry </pre>
+
+<p>Protobuf type {@code services.verifiablecredentials.v1.UpdateStatusResponse}</p>
+<h2 id="javalangoverride-public-int-getstatusvalue_3"><code>@java.lang.Override public int getStatusValue()</code><a class="headerlink" href="#javalangoverride-public-int-getstatusvalue_3" title="Permanent link">&para;</a></h2>
+<p><code>.services.common.v1.ResponseStatus status = 1;</code></p>
+<ul>
+<li><strong>Returns:</strong> The enum numeric value on the wire for status.</li>
+</ul>
+<h2 id="public-builder-setstatusvalueint-value_1"><code>public Builder setStatusValue(int value)</code><a class="headerlink" href="#public-builder-setstatusvalueint-value_1" title="Permanent link">&para;</a></h2>
+<p><code>.services.common.v1.ResponseStatus status = 1;</code></p>
+<ul>
+<li><strong>Parameters:</strong> <code>value</code> — The enum numeric value on the wire for status to set.</li>
+<li><strong>Returns:</strong> This builder for chaining.</li>
+</ul>
+<h2 id="javalangoverride-public-trinsicservicescommonv1commonouterclassresponsestatus-getstatus_3"><code>@java.lang.Override public trinsic.services.common.v1.CommonOuterClass.ResponseStatus getStatus()</code><a class="headerlink" href="#javalangoverride-public-trinsicservicescommonv1commonouterclassresponsestatus-getstatus_3" title="Permanent link">&para;</a></h2>
+<p><code>.services.common.v1.ResponseStatus status = 1;</code></p>
+<ul>
+<li><strong>Returns:</strong> The status.</li>
+</ul>
+<h2 id="public-builder-setstatustrinsicservicescommonv1commonouterclassresponsestatus-value_1"><code>public Builder setStatus(trinsic.services.common.v1.CommonOuterClass.ResponseStatus value)</code><a class="headerlink" href="#public-builder-setstatustrinsicservicescommonv1commonouterclassresponsestatus-value_1" title="Permanent link">&para;</a></h2>
+<p><code>.services.common.v1.ResponseStatus status = 1;</code></p>
+<ul>
+<li><strong>Parameters:</strong> <code>value</code> — The status to set.</li>
+<li><strong>Returns:</strong> This builder for chaining.</li>
+</ul>
+<h2 id="public-builder-clearstatus_1"><code>public Builder clearStatus()</code><a class="headerlink" href="#public-builder-clearstatus_1" title="Permanent link">&para;</a></h2>
+<p><code>.services.common.v1.ResponseStatus status = 1;</code></p>
+<ul>
+<li><strong>Returns:</strong> This builder for chaining.</li>
+</ul>
+<h2 id="javalangstring-getcredentialstatusid_1"><code>java.lang.String getCredentialStatusId()</code><a class="headerlink" href="#javalangstring-getcredentialstatusid_1" title="Permanent link">&para;</a></h2>
+<pre> the credential status id </pre>
+
+<p><code>string credential_status_id = 1;</code></p>
+<ul>
+<li><strong>Returns:</strong> The credentialStatusId.</li>
+</ul>
+<h2 id="comgoogleprotobufbytestring-getcredentialstatusidbytes_1"><code>com.google.protobuf.ByteString getCredentialStatusIdBytes()</code><a class="headerlink" href="#comgoogleprotobufbytestring-getcredentialstatusidbytes_1" title="Permanent link">&para;</a></h2>
+<pre> the credential status id </pre>
+
+<p><code>string credential_status_id = 1;</code></p>
+<ul>
+<li><strong>Returns:</strong> The bytes for credentialStatusId.</li>
+</ul>
+<h2 id="public-static-final-class-checkstatusrequest-extends-comgoogleprotobufgeneratedmessagev3-implements"><code>public static final class CheckStatusRequest extends com.google.protobuf.GeneratedMessageV3 implements</code><a class="headerlink" href="#public-static-final-class-checkstatusrequest-extends-comgoogleprotobufgeneratedmessagev3-implements" title="Permanent link">&para;</a></h2>
+<pre> request object to update the status of the revocation entry </pre>
+
+<p>Protobuf type {@code services.verifiablecredentials.v1.CheckStatusRequest}</p>
+<h2 id="javalangoverride-public-javalangstring-getcredentialstatusid_1"><code>@java.lang.Override public java.lang.String getCredentialStatusId()</code><a class="headerlink" href="#javalangoverride-public-javalangstring-getcredentialstatusid_1" title="Permanent link">&para;</a></h2>
+<pre> the credential status id </pre>
+
+<p><code>string credential_status_id = 1;</code></p>
+<ul>
+<li><strong>Returns:</strong> The credentialStatusId.</li>
+</ul>
+<h2 id="javalangoverride-public-comgoogleprotobufbytestring-getcredentialstatusidbytes_1"><code>@java.lang.Override public com.google.protobuf.ByteString getCredentialStatusIdBytes()</code><a class="headerlink" href="#javalangoverride-public-comgoogleprotobufbytestring-getcredentialstatusidbytes_1" title="Permanent link">&para;</a></h2>
+<pre> the credential status id </pre>
+
+<p><code>string credential_status_id = 1;</code></p>
+<ul>
+<li><strong>Returns:</strong> The bytes for credentialStatusId.</li>
+</ul>
+<h2 id="public-static-final-class-builder-extends-comgoogleprotobufgeneratedmessagev3builderbuilder-implements_12"><code>public static final class Builder extends com.google.protobuf.GeneratedMessageV3.Builder&lt;Builder&gt; implements</code><a class="headerlink" href="#public-static-final-class-builder-extends-comgoogleprotobufgeneratedmessagev3builderbuilder-implements_12" title="Permanent link">&para;</a></h2>
+<pre> request object to update the status of the revocation entry </pre>
+
+<p>Protobuf type {@code services.verifiablecredentials.v1.CheckStatusRequest}</p>
+<h2 id="public-javalangstring-getcredentialstatusid_1"><code>public java.lang.String getCredentialStatusId()</code><a class="headerlink" href="#public-javalangstring-getcredentialstatusid_1" title="Permanent link">&para;</a></h2>
+<pre> the credential status id </pre>
+
+<p><code>string credential_status_id = 1;</code></p>
+<ul>
+<li><strong>Returns:</strong> The credentialStatusId.</li>
+</ul>
+<h2 id="public-comgoogleprotobufbytestring-getcredentialstatusidbytes_1"><code>public com.google.protobuf.ByteString getCredentialStatusIdBytes()</code><a class="headerlink" href="#public-comgoogleprotobufbytestring-getcredentialstatusidbytes_1" title="Permanent link">&para;</a></h2>
+<pre> the credential status id </pre>
+
+<p><code>string credential_status_id = 1;</code></p>
+<ul>
+<li><strong>Returns:</strong> The bytes for credentialStatusId.</li>
+</ul>
+<h2 id="public-builder-setcredentialstatusid-javalangstring-value_1"><code>public Builder setCredentialStatusId( java.lang.String value)</code><a class="headerlink" href="#public-builder-setcredentialstatusid-javalangstring-value_1" title="Permanent link">&para;</a></h2>
+<pre> the credential status id </pre>
+
+<p><code>string credential_status_id = 1;</code></p>
+<ul>
+<li><strong>Parameters:</strong> <code>value</code> — The credentialStatusId to set.</li>
+<li><strong>Returns:</strong> This builder for chaining.</li>
+</ul>
+<h2 id="public-builder-clearcredentialstatusid_1"><code>public Builder clearCredentialStatusId()</code><a class="headerlink" href="#public-builder-clearcredentialstatusid_1" title="Permanent link">&para;</a></h2>
+<pre> the credential status id </pre>
+
+<p><code>string credential_status_id = 1;</code></p>
+<ul>
+<li><strong>Returns:</strong> This builder for chaining.</li>
+</ul>
+<h2 id="public-builder-setcredentialstatusidbytes-comgoogleprotobufbytestring-value_1"><code>public Builder setCredentialStatusIdBytes( com.google.protobuf.ByteString value)</code><a class="headerlink" href="#public-builder-setcredentialstatusidbytes-comgoogleprotobufbytestring-value_1" title="Permanent link">&para;</a></h2>
+<pre> the credential status id </pre>
+
+<p><code>string credential_status_id = 1;</code></p>
+<ul>
+<li><strong>Parameters:</strong> <code>value</code> — The bytes for credentialStatusId to set.</li>
+<li><strong>Returns:</strong> This builder for chaining.</li>
+</ul>
+<h2 id="boolean-getrevoked_1"><code>boolean getRevoked()</code><a class="headerlink" href="#boolean-getrevoked_1" title="Permanent link">&para;</a></h2>
+<pre> indicates if the status is revoked </pre>
+
+<p><code>bool revoked = 1;</code></p>
+<ul>
+<li><strong>Returns:</strong> The revoked.</li>
+</ul>
+<h2 id="public-static-final-class-checkstatusresponse-extends-comgoogleprotobufgeneratedmessagev3-implements"><code>public static final class CheckStatusResponse extends com.google.protobuf.GeneratedMessageV3 implements</code><a class="headerlink" href="#public-static-final-class-checkstatusresponse-extends-comgoogleprotobufgeneratedmessagev3-implements" title="Permanent link">&para;</a></h2>
+<pre> response object for update of status of revocation entry </pre>
+
+<p>Protobuf type {@code services.verifiablecredentials.v1.CheckStatusResponse}</p>
+<h2 id="javalangoverride-public-boolean-getrevoked_2"><code>@java.lang.Override public boolean getRevoked()</code><a class="headerlink" href="#javalangoverride-public-boolean-getrevoked_2" title="Permanent link">&para;</a></h2>
+<pre> indicates if the status is revoked </pre>
+
+<p><code>bool revoked = 1;</code></p>
+<ul>
+<li><strong>Returns:</strong> The revoked.</li>
+</ul>
+<h2 id="public-static-final-class-builder-extends-comgoogleprotobufgeneratedmessagev3builderbuilder-implements_13"><code>public static final class Builder extends com.google.protobuf.GeneratedMessageV3.Builder&lt;Builder&gt; implements</code><a class="headerlink" href="#public-static-final-class-builder-extends-comgoogleprotobufgeneratedmessagev3builderbuilder-implements_13" title="Permanent link">&para;</a></h2>
+<pre> response object for update of status of revocation entry </pre>
+
+<p>Protobuf type {@code services.verifiablecredentials.v1.CheckStatusResponse}</p>
+<h2 id="javalangoverride-public-boolean-getrevoked_3"><code>@java.lang.Override public boolean getRevoked()</code><a class="headerlink" href="#javalangoverride-public-boolean-getrevoked_3" title="Permanent link">&para;</a></h2>
+<pre> indicates if the status is revoked </pre>
+
+<p><code>bool revoked = 1;</code></p>
+<ul>
+<li><strong>Returns:</strong> The revoked.</li>
+</ul>
+<h2 id="public-builder-setrevokedboolean-value_1"><code>public Builder setRevoked(boolean value)</code><a class="headerlink" href="#public-builder-setrevokedboolean-value_1" title="Permanent link">&para;</a></h2>
+<pre> indicates if the status is revoked </pre>
+
+<p><code>bool revoked = 1;</code></p>
+<ul>
+<li><strong>Parameters:</strong> <code>value</code> — The revoked to set.</li>
+<li><strong>Returns:</strong> This builder for chaining.</li>
+</ul>
+<h2 id="public-builder-clearrevoked_1"><code>public Builder clearRevoked()</code><a class="headerlink" href="#public-builder-clearrevoked_1" title="Permanent link">&para;</a></h2>
+<pre> indicates if the status is revoked </pre>
+
+<p><code>bool revoked = 1;</code></p>
+<ul>
+<li><strong>Returns:</strong> This builder for chaining.</li>
+</ul>
+
+
+
+
+              
+            </article>
+            
+  <script>var tabs=__md_get("__tabs");if(Array.isArray(tabs))e:for(var set of document.querySelectorAll(".tabbed-set")){var tab,labels=set.querySelector(".tabbed-labels");for(tab of tabs)for(var label of labels.getElementsByTagName("label"))if(label.innerText.trim()===tab){var input=document.getElementById(label.htmlFor);input.checked=!0;continue e}}</script>
+
+          </div>
+        </div>
+        
+      </main>
+      
+        <footer class="md-footer">
+  
+  <div class="md-footer-meta md-typeset">
+    <div class="md-footer-meta__inner md-grid">
+      <div class="md-copyright">
+  
+  
+</div>
+      
+    </div>
+  </div>
+</footer>
+      
+    </div>
+    <div class="md-dialog" data-md-component="dialog">
+      <div class="md-dialog__inner md-typeset"></div>
+    </div>
+    
+    <script id="__config" type="application/json">{"base": "../../../../../../../../../..", "features": ["content.tabs.link", "navigation.instant", "navigation.tracking"], "search": "../../../../../../../../../../assets/javascripts/workers/search.2c028271.min.js", "translations": {"clipboard.copied": "Copied to clipboard", "clipboard.copy": "Copy to clipboard", "search.config.lang": "en", "search.config.pipeline": "stopWordFilter", "search.config.separator": "[\\s\\-]+", "search.placeholder": "Search", "search.result.more.one": "1 more on this page", "search.result.more.other": "# more on this page", "search.result.none": "No matching documents", "search.result.one": "1 matching document", "search.result.other": "# matching documents", "search.result.placeholder": "Type to start searching", "search.result.term.missing": "Missing", "select.version.title": "Select version"}}</script>
+    
+    
+      <script src="../../../../../../../../../../assets/javascripts/bundle.714a356a.min.js"></script>
+      
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/10.7.2/highlight.min.js"></script>
+      
+        <script src="../../../../../../../../../../_static/javascripts/config.js"></script>
+      
+    
+  </body>
+</html>

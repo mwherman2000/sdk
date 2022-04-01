@@ -1,0 +1,2474 @@
+
+<!doctype html>
+<html lang="en" class="no-js">
+  <head>
+    
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width,initial-scale=1">
+      
+      
+      
+        <link rel="canonical" href="https://docs-v2.trinsic.id/reference/dotnet/Trinsic/">
+      
+      
+        
+      
+      <link rel="icon" href="../../../_static/logo.png">
+      <meta name="generator" content="mkdocs-1.3.0, mkdocs-material-8.2.8+insiders-4.12.0">
+    
+    
+      
+        <title>Trinsic - Documentation</title>
+      
+    
+    
+      <link rel="stylesheet" href="../../../assets/stylesheets/main.7d01766c.min.css">
+      
+        
+        <link rel="stylesheet" href="../../../assets/stylesheets/palette.e6a45f82.min.css">
+        
+      
+      
+    
+    
+    
+      
+        
+        
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Inter:300,300i,400,400i,700,700i%7CJetBrains+Mono:400,400i,700,700i&display=fallback">
+        <style>:root{--md-text-font:"Inter";--md-code-font:"JetBrains Mono"}</style>
+      
+    
+    
+      <link rel="stylesheet" href="../../../assets/_mkdocstrings.css">
+    
+      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/10.7.2/styles/vs.min.css">
+    
+      <link rel="stylesheet" href="../../../_static/extra.css">
+    
+    <script>__md_scope=new URL("../../..",location),__md_hash=e=>[...e].reduce((e,_)=>(e<<5)-e+_.charCodeAt(0),0),__md_get=(e,_=localStorage,t=__md_scope)=>JSON.parse(_.getItem(t.pathname+"."+e)),__md_set=(e,_,t=localStorage,a=__md_scope)=>{try{t.setItem(a.pathname+"."+e,JSON.stringify(_))}catch(e){}}</script>
+    
+      
+
+    
+    
+    
+  </head>
+  
+  
+    
+    
+      
+    
+    
+    
+    
+    <body dir="ltr" data-md-color-scheme="default" data-md-color-primary="" data-md-color-accent="">
+  
+    
+    
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+    
+      <script>var palette=__md_get("__palette");if(palette&&"object"==typeof palette.color)for(var key of Object.keys(palette.color))document.body.setAttribute("data-md-color-"+key,palette.color[key])</script>
+    
+    <input class="md-toggle" data-md-toggle="drawer" type="checkbox" id="__drawer" autocomplete="off">
+    <input class="md-toggle" data-md-toggle="search" type="checkbox" id="__search" autocomplete="off">
+    <label class="md-overlay" for="__drawer"></label>
+    <div data-md-component="skip">
+      
+        
+        <a href="#trinsic-namespace" class="md-skip">
+          Skip to content
+        </a>
+      
+    </div>
+    <div data-md-component="announce">
+      
+        <aside class="md-banner">
+          <div class="md-banner__inner md-grid md-typeset">
+            
+            
+<p>Join <a href="https://trinsic.typeform.com/to/EIO26xym">Trinsic Ecosystems Beta!</a></p>
+
+          </div>
+          
+        </aside>
+      
+    </div>
+    
+    
+      
+
+<header class="md-header" data-md-component="header">
+  <nav class="md-header__inner md-grid" aria-label="Header">
+    <a href="../../.." title="Documentation" class="md-header__button md-logo" aria-label="Documentation" data-md-component="logo">
+      
+  <img src="../../../_static/logo-title.svg" alt="logo">
+
+    </a>
+    <label class="md-header__button md-icon" for="__drawer">
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M3 6h18v2H3V6m0 5h18v2H3v-2m0 5h18v2H3v-2z"/></svg>
+    </label>
+    <div class="md-header__title" data-md-component="header-title">
+      <div class="md-header__ellipsis">
+        <div class="md-header__topic">
+          <span class="md-ellipsis">
+            Documentation
+          </span>
+        </div>
+        <div class="md-header__topic" data-md-component="header-topic">
+          <span class="md-ellipsis">
+            
+              Trinsic
+            
+          </span>
+        </div>
+      </div>
+    </div>
+    
+      <form class="md-header__option" data-md-component="palette">
+        
+          
+          
+          <input class="md-option" data-md-color-media="(prefers-color-scheme: light)" data-md-color-scheme="default" data-md-color-primary="" data-md-color-accent=""  aria-label="Switch to dark mode"  type="radio" name="__palette" id="__palette_1">
+          
+            <label class="md-header__button md-icon" title="Switch to dark mode" for="__palette_2" hidden>
+              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 576 512"><!--! Font Awesome Free 6.1.1 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2022 Fonticons, Inc.--><path d="M342.7 352.7c5.75-9.625 9.25-20.75 9.25-32.75 0-35.25-28.75-64-63.1-64-17.25 0-32.75 6.875-44.25 17.87-17.2-29.62-48.4-50.72-85.5-50.72-53 0-96 43.06-96 96.06 0 2 .503 3.687.628 5.687-37.5 13-64.62 48.38-64.62 90.25C-.005 468.1 42.99 512 95.99 512h239.1c44.25 0 79.1-35.75 79.1-80 .91-41.9-30.49-75.8-71.49-79.3zm222.5-54.3c-93 17.75-178.5-53.62-178.5-147.6 0-54.25 28.1-104 76.12-130.9 7.375-4.125 5.375-15.12-2.75-16.63C448.4 1.125 436.7 0 424.1 0 318.2 0 232.2 85.88 232.2 192c0 8.5.625 16.75 1.75 25 5.875 4.25 11.62 8.875 16.75 14.25 11.4-4.75 24.5-7.25 36.4-7.25 52.88 0 95.1 43.13 95.1 96 0 3.625-.25 7.25-.625 10.75 23.62 10.75 42.37 29.5 53.5 52.5 54.38-3.375 103.7-29.25 137.1-70.37 7.025-6.48 1.325-16.08-6.975-14.48z"/></svg>
+            </label>
+          
+        
+          
+          
+          <input class="md-option" data-md-color-media="(prefers-color-scheme: dark)" data-md-color-scheme="slate" data-md-color-primary="" data-md-color-accent=""  aria-label="Switch to light mode"  type="radio" name="__palette" id="__palette_2">
+          
+            <label class="md-header__button md-icon" title="Switch to light mode" for="__palette_1" hidden>
+              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><!--! Font Awesome Free 6.1.1 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2022 Fonticons, Inc.--><path d="M256 159.1c-53.02 0-95.1 42.98-95.1 95.1s41.2 96.9 95.1 96.9 95.1-42.98 95.1-95.1-42.1-96.9-95.1-96.9zM509.3 347l-63.2-91.9 63.15-91.01c6.332-9.125 1.104-21.74-9.826-23.72l-109-19.7-19.7-109c-1.975-10.93-14.59-16.16-23.72-9.824L256 65.89 164.1 2.736c-9.125-6.332-21.74-1.107-23.72 9.824L121.6 121.6 12.56 141.3c-10.927 1.9-16.156 14.6-9.824 22.8L65.89 256 2.74 347.01c-6.332 9.125-1.105 21.74 9.824 23.72l109 19.7 19.7 109c1.975 10.93 14.59 16.16 23.72 9.824L256 446.1l91.01 63.15c9.127 6.334 21.75 1.107 23.72-9.822l19.7-109 109-19.7C510.4 368.8 515.6 356.1 509.3 347zM256 383.1c-70.69 0-127.1-57.31-127.1-127.1 0-70.69 57.31-127.1 127.1-127.1S383.1 186.2 383.1 256c0 70.7-56.4 127.1-127.1 127.1z"/></svg>
+            </label>
+          
+        
+      </form>
+    
+    
+    
+      <label class="md-header__button md-icon" for="__search">
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.516 6.516 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5z"/></svg>
+      </label>
+      <div class="md-search" data-md-component="search" role="dialog">
+  <label class="md-search__overlay" for="__search"></label>
+  <div class="md-search__inner" role="search">
+    <form class="md-search__form" name="search">
+      <input type="text" class="md-search__input" name="query" aria-label="Search" placeholder="Search" autocapitalize="off" autocorrect="off" autocomplete="off" spellcheck="false" data-md-component="search-query" required>
+      <label class="md-search__icon md-icon" for="__search">
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.516 6.516 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5z"/></svg>
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11h12z"/></svg>
+      </label>
+      <nav class="md-search__options" aria-label="Search">
+        
+        <button type="reset" class="md-search__icon md-icon" aria-label="Clear" tabindex="-1">
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M19 6.41 17.59 5 12 10.59 6.41 5 5 6.41 10.59 12 5 17.59 6.41 19 12 13.41 17.59 19 19 17.59 13.41 12 19 6.41z"/></svg>
+        </button>
+      </nav>
+      
+    </form>
+    <div class="md-search__output">
+      <div class="md-search__scrollwrap" data-md-scrollfix>
+        <div class="md-search-result" data-md-component="search-result">
+          <div class="md-search-result__meta">
+            Initializing search
+          </div>
+          <ol class="md-search-result__list"></ol>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+    
+    
+      <div class="md-header__source">
+        <a href="https://github.com/trinsic-id/sdk" title="Go to repository" class="md-source" data-md-component="source">
+  <div class="md-source__icon md-icon">
+    
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 480 512"><!--! Font Awesome Free 6.1.1 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2022 Fonticons, Inc.--><path d="M186.1 328.7c0 20.9-10.9 55.1-36.7 55.1s-36.7-34.2-36.7-55.1 10.9-55.1 36.7-55.1 36.7 34.2 36.7 55.1zM480 278.2c0 31.9-3.2 65.7-17.5 95-37.9 76.6-142.1 74.8-216.7 74.8-75.8 0-186.2 2.7-225.6-74.8-14.6-29-20.2-63.1-20.2-95 0-41.9 13.9-81.5 41.5-113.6-5.2-15.8-7.7-32.4-7.7-48.8 0-21.5 4.9-32.3 14.6-51.8 45.3 0 74.3 9 108.8 36 29-6.9 58.8-10 88.7-10 27 0 54.2 2.9 80.4 9.2 34-26.7 63-35.2 107.8-35.2 9.8 19.5 14.6 30.3 14.6 51.8 0 16.4-2.6 32.7-7.7 48.2 27.5 32.4 39 72.3 39 114.2zm-64.3 50.5c0-43.9-26.7-82.6-73.5-82.6-18.9 0-37 3.4-56 6-14.9 2.3-29.8 3.2-45.1 3.2-15.2 0-30.1-.9-45.1-3.2-18.7-2.6-37-6-56-6-46.8 0-73.5 38.7-73.5 82.6 0 87.8 80.4 101.3 150.4 101.3h48.2c70.3 0 150.6-13.4 150.6-101.3zm-82.6-55.1c-25.8 0-36.7 34.2-36.7 55.1s10.9 55.1 36.7 55.1 36.7-34.2 36.7-55.1-10.9-55.1-36.7-55.1z"/></svg>
+  </div>
+  <div class="md-source__repository">
+    trinsic-id/sdk
+  </div>
+</a>
+      </div>
+    
+  </nav>
+  
+</header>
+    
+    <div class="md-container" data-md-component="container">
+      
+      
+        
+          
+        
+      
+      <main class="md-main" data-md-component="main">
+        <div class="md-main__inner md-grid">
+          
+            
+              
+              <div class="md-sidebar md-sidebar--primary" data-md-component="sidebar" data-md-type="navigation" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+
+<nav class="md-nav md-nav--primary" aria-label="Navigation" data-md-level="0">
+  <label class="md-nav__title" for="__drawer">
+    <a href="../../.." title="Documentation" class="md-nav__button md-logo" aria-label="Documentation" data-md-component="logo">
+      
+  <img src="../../../_static/logo-title.svg" alt="logo">
+
+    </a>
+    Documentation
+  </label>
+  
+    <div class="md-nav__source">
+      <a href="https://github.com/trinsic-id/sdk" title="Go to repository" class="md-source" data-md-component="source">
+  <div class="md-source__icon md-icon">
+    
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 480 512"><!--! Font Awesome Free 6.1.1 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2022 Fonticons, Inc.--><path d="M186.1 328.7c0 20.9-10.9 55.1-36.7 55.1s-36.7-34.2-36.7-55.1 10.9-55.1 36.7-55.1 36.7 34.2 36.7 55.1zM480 278.2c0 31.9-3.2 65.7-17.5 95-37.9 76.6-142.1 74.8-216.7 74.8-75.8 0-186.2 2.7-225.6-74.8-14.6-29-20.2-63.1-20.2-95 0-41.9 13.9-81.5 41.5-113.6-5.2-15.8-7.7-32.4-7.7-48.8 0-21.5 4.9-32.3 14.6-51.8 45.3 0 74.3 9 108.8 36 29-6.9 58.8-10 88.7-10 27 0 54.2 2.9 80.4 9.2 34-26.7 63-35.2 107.8-35.2 9.8 19.5 14.6 30.3 14.6 51.8 0 16.4-2.6 32.7-7.7 48.2 27.5 32.4 39 72.3 39 114.2zm-64.3 50.5c0-43.9-26.7-82.6-73.5-82.6-18.9 0-37 3.4-56 6-14.9 2.3-29.8 3.2-45.1 3.2-15.2 0-30.1-.9-45.1-3.2-18.7-2.6-37-6-56-6-46.8 0-73.5 38.7-73.5 82.6 0 87.8 80.4 101.3 150.4 101.3h48.2c70.3 0 150.6-13.4 150.6-101.3zm-82.6-55.1c-25.8 0-36.7 34.2-36.7 55.1s10.9 55.1 36.7 55.1 36.7-34.2 36.7-55.1-10.9-55.1-36.7-55.1z"/></svg>
+  </div>
+  <div class="md-source__repository">
+    trinsic-id/sdk
+  </div>
+</a>
+    </div>
+  
+  <ul class="md-nav__list" data-md-scrollfix>
+    
+      
+      
+      
+
+
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../.." class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Home
+  </span>
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+      
+
+
+  
+  
+  
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+      
+        <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_2" type="checkbox" id="__nav_2" >
+      
+      
+      
+      
+        <label class="md-nav__link" for="__nav_2">
+          
+  
+  <span class="md-ellipsis">
+    Getting Started
+  </span>
+
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <nav class="md-nav" aria-label="Getting Started" data-md-level="1">
+        <label class="md-nav__title" for="__nav_2">
+          <span class="md-nav__icon md-icon"></span>
+          Getting Started
+        </label>
+        <ul class="md-nav__list" data-md-scrollfix>
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../learn/intro/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    What is Trinsic?
+  </span>
+
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../early-adopter/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Before You Start
+  </span>
+
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../walkthroughs/vaccination/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Try the Walkthrough
+  </span>
+
+      </a>
+    </li>
+  
+
+            
+          
+        </ul>
+      </nav>
+    </li>
+  
+
+    
+      
+      
+      
+
+
+  
+  
+  
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+      
+        <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_3" type="checkbox" id="__nav_3" >
+      
+      
+      
+      
+        <label class="md-nav__link" for="__nav_3">
+          
+  
+  <span class="md-ellipsis">
+    Key Concepts
+  </span>
+
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <nav class="md-nav" aria-label="Key Concepts" data-md-level="1">
+        <label class="md-nav__title" for="__nav_3">
+          <span class="md-nav__icon md-icon"></span>
+          Key Concepts
+        </label>
+        <ul class="md-nav__list" data-md-scrollfix>
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../learn/security/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Security Overview
+  </span>
+
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../learn/ecosystems/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Identity Ecosystems
+  </span>
+
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../learn/wallets/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Wallets
+  </span>
+
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../learn/templates/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Templates
+  </span>
+
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../learn/credentials/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Credentials
+  </span>
+
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../learn/standards/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Standards
+  </span>
+
+      </a>
+    </li>
+  
+
+            
+          
+        </ul>
+      </nav>
+    </li>
+  
+
+    
+      
+      
+      
+
+
+  
+  
+  
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+      
+        <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_4" type="checkbox" id="__nav_4" >
+      
+      
+      
+      
+        <label class="md-nav__link" for="__nav_4">
+          
+  
+  <span class="md-ellipsis">
+    Developer Tools
+  </span>
+
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <nav class="md-nav" aria-label="Developer Tools" data-md-level="1">
+        <label class="md-nav__title" for="__nav_4">
+          <span class="md-nav__icon md-icon"></span>
+          Developer Tools
+        </label>
+        <ul class="md-nav__list" data-md-scrollfix>
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../cli/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Trinsic CLI
+  </span>
+
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+      
+        <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_4_2" type="checkbox" id="__nav_4_2" >
+      
+      
+      
+      
+        <label class="md-nav__link" for="__nav_4_2">
+          
+  
+  <span class="md-ellipsis">
+    Client-Side SDKs
+  </span>
+
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <nav class="md-nav" aria-label="Client-Side SDKs" data-md-level="2">
+        <label class="md-nav__title" for="__nav_4_2">
+          <span class="md-nav__icon md-icon"></span>
+          Client-Side SDKs
+        </label>
+        <ul class="md-nav__list" data-md-scrollfix>
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../web/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Browser
+  </span>
+
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../ios/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    iOS
+  </span>
+
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../android/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Android
+  </span>
+
+      </a>
+    </li>
+  
+
+            
+          
+        </ul>
+      </nav>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+      
+        <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_4_3" type="checkbox" id="__nav_4_3" >
+      
+      
+      
+      
+        <label class="md-nav__link" for="__nav_4_3">
+          
+  
+  <span class="md-ellipsis">
+    Server-Side SDKs
+  </span>
+
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <nav class="md-nav" aria-label="Server-Side SDKs" data-md-level="2">
+        <label class="md-nav__title" for="__nav_4_3">
+          <span class="md-nav__icon md-icon"></span>
+          Server-Side SDKs
+        </label>
+        <ul class="md-nav__list" data-md-scrollfix>
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../node/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Node
+  </span>
+
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../dotnet/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    C#
+  </span>
+
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../python/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Python
+  </span>
+
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../ruby/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Ruby
+  </span>
+
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../go/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Go
+  </span>
+
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../java/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Java
+  </span>
+
+      </a>
+    </li>
+  
+
+            
+          
+        </ul>
+      </nav>
+    </li>
+  
+
+            
+          
+        </ul>
+      </nav>
+    </li>
+  
+
+    
+      
+      
+      
+
+
+  
+  
+  
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+      
+        <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_5" type="checkbox" id="__nav_5" >
+      
+      
+      
+      
+        <label class="md-nav__link" for="__nav_5">
+          
+  
+  <span class="md-ellipsis">
+    SDK Reference
+  </span>
+
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <nav class="md-nav" aria-label="SDK Reference" data-md-level="1">
+        <label class="md-nav__title" for="__nav_5">
+          <span class="md-nav__icon md-icon"></span>
+          SDK Reference
+        </label>
+        <ul class="md-nav__list" data-md-scrollfix>
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Overview
+  </span>
+
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../services/account-service/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Account Service
+  </span>
+
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../services/wallet-service/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Wallet Service
+  </span>
+
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../services/credential-service/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Credential Service
+  </span>
+
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../services/provider-service/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Provider Service
+  </span>
+
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../services/trust-registry-service/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Trust Registry Service
+  </span>
+
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../proto/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Protocol Buffers
+  </span>
+
+      </a>
+    </li>
+  
+
+            
+          
+        </ul>
+      </nav>
+    </li>
+  
+
+    
+      
+      
+      
+
+
+  
+  
+  
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+      
+        <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_6" type="checkbox" id="__nav_6" >
+      
+      
+      
+      
+        <label class="md-nav__link" for="__nav_6">
+          
+  
+  <span class="md-ellipsis">
+    Resources
+  </span>
+
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <nav class="md-nav" aria-label="Resources" data-md-level="1">
+        <label class="md-nav__title" for="__nav_6">
+          <span class="md-nav__icon md-icon"></span>
+          Resources
+        </label>
+        <ul class="md-nav__list" data-md-scrollfix>
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../roadmap/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Roadmap
+  </span>
+
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../support/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Ask a Question
+  </span>
+
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="https://join.slack.com/t/trinsiccommunity/shared_invite/zt-pcsdy7kn-h4vtdPEpqQUlmirU8FFzSQ" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Join the Community
+  </span>
+
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="https://github.com/trinsic-id" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Contribute on GitHub
+  </span>
+
+      </a>
+    </li>
+  
+
+            
+          
+        </ul>
+      </nav>
+    </li>
+  
+
+    
+  </ul>
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+            
+              
+              <div class="md-sidebar md-sidebar--secondary" data-md-component="sidebar" data-md-type="toc" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
+  
+  
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#trinsic-namespace" class="md-nav__link">
+    Trinsic Namespace
+  </a>
+  
+    <nav class="md-nav" aria-label="Trinsic Namespace">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#classes" class="md-nav__link">
+    Classes
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#accountservice-class" class="md-nav__link">
+    AccountService Class
+  </a>
+  
+    <nav class="md-nav" aria-label="AccountService Class">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#properties" class="md-nav__link">
+    Properties
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#accountserviceclient-property" class="md-nav__link">
+    AccountService.Client Property
+  </a>
+  
+    <nav class="md-nav" aria-label="AccountService.Client Property">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#methods" class="md-nav__link">
+    Methods
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#accountservicegetinfo-method" class="md-nav__link">
+    AccountService.GetInfo() Method
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#accountservicegetinfoasync-method" class="md-nav__link">
+    AccountService.GetInfoAsync() Method
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#accountserviceprotectstring-string-method" class="md-nav__link">
+    AccountService.Protect(string, string) Method
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#accountservicesigninsigninrequest-method" class="md-nav__link">
+    AccountService.SignIn(SignInRequest) Method
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#accountservicesigninasyncsigninrequest-method" class="md-nav__link">
+    AccountService.SignInAsync(SignInRequest) Method
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#accountserviceunprotectstring-string-method" class="md-nav__link">
+    AccountService.Unprotect(string, string) Method
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#credentialsservice-class" class="md-nav__link">
+    CredentialsService Class
+  </a>
+  
+    <nav class="md-nav" aria-label="CredentialsService Class">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#methods_1" class="md-nav__link">
+    Methods
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#credentialsservicecheckstatusasyncstring-method" class="md-nav__link">
+    CredentialsService.CheckStatusAsync(string) Method
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#credentialsservicecreateproofcreateproofrequest-method" class="md-nav__link">
+    CredentialsService.CreateProof(CreateProofRequest) Method
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#credentialsservicecreateproofasynccreateproofrequest-method" class="md-nav__link">
+    CredentialsService.CreateProofAsync(CreateProofRequest) Method
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#credentialsserviceissuecredentialasyncissuerequest-method" class="md-nav__link">
+    CredentialsService.IssueCredentialAsync(IssueRequest) Method
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#credentialsserviceissuefromtemplateissuefromtemplaterequest-method" class="md-nav__link">
+    CredentialsService.IssueFromTemplate(IssueFromTemplateRequest) Method
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#credentialsserviceissuefromtemplateasyncissuefromtemplaterequest-method" class="md-nav__link">
+    CredentialsService.IssueFromTemplateAsync(IssueFromTemplateRequest) Method
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#credentialsservicesendasyncsendrequest-method" class="md-nav__link">
+    CredentialsService.SendAsync(SendRequest) Method
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#credentialsserviceupdatestatusasyncstring-bool-method" class="md-nav__link">
+    CredentialsService.UpdateStatusAsync(string, bool) Method
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#credentialsserviceverifyproofasyncverifyproofrequest-method" class="md-nav__link">
+    CredentialsService.VerifyProofAsync(VerifyProofRequest) Method
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#oberonsecurityprovider-class" class="md-nav__link">
+    OberonSecurityProvider Class
+  </a>
+  
+    <nav class="md-nav" aria-label="OberonSecurityProvider Class">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#methods_2" class="md-nav__link">
+    Methods
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#oberonsecurityproviderbase64urlencodebyte-method" class="md-nav__link">
+    OberonSecurityProvider.Base64UrlEncode(byte[]) Method
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#providerservice-class" class="md-nav__link">
+    ProviderService Class
+  </a>
+  
+    <nav class="md-nav" aria-label="ProviderService Class">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#methods_3" class="md-nav__link">
+    Methods
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#providerservicecreateecosystemcreateecosystemrequest-method" class="md-nav__link">
+    ProviderService.CreateEcosystem(CreateEcosystemRequest) Method
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#providerservicecreateecosystemasynccreateecosystemrequest-method" class="md-nav__link">
+    ProviderService.CreateEcosystemAsync(CreateEcosystemRequest) Method
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#providerservicegeneratetokengeneratetokenrequest-method" class="md-nav__link">
+    ProviderService.GenerateToken(GenerateTokenRequest) Method
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#providerservicegeneratetokenasyncgeneratetokenrequest-method" class="md-nav__link">
+    ProviderService.GenerateTokenAsync(GenerateTokenRequest) Method
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#providerserviceinvitationstatusinvitationstatusrequest-method" class="md-nav__link">
+    ProviderService.InvitationStatus(InvitationStatusRequest) Method
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#providerserviceinvitationstatusasyncinvitationstatusrequest-method" class="md-nav__link">
+    ProviderService.InvitationStatusAsync(InvitationStatusRequest) Method
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#providerserviceinviteparticipantinviterequest-method" class="md-nav__link">
+    ProviderService.InviteParticipant(InviteRequest) Method
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#providerserviceinviteparticipantasyncinviterequest-method" class="md-nav__link">
+    ProviderService.InviteParticipantAsync(InviteRequest) Method
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#servicebase-class" class="md-nav__link">
+    ServiceBase Class
+  </a>
+  
+    <nav class="md-nav" aria-label="ServiceBase Class">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#properties_1" class="md-nav__link">
+    Properties
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#servicebasechannel-property" class="md-nav__link">
+    ServiceBase.Channel Property
+  </a>
+  
+    <nav class="md-nav" aria-label="ServiceBase.Channel Property">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#methods_4" class="md-nav__link">
+    Methods
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#servicebasebuildmetadataimessage-method" class="md-nav__link">
+    ServiceBase.BuildMetadata(IMessage) Method
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#servicebasebuildmetadataasyncimessage-method" class="md-nav__link">
+    ServiceBase.BuildMetadataAsync(IMessage) Method
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#templateservice-class" class="md-nav__link">
+    TemplateService Class
+  </a>
+  
+    <nav class="md-nav" aria-label="TemplateService Class">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#methods_5" class="md-nav__link">
+    Methods
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#templateservicecreateasynccreatecredentialtemplaterequest-method" class="md-nav__link">
+    TemplateService.CreateAsync(CreateCredentialTemplateRequest) Method
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#templateservicegetasyncgetcredentialtemplaterequest-method" class="md-nav__link">
+    TemplateService.GetAsync(GetCredentialTemplateRequest) Method
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#templateservicelistasynclistcredentialtemplatesrequest-method" class="md-nav__link">
+    TemplateService.ListAsync(ListCredentialTemplatesRequest) Method
+  </a>
+  
+    <nav class="md-nav" aria-label="TemplateService.ListAsync(ListCredentialTemplatesRequest) Method">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#remarks" class="md-nav__link">
+    Remarks
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#templateservicesearchasyncsearchcredentialtemplatesrequest-method" class="md-nav__link">
+    TemplateService.SearchAsync(SearchCredentialTemplatesRequest) Method
+  </a>
+  
+    <nav class="md-nav" aria-label="TemplateService.SearchAsync(SearchCredentialTemplatesRequest) Method">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#remarks_1" class="md-nav__link">
+    Remarks
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#trustregistryservice-class" class="md-nav__link">
+    TrustRegistryService Class
+  </a>
+  
+    <nav class="md-nav" aria-label="TrustRegistryService Class">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#methods_6" class="md-nav__link">
+    Methods
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#trustregistryservicecheckissuerstatusasynccheckissuerstatusrequest-method" class="md-nav__link">
+    TrustRegistryService.CheckIssuerStatusAsync(CheckIssuerStatusRequest) Method
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#trustregistryservicecheckverifierstatusasynccheckverifierstatusrequest-method" class="md-nav__link">
+    TrustRegistryService.CheckVerifierStatusAsync(CheckVerifierStatusRequest) Method
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#trustregistryserviceregistergovernanceframeworkasyncstring-string-method" class="md-nav__link">
+    TrustRegistryService.RegisterGovernanceFrameworkAsync(string, string) Method
+  </a>
+  
+    <nav class="md-nav" aria-label="TrustRegistryService.RegisterGovernanceFrameworkAsync(string, string) Method">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#remarks_2" class="md-nav__link">
+    Remarks
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#trustregistryserviceregisterissuerasyncregisterissuerrequest-method" class="md-nav__link">
+    TrustRegistryService.RegisterIssuerAsync(RegisterIssuerRequest) Method
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#trustregistryserviceregisterverifierasyncregisterverifierrequest-method" class="md-nav__link">
+    TrustRegistryService.RegisterVerifierAsync(RegisterVerifierRequest) Method
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#trustregistryservicesearchregistryasyncstring-string-method" class="md-nav__link">
+    TrustRegistryService.SearchRegistryAsync(string, string?) Method
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#walletservice-class" class="md-nav__link">
+    WalletService Class
+  </a>
+  
+    <nav class="md-nav" aria-label="WalletService Class">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#methods_7" class="md-nav__link">
+    Methods
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#walletserviceinsertiteminsertitemrequest-method" class="md-nav__link">
+    WalletService.InsertItem(InsertItemRequest) Method
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#walletserviceinsertitemasyncinsertitemrequest-method" class="md-nav__link">
+    WalletService.InsertItemAsync(InsertItemRequest) Method
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#walletservicesearchstring-method" class="md-nav__link">
+    WalletService.Search(string) Method
+  </a>
+  
+    <nav class="md-nav" aria-label="WalletService.Search(string) Method">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#remarks_3" class="md-nav__link">
+    Remarks
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#walletservicesearchasyncstring-method" class="md-nav__link">
+    WalletService.SearchAsync(string) Method
+  </a>
+  
+    <nav class="md-nav" aria-label="WalletService.SearchAsync(string) Method">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#remarks_4" class="md-nav__link">
+    Remarks
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+          
+          <div class="md-content" data-md-component="content">
+            <article class="md-content__inner md-typeset">
+              
+                
+<a href="https://github.com/trinsic-id/sdk/edit/main/docs/reference/dotnet/Trinsic.md" title="Edit this page" class="md-content__button md-icon">
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20.71 7.04c.39-.39.39-1.04 0-1.41l-2.34-2.34c-.37-.39-1.02-.39-1.41 0l-1.84 1.83 3.75 3.75M3 17.25V21h3.75L17.81 9.93l-3.75-3.75L3 17.25z"/></svg>
+</a>
+
+
+
+  <h1>Trinsic</h1>
+
+<h4 id="trinsic"><a href="../" title="index">Trinsic</a><a class="headerlink" href="#trinsic" title="Permanent link">&para;</a></h4>
+<h2 id="trinsic-namespace">Trinsic Namespace<a class="headerlink" href="#trinsic-namespace" title="Permanent link">&para;</a></h2>
+<h3 id="classes">Classes<a class="headerlink" href="#classes" title="Permanent link">&para;</a></h3>
+<p><a name='Trinsic_AccountService'></a></p>
+<h2 id="accountservice-class">AccountService Class<a class="headerlink" href="#accountservice-class" title="Permanent link">&para;</a></h2>
+<p>Account Service<br />
+<div class="highlight"><pre><span></span><code><span class="k">public</span><span class="w"> </span><span class="k">class</span><span class="w"> </span><span class="nc">AccountService</span><span class="w"> </span><span class="p">:</span><span class="w"> </span><span class="n">Trinsic</span><span class="p">.</span><span class="n">ServiceBase</span><span class="w"></span>
+</code></pre></div></p>
+<p>Inheritance <a href="https://docs.microsoft.com/en-us/dotnet/api/System.Object" title="System.Object">System.Object</a> &#129106; <a href="./#Trinsic_ServiceBase" title="Trinsic.ServiceBase">ServiceBase</a> &#129106; AccountService  </p>
+<h3 id="properties">Properties<a class="headerlink" href="#properties" title="Permanent link">&para;</a></h3>
+<p><a name='Trinsic_AccountService_Client'></a></p>
+<h2 id="accountserviceclient-property">AccountService.Client Property<a class="headerlink" href="#accountserviceclient-property" title="Permanent link">&para;</a></h2>
+<p>Gets the underlying grpc client<br />
+<div class="highlight"><pre><span></span><code><span class="k">public</span><span class="w"> </span><span class="n">Trinsic</span><span class="p">.</span><span class="n">Services</span><span class="p">.</span><span class="n">Account</span><span class="p">.</span><span class="n">V1</span><span class="p">.</span><span class="n">Account</span><span class="p">.</span><span class="n">AccountClient</span><span class="w"> </span><span class="n">Client</span><span class="w"> </span><span class="p">{</span><span class="w"> </span><span class="k">get</span><span class="p">;</span><span class="w"> </span><span class="p">}</span><span class="w"></span>
+</code></pre></div></p>
+<h4 id="property-value">Property Value<a class="headerlink" href="#property-value" title="Permanent link">&para;</a></h4>
+<p><a href="../Trinsic_Services_Account_V1/#Trinsic_Services_Account_V1_Account_AccountClient" title="Trinsic.Services.Account.V1.Account.AccountClient">AccountClient</a></p>
+<h3 id="methods">Methods<a class="headerlink" href="#methods" title="Permanent link">&para;</a></h3>
+<p><a name='Trinsic_AccountService_GetInfo()'></a></p>
+<h2 id="accountservicegetinfo-method">AccountService.GetInfo() Method<a class="headerlink" href="#accountservicegetinfo-method" title="Permanent link">&para;</a></h2>
+<p>Return the details about the currently active account<br />
+<div class="highlight"><pre><span></span><code><span class="k">public</span><span class="w"> </span><span class="n">Trinsic</span><span class="p">.</span><span class="n">Services</span><span class="p">.</span><span class="n">Account</span><span class="p">.</span><span class="n">V1</span><span class="p">.</span><span class="n">InfoResponse</span><span class="w"> </span><span class="n">GetInfo</span><span class="p">();</span><span class="w"></span>
+</code></pre></div></p>
+<h4 id="returns">Returns<a class="headerlink" href="#returns" title="Permanent link">&para;</a></h4>
+<p><a href="../Trinsic_Services_Account_V1/#Trinsic_Services_Account_V1_InfoResponse" title="Trinsic.Services.Account.V1.InfoResponse">InfoResponse</a>  </p>
+<p><a name='Trinsic_AccountService_GetInfoAsync()'></a></p>
+<h2 id="accountservicegetinfoasync-method">AccountService.GetInfoAsync() Method<a class="headerlink" href="#accountservicegetinfoasync-method" title="Permanent link">&para;</a></h2>
+<p>Return the details about the currently active account<br />
+<div class="highlight"><pre><span></span><code><span class="k">public</span><span class="w"> </span><span class="n">System</span><span class="p">.</span><span class="n">Threading</span><span class="p">.</span><span class="n">Tasks</span><span class="p">.</span><span class="n">Task</span><span class="p">&lt;</span><span class="n">Trinsic</span><span class="p">.</span><span class="n">Services</span><span class="p">.</span><span class="n">Account</span><span class="p">.</span><span class="n">V1</span><span class="p">.</span><span class="n">InfoResponse</span><span class="p">&gt;</span><span class="w"> </span><span class="n">GetInfoAsync</span><span class="p">();</span><span class="w"></span>
+</code></pre></div></p>
+<h4 id="returns_1">Returns<a class="headerlink" href="#returns_1" title="Permanent link">&para;</a></h4>
+<p><a href="https://docs.microsoft.com/en-us/dotnet/api/System.Threading.Tasks.Task-1" title="System.Threading.Tasks.Task1')[InfoResponse](Trinsic_Services_Account_V1.md#Trinsic_Services_Account_V1_InfoResponse 'Trinsic.Services.Account.V1.InfoResponse')[&amp;gt;](https://docs.microsoft.com/en-us/dotnet/api/System.Threading.Tasks.Task-1 'System.Threading.Tasks.Task1">System.Threading.Tasks.Task&lt;</a>  </p>
+<p><a name='Trinsic_AccountService_Protect(string_string)'></a></p>
+<h2 id="accountserviceprotectstring-string-method">AccountService.Protect(string, string) Method<a class="headerlink" href="#accountserviceprotectstring-string-method" title="Permanent link">&para;</a></h2>
+<p>Protects the account profile with a security code.<br />
+The code can be a PIN, password, keychain secret, etc.<br />
+<div class="highlight"><pre><span></span><code><span class="k">public</span><span class="w"> </span><span class="k">static</span><span class="w"> </span><span class="kt">string</span><span class="w"> </span><span class="nf">Protect</span><span class="p">(</span><span class="kt">string</span><span class="w"> </span><span class="n">authToken</span><span class="p">,</span><span class="w"> </span><span class="kt">string</span><span class="w"> </span><span class="n">securityCode</span><span class="p">);</span><span class="w"></span>
+</code></pre></div></p>
+<h4 id="parameters">Parameters<a class="headerlink" href="#parameters" title="Permanent link">&para;</a></h4>
+<p><a name='Trinsic_AccountService_Protect(string_string)_authToken'></a>
+<code>authToken</code> <a href="https://docs.microsoft.com/en-us/dotnet/api/System.String" title="System.String">System.String</a>  </p>
+<p><a name='Trinsic_AccountService_Protect(string_string)_securityCode'></a>
+<code>securityCode</code> <a href="https://docs.microsoft.com/en-us/dotnet/api/System.String" title="System.String">System.String</a>  </p>
+<h4 id="returns_2">Returns<a class="headerlink" href="#returns_2" title="Permanent link">&para;</a></h4>
+<p><a href="https://docs.microsoft.com/en-us/dotnet/api/System.String" title="System.String">System.String</a>  </p>
+<p><a name='Trinsic_AccountService_SignIn(Trinsic_Services_Account_V1_SignInRequest)'></a></p>
+<h2 id="accountservicesigninsigninrequest-method">AccountService.SignIn(SignInRequest) Method<a class="headerlink" href="#accountservicesigninsigninrequest-method" title="Permanent link">&para;</a></h2>
+<p>Perform a sign-in to obtain an account profile. If the <a href="../Trinsic_Services_Account_V1/#Trinsic_Services_Account_V1_AccountDetails" title="Trinsic.Services.Account.V1.AccountDetails">AccountDetails</a> are<br />
+specified, they will be used to associate<br />
+<div class="highlight"><pre><span></span><code><span class="k">public</span><span class="w"> </span><span class="kt">string</span><span class="w"> </span><span class="nf">SignIn</span><span class="p">(</span><span class="n">Trinsic</span><span class="p">.</span><span class="n">Services</span><span class="p">.</span><span class="n">Account</span><span class="p">.</span><span class="n">V1</span><span class="p">.</span><span class="n">SignInRequest</span><span class="w"> </span><span class="n">request</span><span class="p">);</span><span class="w"></span>
+</code></pre></div></p>
+<h4 id="parameters_1">Parameters<a class="headerlink" href="#parameters_1" title="Permanent link">&para;</a></h4>
+<p><a name='Trinsic_AccountService_SignIn(Trinsic_Services_Account_V1_SignInRequest)_request'></a>
+<code>request</code> <a href="../Trinsic_Services_Account_V1/#Trinsic_Services_Account_V1_SignInRequest" title="Trinsic.Services.Account.V1.SignInRequest">SignInRequest</a>  </p>
+<h4 id="returns_3">Returns<a class="headerlink" href="#returns_3" title="Permanent link">&para;</a></h4>
+<p><a href="https://docs.microsoft.com/en-us/dotnet/api/System.String" title="System.String">System.String</a>  </p>
+<p><a name='Trinsic_AccountService_SignInAsync(Trinsic_Services_Account_V1_SignInRequest)'></a></p>
+<h2 id="accountservicesigninasyncsigninrequest-method">AccountService.SignInAsync(SignInRequest) Method<a class="headerlink" href="#accountservicesigninasyncsigninrequest-method" title="Permanent link">&para;</a></h2>
+<p>Perform a sign-in to obtain an account profile. If the <a href="../Trinsic_Services_Account_V1/#Trinsic_Services_Account_V1_AccountDetails" title="Trinsic.Services.Account.V1.AccountDetails">AccountDetails</a> are<br />
+specified, they will be used to associate<br />
+<div class="highlight"><pre><span></span><code><span class="k">public</span><span class="w"> </span><span class="n">System</span><span class="p">.</span><span class="n">Threading</span><span class="p">.</span><span class="n">Tasks</span><span class="p">.</span><span class="n">Task</span><span class="p">&lt;</span><span class="kt">string</span><span class="p">&gt;</span><span class="w"> </span><span class="n">SignInAsync</span><span class="p">(</span><span class="n">Trinsic</span><span class="p">.</span><span class="n">Services</span><span class="p">.</span><span class="n">Account</span><span class="p">.</span><span class="n">V1</span><span class="p">.</span><span class="n">SignInRequest</span><span class="w"> </span><span class="n">request</span><span class="p">);</span><span class="w"></span>
+</code></pre></div></p>
+<h4 id="parameters_2">Parameters<a class="headerlink" href="#parameters_2" title="Permanent link">&para;</a></h4>
+<p><a name='Trinsic_AccountService_SignInAsync(Trinsic_Services_Account_V1_SignInRequest)_request'></a>
+<code>request</code> <a href="../Trinsic_Services_Account_V1/#Trinsic_Services_Account_V1_SignInRequest" title="Trinsic.Services.Account.V1.SignInRequest">SignInRequest</a>  </p>
+<h4 id="returns_4">Returns<a class="headerlink" href="#returns_4" title="Permanent link">&para;</a></h4>
+<p><a href="https://docs.microsoft.com/en-us/dotnet/api/System.Threading.Tasks.Task-1" title="System.Threading.Tasks.Task1')[System.String](https://docs.microsoft.com/en-us/dotnet/api/System.String 'System.String')[&amp;gt;](https://docs.microsoft.com/en-us/dotnet/api/System.Threading.Tasks.Task-1 'System.Threading.Tasks.Task1">System.Threading.Tasks.Task&lt;</a>  </p>
+<p><a name='Trinsic_AccountService_Unprotect(string_string)'></a></p>
+<h2 id="accountserviceunprotectstring-string-method">AccountService.Unprotect(string, string) Method<a class="headerlink" href="#accountserviceunprotectstring-string-method" title="Permanent link">&para;</a></h2>
+<p>Unprotects the account profile using a security code.<br />
+The confirmation method field will specify how this code was<br />
+communicated with the account owner.<br />
+<div class="highlight"><pre><span></span><code><span class="k">public</span><span class="w"> </span><span class="k">static</span><span class="w"> </span><span class="kt">string</span><span class="w"> </span><span class="nf">Unprotect</span><span class="p">(</span><span class="kt">string</span><span class="w"> </span><span class="n">authToken</span><span class="p">,</span><span class="w"> </span><span class="kt">string</span><span class="w"> </span><span class="n">securityCode</span><span class="p">);</span><span class="w"></span>
+</code></pre></div></p>
+<h4 id="parameters_3">Parameters<a class="headerlink" href="#parameters_3" title="Permanent link">&para;</a></h4>
+<p><a name='Trinsic_AccountService_Unprotect(string_string)_authToken'></a>
+<code>authToken</code> <a href="https://docs.microsoft.com/en-us/dotnet/api/System.String" title="System.String">System.String</a>  </p>
+<p><a name='Trinsic_AccountService_Unprotect(string_string)_securityCode'></a>
+<code>securityCode</code> <a href="https://docs.microsoft.com/en-us/dotnet/api/System.String" title="System.String">System.String</a>  </p>
+<h4 id="returns_5">Returns<a class="headerlink" href="#returns_5" title="Permanent link">&para;</a></h4>
+<p><a href="https://docs.microsoft.com/en-us/dotnet/api/System.String" title="System.String">System.String</a>  </p>
+<p><a name='Trinsic_CredentialsService'></a></p>
+<h2 id="credentialsservice-class">CredentialsService Class<a class="headerlink" href="#credentialsservice-class" title="Permanent link">&para;</a></h2>
+<div class="highlight"><pre><span></span><code><span class="k">public</span><span class="w"> </span><span class="k">class</span><span class="w"> </span><span class="nc">CredentialsService</span><span class="w"> </span><span class="p">:</span><span class="w"> </span><span class="n">Trinsic</span><span class="p">.</span><span class="n">ServiceBase</span><span class="w"></span>
+</code></pre></div>
+<p>Inheritance <a href="https://docs.microsoft.com/en-us/dotnet/api/System.Object" title="System.Object">System.Object</a> &#129106; <a href="./#Trinsic_ServiceBase" title="Trinsic.ServiceBase">ServiceBase</a> &#129106; CredentialsService  </p>
+<h3 id="methods_1">Methods<a class="headerlink" href="#methods_1" title="Permanent link">&para;</a></h3>
+<p><a name='Trinsic_CredentialsService_CheckStatusAsync(string)'></a></p>
+<h2 id="credentialsservicecheckstatusasyncstring-method">CredentialsService.CheckStatusAsync(string) Method<a class="headerlink" href="#credentialsservicecheckstatusasyncstring-method" title="Permanent link">&para;</a></h2>
+<p>Check credential template status<br />
+<div class="highlight"><pre><span></span><code><span class="k">public</span><span class="w"> </span><span class="n">System</span><span class="p">.</span><span class="n">Threading</span><span class="p">.</span><span class="n">Tasks</span><span class="p">.</span><span class="n">Task</span><span class="p">&lt;</span><span class="n">Trinsic</span><span class="p">.</span><span class="n">Services</span><span class="p">.</span><span class="n">VerifiableCredentials</span><span class="p">.</span><span class="n">V1</span><span class="p">.</span><span class="n">CheckStatusResponse</span><span class="p">&gt;</span><span class="w"> </span><span class="n">CheckStatusAsync</span><span class="p">(</span><span class="kt">string</span><span class="w"> </span><span class="n">credentialStatusId</span><span class="p">);</span><span class="w"></span>
+</code></pre></div></p>
+<h4 id="parameters_4">Parameters<a class="headerlink" href="#parameters_4" title="Permanent link">&para;</a></h4>
+<p><a name='Trinsic_CredentialsService_CheckStatusAsync(string)_credentialStatusId'></a>
+<code>credentialStatusId</code> <a href="https://docs.microsoft.com/en-us/dotnet/api/System.String" title="System.String">System.String</a>  </p>
+<h4 id="returns_6">Returns<a class="headerlink" href="#returns_6" title="Permanent link">&para;</a></h4>
+<p><a href="https://docs.microsoft.com/en-us/dotnet/api/System.Threading.Tasks.Task-1" title="System.Threading.Tasks.Task1')[CheckStatusResponse](Trinsic_Services_VerifiableCredentials_V1.md#Trinsic_Services_VerifiableCredentials_V1_CheckStatusResponse 'Trinsic.Services.VerifiableCredentials.V1.CheckStatusResponse')[&amp;gt;](https://docs.microsoft.com/en-us/dotnet/api/System.Threading.Tasks.Task-1 'System.Threading.Tasks.Task1">System.Threading.Tasks.Task&lt;</a>  </p>
+<p><a name='Trinsic_CredentialsService_CreateProof(Trinsic_Services_VerifiableCredentials_V1_CreateProofRequest)'></a></p>
+<h2 id="credentialsservicecreateproofcreateproofrequest-method">CredentialsService.CreateProof(CreateProofRequest) Method<a class="headerlink" href="#credentialsservicecreateproofcreateproofrequest-method" title="Permanent link">&para;</a></h2>
+<p>Create a proof from a record in the user's wallet. The record must be a valid<br />
+verifiable credential and contain a signature from which a proof can be derived.<br />
+<div class="highlight"><pre><span></span><code><span class="k">public</span><span class="w"> </span><span class="n">Trinsic</span><span class="p">.</span><span class="n">Services</span><span class="p">.</span><span class="n">VerifiableCredentials</span><span class="p">.</span><span class="n">V1</span><span class="p">.</span><span class="n">CreateProofResponse</span><span class="w"> </span><span class="n">CreateProof</span><span class="p">(</span><span class="n">Trinsic</span><span class="p">.</span><span class="n">Services</span><span class="p">.</span><span class="n">VerifiableCredentials</span><span class="p">.</span><span class="n">V1</span><span class="p">.</span><span class="n">CreateProofRequest</span><span class="w"> </span><span class="n">request</span><span class="p">);</span><span class="w"></span>
+</code></pre></div></p>
+<h4 id="parameters_5">Parameters<a class="headerlink" href="#parameters_5" title="Permanent link">&para;</a></h4>
+<p><a name='Trinsic_CredentialsService_CreateProof(Trinsic_Services_VerifiableCredentials_V1_CreateProofRequest)_request'></a>
+<code>request</code> <a href="../Trinsic_Services_VerifiableCredentials_V1/#Trinsic_Services_VerifiableCredentials_V1_CreateProofRequest" title="Trinsic.Services.VerifiableCredentials.V1.CreateProofRequest">CreateProofRequest</a>  </p>
+<h4 id="returns_7">Returns<a class="headerlink" href="#returns_7" title="Permanent link">&para;</a></h4>
+<p><a href="../Trinsic_Services_VerifiableCredentials_V1/#Trinsic_Services_VerifiableCredentials_V1_CreateProofResponse" title="Trinsic.Services.VerifiableCredentials.V1.CreateProofResponse">CreateProofResponse</a>  </p>
+<p><a name='Trinsic_CredentialsService_CreateProofAsync(Trinsic_Services_VerifiableCredentials_V1_CreateProofRequest)'></a></p>
+<h2 id="credentialsservicecreateproofasynccreateproofrequest-method">CredentialsService.CreateProofAsync(CreateProofRequest) Method<a class="headerlink" href="#credentialsservicecreateproofasynccreateproofrequest-method" title="Permanent link">&para;</a></h2>
+<p>Create a proof from a record in the user's wallet. The record must be a valid<br />
+verifiable credential and contain a signature from which a proof can be derived.<br />
+<div class="highlight"><pre><span></span><code><span class="k">public</span><span class="w"> </span><span class="n">System</span><span class="p">.</span><span class="n">Threading</span><span class="p">.</span><span class="n">Tasks</span><span class="p">.</span><span class="n">Task</span><span class="p">&lt;</span><span class="n">Trinsic</span><span class="p">.</span><span class="n">Services</span><span class="p">.</span><span class="n">VerifiableCredentials</span><span class="p">.</span><span class="n">V1</span><span class="p">.</span><span class="n">CreateProofResponse</span><span class="p">&gt;</span><span class="w"> </span><span class="n">CreateProofAsync</span><span class="p">(</span><span class="n">Trinsic</span><span class="p">.</span><span class="n">Services</span><span class="p">.</span><span class="n">VerifiableCredentials</span><span class="p">.</span><span class="n">V1</span><span class="p">.</span><span class="n">CreateProofRequest</span><span class="w"> </span><span class="n">request</span><span class="p">);</span><span class="w"></span>
+</code></pre></div></p>
+<h4 id="parameters_6">Parameters<a class="headerlink" href="#parameters_6" title="Permanent link">&para;</a></h4>
+<p><a name='Trinsic_CredentialsService_CreateProofAsync(Trinsic_Services_VerifiableCredentials_V1_CreateProofRequest)_request'></a>
+<code>request</code> <a href="../Trinsic_Services_VerifiableCredentials_V1/#Trinsic_Services_VerifiableCredentials_V1_CreateProofRequest" title="Trinsic.Services.VerifiableCredentials.V1.CreateProofRequest">CreateProofRequest</a>  </p>
+<h4 id="returns_8">Returns<a class="headerlink" href="#returns_8" title="Permanent link">&para;</a></h4>
+<p><a href="https://docs.microsoft.com/en-us/dotnet/api/System.Threading.Tasks.Task-1" title="System.Threading.Tasks.Task1')[CreateProofResponse](Trinsic_Services_VerifiableCredentials_V1.md#Trinsic_Services_VerifiableCredentials_V1_CreateProofResponse 'Trinsic.Services.VerifiableCredentials.V1.CreateProofResponse')[&amp;gt;](https://docs.microsoft.com/en-us/dotnet/api/System.Threading.Tasks.Task-1 'System.Threading.Tasks.Task1">System.Threading.Tasks.Task&lt;</a>  </p>
+<p><a name='Trinsic_CredentialsService_IssueCredentialAsync(Trinsic_Services_VerifiableCredentials_V1_IssueRequest)'></a></p>
+<h2 id="credentialsserviceissuecredentialasyncissuerequest-method">CredentialsService.IssueCredentialAsync(IssueRequest) Method<a class="headerlink" href="#credentialsserviceissuecredentialasyncissuerequest-method" title="Permanent link">&para;</a></h2>
+<p>Signs an input credential<br />
+<div class="highlight"><pre><span></span><code><span class="k">public</span><span class="w"> </span><span class="n">System</span><span class="p">.</span><span class="n">Threading</span><span class="p">.</span><span class="n">Tasks</span><span class="p">.</span><span class="n">Task</span><span class="p">&lt;</span><span class="n">Trinsic</span><span class="p">.</span><span class="n">Services</span><span class="p">.</span><span class="n">VerifiableCredentials</span><span class="p">.</span><span class="n">V1</span><span class="p">.</span><span class="n">IssueResponse</span><span class="p">&gt;</span><span class="w"> </span><span class="n">IssueCredentialAsync</span><span class="p">(</span><span class="n">Trinsic</span><span class="p">.</span><span class="n">Services</span><span class="p">.</span><span class="n">VerifiableCredentials</span><span class="p">.</span><span class="n">V1</span><span class="p">.</span><span class="n">IssueRequest</span><span class="w"> </span><span class="n">request</span><span class="p">);</span><span class="w"></span>
+</code></pre></div></p>
+<h4 id="parameters_7">Parameters<a class="headerlink" href="#parameters_7" title="Permanent link">&para;</a></h4>
+<p><a name='Trinsic_CredentialsService_IssueCredentialAsync(Trinsic_Services_VerifiableCredentials_V1_IssueRequest)_request'></a>
+<code>request</code> <a href="../Trinsic_Services_VerifiableCredentials_V1/#Trinsic_Services_VerifiableCredentials_V1_IssueRequest" title="Trinsic.Services.VerifiableCredentials.V1.IssueRequest">IssueRequest</a>  </p>
+<h4 id="returns_9">Returns<a class="headerlink" href="#returns_9" title="Permanent link">&para;</a></h4>
+<p><a href="https://docs.microsoft.com/en-us/dotnet/api/System.Threading.Tasks.Task-1" title="System.Threading.Tasks.Task1')[IssueResponse](Trinsic_Services_VerifiableCredentials_V1.md#Trinsic_Services_VerifiableCredentials_V1_IssueResponse 'Trinsic.Services.VerifiableCredentials.V1.IssueResponse')[&amp;gt;](https://docs.microsoft.com/en-us/dotnet/api/System.Threading.Tasks.Task-1 'System.Threading.Tasks.Task1">System.Threading.Tasks.Task&lt;</a>  </p>
+<p><a name='Trinsic_CredentialsService_IssueFromTemplate(Trinsic_Services_VerifiableCredentials_V1_IssueFromTemplateRequest)'></a></p>
+<h2 id="credentialsserviceissuefromtemplateissuefromtemplaterequest-method">CredentialsService.IssueFromTemplate(IssueFromTemplateRequest) Method<a class="headerlink" href="#credentialsserviceissuefromtemplateissuefromtemplaterequest-method" title="Permanent link">&para;</a></h2>
+<p>Issue a verifiable credential from a predefined <a href="../Trinsic_Services_VerifiableCredentials_Templates_V1/#Trinsic_Services_VerifiableCredentials_Templates_V1_TemplateData" title="Trinsic.Services.VerifiableCredentials.Templates.V1.TemplateData">TemplateData</a>.<br />
+<div class="highlight"><pre><span></span><code><span class="k">public</span><span class="w"> </span><span class="kt">string</span><span class="w"> </span><span class="nf">IssueFromTemplate</span><span class="p">(</span><span class="n">Trinsic</span><span class="p">.</span><span class="n">Services</span><span class="p">.</span><span class="n">VerifiableCredentials</span><span class="p">.</span><span class="n">V1</span><span class="p">.</span><span class="n">IssueFromTemplateRequest</span><span class="w"> </span><span class="n">request</span><span class="p">);</span><span class="w"></span>
+</code></pre></div></p>
+<h4 id="parameters_8">Parameters<a class="headerlink" href="#parameters_8" title="Permanent link">&para;</a></h4>
+<p><a name='Trinsic_CredentialsService_IssueFromTemplate(Trinsic_Services_VerifiableCredentials_V1_IssueFromTemplateRequest)_request'></a>
+<code>request</code> <a href="../Trinsic_Services_VerifiableCredentials_V1/#Trinsic_Services_VerifiableCredentials_V1_IssueFromTemplateRequest" title="Trinsic.Services.VerifiableCredentials.V1.IssueFromTemplateRequest">IssueFromTemplateRequest</a><br />
+The request object with the template identifier and the values</p>
+<h4 id="returns_10">Returns<a class="headerlink" href="#returns_10" title="Permanent link">&para;</a></h4>
+<p><a href="https://docs.microsoft.com/en-us/dotnet/api/System.String" title="System.String">System.String</a><br />
+Verifiable credential as JSON</p>
+<p><a name='Trinsic_CredentialsService_IssueFromTemplateAsync(Trinsic_Services_VerifiableCredentials_V1_IssueFromTemplateRequest)'></a></p>
+<h2 id="credentialsserviceissuefromtemplateasyncissuefromtemplaterequest-method">CredentialsService.IssueFromTemplateAsync(IssueFromTemplateRequest) Method<a class="headerlink" href="#credentialsserviceissuefromtemplateasyncissuefromtemplaterequest-method" title="Permanent link">&para;</a></h2>
+<p>Issue a verifiable credential from a predefined <a href="../Trinsic_Services_VerifiableCredentials_Templates_V1/#Trinsic_Services_VerifiableCredentials_Templates_V1_TemplateData" title="Trinsic.Services.VerifiableCredentials.Templates.V1.TemplateData">TemplateData</a>.<br />
+<div class="highlight"><pre><span></span><code><span class="k">public</span><span class="w"> </span><span class="n">System</span><span class="p">.</span><span class="n">Threading</span><span class="p">.</span><span class="n">Tasks</span><span class="p">.</span><span class="n">Task</span><span class="p">&lt;</span><span class="kt">string</span><span class="p">&gt;</span><span class="w"> </span><span class="n">IssueFromTemplateAsync</span><span class="p">(</span><span class="n">Trinsic</span><span class="p">.</span><span class="n">Services</span><span class="p">.</span><span class="n">VerifiableCredentials</span><span class="p">.</span><span class="n">V1</span><span class="p">.</span><span class="n">IssueFromTemplateRequest</span><span class="w"> </span><span class="n">request</span><span class="p">);</span><span class="w"></span>
+</code></pre></div></p>
+<h4 id="parameters_9">Parameters<a class="headerlink" href="#parameters_9" title="Permanent link">&para;</a></h4>
+<p><a name='Trinsic_CredentialsService_IssueFromTemplateAsync(Trinsic_Services_VerifiableCredentials_V1_IssueFromTemplateRequest)_request'></a>
+<code>request</code> <a href="../Trinsic_Services_VerifiableCredentials_V1/#Trinsic_Services_VerifiableCredentials_V1_IssueFromTemplateRequest" title="Trinsic.Services.VerifiableCredentials.V1.IssueFromTemplateRequest">IssueFromTemplateRequest</a><br />
+The request object with the template identifier and the values</p>
+<h4 id="returns_11">Returns<a class="headerlink" href="#returns_11" title="Permanent link">&para;</a></h4>
+<p><a href="https://docs.microsoft.com/en-us/dotnet/api/System.Threading.Tasks.Task-1" title="System.Threading.Tasks.Task1')[System.String](https://docs.microsoft.com/en-us/dotnet/api/System.String 'System.String')[&amp;gt;](https://docs.microsoft.com/en-us/dotnet/api/System.Threading.Tasks.Task-1 'System.Threading.Tasks.Task1">System.Threading.Tasks.Task&lt;</a><br />
+Verifiable credential as JSON</p>
+<p><a name='Trinsic_CredentialsService_SendAsync(Trinsic_Services_VerifiableCredentials_V1_SendRequest)'></a></p>
+<h2 id="credentialsservicesendasyncsendrequest-method">CredentialsService.SendAsync(SendRequest) Method<a class="headerlink" href="#credentialsservicesendasyncsendrequest-method" title="Permanent link">&para;</a></h2>
+<p>Sends a document to the specified destination<br />
+<div class="highlight"><pre><span></span><code><span class="k">public</span><span class="w"> </span><span class="n">System</span><span class="p">.</span><span class="n">Threading</span><span class="p">.</span><span class="n">Tasks</span><span class="p">.</span><span class="n">Task</span><span class="w"> </span><span class="n">SendAsync</span><span class="p">(</span><span class="n">Trinsic</span><span class="p">.</span><span class="n">Services</span><span class="p">.</span><span class="n">VerifiableCredentials</span><span class="p">.</span><span class="n">V1</span><span class="p">.</span><span class="n">SendRequest</span><span class="w"> </span><span class="n">request</span><span class="p">);</span><span class="w"></span>
+</code></pre></div></p>
+<h4 id="parameters_10">Parameters<a class="headerlink" href="#parameters_10" title="Permanent link">&para;</a></h4>
+<p><a name='Trinsic_CredentialsService_SendAsync(Trinsic_Services_VerifiableCredentials_V1_SendRequest)_request'></a>
+<code>request</code> <a href="../Trinsic_Services_VerifiableCredentials_V1/#Trinsic_Services_VerifiableCredentials_V1_SendRequest" title="Trinsic.Services.VerifiableCredentials.V1.SendRequest">SendRequest</a>  </p>
+<h4 id="returns_12">Returns<a class="headerlink" href="#returns_12" title="Permanent link">&para;</a></h4>
+<p><a href="https://docs.microsoft.com/en-us/dotnet/api/System.Threading.Tasks.Task" title="System.Threading.Tasks.Task">System.Threading.Tasks.Task</a>  </p>
+<p><a name='Trinsic_CredentialsService_UpdateStatusAsync(string_bool)'></a></p>
+<h2 id="credentialsserviceupdatestatusasyncstring-bool-method">CredentialsService.UpdateStatusAsync(string, bool) Method<a class="headerlink" href="#credentialsserviceupdatestatusasyncstring-bool-method" title="Permanent link">&para;</a></h2>
+<p>Update credential template revocation status<br />
+<div class="highlight"><pre><span></span><code><span class="k">public</span><span class="w"> </span><span class="n">System</span><span class="p">.</span><span class="n">Threading</span><span class="p">.</span><span class="n">Tasks</span><span class="p">.</span><span class="n">Task</span><span class="w"> </span><span class="n">UpdateStatusAsync</span><span class="p">(</span><span class="kt">string</span><span class="w"> </span><span class="n">credentialStatusId</span><span class="p">,</span><span class="w"> </span><span class="kt">bool</span><span class="w"> </span><span class="n">revoked</span><span class="p">);</span><span class="w"></span>
+</code></pre></div></p>
+<h4 id="parameters_11">Parameters<a class="headerlink" href="#parameters_11" title="Permanent link">&para;</a></h4>
+<p><a name='Trinsic_CredentialsService_UpdateStatusAsync(string_bool)_credentialStatusId'></a>
+<code>credentialStatusId</code> <a href="https://docs.microsoft.com/en-us/dotnet/api/System.String" title="System.String">System.String</a>  </p>
+<p><a name='Trinsic_CredentialsService_UpdateStatusAsync(string_bool)_revoked'></a>
+<code>revoked</code> <a href="https://docs.microsoft.com/en-us/dotnet/api/System.Boolean" title="System.Boolean">System.Boolean</a>  </p>
+<h4 id="returns_13">Returns<a class="headerlink" href="#returns_13" title="Permanent link">&para;</a></h4>
+<p><a href="https://docs.microsoft.com/en-us/dotnet/api/System.Threading.Tasks.Task" title="System.Threading.Tasks.Task">System.Threading.Tasks.Task</a>  </p>
+<p><a name='Trinsic_CredentialsService_VerifyProofAsync(Trinsic_Services_VerifiableCredentials_V1_VerifyProofRequest)'></a></p>
+<h2 id="credentialsserviceverifyproofasyncverifyproofrequest-method">CredentialsService.VerifyProofAsync(VerifyProofRequest) Method<a class="headerlink" href="#credentialsserviceverifyproofasyncverifyproofrequest-method" title="Permanent link">&para;</a></h2>
+<p>Verifies a proof document<br />
+<div class="highlight"><pre><span></span><code><span class="k">public</span><span class="w"> </span><span class="n">System</span><span class="p">.</span><span class="n">Threading</span><span class="p">.</span><span class="n">Tasks</span><span class="p">.</span><span class="n">Task</span><span class="p">&lt;</span><span class="kt">bool</span><span class="p">&gt;</span><span class="w"> </span><span class="n">VerifyProofAsync</span><span class="p">(</span><span class="n">Trinsic</span><span class="p">.</span><span class="n">Services</span><span class="p">.</span><span class="n">VerifiableCredentials</span><span class="p">.</span><span class="n">V1</span><span class="p">.</span><span class="n">VerifyProofRequest</span><span class="w"> </span><span class="n">request</span><span class="p">);</span><span class="w"></span>
+</code></pre></div></p>
+<h4 id="parameters_12">Parameters<a class="headerlink" href="#parameters_12" title="Permanent link">&para;</a></h4>
+<p><a name='Trinsic_CredentialsService_VerifyProofAsync(Trinsic_Services_VerifiableCredentials_V1_VerifyProofRequest)_request'></a>
+<code>request</code> <a href="../Trinsic_Services_VerifiableCredentials_V1/#Trinsic_Services_VerifiableCredentials_V1_VerifyProofRequest" title="Trinsic.Services.VerifiableCredentials.V1.VerifyProofRequest">VerifyProofRequest</a>  </p>
+<h4 id="returns_14">Returns<a class="headerlink" href="#returns_14" title="Permanent link">&para;</a></h4>
+<p><a href="https://docs.microsoft.com/en-us/dotnet/api/System.Threading.Tasks.Task-1" title="System.Threading.Tasks.Task1')[System.Boolean](https://docs.microsoft.com/en-us/dotnet/api/System.Boolean 'System.Boolean')[&amp;gt;](https://docs.microsoft.com/en-us/dotnet/api/System.Threading.Tasks.Task-1 'System.Threading.Tasks.Task1">System.Threading.Tasks.Task&lt;</a>  </p>
+<p><a name='Trinsic_OberonSecurityProvider'></a></p>
+<h2 id="oberonsecurityprovider-class">OberonSecurityProvider Class<a class="headerlink" href="#oberonsecurityprovider-class" title="Permanent link">&para;</a></h2>
+<div class="highlight"><pre><span></span><code><span class="k">internal</span><span class="w"> </span><span class="k">class</span><span class="w"> </span><span class="nc">OberonSecurityProvider</span><span class="w"> </span><span class="p">:</span><span class="w"></span>
+<span class="n">Trinsic</span><span class="p">.</span><span class="n">ISecurityProvider</span><span class="w"></span>
+</code></pre></div>
+<p>Inheritance <a href="https://docs.microsoft.com/en-us/dotnet/api/System.Object" title="System.Object">System.Object</a> &#129106; OberonSecurityProvider  </p>
+<p>Implements <a href="https://docs.microsoft.com/en-us/dotnet/api/Trinsic.ISecurityProvider" title="Trinsic.ISecurityProvider">Trinsic.ISecurityProvider</a>  </p>
+<h3 id="methods_2">Methods<a class="headerlink" href="#methods_2" title="Permanent link">&para;</a></h3>
+<p><a name='Trinsic_OberonSecurityProvider_Base64UrlEncode(byte__)'></a></p>
+<h2 id="oberonsecurityproviderbase64urlencodebyte-method">OberonSecurityProvider.Base64UrlEncode(byte[]) Method<a class="headerlink" href="#oberonsecurityproviderbase64urlencodebyte-method" title="Permanent link">&para;</a></h2>
+<p>Encoded a byte array to base64url string without padding<br />
+<div class="highlight"><pre><span></span><code><span class="k">protected</span><span class="w"> </span><span class="k">static</span><span class="w"> </span><span class="kt">string</span><span class="w"> </span><span class="nf">Base64UrlEncode</span><span class="p">(</span><span class="kt">byte</span><span class="p">[]</span><span class="w"> </span><span class="n">data</span><span class="p">);</span><span class="w"></span>
+</code></pre></div></p>
+<h4 id="parameters_13">Parameters<a class="headerlink" href="#parameters_13" title="Permanent link">&para;</a></h4>
+<p><a name='Trinsic_OberonSecurityProvider_Base64UrlEncode(byte__)_data'></a>
+<code>data</code> <a href="https://docs.microsoft.com/en-us/dotnet/api/System.Byte" title="System.Byte">System.Byte</a><a href="https://docs.microsoft.com/en-us/dotnet/api/System.Array" title="System.Array">[]</a>  </p>
+<h4 id="returns_15">Returns<a class="headerlink" href="#returns_15" title="Permanent link">&para;</a></h4>
+<p><a href="https://docs.microsoft.com/en-us/dotnet/api/System.String" title="System.String">System.String</a>  </p>
+<p><a name='Trinsic_ProviderService'></a></p>
+<h2 id="providerservice-class">ProviderService Class<a class="headerlink" href="#providerservice-class" title="Permanent link">&para;</a></h2>
+<div class="highlight"><pre><span></span><code><span class="k">public</span><span class="w"> </span><span class="k">class</span><span class="w"> </span><span class="nc">ProviderService</span><span class="w"> </span><span class="p">:</span><span class="w"> </span><span class="n">Trinsic</span><span class="p">.</span><span class="n">ServiceBase</span><span class="w"></span>
+</code></pre></div>
+<p>Inheritance <a href="https://docs.microsoft.com/en-us/dotnet/api/System.Object" title="System.Object">System.Object</a> &#129106; <a href="./#Trinsic_ServiceBase" title="Trinsic.ServiceBase">ServiceBase</a> &#129106; ProviderService  </p>
+<h3 id="methods_3">Methods<a class="headerlink" href="#methods_3" title="Permanent link">&para;</a></h3>
+<p><a name='Trinsic_ProviderService_CreateEcosystem(Trinsic_Services_Provider_V1_CreateEcosystemRequest)'></a></p>
+<h2 id="providerservicecreateecosystemcreateecosystemrequest-method">ProviderService.CreateEcosystem(CreateEcosystemRequest) Method<a class="headerlink" href="#providerservicecreateecosystemcreateecosystemrequest-method" title="Permanent link">&para;</a></h2>
+<p>Create new ecosystem and assigns the authenticated user as owner<br />
+<div class="highlight"><pre><span></span><code><span class="k">public</span><span class="w"> </span><span class="n">Trinsic</span><span class="p">.</span><span class="n">Services</span><span class="p">.</span><span class="n">Provider</span><span class="p">.</span><span class="n">V1</span><span class="p">.</span><span class="n">CreateEcosystemResponse</span><span class="w"> </span><span class="n">CreateEcosystem</span><span class="p">(</span><span class="n">Trinsic</span><span class="p">.</span><span class="n">Services</span><span class="p">.</span><span class="n">Provider</span><span class="p">.</span><span class="n">V1</span><span class="p">.</span><span class="n">CreateEcosystemRequest</span><span class="w"> </span><span class="n">request</span><span class="p">);</span><span class="w"></span>
+</code></pre></div></p>
+<h4 id="parameters_14">Parameters<a class="headerlink" href="#parameters_14" title="Permanent link">&para;</a></h4>
+<p><a name='Trinsic_ProviderService_CreateEcosystem(Trinsic_Services_Provider_V1_CreateEcosystemRequest)_request'></a>
+<code>request</code> <a href="../Trinsic_Services_Provider_V1/#Trinsic_Services_Provider_V1_CreateEcosystemRequest" title="Trinsic.Services.Provider.V1.CreateEcosystemRequest">CreateEcosystemRequest</a>  </p>
+<h4 id="returns_16">Returns<a class="headerlink" href="#returns_16" title="Permanent link">&para;</a></h4>
+<p><a href="../Trinsic_Services_Provider_V1/#Trinsic_Services_Provider_V1_CreateEcosystemResponse" title="Trinsic.Services.Provider.V1.CreateEcosystemResponse">CreateEcosystemResponse</a>  </p>
+<h4 id="exceptions">Exceptions<a class="headerlink" href="#exceptions" title="Permanent link">&para;</a></h4>
+<p><a href="https://docs.microsoft.com/en-us/dotnet/api/System.Exception" title="System.Exception">System.Exception</a>  </p>
+<p><a name='Trinsic_ProviderService_CreateEcosystemAsync(Trinsic_Services_Provider_V1_CreateEcosystemRequest)'></a></p>
+<h2 id="providerservicecreateecosystemasynccreateecosystemrequest-method">ProviderService.CreateEcosystemAsync(CreateEcosystemRequest) Method<a class="headerlink" href="#providerservicecreateecosystemasynccreateecosystemrequest-method" title="Permanent link">&para;</a></h2>
+<p>Create new ecosystem and assigns the authenticated user as owner<br />
+<div class="highlight"><pre><span></span><code><span class="k">public</span><span class="w"> </span><span class="n">System</span><span class="p">.</span><span class="n">Threading</span><span class="p">.</span><span class="n">Tasks</span><span class="p">.</span><span class="n">Task</span><span class="p">&lt;</span><span class="n">Trinsic</span><span class="p">.</span><span class="n">Services</span><span class="p">.</span><span class="n">Provider</span><span class="p">.</span><span class="n">V1</span><span class="p">.</span><span class="n">CreateEcosystemResponse</span><span class="p">&gt;</span><span class="w"> </span><span class="n">CreateEcosystemAsync</span><span class="p">(</span><span class="n">Trinsic</span><span class="p">.</span><span class="n">Services</span><span class="p">.</span><span class="n">Provider</span><span class="p">.</span><span class="n">V1</span><span class="p">.</span><span class="n">CreateEcosystemRequest</span><span class="w"> </span><span class="n">request</span><span class="p">);</span><span class="w"></span>
+</code></pre></div></p>
+<h4 id="parameters_15">Parameters<a class="headerlink" href="#parameters_15" title="Permanent link">&para;</a></h4>
+<p><a name='Trinsic_ProviderService_CreateEcosystemAsync(Trinsic_Services_Provider_V1_CreateEcosystemRequest)_request'></a>
+<code>request</code> <a href="../Trinsic_Services_Provider_V1/#Trinsic_Services_Provider_V1_CreateEcosystemRequest" title="Trinsic.Services.Provider.V1.CreateEcosystemRequest">CreateEcosystemRequest</a>  </p>
+<h4 id="returns_17">Returns<a class="headerlink" href="#returns_17" title="Permanent link">&para;</a></h4>
+<p><a href="https://docs.microsoft.com/en-us/dotnet/api/System.Threading.Tasks.Task-1" title="System.Threading.Tasks.Task1')[CreateEcosystemResponse](Trinsic_Services_Provider_V1.md#Trinsic_Services_Provider_V1_CreateEcosystemResponse 'Trinsic.Services.Provider.V1.CreateEcosystemResponse')[&amp;gt;](https://docs.microsoft.com/en-us/dotnet/api/System.Threading.Tasks.Task-1 'System.Threading.Tasks.Task1">System.Threading.Tasks.Task&lt;</a>  </p>
+<p><a name='Trinsic_ProviderService_GenerateToken(Trinsic_Services_Provider_V1_GenerateTokenRequest)'></a></p>
+<h2 id="providerservicegeneratetokengeneratetokenrequest-method">ProviderService.GenerateToken(GenerateTokenRequest) Method<a class="headerlink" href="#providerservicegeneratetokengeneratetokenrequest-method" title="Permanent link">&para;</a></h2>
+<p>Generates an unprotected authentication token that can be used<br />
+to configure server side applications<br />
+<div class="highlight"><pre><span></span><code><span class="k">public</span><span class="w"> </span><span class="kt">string</span><span class="w"> </span><span class="nf">GenerateToken</span><span class="p">(</span><span class="n">Trinsic</span><span class="p">.</span><span class="n">Services</span><span class="p">.</span><span class="n">Provider</span><span class="p">.</span><span class="n">V1</span><span class="p">.</span><span class="n">GenerateTokenRequest</span><span class="w"> </span><span class="n">request</span><span class="p">);</span><span class="w"></span>
+</code></pre></div></p>
+<h4 id="parameters_16">Parameters<a class="headerlink" href="#parameters_16" title="Permanent link">&para;</a></h4>
+<p><a name='Trinsic_ProviderService_GenerateToken(Trinsic_Services_Provider_V1_GenerateTokenRequest)_request'></a>
+<code>request</code> <a href="../Trinsic_Services_Provider_V1/#Trinsic_Services_Provider_V1_GenerateTokenRequest" title="Trinsic.Services.Provider.V1.GenerateTokenRequest">GenerateTokenRequest</a>  </p>
+<h4 id="returns_18">Returns<a class="headerlink" href="#returns_18" title="Permanent link">&para;</a></h4>
+<p><a href="https://docs.microsoft.com/en-us/dotnet/api/System.String" title="System.String">System.String</a>  </p>
+<p><a name='Trinsic_ProviderService_GenerateTokenAsync(Trinsic_Services_Provider_V1_GenerateTokenRequest)'></a></p>
+<h2 id="providerservicegeneratetokenasyncgeneratetokenrequest-method">ProviderService.GenerateTokenAsync(GenerateTokenRequest) Method<a class="headerlink" href="#providerservicegeneratetokenasyncgeneratetokenrequest-method" title="Permanent link">&para;</a></h2>
+<p>Generates an unprotected authentication token that can be used<br />
+to configure server side applications<br />
+<div class="highlight"><pre><span></span><code><span class="k">public</span><span class="w"> </span><span class="n">System</span><span class="p">.</span><span class="n">Threading</span><span class="p">.</span><span class="n">Tasks</span><span class="p">.</span><span class="n">Task</span><span class="p">&lt;</span><span class="kt">string</span><span class="p">&gt;</span><span class="w"> </span><span class="n">GenerateTokenAsync</span><span class="p">(</span><span class="n">Trinsic</span><span class="p">.</span><span class="n">Services</span><span class="p">.</span><span class="n">Provider</span><span class="p">.</span><span class="n">V1</span><span class="p">.</span><span class="n">GenerateTokenRequest</span><span class="w"> </span><span class="n">request</span><span class="p">);</span><span class="w"></span>
+</code></pre></div></p>
+<h4 id="parameters_17">Parameters<a class="headerlink" href="#parameters_17" title="Permanent link">&para;</a></h4>
+<p><a name='Trinsic_ProviderService_GenerateTokenAsync(Trinsic_Services_Provider_V1_GenerateTokenRequest)_request'></a>
+<code>request</code> <a href="../Trinsic_Services_Provider_V1/#Trinsic_Services_Provider_V1_GenerateTokenRequest" title="Trinsic.Services.Provider.V1.GenerateTokenRequest">GenerateTokenRequest</a>  </p>
+<h4 id="returns_19">Returns<a class="headerlink" href="#returns_19" title="Permanent link">&para;</a></h4>
+<p><a href="https://docs.microsoft.com/en-us/dotnet/api/System.Threading.Tasks.Task-1" title="System.Threading.Tasks.Task1')[System.String](https://docs.microsoft.com/en-us/dotnet/api/System.String 'System.String')[&amp;gt;](https://docs.microsoft.com/en-us/dotnet/api/System.Threading.Tasks.Task-1 'System.Threading.Tasks.Task1">System.Threading.Tasks.Task&lt;</a>  </p>
+<p><a name='Trinsic_ProviderService_InvitationStatus(Trinsic_Services_Provider_V1_InvitationStatusRequest)'></a></p>
+<h2 id="providerserviceinvitationstatusinvitationstatusrequest-method">ProviderService.InvitationStatus(InvitationStatusRequest) Method<a class="headerlink" href="#providerserviceinvitationstatusinvitationstatusrequest-method" title="Permanent link">&para;</a></h2>
+<p>Gets the status of the onboarding invitation for a given invitation ID<br />
+<div class="highlight"><pre><span></span><code><span class="k">public</span><span class="w"> </span><span class="n">Trinsic</span><span class="p">.</span><span class="n">Services</span><span class="p">.</span><span class="n">Provider</span><span class="p">.</span><span class="n">V1</span><span class="p">.</span><span class="n">InvitationStatusResponse</span><span class="w"> </span><span class="n">InvitationStatus</span><span class="p">(</span><span class="n">Trinsic</span><span class="p">.</span><span class="n">Services</span><span class="p">.</span><span class="n">Provider</span><span class="p">.</span><span class="n">V1</span><span class="p">.</span><span class="n">InvitationStatusRequest</span><span class="w"> </span><span class="n">request</span><span class="p">);</span><span class="w"></span>
+</code></pre></div></p>
+<h4 id="parameters_18">Parameters<a class="headerlink" href="#parameters_18" title="Permanent link">&para;</a></h4>
+<p><a name='Trinsic_ProviderService_InvitationStatus(Trinsic_Services_Provider_V1_InvitationStatusRequest)_request'></a>
+<code>request</code> <a href="../Trinsic_Services_Provider_V1/#Trinsic_Services_Provider_V1_InvitationStatusRequest" title="Trinsic.Services.Provider.V1.InvitationStatusRequest">InvitationStatusRequest</a>  </p>
+<h4 id="returns_20">Returns<a class="headerlink" href="#returns_20" title="Permanent link">&para;</a></h4>
+<p><a href="../Trinsic_Services_Provider_V1/#Trinsic_Services_Provider_V1_InvitationStatusResponse" title="Trinsic.Services.Provider.V1.InvitationStatusResponse">InvitationStatusResponse</a>  </p>
+<h4 id="exceptions_1">Exceptions<a class="headerlink" href="#exceptions_1" title="Permanent link">&para;</a></h4>
+<p><a href="https://docs.microsoft.com/en-us/dotnet/api/System.Exception" title="System.Exception">System.Exception</a>  </p>
+<p><a name='Trinsic_ProviderService_InvitationStatusAsync(Trinsic_Services_Provider_V1_InvitationStatusRequest)'></a></p>
+<h2 id="providerserviceinvitationstatusasyncinvitationstatusrequest-method">ProviderService.InvitationStatusAsync(InvitationStatusRequest) Method<a class="headerlink" href="#providerserviceinvitationstatusasyncinvitationstatusrequest-method" title="Permanent link">&para;</a></h2>
+<p>Gets the status of the onboarding invitation for a given invitation ID<br />
+<div class="highlight"><pre><span></span><code><span class="k">public</span><span class="w"> </span><span class="n">System</span><span class="p">.</span><span class="n">Threading</span><span class="p">.</span><span class="n">Tasks</span><span class="p">.</span><span class="n">Task</span><span class="p">&lt;</span><span class="n">Trinsic</span><span class="p">.</span><span class="n">Services</span><span class="p">.</span><span class="n">Provider</span><span class="p">.</span><span class="n">V1</span><span class="p">.</span><span class="n">InvitationStatusResponse</span><span class="p">&gt;</span><span class="w"> </span><span class="n">InvitationStatusAsync</span><span class="p">(</span><span class="n">Trinsic</span><span class="p">.</span><span class="n">Services</span><span class="p">.</span><span class="n">Provider</span><span class="p">.</span><span class="n">V1</span><span class="p">.</span><span class="n">InvitationStatusRequest</span><span class="w"> </span><span class="n">request</span><span class="p">);</span><span class="w"></span>
+</code></pre></div></p>
+<h4 id="parameters_19">Parameters<a class="headerlink" href="#parameters_19" title="Permanent link">&para;</a></h4>
+<p><a name='Trinsic_ProviderService_InvitationStatusAsync(Trinsic_Services_Provider_V1_InvitationStatusRequest)_request'></a>
+<code>request</code> <a href="../Trinsic_Services_Provider_V1/#Trinsic_Services_Provider_V1_InvitationStatusRequest" title="Trinsic.Services.Provider.V1.InvitationStatusRequest">InvitationStatusRequest</a>  </p>
+<h4 id="returns_21">Returns<a class="headerlink" href="#returns_21" title="Permanent link">&para;</a></h4>
+<p><a href="https://docs.microsoft.com/en-us/dotnet/api/System.Threading.Tasks.Task-1" title="System.Threading.Tasks.Task1')[InvitationStatusResponse](Trinsic_Services_Provider_V1.md#Trinsic_Services_Provider_V1_InvitationStatusResponse 'Trinsic.Services.Provider.V1.InvitationStatusResponse')[&amp;gt;](https://docs.microsoft.com/en-us/dotnet/api/System.Threading.Tasks.Task-1 'System.Threading.Tasks.Task1">System.Threading.Tasks.Task&lt;</a>  </p>
+<p><a name='Trinsic_ProviderService_InviteParticipant(Trinsic_Services_Provider_V1_InviteRequest)'></a></p>
+<h2 id="providerserviceinviteparticipantinviterequest-method">ProviderService.InviteParticipant(InviteRequest) Method<a class="headerlink" href="#providerserviceinviteparticipantinviterequest-method" title="Permanent link">&para;</a></h2>
+<p>Invite a user to the ecosystem<br />
+<div class="highlight"><pre><span></span><code><span class="k">public</span><span class="w"> </span><span class="n">Trinsic</span><span class="p">.</span><span class="n">Services</span><span class="p">.</span><span class="n">Provider</span><span class="p">.</span><span class="n">V1</span><span class="p">.</span><span class="n">InviteResponse</span><span class="w"> </span><span class="n">InviteParticipant</span><span class="p">(</span><span class="n">Trinsic</span><span class="p">.</span><span class="n">Services</span><span class="p">.</span><span class="n">Provider</span><span class="p">.</span><span class="n">V1</span><span class="p">.</span><span class="n">InviteRequest</span><span class="w"> </span><span class="n">request</span><span class="p">);</span><span class="w"></span>
+</code></pre></div></p>
+<h4 id="parameters_20">Parameters<a class="headerlink" href="#parameters_20" title="Permanent link">&para;</a></h4>
+<p><a name='Trinsic_ProviderService_InviteParticipant(Trinsic_Services_Provider_V1_InviteRequest)_request'></a>
+<code>request</code> <a href="../Trinsic_Services_Provider_V1/#Trinsic_Services_Provider_V1_InviteRequest" title="Trinsic.Services.Provider.V1.InviteRequest">InviteRequest</a>  </p>
+<h4 id="returns_22">Returns<a class="headerlink" href="#returns_22" title="Permanent link">&para;</a></h4>
+<p><a href="../Trinsic_Services_Provider_V1/#Trinsic_Services_Provider_V1_InviteResponse" title="Trinsic.Services.Provider.V1.InviteResponse">InviteResponse</a>  </p>
+<p><a name='Trinsic_ProviderService_InviteParticipantAsync(Trinsic_Services_Provider_V1_InviteRequest)'></a></p>
+<h2 id="providerserviceinviteparticipantasyncinviterequest-method">ProviderService.InviteParticipantAsync(InviteRequest) Method<a class="headerlink" href="#providerserviceinviteparticipantasyncinviterequest-method" title="Permanent link">&para;</a></h2>
+<p>Initiates the participant onboarding flow using the input contact method<br />
+<div class="highlight"><pre><span></span><code><span class="k">public</span><span class="w"> </span><span class="n">System</span><span class="p">.</span><span class="n">Threading</span><span class="p">.</span><span class="n">Tasks</span><span class="p">.</span><span class="n">Task</span><span class="p">&lt;</span><span class="n">Trinsic</span><span class="p">.</span><span class="n">Services</span><span class="p">.</span><span class="n">Provider</span><span class="p">.</span><span class="n">V1</span><span class="p">.</span><span class="n">InviteResponse</span><span class="p">&gt;</span><span class="w"> </span><span class="n">InviteParticipantAsync</span><span class="p">(</span><span class="n">Trinsic</span><span class="p">.</span><span class="n">Services</span><span class="p">.</span><span class="n">Provider</span><span class="p">.</span><span class="n">V1</span><span class="p">.</span><span class="n">InviteRequest</span><span class="w"> </span><span class="n">request</span><span class="p">);</span><span class="w"></span>
+</code></pre></div></p>
+<h4 id="parameters_21">Parameters<a class="headerlink" href="#parameters_21" title="Permanent link">&para;</a></h4>
+<p><a name='Trinsic_ProviderService_InviteParticipantAsync(Trinsic_Services_Provider_V1_InviteRequest)_request'></a>
+<code>request</code> <a href="../Trinsic_Services_Provider_V1/#Trinsic_Services_Provider_V1_InviteRequest" title="Trinsic.Services.Provider.V1.InviteRequest">InviteRequest</a>  </p>
+<h4 id="returns_23">Returns<a class="headerlink" href="#returns_23" title="Permanent link">&para;</a></h4>
+<p><a href="https://docs.microsoft.com/en-us/dotnet/api/System.Threading.Tasks.Task-1" title="System.Threading.Tasks.Task1')[InviteResponse](Trinsic_Services_Provider_V1.md#Trinsic_Services_Provider_V1_InviteResponse 'Trinsic.Services.Provider.V1.InviteResponse')[&amp;gt;](https://docs.microsoft.com/en-us/dotnet/api/System.Threading.Tasks.Task-1 'System.Threading.Tasks.Task1">System.Threading.Tasks.Task&lt;</a>  </p>
+<p><a name='Trinsic_ServiceBase'></a></p>
+<h2 id="servicebase-class">ServiceBase Class<a class="headerlink" href="#servicebase-class" title="Permanent link">&para;</a></h2>
+<div class="highlight"><pre><span></span><code><span class="k">public</span><span class="w"> </span><span class="k">abstract</span><span class="w"> </span><span class="k">class</span><span class="w"> </span><span class="nc">ServiceBase</span><span class="w"></span>
+</code></pre></div>
+<p>Inheritance <a href="https://docs.microsoft.com/en-us/dotnet/api/System.Object" title="System.Object">System.Object</a> &#129106; ServiceBase  </p>
+<p>Derived<br />
+&#8627; <a href="./#Trinsic_AccountService" title="Trinsic.AccountService">AccountService</a><br />
+&#8627; <a href="./#Trinsic_CredentialsService" title="Trinsic.CredentialsService">CredentialsService</a><br />
+&#8627; <a href="./#Trinsic_ProviderService" title="Trinsic.ProviderService">ProviderService</a><br />
+&#8627; <a href="./#Trinsic_TemplateService" title="Trinsic.TemplateService">TemplateService</a><br />
+&#8627; <a href="./#Trinsic_TrustRegistryService" title="Trinsic.TrustRegistryService">TrustRegistryService</a><br />
+&#8627; <a href="./#Trinsic_WalletService" title="Trinsic.WalletService">WalletService</a>  </p>
+<h3 id="properties_1">Properties<a class="headerlink" href="#properties_1" title="Permanent link">&para;</a></h3>
+<p><a name='Trinsic_ServiceBase_Channel'></a></p>
+<h2 id="servicebasechannel-property">ServiceBase.Channel Property<a class="headerlink" href="#servicebasechannel-property" title="Permanent link">&para;</a></h2>
+<p>Gets the gRPC channel used by this service. This channel can be reused<br />
+by passing this instance to other service constructors.<br />
+<div class="highlight"><pre><span></span><code><span class="k">public</span><span class="w"> </span><span class="n">Grpc</span><span class="p">.</span><span class="n">Net</span><span class="p">.</span><span class="n">Client</span><span class="p">.</span><span class="n">GrpcChannel</span><span class="w"> </span><span class="n">Channel</span><span class="w"> </span><span class="p">{</span><span class="w"> </span><span class="k">get</span><span class="p">;</span><span class="w"> </span><span class="k">set</span><span class="p">;</span><span class="w"> </span><span class="p">}</span><span class="w"></span>
+</code></pre></div></p>
+<h4 id="property-value_1">Property Value<a class="headerlink" href="#property-value_1" title="Permanent link">&para;</a></h4>
+<p><a href="https://docs.microsoft.com/en-us/dotnet/api/Grpc.Net.Client.GrpcChannel" title="Grpc.Net.Client.GrpcChannel">Grpc.Net.Client.GrpcChannel</a></p>
+<h3 id="methods_4">Methods<a class="headerlink" href="#methods_4" title="Permanent link">&para;</a></h3>
+<p><a name='Trinsic_ServiceBase_BuildMetadata(Google_Protobuf_IMessage)'></a></p>
+<h2 id="servicebasebuildmetadataimessage-method">ServiceBase.BuildMetadata(IMessage) Method<a class="headerlink" href="#servicebasebuildmetadataimessage-method" title="Permanent link">&para;</a></h2>
+<p>Create call metadata by setting the required authentication headers<br />
+<div class="highlight"><pre><span></span><code><span class="k">protected</span><span class="w"> </span><span class="n">Grpc</span><span class="p">.</span><span class="n">Core</span><span class="p">.</span><span class="n">Metadata</span><span class="w"> </span><span class="n">BuildMetadata</span><span class="p">(</span><span class="n">Google</span><span class="p">.</span><span class="n">Protobuf</span><span class="p">.</span><span class="n">IMessage</span><span class="w"> </span><span class="n">request</span><span class="p">);</span><span class="w"></span>
+</code></pre></div></p>
+<h4 id="parameters_22">Parameters<a class="headerlink" href="#parameters_22" title="Permanent link">&para;</a></h4>
+<p><a name='Trinsic_ServiceBase_BuildMetadata(Google_Protobuf_IMessage)_request'></a>
+<code>request</code> <a href="https://docs.microsoft.com/en-us/dotnet/api/Google.Protobuf.IMessage" title="Google.Protobuf.IMessage">Google.Protobuf.IMessage</a>  </p>
+<h4 id="returns_24">Returns<a class="headerlink" href="#returns_24" title="Permanent link">&para;</a></h4>
+<p><a href="https://docs.microsoft.com/en-us/dotnet/api/Grpc.Core.Metadata" title="Grpc.Core.Metadata">Grpc.Core.Metadata</a>  </p>
+<p><a name='Trinsic_ServiceBase_BuildMetadataAsync(Google_Protobuf_IMessage)'></a></p>
+<h2 id="servicebasebuildmetadataasyncimessage-method">ServiceBase.BuildMetadataAsync(IMessage) Method<a class="headerlink" href="#servicebasebuildmetadataasyncimessage-method" title="Permanent link">&para;</a></h2>
+<p>Create call metadata by setting the required authentication headers<br />
+<div class="highlight"><pre><span></span><code><span class="k">protected</span><span class="w"> </span><span class="n">System</span><span class="p">.</span><span class="n">Threading</span><span class="p">.</span><span class="n">Tasks</span><span class="p">.</span><span class="n">Task</span><span class="p">&lt;</span><span class="n">Grpc</span><span class="p">.</span><span class="n">Core</span><span class="p">.</span><span class="n">Metadata</span><span class="p">&gt;</span><span class="w"> </span><span class="n">BuildMetadataAsync</span><span class="p">(</span><span class="n">Google</span><span class="p">.</span><span class="n">Protobuf</span><span class="p">.</span><span class="n">IMessage</span><span class="w"> </span><span class="n">request</span><span class="p">);</span><span class="w"></span>
+</code></pre></div></p>
+<h4 id="parameters_23">Parameters<a class="headerlink" href="#parameters_23" title="Permanent link">&para;</a></h4>
+<p><a name='Trinsic_ServiceBase_BuildMetadataAsync(Google_Protobuf_IMessage)_request'></a>
+<code>request</code> <a href="https://docs.microsoft.com/en-us/dotnet/api/Google.Protobuf.IMessage" title="Google.Protobuf.IMessage">Google.Protobuf.IMessage</a>  </p>
+<h4 id="returns_25">Returns<a class="headerlink" href="#returns_25" title="Permanent link">&para;</a></h4>
+<p><a href="https://docs.microsoft.com/en-us/dotnet/api/System.Threading.Tasks.Task-1" title="System.Threading.Tasks.Task1')[Grpc.Core.Metadata](https://docs.microsoft.com/en-us/dotnet/api/Grpc.Core.Metadata 'Grpc.Core.Metadata')[&amp;gt;](https://docs.microsoft.com/en-us/dotnet/api/System.Threading.Tasks.Task-1 'System.Threading.Tasks.Task1">System.Threading.Tasks.Task&lt;</a>  </p>
+<p><a name='Trinsic_TemplateService'></a></p>
+<h2 id="templateservice-class">TemplateService Class<a class="headerlink" href="#templateservice-class" title="Permanent link">&para;</a></h2>
+<p>Template Service for managing credential schemas<br />
+<div class="highlight"><pre><span></span><code><span class="k">public</span><span class="w"> </span><span class="k">class</span><span class="w"> </span><span class="nc">TemplateService</span><span class="w"> </span><span class="p">:</span><span class="w"> </span><span class="n">Trinsic</span><span class="p">.</span><span class="n">ServiceBase</span><span class="w"></span>
+</code></pre></div></p>
+<p>Inheritance <a href="https://docs.microsoft.com/en-us/dotnet/api/System.Object" title="System.Object">System.Object</a> &#129106; <a href="./#Trinsic_ServiceBase" title="Trinsic.ServiceBase">ServiceBase</a> &#129106; TemplateService  </p>
+<h3 id="methods_5">Methods<a class="headerlink" href="#methods_5" title="Permanent link">&para;</a></h3>
+<p><a name='Trinsic_TemplateService_CreateAsync(Trinsic_Services_VerifiableCredentials_Templates_V1_CreateCredentialTemplateRequest)'></a></p>
+<h2 id="templateservicecreateasynccreatecredentialtemplaterequest-method">TemplateService.CreateAsync(CreateCredentialTemplateRequest) Method<a class="headerlink" href="#templateservicecreateasynccreatecredentialtemplaterequest-method" title="Permanent link">&para;</a></h2>
+<p>Create new credential template with the given parameters<br />
+<div class="highlight"><pre><span></span><code><span class="k">public</span><span class="w"> </span><span class="n">System</span><span class="p">.</span><span class="n">Threading</span><span class="p">.</span><span class="n">Tasks</span><span class="p">.</span><span class="n">Task</span><span class="p">&lt;</span><span class="n">Trinsic</span><span class="p">.</span><span class="n">Services</span><span class="p">.</span><span class="n">VerifiableCredentials</span><span class="p">.</span><span class="n">Templates</span><span class="p">.</span><span class="n">V1</span><span class="p">.</span><span class="n">CreateCredentialTemplateResponse</span><span class="p">&gt;</span><span class="w"> </span><span class="n">CreateAsync</span><span class="p">(</span><span class="n">Trinsic</span><span class="p">.</span><span class="n">Services</span><span class="p">.</span><span class="n">VerifiableCredentials</span><span class="p">.</span><span class="n">Templates</span><span class="p">.</span><span class="n">V1</span><span class="p">.</span><span class="n">CreateCredentialTemplateRequest</span><span class="w"> </span><span class="n">request</span><span class="p">);</span><span class="w"></span>
+</code></pre></div></p>
+<h4 id="parameters_24">Parameters<a class="headerlink" href="#parameters_24" title="Permanent link">&para;</a></h4>
+<p><a name='Trinsic_TemplateService_CreateAsync(Trinsic_Services_VerifiableCredentials_Templates_V1_CreateCredentialTemplateRequest)_request'></a>
+<code>request</code> <a href="../Trinsic_Services_VerifiableCredentials_Templates_V1/#Trinsic_Services_VerifiableCredentials_Templates_V1_CreateCredentialTemplateRequest" title="Trinsic.Services.VerifiableCredentials.Templates.V1.CreateCredentialTemplateRequest">CreateCredentialTemplateRequest</a>  </p>
+<h4 id="returns_26">Returns<a class="headerlink" href="#returns_26" title="Permanent link">&para;</a></h4>
+<p><a href="https://docs.microsoft.com/en-us/dotnet/api/System.Threading.Tasks.Task-1" title="System.Threading.Tasks.Task1')[CreateCredentialTemplateResponse](Trinsic_Services_VerifiableCredentials_Templates_V1.md#Trinsic_Services_VerifiableCredentials_Templates_V1_CreateCredentialTemplateResponse 'Trinsic.Services.VerifiableCredentials.Templates.V1.CreateCredentialTemplateResponse')[&amp;gt;](https://docs.microsoft.com/en-us/dotnet/api/System.Threading.Tasks.Task-1 'System.Threading.Tasks.Task1">System.Threading.Tasks.Task&lt;</a>  </p>
+<p><a name='Trinsic_TemplateService_GetAsync(Trinsic_Services_VerifiableCredentials_Templates_V1_GetCredentialTemplateRequest)'></a></p>
+<h2 id="templateservicegetasyncgetcredentialtemplaterequest-method">TemplateService.GetAsync(GetCredentialTemplateRequest) Method<a class="headerlink" href="#templateservicegetasyncgetcredentialtemplaterequest-method" title="Permanent link">&para;</a></h2>
+<p>Returns the template object for the given identifier<br />
+<div class="highlight"><pre><span></span><code><span class="k">public</span><span class="w"> </span><span class="n">System</span><span class="p">.</span><span class="n">Threading</span><span class="p">.</span><span class="n">Tasks</span><span class="p">.</span><span class="n">Task</span><span class="p">&lt;</span><span class="n">Trinsic</span><span class="p">.</span><span class="n">Services</span><span class="p">.</span><span class="n">VerifiableCredentials</span><span class="p">.</span><span class="n">Templates</span><span class="p">.</span><span class="n">V1</span><span class="p">.</span><span class="n">GetCredentialTemplateResponse</span><span class="p">&gt;</span><span class="w"> </span><span class="n">GetAsync</span><span class="p">(</span><span class="n">Trinsic</span><span class="p">.</span><span class="n">Services</span><span class="p">.</span><span class="n">VerifiableCredentials</span><span class="p">.</span><span class="n">Templates</span><span class="p">.</span><span class="n">V1</span><span class="p">.</span><span class="n">GetCredentialTemplateRequest</span><span class="w"> </span><span class="n">request</span><span class="p">);</span><span class="w"></span>
+</code></pre></div></p>
+<h4 id="parameters_25">Parameters<a class="headerlink" href="#parameters_25" title="Permanent link">&para;</a></h4>
+<p><a name='Trinsic_TemplateService_GetAsync(Trinsic_Services_VerifiableCredentials_Templates_V1_GetCredentialTemplateRequest)_request'></a>
+<code>request</code> <a href="../Trinsic_Services_VerifiableCredentials_Templates_V1/#Trinsic_Services_VerifiableCredentials_Templates_V1_GetCredentialTemplateRequest" title="Trinsic.Services.VerifiableCredentials.Templates.V1.GetCredentialTemplateRequest">GetCredentialTemplateRequest</a><br />
+The request object</p>
+<h4 id="returns_27">Returns<a class="headerlink" href="#returns_27" title="Permanent link">&para;</a></h4>
+<p><a href="https://docs.microsoft.com/en-us/dotnet/api/System.Threading.Tasks.Task-1" title="System.Threading.Tasks.Task1')[GetCredentialTemplateResponse](Trinsic_Services_VerifiableCredentials_Templates_V1.md#Trinsic_Services_VerifiableCredentials_Templates_V1_GetCredentialTemplateResponse 'Trinsic.Services.VerifiableCredentials.Templates.V1.GetCredentialTemplateResponse')[&amp;gt;](https://docs.microsoft.com/en-us/dotnet/api/System.Threading.Tasks.Task-1 'System.Threading.Tasks.Task1">System.Threading.Tasks.Task&lt;</a>  </p>
+<p><a name='Trinsic_TemplateService_ListAsync(Trinsic_Services_VerifiableCredentials_Templates_V1_ListCredentialTemplatesRequest)'></a></p>
+<h2 id="templateservicelistasynclistcredentialtemplatesrequest-method">TemplateService.ListAsync(ListCredentialTemplatesRequest) Method<a class="headerlink" href="#templateservicelistasynclistcredentialtemplatesrequest-method" title="Permanent link">&para;</a></h2>
+<p>List the available templates for the given ecosystem.<br />
+Results can be customized using a SQL query.<br />
+<div class="highlight"><pre><span></span><code><span class="k">public</span><span class="w"> </span><span class="n">System</span><span class="p">.</span><span class="n">Threading</span><span class="p">.</span><span class="n">Tasks</span><span class="p">.</span><span class="n">Task</span><span class="p">&lt;</span><span class="n">Trinsic</span><span class="p">.</span><span class="n">Services</span><span class="p">.</span><span class="n">VerifiableCredentials</span><span class="p">.</span><span class="n">Templates</span><span class="p">.</span><span class="n">V1</span><span class="p">.</span><span class="n">ListCredentialTemplatesResponse</span><span class="p">&gt;</span><span class="w"> </span><span class="n">ListAsync</span><span class="p">(</span><span class="n">Trinsic</span><span class="p">.</span><span class="n">Services</span><span class="p">.</span><span class="n">VerifiableCredentials</span><span class="p">.</span><span class="n">Templates</span><span class="p">.</span><span class="n">V1</span><span class="p">.</span><span class="n">ListCredentialTemplatesRequest</span><span class="w"> </span><span class="n">request</span><span class="p">);</span><span class="w"></span>
+</code></pre></div></p>
+<h4 id="parameters_26">Parameters<a class="headerlink" href="#parameters_26" title="Permanent link">&para;</a></h4>
+<p><a name='Trinsic_TemplateService_ListAsync(Trinsic_Services_VerifiableCredentials_Templates_V1_ListCredentialTemplatesRequest)_request'></a>
+<code>request</code> <a href="../Trinsic_Services_VerifiableCredentials_Templates_V1/#Trinsic_Services_VerifiableCredentials_Templates_V1_ListCredentialTemplatesRequest" title="Trinsic.Services.VerifiableCredentials.Templates.V1.ListCredentialTemplatesRequest">ListCredentialTemplatesRequest</a><br />
+The request object</p>
+<h4 id="returns_28">Returns<a class="headerlink" href="#returns_28" title="Permanent link">&para;</a></h4>
+<p><a href="https://docs.microsoft.com/en-us/dotnet/api/System.Threading.Tasks.Task-1" title="System.Threading.Tasks.Task1')[ListCredentialTemplatesResponse](Trinsic_Services_VerifiableCredentials_Templates_V1.md#Trinsic_Services_VerifiableCredentials_Templates_V1_ListCredentialTemplatesResponse 'Trinsic.Services.VerifiableCredentials.Templates.V1.ListCredentialTemplatesResponse')[&amp;gt;](https://docs.microsoft.com/en-us/dotnet/api/System.Threading.Tasks.Task-1 'System.Threading.Tasks.Task1">System.Threading.Tasks.Task&lt;</a><br />
+The search response and continuation token, if available  </p>
+<h3 id="remarks">Remarks<a class="headerlink" href="#remarks" title="Permanent link">&para;</a></h3>
+<p>This endpoint returns strongly typed result set. If your query uses projections,<br />
+use the <a href="./#Trinsic_TemplateService_SearchAsync(Trinsic_Services_VerifiableCredentials_Templates_V1_SearchCredentialTemplatesRequest)" title="Trinsic.TemplateService.SearchAsync(Trinsic.Services.VerifiableCredentials.Templates.V1.SearchCredentialTemplatesRequest)">SearchAsync(SearchCredentialTemplatesRequest)</a> method instead and parse the result JSON as needed.  </p>
+<p><a name='Trinsic_TemplateService_SearchAsync(Trinsic_Services_VerifiableCredentials_Templates_V1_SearchCredentialTemplatesRequest)'></a></p>
+<h2 id="templateservicesearchasyncsearchcredentialtemplatesrequest-method">TemplateService.SearchAsync(SearchCredentialTemplatesRequest) Method<a class="headerlink" href="#templateservicesearchasyncsearchcredentialtemplatesrequest-method" title="Permanent link">&para;</a></h2>
+<p>Search the registry for any data in the given ecosystem.<br />
+Results can be customized using a SQL query.<br />
+<div class="highlight"><pre><span></span><code><span class="k">public</span><span class="w"> </span><span class="n">System</span><span class="p">.</span><span class="n">Threading</span><span class="p">.</span><span class="n">Tasks</span><span class="p">.</span><span class="n">Task</span><span class="p">&lt;</span><span class="n">Trinsic</span><span class="p">.</span><span class="n">Services</span><span class="p">.</span><span class="n">VerifiableCredentials</span><span class="p">.</span><span class="n">Templates</span><span class="p">.</span><span class="n">V1</span><span class="p">.</span><span class="n">SearchCredentialTemplatesResponse</span><span class="p">&gt;</span><span class="w"> </span><span class="n">SearchAsync</span><span class="p">(</span><span class="n">Trinsic</span><span class="p">.</span><span class="n">Services</span><span class="p">.</span><span class="n">VerifiableCredentials</span><span class="p">.</span><span class="n">Templates</span><span class="p">.</span><span class="n">V1</span><span class="p">.</span><span class="n">SearchCredentialTemplatesRequest</span><span class="w"> </span><span class="n">request</span><span class="p">);</span><span class="w"></span>
+</code></pre></div></p>
+<h4 id="parameters_27">Parameters<a class="headerlink" href="#parameters_27" title="Permanent link">&para;</a></h4>
+<p><a name='Trinsic_TemplateService_SearchAsync(Trinsic_Services_VerifiableCredentials_Templates_V1_SearchCredentialTemplatesRequest)_request'></a>
+<code>request</code> <a href="../Trinsic_Services_VerifiableCredentials_Templates_V1/#Trinsic_Services_VerifiableCredentials_Templates_V1_SearchCredentialTemplatesRequest" title="Trinsic.Services.VerifiableCredentials.Templates.V1.SearchCredentialTemplatesRequest">SearchCredentialTemplatesRequest</a><br />
+The request object</p>
+<h4 id="returns_29">Returns<a class="headerlink" href="#returns_29" title="Permanent link">&para;</a></h4>
+<p><a href="https://docs.microsoft.com/en-us/dotnet/api/System.Threading.Tasks.Task-1" title="System.Threading.Tasks.Task1')[SearchCredentialTemplatesResponse](Trinsic_Services_VerifiableCredentials_Templates_V1.md#Trinsic_Services_VerifiableCredentials_Templates_V1_SearchCredentialTemplatesResponse 'Trinsic.Services.VerifiableCredentials.Templates.V1.SearchCredentialTemplatesResponse')[&amp;gt;](https://docs.microsoft.com/en-us/dotnet/api/System.Threading.Tasks.Task-1 'System.Threading.Tasks.Task1">System.Threading.Tasks.Task&lt;</a><br />
+The search response and continuation token, if available  </p>
+<h3 id="remarks_1">Remarks<a class="headerlink" href="#remarks_1" title="Permanent link">&para;</a></h3>
+<p>This endpoint returns raw JSON results where the format can be customized using<br />
+SELECT SQL projections and object composition.  </p>
+<p><a name='Trinsic_TrustRegistryService'></a></p>
+<h2 id="trustregistryservice-class">TrustRegistryService Class<a class="headerlink" href="#trustregistryservice-class" title="Permanent link">&para;</a></h2>
+<div class="highlight"><pre><span></span><code><span class="k">public</span><span class="w"> </span><span class="k">class</span><span class="w"> </span><span class="nc">TrustRegistryService</span><span class="w"> </span><span class="p">:</span><span class="w"> </span><span class="n">Trinsic</span><span class="p">.</span><span class="n">ServiceBase</span><span class="w"></span>
+</code></pre></div>
+<p>Inheritance <a href="https://docs.microsoft.com/en-us/dotnet/api/System.Object" title="System.Object">System.Object</a> &#129106; <a href="./#Trinsic_ServiceBase" title="Trinsic.ServiceBase">ServiceBase</a> &#129106; TrustRegistryService  </p>
+<h3 id="methods_6">Methods<a class="headerlink" href="#methods_6" title="Permanent link">&para;</a></h3>
+<p><a name='Trinsic_TrustRegistryService_CheckIssuerStatusAsync(Trinsic_Services_TrustRegistry_V1_CheckIssuerStatusRequest)'></a></p>
+<h2 id="trustregistryservicecheckissuerstatusasynccheckissuerstatusrequest-method">TrustRegistryService.CheckIssuerStatusAsync(CheckIssuerStatusRequest) Method<a class="headerlink" href="#trustregistryservicecheckissuerstatusasynccheckissuerstatusrequest-method" title="Permanent link">&para;</a></h2>
+<p>Checks the status of the issuer for a given credential type in the given governance framework<br />
+<div class="highlight"><pre><span></span><code><span class="k">public</span><span class="w"> </span><span class="n">System</span><span class="p">.</span><span class="n">Threading</span><span class="p">.</span><span class="n">Tasks</span><span class="p">.</span><span class="n">Task</span><span class="p">&lt;</span><span class="n">Trinsic</span><span class="p">.</span><span class="n">Services</span><span class="p">.</span><span class="n">TrustRegistry</span><span class="p">.</span><span class="n">V1</span><span class="p">.</span><span class="n">RegistrationStatus</span><span class="p">&gt;</span><span class="w"> </span><span class="n">CheckIssuerStatusAsync</span><span class="p">(</span><span class="n">Trinsic</span><span class="p">.</span><span class="n">Services</span><span class="p">.</span><span class="n">TrustRegistry</span><span class="p">.</span><span class="n">V1</span><span class="p">.</span><span class="n">CheckIssuerStatusRequest</span><span class="w"> </span><span class="n">request</span><span class="p">);</span><span class="w"></span>
+</code></pre></div></p>
+<h4 id="parameters_28">Parameters<a class="headerlink" href="#parameters_28" title="Permanent link">&para;</a></h4>
+<p><a name='Trinsic_TrustRegistryService_CheckIssuerStatusAsync(Trinsic_Services_TrustRegistry_V1_CheckIssuerStatusRequest)_request'></a>
+<code>request</code> <a href="../Trinsic_Services_TrustRegistry_V1/#Trinsic_Services_TrustRegistry_V1_CheckIssuerStatusRequest" title="Trinsic.Services.TrustRegistry.V1.CheckIssuerStatusRequest">CheckIssuerStatusRequest</a><br />
+The request object</p>
+<h4 id="returns_30">Returns<a class="headerlink" href="#returns_30" title="Permanent link">&para;</a></h4>
+<p><a href="https://docs.microsoft.com/en-us/dotnet/api/System.Threading.Tasks.Task-1" title="System.Threading.Tasks.Task1')[RegistrationStatus](Trinsic_Services_TrustRegistry_V1.md#Trinsic_Services_TrustRegistry_V1_RegistrationStatus 'Trinsic.Services.TrustRegistry.V1.RegistrationStatus')[&amp;gt;](https://docs.microsoft.com/en-us/dotnet/api/System.Threading.Tasks.Task-1 'System.Threading.Tasks.Task1">System.Threading.Tasks.Task&lt;</a>  </p>
+<p><a name='Trinsic_TrustRegistryService_CheckVerifierStatusAsync(Trinsic_Services_TrustRegistry_V1_CheckVerifierStatusRequest)'></a></p>
+<h2 id="trustregistryservicecheckverifierstatusasynccheckverifierstatusrequest-method">TrustRegistryService.CheckVerifierStatusAsync(CheckVerifierStatusRequest) Method<a class="headerlink" href="#trustregistryservicecheckverifierstatusasynccheckverifierstatusrequest-method" title="Permanent link">&para;</a></h2>
+<p>Checks the status of the verifier for a given presentation type in the given governance framework<br />
+<div class="highlight"><pre><span></span><code><span class="k">public</span><span class="w"> </span><span class="n">System</span><span class="p">.</span><span class="n">Threading</span><span class="p">.</span><span class="n">Tasks</span><span class="p">.</span><span class="n">Task</span><span class="p">&lt;</span><span class="n">Trinsic</span><span class="p">.</span><span class="n">Services</span><span class="p">.</span><span class="n">TrustRegistry</span><span class="p">.</span><span class="n">V1</span><span class="p">.</span><span class="n">RegistrationStatus</span><span class="p">&gt;</span><span class="w"> </span><span class="n">CheckVerifierStatusAsync</span><span class="p">(</span><span class="n">Trinsic</span><span class="p">.</span><span class="n">Services</span><span class="p">.</span><span class="n">TrustRegistry</span><span class="p">.</span><span class="n">V1</span><span class="p">.</span><span class="n">CheckVerifierStatusRequest</span><span class="w"> </span><span class="n">request</span><span class="p">);</span><span class="w"></span>
+</code></pre></div></p>
+<h4 id="parameters_29">Parameters<a class="headerlink" href="#parameters_29" title="Permanent link">&para;</a></h4>
+<p><a name='Trinsic_TrustRegistryService_CheckVerifierStatusAsync(Trinsic_Services_TrustRegistry_V1_CheckVerifierStatusRequest)_request'></a>
+<code>request</code> <a href="../Trinsic_Services_TrustRegistry_V1/#Trinsic_Services_TrustRegistry_V1_CheckVerifierStatusRequest" title="Trinsic.Services.TrustRegistry.V1.CheckVerifierStatusRequest">CheckVerifierStatusRequest</a><br />
+The request object</p>
+<h4 id="returns_31">Returns<a class="headerlink" href="#returns_31" title="Permanent link">&para;</a></h4>
+<p><a href="https://docs.microsoft.com/en-us/dotnet/api/System.Threading.Tasks.Task-1" title="System.Threading.Tasks.Task1')[RegistrationStatus](Trinsic_Services_TrustRegistry_V1.md#Trinsic_Services_TrustRegistry_V1_RegistrationStatus 'Trinsic.Services.TrustRegistry.V1.RegistrationStatus')[&amp;gt;](https://docs.microsoft.com/en-us/dotnet/api/System.Threading.Tasks.Task-1 'System.Threading.Tasks.Task1">System.Threading.Tasks.Task&lt;</a><br />
+The status of the registration</p>
+<p><a name='Trinsic_TrustRegistryService_RegisterGovernanceFrameworkAsync(string_string)'></a></p>
+<h2 id="trustregistryserviceregistergovernanceframeworkasyncstring-string-method">TrustRegistryService.RegisterGovernanceFrameworkAsync(string, string) Method<a class="headerlink" href="#trustregistryserviceregistergovernanceframeworkasyncstring-string-method" title="Permanent link">&para;</a></h2>
+<p>Register a Governance Framework with the Trust Registry.<br />
+<div class="highlight"><pre><span></span><code><span class="k">public</span><span class="w"> </span><span class="n">System</span><span class="p">.</span><span class="n">Threading</span><span class="p">.</span><span class="n">Tasks</span><span class="p">.</span><span class="n">Task</span><span class="w"> </span><span class="n">RegisterGovernanceFrameworkAsync</span><span class="p">(</span><span class="kt">string</span><span class="w"> </span><span class="n">governanceFramework</span><span class="p">,</span><span class="w"> </span><span class="kt">string</span><span class="w"> </span><span class="n">description</span><span class="p">);</span><span class="w"></span>
+</code></pre></div></p>
+<h4 id="parameters_30">Parameters<a class="headerlink" href="#parameters_30" title="Permanent link">&para;</a></h4>
+<p><a name='Trinsic_TrustRegistryService_RegisterGovernanceFrameworkAsync(string_string)_governanceFramework'></a>
+<code>governanceFramework</code> <a href="https://docs.microsoft.com/en-us/dotnet/api/System.String" title="System.String">System.String</a><br />
+The governance framework URI</p>
+<p><a name='Trinsic_TrustRegistryService_RegisterGovernanceFrameworkAsync(string_string)_description'></a>
+<code>description</code> <a href="https://docs.microsoft.com/en-us/dotnet/api/System.String" title="System.String">System.String</a><br />
+The framework description</p>
+<h4 id="returns_32">Returns<a class="headerlink" href="#returns_32" title="Permanent link">&para;</a></h4>
+<p><a href="https://docs.microsoft.com/en-us/dotnet/api/System.Threading.Tasks.Task" title="System.Threading.Tasks.Task">System.Threading.Tasks.Task</a>  </p>
+<h3 id="remarks_2">Remarks<a class="headerlink" href="#remarks_2" title="Permanent link">&para;</a></h3>
+<p>Calling this multiple times with the same URI will update the previously registered framework.  </p>
+<p><a name='Trinsic_TrustRegistryService_RegisterIssuerAsync(Trinsic_Services_TrustRegistry_V1_RegisterIssuerRequest)'></a></p>
+<h2 id="trustregistryserviceregisterissuerasyncregisterissuerrequest-method">TrustRegistryService.RegisterIssuerAsync(RegisterIssuerRequest) Method<a class="headerlink" href="#trustregistryserviceregisterissuerasyncregisterissuerrequest-method" title="Permanent link">&para;</a></h2>
+<p>Register a DID as authoritative issuer with the configured governance framework.<br />
+<div class="highlight"><pre><span></span><code><span class="k">public</span><span class="w"> </span><span class="n">System</span><span class="p">.</span><span class="n">Threading</span><span class="p">.</span><span class="n">Tasks</span><span class="p">.</span><span class="n">Task</span><span class="w"> </span><span class="n">RegisterIssuerAsync</span><span class="p">(</span><span class="n">Trinsic</span><span class="p">.</span><span class="n">Services</span><span class="p">.</span><span class="n">TrustRegistry</span><span class="p">.</span><span class="n">V1</span><span class="p">.</span><span class="n">RegisterIssuerRequest</span><span class="w"> </span><span class="n">request</span><span class="p">);</span><span class="w"></span>
+</code></pre></div></p>
+<h4 id="parameters_31">Parameters<a class="headerlink" href="#parameters_31" title="Permanent link">&para;</a></h4>
+<p><a name='Trinsic_TrustRegistryService_RegisterIssuerAsync(Trinsic_Services_TrustRegistry_V1_RegisterIssuerRequest)_request'></a>
+<code>request</code> <a href="../Trinsic_Services_TrustRegistry_V1/#Trinsic_Services_TrustRegistry_V1_RegisterIssuerRequest" title="Trinsic.Services.TrustRegistry.V1.RegisterIssuerRequest">RegisterIssuerRequest</a><br />
+The request object</p>
+<h4 id="returns_33">Returns<a class="headerlink" href="#returns_33" title="Permanent link">&para;</a></h4>
+<p><a href="https://docs.microsoft.com/en-us/dotnet/api/System.Threading.Tasks.Task" title="System.Threading.Tasks.Task">System.Threading.Tasks.Task</a>  </p>
+<p><a name='Trinsic_TrustRegistryService_RegisterVerifierAsync(Trinsic_Services_TrustRegistry_V1_RegisterVerifierRequest)'></a></p>
+<h2 id="trustregistryserviceregisterverifierasyncregisterverifierrequest-method">TrustRegistryService.RegisterVerifierAsync(RegisterVerifierRequest) Method<a class="headerlink" href="#trustregistryserviceregisterverifierasyncregisterverifierrequest-method" title="Permanent link">&para;</a></h2>
+<p>Register a DID as authoritative verifier with the configured governance framework.<br />
+<div class="highlight"><pre><span></span><code><span class="k">public</span><span class="w"> </span><span class="n">System</span><span class="p">.</span><span class="n">Threading</span><span class="p">.</span><span class="n">Tasks</span><span class="p">.</span><span class="n">Task</span><span class="w"> </span><span class="n">RegisterVerifierAsync</span><span class="p">(</span><span class="n">Trinsic</span><span class="p">.</span><span class="n">Services</span><span class="p">.</span><span class="n">TrustRegistry</span><span class="p">.</span><span class="n">V1</span><span class="p">.</span><span class="n">RegisterVerifierRequest</span><span class="w"> </span><span class="n">request</span><span class="p">);</span><span class="w"></span>
+</code></pre></div></p>
+<h4 id="parameters_32">Parameters<a class="headerlink" href="#parameters_32" title="Permanent link">&para;</a></h4>
+<p><a name='Trinsic_TrustRegistryService_RegisterVerifierAsync(Trinsic_Services_TrustRegistry_V1_RegisterVerifierRequest)_request'></a>
+<code>request</code> <a href="../Trinsic_Services_TrustRegistry_V1/#Trinsic_Services_TrustRegistry_V1_RegisterVerifierRequest" title="Trinsic.Services.TrustRegistry.V1.RegisterVerifierRequest">RegisterVerifierRequest</a><br />
+The request object</p>
+<h4 id="returns_34">Returns<a class="headerlink" href="#returns_34" title="Permanent link">&para;</a></h4>
+<p><a href="https://docs.microsoft.com/en-us/dotnet/api/System.Threading.Tasks.Task" title="System.Threading.Tasks.Task">System.Threading.Tasks.Task</a>  </p>
+<p><a name='Trinsic_TrustRegistryService_SearchRegistryAsync(string_string_)'></a></p>
+<h2 id="trustregistryservicesearchregistryasyncstring-string-method">TrustRegistryService.SearchRegistryAsync(string, string?) Method<a class="headerlink" href="#trustregistryservicesearchregistryasyncstring-string-method" title="Permanent link">&para;</a></h2>
+<p>Search the trust registry<br />
+<div class="highlight"><pre><span></span><code><span class="k">public</span><span class="w"> </span><span class="n">System</span><span class="p">.</span><span class="n">Threading</span><span class="p">.</span><span class="n">Tasks</span><span class="p">.</span><span class="n">Task</span><span class="p">&lt;</span><span class="n">Trinsic</span><span class="p">.</span><span class="n">Services</span><span class="p">.</span><span class="n">TrustRegistry</span><span class="p">.</span><span class="n">V1</span><span class="p">.</span><span class="n">SearchRegistryResponse</span><span class="p">&gt;</span><span class="w"> </span><span class="n">SearchRegistryAsync</span><span class="p">(</span><span class="kt">string</span><span class="w"> </span><span class="n">query</span><span class="p">=</span><span class="s">&quot;SELECT * FROM c&quot;</span><span class="p">,</span><span class="w"> </span><span class="kt">string?</span><span class="w"> </span><span class="n">continuationToken</span><span class="p">=</span><span class="k">null</span><span class="p">);</span><span class="w"></span>
+</code></pre></div></p>
+<h4 id="parameters_33">Parameters<a class="headerlink" href="#parameters_33" title="Permanent link">&para;</a></h4>
+<p><a name='Trinsic_TrustRegistryService_SearchRegistryAsync(string_string_)_query'></a>
+<code>query</code> <a href="https://docs.microsoft.com/en-us/dotnet/api/System.String" title="System.String">System.String</a>  </p>
+<p><a name='Trinsic_TrustRegistryService_SearchRegistryAsync(string_string_)_continuationToken'></a>
+<code>continuationToken</code> <a href="https://docs.microsoft.com/en-us/dotnet/api/System.String" title="System.String">System.String</a><br />
+continuation token from a previous search</p>
+<h4 id="returns_35">Returns<a class="headerlink" href="#returns_35" title="Permanent link">&para;</a></h4>
+<p><a href="https://docs.microsoft.com/en-us/dotnet/api/System.Threading.Tasks.Task-1" title="System.Threading.Tasks.Task1')[SearchRegistryResponse](Trinsic_Services_TrustRegistry_V1.md#Trinsic_Services_TrustRegistry_V1_SearchRegistryResponse 'Trinsic.Services.TrustRegistry.V1.SearchRegistryResponse')[&amp;gt;](https://docs.microsoft.com/en-us/dotnet/api/System.Threading.Tasks.Task-1 'System.Threading.Tasks.Task1">System.Threading.Tasks.Task&lt;</a>  </p>
+<p><a name='Trinsic_WalletService'></a></p>
+<h2 id="walletservice-class">WalletService Class<a class="headerlink" href="#walletservice-class" title="Permanent link">&para;</a></h2>
+<div class="highlight"><pre><span></span><code><span class="k">public</span><span class="w"> </span><span class="k">class</span><span class="w"> </span><span class="nc">WalletService</span><span class="w"> </span><span class="p">:</span><span class="w"> </span><span class="n">Trinsic</span><span class="p">.</span><span class="n">ServiceBase</span><span class="w"></span>
+</code></pre></div>
+<p>Inheritance <a href="https://docs.microsoft.com/en-us/dotnet/api/System.Object" title="System.Object">System.Object</a> &#129106; <a href="./#Trinsic_ServiceBase" title="Trinsic.ServiceBase">ServiceBase</a> &#129106; WalletService  </p>
+<h3 id="methods_7">Methods<a class="headerlink" href="#methods_7" title="Permanent link">&para;</a></h3>
+<p><a name='Trinsic_WalletService_InsertItem(Trinsic_Services_UniversalWallet_V1_InsertItemRequest)'></a></p>
+<h2 id="walletserviceinsertiteminsertitemrequest-method">WalletService.InsertItem(InsertItemRequest) Method<a class="headerlink" href="#walletserviceinsertiteminsertitemrequest-method" title="Permanent link">&para;</a></h2>
+<p>Insert an item into the personal wallet<br />
+<div class="highlight"><pre><span></span><code><span class="k">public</span><span class="w"> </span><span class="kt">string</span><span class="w"> </span><span class="nf">InsertItem</span><span class="p">(</span><span class="n">Trinsic</span><span class="p">.</span><span class="n">Services</span><span class="p">.</span><span class="n">UniversalWallet</span><span class="p">.</span><span class="n">V1</span><span class="p">.</span><span class="n">InsertItemRequest</span><span class="w"> </span><span class="n">request</span><span class="p">);</span><span class="w"></span>
+</code></pre></div></p>
+<h4 id="parameters_34">Parameters<a class="headerlink" href="#parameters_34" title="Permanent link">&para;</a></h4>
+<p><a name='Trinsic_WalletService_InsertItem(Trinsic_Services_UniversalWallet_V1_InsertItemRequest)_request'></a>
+<code>request</code> <a href="../Trinsic_Services_UniversalWallet_V1/#Trinsic_Services_UniversalWallet_V1_InsertItemRequest" title="Trinsic.Services.UniversalWallet.V1.InsertItemRequest">InsertItemRequest</a>  </p>
+<h4 id="returns_36">Returns<a class="headerlink" href="#returns_36" title="Permanent link">&para;</a></h4>
+<p><a href="https://docs.microsoft.com/en-us/dotnet/api/System.String" title="System.String">System.String</a>  </p>
+<p><a name='Trinsic_WalletService_InsertItemAsync(Trinsic_Services_UniversalWallet_V1_InsertItemRequest)'></a></p>
+<h2 id="walletserviceinsertitemasyncinsertitemrequest-method">WalletService.InsertItemAsync(InsertItemRequest) Method<a class="headerlink" href="#walletserviceinsertitemasyncinsertitemrequest-method" title="Permanent link">&para;</a></h2>
+<p>Insert an item into the personal wallet<br />
+<div class="highlight"><pre><span></span><code><span class="k">public</span><span class="w"> </span><span class="n">System</span><span class="p">.</span><span class="n">Threading</span><span class="p">.</span><span class="n">Tasks</span><span class="p">.</span><span class="n">Task</span><span class="p">&lt;</span><span class="kt">string</span><span class="p">&gt;</span><span class="w"> </span><span class="n">InsertItemAsync</span><span class="p">(</span><span class="n">Trinsic</span><span class="p">.</span><span class="n">Services</span><span class="p">.</span><span class="n">UniversalWallet</span><span class="p">.</span><span class="n">V1</span><span class="p">.</span><span class="n">InsertItemRequest</span><span class="w"> </span><span class="n">request</span><span class="p">);</span><span class="w"></span>
+</code></pre></div></p>
+<h4 id="parameters_35">Parameters<a class="headerlink" href="#parameters_35" title="Permanent link">&para;</a></h4>
+<p><a name='Trinsic_WalletService_InsertItemAsync(Trinsic_Services_UniversalWallet_V1_InsertItemRequest)_request'></a>
+<code>request</code> <a href="../Trinsic_Services_UniversalWallet_V1/#Trinsic_Services_UniversalWallet_V1_InsertItemRequest" title="Trinsic.Services.UniversalWallet.V1.InsertItemRequest">InsertItemRequest</a>  </p>
+<h4 id="returns_37">Returns<a class="headerlink" href="#returns_37" title="Permanent link">&para;</a></h4>
+<p><a href="https://docs.microsoft.com/en-us/dotnet/api/System.Threading.Tasks.Task-1" title="System.Threading.Tasks.Task1')[System.String](https://docs.microsoft.com/en-us/dotnet/api/System.String 'System.String')[&amp;gt;](https://docs.microsoft.com/en-us/dotnet/api/System.Threading.Tasks.Task-1 'System.Threading.Tasks.Task1">System.Threading.Tasks.Task&lt;</a>  </p>
+<p><a name='Trinsic_WalletService_Search(string)'></a></p>
+<h2 id="walletservicesearchstring-method">WalletService.Search(string) Method<a class="headerlink" href="#walletservicesearchstring-method" title="Permanent link">&para;</a></h2>
+<p>Search the wallet for records matching the specified criteria<br />
+<div class="highlight"><pre><span></span><code><span class="k">public</span><span class="w"> </span><span class="n">Trinsic</span><span class="p">.</span><span class="n">Services</span><span class="p">.</span><span class="n">UniversalWallet</span><span class="p">.</span><span class="n">V1</span><span class="p">.</span><span class="n">SearchResponse</span><span class="w"> </span><span class="n">Search</span><span class="p">(</span><span class="kt">string</span><span class="w"> </span><span class="n">query</span><span class="p">=</span><span class="s">&quot;SELECT * FROM c&quot;</span><span class="p">);</span><span class="w"></span>
+</code></pre></div></p>
+<h4 id="parameters_36">Parameters<a class="headerlink" href="#parameters_36" title="Permanent link">&para;</a></h4>
+<p><a name='Trinsic_WalletService_Search(string)_query'></a>
+<code>query</code> <a href="https://docs.microsoft.com/en-us/dotnet/api/System.String" title="System.String">System.String</a><br />
+The SQL query</p>
+<h4 id="returns_38">Returns<a class="headerlink" href="#returns_38" title="Permanent link">&para;</a></h4>
+<p><a href="../Trinsic_Services_UniversalWallet_V1/#Trinsic_Services_UniversalWallet_V1_SearchResponse" title="Trinsic.Services.UniversalWallet.V1.SearchResponse">SearchResponse</a>  </p>
+<h3 id="remarks_3">Remarks<a class="headerlink" href="#remarks_3" title="Permanent link">&para;</a></h3>
+<p>See https://docs.microsoft.com/en-us/azure/cosmos-db/sql-query-select  </p>
+<p><a name='Trinsic_WalletService_SearchAsync(string)'></a></p>
+<h2 id="walletservicesearchasyncstring-method">WalletService.SearchAsync(string) Method<a class="headerlink" href="#walletservicesearchasyncstring-method" title="Permanent link">&para;</a></h2>
+<p>Search the wallet for records matching the specified criteria<br />
+<div class="highlight"><pre><span></span><code><span class="k">public</span><span class="w"> </span><span class="n">System</span><span class="p">.</span><span class="n">Threading</span><span class="p">.</span><span class="n">Tasks</span><span class="p">.</span><span class="n">Task</span><span class="p">&lt;</span><span class="n">Trinsic</span><span class="p">.</span><span class="n">Services</span><span class="p">.</span><span class="n">UniversalWallet</span><span class="p">.</span><span class="n">V1</span><span class="p">.</span><span class="n">SearchResponse</span><span class="p">&gt;</span><span class="w"> </span><span class="n">SearchAsync</span><span class="p">(</span><span class="kt">string</span><span class="w"> </span><span class="n">query</span><span class="p">=</span><span class="s">&quot;SELECT * FROM c&quot;</span><span class="p">);</span><span class="w"></span>
+</code></pre></div></p>
+<h4 id="parameters_37">Parameters<a class="headerlink" href="#parameters_37" title="Permanent link">&para;</a></h4>
+<p><a name='Trinsic_WalletService_SearchAsync(string)_query'></a>
+<code>query</code> <a href="https://docs.microsoft.com/en-us/dotnet/api/System.String" title="System.String">System.String</a><br />
+The SQL query</p>
+<h4 id="returns_39">Returns<a class="headerlink" href="#returns_39" title="Permanent link">&para;</a></h4>
+<p><a href="https://docs.microsoft.com/en-us/dotnet/api/System.Threading.Tasks.Task-1" title="System.Threading.Tasks.Task1')[SearchResponse](Trinsic_Services_UniversalWallet_V1.md#Trinsic_Services_UniversalWallet_V1_SearchResponse 'Trinsic.Services.UniversalWallet.V1.SearchResponse')[&amp;gt;](https://docs.microsoft.com/en-us/dotnet/api/System.Threading.Tasks.Task-1 'System.Threading.Tasks.Task1">System.Threading.Tasks.Task&lt;</a>  </p>
+<h3 id="remarks_4">Remarks<a class="headerlink" href="#remarks_4" title="Permanent link">&para;</a></h3>
+<p>See https://docs.microsoft.com/en-us/azure/cosmos-db/sql-query-select  </p>
+
+
+
+
+              
+            </article>
+            
+  <script>var tabs=__md_get("__tabs");if(Array.isArray(tabs))e:for(var set of document.querySelectorAll(".tabbed-set")){var tab,labels=set.querySelector(".tabbed-labels");for(tab of tabs)for(var label of labels.getElementsByTagName("label"))if(label.innerText.trim()===tab){var input=document.getElementById(label.htmlFor);input.checked=!0;continue e}}</script>
+
+          </div>
+        </div>
+        
+      </main>
+      
+        <footer class="md-footer">
+  
+  <div class="md-footer-meta md-typeset">
+    <div class="md-footer-meta__inner md-grid">
+      <div class="md-copyright">
+  
+  
+</div>
+      
+    </div>
+  </div>
+</footer>
+      
+    </div>
+    <div class="md-dialog" data-md-component="dialog">
+      <div class="md-dialog__inner md-typeset"></div>
+    </div>
+    
+    <script id="__config" type="application/json">{"base": "../../..", "features": ["content.tabs.link", "navigation.instant", "navigation.tracking"], "search": "../../../assets/javascripts/workers/search.2c028271.min.js", "translations": {"clipboard.copied": "Copied to clipboard", "clipboard.copy": "Copy to clipboard", "search.config.lang": "en", "search.config.pipeline": "stopWordFilter", "search.config.separator": "[\\s\\-]+", "search.placeholder": "Search", "search.result.more.one": "1 more on this page", "search.result.more.other": "# more on this page", "search.result.none": "No matching documents", "search.result.one": "1 matching document", "search.result.other": "# matching documents", "search.result.placeholder": "Type to start searching", "search.result.term.missing": "Missing", "select.version.title": "Select version"}}</script>
+    
+    
+      <script src="../../../assets/javascripts/bundle.714a356a.min.js"></script>
+      
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/10.7.2/highlight.min.js"></script>
+      
+        <script src="../../../_static/javascripts/config.js"></script>
+      
+    
+  </body>
+</html>
